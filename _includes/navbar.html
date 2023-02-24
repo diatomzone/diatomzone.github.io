@@ -1,0 +1,11 @@
+<!-- horizontal navigation bar source code -->
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+      {{ item.name }} <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    {% if forloop.last == false %} <!-- add image after every link except last -->
+      <img src="{{ '/assets/images/explosion.gif' }}" alt="" title="explosion gif">
+    {% endif %}
+  {% endfor %}
+</nav>

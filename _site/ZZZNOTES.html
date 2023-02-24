@@ -1,0 +1,722 @@
+<!-- default page template, includes side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>zzznotes</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body>
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      <!-- header source code -->
+<header>
+  <a class="skip-to-content-button" href="#main">skip to content</a>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/coolheader.png" alt="placeholder site logo" title="placeholder site logo">
+  </a>
+</header>
+
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex">
+          <div class="indexmain"> <!-- main -->
+            <h1>zzznotes</h1>
+            <p><!-- prevents code from being read --></p>
+
+<h2 id="project-info">PROJECT INFO</h2>
+<ul>
+  <li>site new url
+    <ul>
+      <li>successfully added site through files alone, didn’t need to reinstall command prompt stuff in new directory</li>
+      <li>public repository, as private repository disables github pages</li>
+    </ul>
+  </li>
+  <li>no posts or production build, just normal and collection pages</li>
+  <li>no spaces in filenames (standard practice + breaks navigation highlighting)</li>
+  <li>use relative_url filter instead of site.baseurl, fewer moving parts
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>{{ “/about.html”</td>
+              <td>relative_url }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>[description]({{ ‘/about.html’</td>
+              <td>relative_url }})</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>list of hardcoded /baseurl
+        <ul>
+          <li>main.scss custom font import</li>
+          <li>main.scss background-image</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="newnotes-no-baseurl">NEWNOTES: NO BASEURL</h2>
+<ul>
+  <li>scss
+    <ul>
+      <li>retain url in quotes
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">src: url("/assets/fonts/fullfont.ttf");</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>html
+    <ul>
+      <li>extract url from liquid filter
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">&lt;link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"&gt;</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="test-site-locally">TEST SITE LOCALLY</h2>
+<ul>
+  <li>cd [project path]</li>
+  <li>http://localhost:4000/</li>
+  <li>bundle exec jekyll serve –livereload</li>
+</ul>
+
+<hr />
+
+<h2 id="markdown">MARKDOWN</h2>
+<ul>
+  <li>markdown guide https://itsfoss.com/markdown-guide/
+    <ul>
+      <li>with new fix: enter = line break, doublespace enter = double line break, double enter = new paragraph</li>
+      <li>line break: 2 spaces after line + enter</li>
+      <li>new paragraph &lt;p&gt;: enter x2</li>
+      <li>to escape characters that would be used to format markdown (ex: * _ () #) prepend with backslash \</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>link: [about page]({{ ‘/about.html’</td>
+              <td>relative_url }})</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>image = link prepended with !</li>
+    </ul>
+  </li>
+  <li>using html tags in markdown is encouraged https://daringfireball.net/projects/markdown/syntax#html
+    <ul>
+      <li>inline can be used anywhere</li>
+      <li>block-level elements (ex: div, table, p) must be at root level and surrounded by a blank line on top and bottom</li>
+    </ul>
+  </li>
+  <li>
+    <div>
+      <p>My text with <strong>markdown</strong> syntax &lt;/div&gt; use this to render text as markdown. seems the whole file has to be md (does not work in default.html), and this lets you put md in containers while following indentation rules and stuff (ex: headings at page base level)</p>
+    </div>
+    <ul>
+      <li>this will also mess up contained nested html tags, such as headers inside of links</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="links-site-url--base-url">LINKS: SITE URL / BASE URL</h2>
+<ul>
+  <li>url vs. baseurl https://mademistakes.com/mastering-jekyll/site-url-baseurl/
+    <ul>
+      <li>both are site-wide variables set in config, do not include trailing /’s</li>
+      <li>url: site’s full url (https://diatomzone.github.io)</li>
+      <li>baseurl: subdirectory the site is served from (/baseurl), recommended for when you have subdomains like github project sites</li>
+      <li>page url: everything after base url (/about.html)</li>
+    </ul>
+  </li>
+  <li>no way to automatically prepend baseurl to all site links…</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>links: prepend {{ site.baseurl }} or use {{ “/about.html”</td>
+          <td>relative_url }} filter</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>markdown links: <a href="{{ site.baseurl }}/about.html">about page</a> or [about page]({{ ‘/about.html’</td>
+          <td>relative_url }})</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>with baseurl defined in config, localhost now includes baseurl, so i can test links as they would be on github</li>
+  <li>404 page: put permalink: /404.html in front matter</li>
+  <li>can’t use relative_url or liquid in sass, partial fix: url($relativeurl+”/assets/images/tilesea.png”)</li>
+</ul>
+
+<hr />
+
+<h2 id="html--css-notes">HTML / CSS NOTES</h2>
+<ul>
+  <li>class vs. id: an element can have many classes and can appear many times per page, while id’s are exclusive and unique</li>
+  <li>padding = inside element, margin = outside element
+    <ul>
+      <li>margin: auto; will horizontally center element within container</li>
+      <li>adjacent paddings will stack (5px + 5px = 10px), while adjacent VERTICAL margins will overlap (5px + 5px = 5px)</li>
+    </ul>
+  </li>
+  <li>value order based on number of values
+    <ul>
+      <li>2: topbottom rightleft</li>
+      <li>3: top rightleft bottom</li>
+      <li>4: top right bottom left (clockwise)</li>
+    </ul>
+  </li>
+  <li>css selectors https://www.w3schools.com/cssref/css_selectors.php
+    <ul>
+      <li>a:link:not(.current) {} selects elements besides those with the “current” class</li>
+      <li>:last-child selects last child of parent (ex: last p in body)</li>
+      <li>:not(:last-child) {} selects every element besides last child</li>
+    </ul>
+  </li>
+  <li>shadows
+    <ul>
+      <li>text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements</li>
+      <li>filter: drop-shadow(1px 1px 1px orange)</li>
+    </ul>
+  </li>
+  <li>outline = inside element, border = outside element (and more properites such as round corners and specific sides)</li>
+  <li>display: the most important css property for layout
+    <ul>
+      <li>inline: default, height/width values do not apply</li>
+      <li>inline-block: inline, but height/width values do apply</li>
+      <li>block: starts on new line, takes up full width (can use margin:auto; to center)</li>
+      <li>none: element will be completely removed (maybe more popular than width:0px;)</li>
+      <li>inherit: inherits display property from parent</li>
+    </ul>
+  </li>
+  <li>position: choose value then move with top/right/bottom/left properties
+    <ol>
+      <li>static: default, not affected by properties, normal page flow (won’t overlap)</li>
+      <li>relative: can be moved relative to its normal position</li>
+      <li>fixed: relative to viewport, doesn’t move when scrolled</li>
+      <li>absolute: can be moved relative to its containing box, outside normal page flow</li>
+      <li>sticky: toggles between relative and fixed depending on scroll position</li>
+    </ol>
+  </li>
+  <li>an element’s “containing block” (ex: for width % value) is the first parent element with position relative/absolute, and if there are none then &lt;body&gt;</li>
+  <li>font size: em is a relative unit that allows users to resize text in browser menu
+    <ul>
+      <li>1em = current font size, browser default is 16px</li>
+      <li>w3schools rec: set default size (100%) in body and use em to change other elements</li>
+    </ul>
+  </li>
+  <li>% vs em: % resizes with window width, em resizes with page zoom</li>
+  <li>z-index: element stacking order, higher # is in front</li>
+  <li>@media screen and (max-width: 700px) {}: styles will apply when screen width &lt;= 700px
+    <ul>
+      <li>can also load separate stylesheets in &lt;head&gt;:</li>
+      <li><code class="language-plaintext highlighter-rouge">normal text lkfjglwrjg lfjsdlfjsdljfdslgjfdlgjfdlg</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (min-device-width: 700px)" href="css/narrow.css"/&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="css/medium.css"/&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (max-device-width: 901px)" href="css/wide.css"/&gt;</code></li>
+    </ul>
+  </li>
+  <li>centering
+    <ul>
+      <li>margin: auto; affects container (block elements)</li>
+      <li>text-align: center; affects children of container (text/inline/inline-block elements)</li>
+    </ul>
+  </li>
+  <li>anchor link: jump to anchor on same page
+    <ul>
+      <li><a href="#anchor-name">jump to anchor</a> -&gt; element with id=”anchor-name”</li>
+      <li>to externally link to an anchor, add the #anchor-name directly to the end of the page’s url (no /)</li>
+    </ul>
+  </li>
+  <li>iframe: embed webpage inside a webpage, include title=”description” for screen readers
+    <ul>
+      <li>can open page links inside iframe, link target attribute must refer to iframe name</li>
+      <li>use allow=”fullscreen”, allowfullscreen is outdated/legacy</li>
+      <li>embed youtube videos: add video id to embed-type url <code class="language-plaintext highlighter-rouge">&lt;iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"&gt;&lt;/iframe&gt;</code></li>
+      <li>‘&lt;div class="iframecontainer"&gt;&lt;iframe src="" title="description"&gt;&lt;/iframe&gt;&lt;/div&gt;’</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="accessibility">ACCESSIBILITY</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">img template: &lt;img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif"&gt;</code></li>
+  <li>img alt=”alt text” shows image description if image is not viewable, required for image elements
+    <ul>
+      <li>null alt attribute: for nonessential/decorative images, use alt=”” so screen readers will skip it</li>
+    </ul>
+  </li>
+  <li>img title=”hover text” shows tooltip text on hover</li>
+  <li>hidden button at top of page to skip to content is useful for keyboard users/screen readers who want to skip the header/navbar/etc.</li>
+</ul>
+
+<hr />
+
+<h2 id="data-locations">DATA LOCATIONS</h2>
+<ul>
+  <li>/_layouts: stores html page templates that can be used by other files</li>
+  <li>/_includes: stores source code (ex: navigation bar) that can be used in other files</li>
+  <li>/_data: stores YAML, JSON, and CSV files whose data can be used in other files</li>
+  <li>/assets: stores CSS, JS, images, etc. that can be used in other files
+    <ul>
+      <li>css/styles.scss: CSS hub, import all scss stylesheets you want to use (can’t figure out how to use them separately)</li>
+    </ul>
+  </li>
+  <li>/_sass: stores SCSS that will be imported into CSS hub styles.scss</li>
+  <li>/_coolpages: stores this collection’s documents</li>
+  <li>/_wikipages: stores this collection’s documents</li>
+  <li>/_site: stores static site built by jekyll serve</li>
+  <li>_config.yml: site settings such as title, collections, global variables, and layout defaults. does not automatically refresh with jekyll serve</li>
+  <li>Gemfile: lists site’s gems</li>
+  <li>Gemfile.lock: locks current gem versions</li>
+</ul>
+
+<hr />
+
+<h2 id="jekyll-glossary">JEKYLL GLOSSARY</h2>
+<ul>
+  <li>ruby: the coding language jekyll is written in</li>
+  <li>gem: ruby code package that performs specific functions</li>
+  <li>jekyll: gem, a static site generator</li>
+  <li>Gemfile: lists your site’s gems, every jekyll site has one</li>
+  <li>liquid: templating language with 3 main components: objects, tags, and filters
+    <ul>
+      <li>object: outputs predefined variables as page content, ex: {{ page.title }} displays the page’s “title” variable</li>
+      <li>tag: defines logic and control flow, ex: {% if page.show_sidebar %} sidebar content {% endif %}</li>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>filter: changes the output of an object, ex: {{ “hi”</td>
+              <td>capitalize }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+    </ul>
+  </li>
+  <li>front matter: tells jekyll to process liquid, the YAML code between two —’s at the start of your page</li>
+  <li>front matter variable: defined in front matter, call in liquid with “page” variable, ex: my_num: 5 -&gt; {{ page.my_num }} -&gt; 5</li>
+  <li>front matter defaults: config option to automatically add values to files’ front matter</li>
+  <li>YAML: common ruby file format, stores data</li>
+  <li>layout: html template that wraps around markdown page content, can be used by any page
+    <ul>
+      <li>you can call front matter in your layout file, it will use the front matter of the page the layout is called on</li>
+    </ul>
+  </li>
+  <li>layout inheritance: a layout can be wrapped in another layout</li>
+  <li>{{ content }}: object used in layouts, a special variable that returns the rendered content of the page the layout is called on</li>
+  <li>{% include name.html %}: tag used in layouts, includes content from files in _includes
+    <ul>
+      <li>{% include_relative updates.md %} relative includes calls files in the same directory as current file (or in a subdirectory, but not in a higher directory), does not have to be in _includes. works with normal includes things such as variables.</li>
+    </ul>
+  </li>
+  <li>sass/scss: css extension used by jekyll, supports variables, nesting, operators, etc.</li>
+  <li>sass variable: defined and called with $, ex: $pagewidth: 75%; (different from regular css variables)</li>
+  <li>collection: group of documents, similar to a jekyll blog of posts but not organized by date
+    <ul>
+      <li>folder starts with underscore, ex: _collectionname</li>
+      <li>must be enabled and can be selected by config defaults</li>
+    </ul>
+  </li>
+  <li>document: item in a collection</li>
+</ul>
+
+<hr />
+
+<h2 id="jekyll-notes">JEKYLL NOTES</h2>
+<ul>
+  <li>prefix all command prompt commands with “bundle exec” to ensure correct jekyll version</li>
+  <li>to use variables, metadata (ex: title), and liquid, add front matter to any markdown or html file (can’t be used in scss file, use scss $variables instead)</li>
+  <li>global variables: in _config.yml, productname: namehere -&gt; {{site.productname}}
+    <ul>
+      <li>remember, you must restart jekyll serve for config changes to work</li>
+    </ul>
+  </li>
+  <li>include with parameters
+    <ul>
+      <li>if the parameter string includes a variable, you must store the entire thing in a new variable before passing it to the include with {% capture ___ %}</li>
+      <li>when something is captured it becomes a variable instead of a string, so you don’t need quotation marks when using it inside a liquid tag, ex: includes</li>
+    </ul>
+  </li>
+  <li>blog posts (not collections) have a built in “excerpt” feature for previews, and a _drafts folder/draft preview feature</li>
+</ul>
+
+<hr />
+
+<h2 id="yaml-notes">YAML NOTES</h2>
+<ul>
+  <li>easier to read than JSON data and allows comments (they can be used interchangeably)</li>
+  <li>2 types of data, both use indentation (spaces, not tabs) to separate parent and child
+    <ol>
+      <li>yaml map: key/value pairs (a dictionary), can be nested, ex: name: budd
+        <ul>
+          <li>mapping node: (recommended) each key has one value and order doesn’t matter</li>
+          <li>mapping scalar: (maybe an array of strings?) each key can have multiple values and order matters</li>
+        </ul>
+      </li>
+      <li>yaml list: a sequence of items, can include maps, ex: groceries: - eggs - milk
+        <ul>
+          <li>you can easily call each maps’s key to return its value, ex: {{ item.description }}</li>
+          <li>useful when you don’t need the heirarchy of a map/when you know the key names</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>when iterating through a map, the entire nested map counts as the parent’s child, so use [0] [1] accordingly</li>
+  <li>escape special characters: surround entire entry with “” or ‘’
+    <ul>
+      <li>for “” surround with ‘’, and vice versa</li>
+      <li>: for colon</li>
+      <li>\u0022 for double quote</li>
+      <li>\u0027 for single quote</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="site-planning">SITE PLANNING</h2>
+<ul>
+  <li>features: click images to enlarge, embedded twines/code bits</li>
+  <li>topic menus: school + mobile projects, twine, html/css/js showcase, code templates and cheatsheets, coding resources
+    <ul>
+      <li>sort projects by class/type of code? p3, p5js, etc. with short explanations of each</li>
+      <li>embed in iframe</li>
+    </ul>
+  </li>
+  <li>trying to figure out how to test live on mobile</li>
+  <li>landing page before index with flashing/color warning?</li>
+  <li>music player, keep player while changing page in iframe https://stackoverflow.com/questions/44778527/keep-playing-audio-when-changing-page</li>
+  <li>toggle color theme? certain group of pages with colorful effects theme</li>
+  <li>fix code block styling</li>
+  <li>reorganize scss, put variables in their own file to include in all stylesheets</li>
+  <li>
+    <p>organize wikipages into folders?</p>
+  </li>
+  <li>SIDEBAR METHODS:
+    <ul>
+      <li>HTML: include indexside.html, which is coded in html
+        <ul>
+          <li>does not require new styles or layouts</li>
+          <li>a plain div will become as long as the page requires</li>
+        </ul>
+      </li>
+      <li>IFRAME: iframe with indexside.html, which is a normal page markdown file and not an includes file
+        <ul>
+          <li>requires new styles and layouts (will get messed up by responsive css unless you override with local styles)</li>
+          <li>will only be the size of the iframe container (tried to make a height=100%; sidebar with a de-styled iframe, but it doesn’t work because the flex stuff interferes i think)</li>
+        </ul>
+      </li>
+      <li>conclusion: iframe sizing is not flexible so i’m going back to old html version for now</li>
+    </ul>
+  </li>
+  <li>CURRENT
+    <ul>
+      <li>write pages</li>
+      <li>organize zzznotes</li>
+      <li>mystuff category</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="sitebuilding-rules">SITEBUILDING RULES</h2>
+<ul>
+  <li>margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin</li>
+  <li>for spacing reasons:
+    <ul>
+      <li>default pages start with h1 (included in default layout, just put title in front matter)</li>
+      <li>plain pages start with h3 or p</li>
+      <li>wikibodies start with h2 or p</li>
+      <li>indexside starts with h3 or p</li>
+    </ul>
+  </li>
+  <li>listing template reads files in folder, while linklist includes reads data in front matter
+    <ul>
+      <li>currently, linklists can only be in a single block, can’t separate unless there’s a way with a liquid variable</li>
+    </ul>
+  </li>
+  <li>since the newline renderer doesn’t work properly, just use paragraphs (double new line) to separate text
+    <ul>
+      <li>coding sites use new paragraphs for everything and margin top as well</li>
+    </ul>
+  </li>
+  <li>wiki data has 3 layers (all map): data &gt; category &gt; entry</li>
+  <li>linklist data has 3 layers (list): linklists &gt; list &gt; entry</li>
+</ul>
+
+<hr />
+
+<h2 id="discoveries--problems-solved">DISCOVERIES / PROBLEMS SOLVED</h2>
+<ul>
+  <li>can’t use $sidebarwidth to set content margin-left because the em’s are based on different local font sizes, just use px</li>
+  <li>sass can nest normal selectors (nav{ ul{} li{} }), same prefix (font:{ family:; size:; }), classes with or without item (.wikibody { .flex{} }), and colons with item (div{ h2:first-child{} })
+    <ul>
+      <li>but not colons with no item (div{ :first-child{} })</li>
+      <li>sass file can’t include front matter (can’t use liquid variables, for background-image relative_url etc.)</li>
+    </ul>
+  </li>
+  <li>strange gap at top of page was caused by header/paragraph/etc. margins</li>
+  <li>when starting css, make sure to include a long page, it catches so many problems</li>
+  <li>small gap under img is because img is inline, it’s treated as text and sits on baseline
+    <ul>
+      <li>common fixes: display block, vertical-align bottom, container line-height 0%</li>
+    </ul>
+  </li>
+  <li>localhost bugs
+    <ul>
+      <li>sometimes command prompt does not auto refresh, ctrl+c or enter to wake it up</li>
+      <li>if css changes are not showing up, ctrl + f5 to force reload, clearing cache and downloading latest version from server</li>
+      <li>(ctrl + shift + r may do same thing)</li>
+      <li>if the above doesn’t work, check command prompt for errors</li>
+    </ul>
+  </li>
+  <li>css class styling showing up in inspector html but not in element css was caused by misplaced css {}’s</li>
+  <li>@media queries must go AFTER the styles they change, put at bottom of stylesheet</li>
+  <li>!important: will override all previous css styles, but don’t use unless absolutely necessary</li>
+  <li>footer padding needs to be in div.content, not body (caused footer to be pushed down 1 footerheight)</li>
+  <li>can use liquid variables within a for loop using brackets: {% for page in site[page.listcategory] %}</li>
+  <li>can combine string and variable within an {{ object }}: <code class="language-plaintext highlighter-rouge">&lt;img src={{ '/assets/images/' | append: page.bioimage | relative_url }}&gt;</code></li>
+  <li>flex-shrink and flex-grow only work when the size is in px, not % (find another way to make buffers shrink faster than content?)</li>
+  <li>to use scss variables in calc() put it in #{}, ex: calc(#{$boxpadding} * 10)</li>
+  <li>can’t tell the rules of using liquid variables in a string
+    <ul>
+      <li>can insert liquid variable directly into string, ex: style=”color:{{ item.color }};” (for navbar, data in navigation.yml)</li>
+      <li>couldn’t, used this instead: <code class="language-plaintext highlighter-rouge">&lt;img src="{{ '/assets/images/' | append: item.filename | relative_url }}"&gt;</code></li>
+      <li>i guess the quotes in the first one aren’t actually a string? while the second one is appending to a string</li>
+    </ul>
+  </li>
+  <li>useful css selectors: :first-of-type</li>
+  <li>prevent stacking margin/padding/etc
+    <ul>
+      <li>use padding only for containers, and use margins for the contained elements</li>
+      <li>don’t double up margins. by only using top margins, i prevent the last item from creating extra space at the bottom of the page, and know the topmarginless h1 at the top of every page will neatly absorb the margin of the element beneath it</li>
+    </ul>
+  </li>
+  <li>YAML data values can’t start with “, creates an exception and breaks linklists.html (but can include “)</li>
+  <li>how to reference a new “stylesheet”: create a new css “hub” in assets and import your desired scss files from _sass. the “hub” will generate a new stylesheet in _site when you build your site, which you can reference in your template’s head</li>
+  <li>iframe will lose the extra bit of scroll if the page does not have min-height:100%; (not fullscreen)</li>
+  <li>list item spacing is slightly different depending on if the link is in a paragraph or not (smaller when in p), due to &lt;p&gt; being display:block; and <a> being display:inline; so i changed “li p” to inline-block (ul and li are block) (edit: removed, see below)</a></li>
+  <li>cannot add margin to <a> or change &lt;p&gt; to something besides display:block;, or else it breaks “skip to content” link and linklist blank entries</a></li>
+  <li>you can include an html file (ex: header.html) anywhere, but you can only include a md file in another md file (ex: updates.md inside home.md) because then the entire thing will be converted to html. kramdown doesn’t process html files for md
+    <ul>
+      <li>included md files should not have front matter, turns — into divider</li>
+    </ul>
+  </li>
+  <li>putting an includes file in a scrollbar div is much more efficient than iframe-ing a whole new page with a simpler layout</li>
+  <li>scrollbar box does not add top padding, simply remove margin-top from first child header etc.</li>
+</ul>
+
+<h2 id="problems">PROBLEMS</h2>
+<ul>
+  <li>markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html</li>
+  <li>lastchild selector is broken by {{ newline_to_br }} adding an extra <br /> at end of container
+    <ul>
+      <li>find a different way to fix markdown rendering?</li>
+    </ul>
+  </li>
+  <li>removed newline_to_br, new paragraphs work but normal line breaks do not</li>
+  <li>markdown links/images don’t work inside html tags such as &lt;div&gt;</li>
+  <li>404 will show properly with both url and wrong url but it will crash command prompt</li>
+  <li>gallery hovers prevent images from being right clicked/long pressed</li>
+  <li>THE GREAT LINKLIST INDENTATION MYSTERY
+    <ul>
+      <li>my html is not displaying properly inside a liquid if statement, tried everything including restarting jekyll serve, it breaks and displays everything as code element/an unrendered text p if indented twice or more, it only works when the content inside the if statement is indented once/nonce</li>
+      <li>internet suggestion: “Add markdown=”0” attribute to a top-level tag [ex: i trieed it on body in layout template] to disable Markdown parsing.” (but it doesn’t do anything)</li>
+      <li>tried the above by putting everything in a div</li>
+      <li>thankfully my friend discovered it works if simply contained in a div…….. i guess it was misinterpreting the liquid tag/indentation and turned it into code?? the jekyll highlighter rouge or whatever was showing up in f12 too</li>
+    </ul>
+  </li>
+  <li>can’t format code blocks to fit max-width: 100%; only works with with pixel amount or inline</li>
+  <li>sidebar iframe is a set height, can’t have it adjust automatically
+    <ul>
+      <li>aside.indexside flex-start:stretch; will make the aside full height, but the iframe will remain the same size</li>
+    </ul>
+  </li>
+  <li>tried using nested categories in _wikipages but no luck, seems it only recognizes pages, not subfolders (counts all pages as one group)</li>
+  <li>categorynotes
+    <ul>
+      <li>.collection = containing collection name, .path = path to document relative to collection’s directory (includes subfolders), .name = file’s filename, .title = page’s front matter title</li>
+      <li>the advantage of a collection is you can iterate through items/use liquid stuff, idk to do that with a regular folder
+        <ul>
+          <li>i can do path: “testfolder” (regular folder) and assign values that way, but then you lose the collection capabilities</li>
+        </ul>
+      </li>
+      <li>could not figure how to access scope path within _wikipages (tried with _category and plain folder, with multiple variations in config) in order to assign front matter “universe” default value to each page based on folder, so my workaround is to define the categories in a _data file and sort through all _wikipage entry paths that way</li>
+    </ul>
+  </li>
+  <li>ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it’s a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists</li>
+</ul>
+
+<hr />
+
+<h2 id="git-notes">GIT NOTES</h2>
+<ul>
+  <li>how to remove commit by force reset https://www.howtogeek.com/devops/how-to-remove-a-commit-from-github/
+    <ul>
+      <li>requires downloading git https://git-scm.com/download/win</li>
+      <li>git branch explanation https://git-scm.com/about</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="bonus-notes">BONUS NOTES</h2>
+<ul>
+  <li>if this is your first site, bundle add webrick before testing site locally</li>
+  <li>info on filtering collection items https://jekyllrb.com/docs/step-by-step/09-collections/</li>
+  <li>filter that allows liquid in front matter https://github.com/gemfarmer/jekyll-liquify</li>
+  <li>sass variables https://sass-lang.com/documentation/variables</li>
+  <li>sass nesting https://www.w3schools.com/sass/sass_nesting.asp</li>
+  <li>sass numerics, ex: random https://www.w3schools.com/sass/sass_functions_numeric.php</li>
+  <li>css image gallery https://www.w3schools.com/csS/css_image_gallery.asp</li>
+  <li>referenced for footer at bottom of page https://stackoverflow.com/questions/18469262/position-footer-at-bottom-of-page-having-fixed-header</li>
+  <li>big page of positioning? https://www.w3.org/TR/CSS2/visuren.html#position-props</li>
+  <li>different types of yml data as used in config.yml https://jekyllrb.com/docs/datafiles/</li>
+  <li>default css values https://www.w3schools.com/cssref/css_default_values.php4</li>
+  <li>block and inline elements https://www.w3schools.com/htmL/html_blocks.asp</li>
+  <li>fancy css selectors such as + and &gt; https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors</li>
+</ul>
+
+
+          </div>
+          
+        </div>
+      </main>
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <!-- footer source code -->
+<footer>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/graphicdesign.png" alt="graphic design button" title="graphic design button">
+  </a>
+</footer>
+
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>

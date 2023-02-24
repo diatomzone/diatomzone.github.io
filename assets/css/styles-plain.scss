@@ -1,0 +1,8 @@
+---
+---
+
+// CSS hub to list/organize CSS files
+// automatically generates into static site's styles-plain.css, which is a stylesheet used by layouts
+
+// tell sass to look for a file called plain in /_sass
+@import "main-plain";

@@ -1,0 +1,41 @@
+---
+---
+<!-- default page template, includes side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body>
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      {% include header.html %}
+      {% include navbar.html %}
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex">
+          <div class="indexmain"> <!-- main -->
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+          </div>
+          {% if page.url == "/home.html" %} <!-- if index page, add index sidebar -->
+            {% include indexside.html %}
+          {% endif %}
+        </div>
+      </main>
+      {% include navbar.html %}
+      {% include footer.html %}
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>

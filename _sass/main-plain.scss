@@ -1,0 +1,189 @@
+// sass that will be converted/imported into the built site's CSS hub styles.scss
+
+// SET SCSS VARIABLES /////////////////////////////////////////////////////////////////////////////
+// $relativeurl: "/baseurl"; // for when it unfortunately needs to be hardcoded
+$gapheight: 30px; // spacing between main layout elements
+$boxpadding: 20px; // padding for containers
+$elementmargin: 30px; // spacing for contained elements, ex: h1 or p
+
+$colorbg: rgb(26,28,43);
+$colorbox1: rgb(44,52,67);
+$colorbox2: rgb(53,78,81);
+$colorbox3: rgb(47,98,81);
+$colorwhite: rgb(235,231,214);
+
+$colorred: rgb(255,94,126);
+$colororange: coral;
+$coloryellow: orange;
+$colorgreen: rgb(127,217,68);
+$colorblue: rgb(77, 198, 255);
+$colorpurple: plum;
+
+// SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
+// $colortoggle: true;
+$colortoggle: false;
+
+@mixin replace-bgcolor($localcolor, $colortoggle) {
+  @if $colortoggle {
+    background-color: $localcolor; // use given color when toggle is on
+  } @else {
+    background-color: transparent; // default color when toggle is off
+  }
+}
+
+// FONTS /////////////////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@font-face { // set custom font
+  font-family: myfont;
+  src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl
+}
+
+// MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
+html {
+  cursor: url("/assets/images/cursor.png"), default; // added because body is not full height in main_plain.scss
+  background-color: turquoise; // color behind desktop scrollbar when body uses background-color
+  height: 100%; // full screen, base for other adjustments including background
+  scroll-behavior: smooth; // for jumping between anchors (must be in html section)
+}
+body { // put overall styles here
+  cursor: url("/assets/images/cursor.png"), default;
+  // background-color: $colorbox1;
+  background: linear-gradient(0deg, rgba(208,118,0,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 32%, rgba(0,126,206,1) 47%, rgba(58,78,159,1) 100%);
+  // background-image: url("/assets/images/tilenight.png");
+  color: $colorwhite;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 118%; // sets base size for em to use
+  min-height: 100%; // full screen creates an extra bit of scroll in iframes
+  overflow-y: auto; // vertical scrollbar only shown when needed
+  overflow-wrap: anywhere; // long words will break to next line
+  margin: 0; // full screen
+  // flex centering
+  display: flex;
+  justify-content: center; // center horizontal
+  align-items: center; // center vertical
+}
+div.centered { // to contain images etc, in this case for index it's the main element
+  background-color: $colorbox1;
+  text-align: center;
+  padding: calc(#{$boxpadding} / 1);
+  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
+  h2 {
+    margin-top: 0;
+  }
+  img {
+    margin: calc(#{$elementmargin} / 2) 0 0 0;
+  }
+  h1 {
+    margin: calc(#{$elementmargin} / 2) 0 0 0;
+  }
+}
+
+
+div.flex {
+  display: flex;
+  flex-direction: row;
+}
+div { // markdown does not generate divs as far as i can tell
+}
+div.iframecontainer {
+  // background-color: yellow;
+  position: relative; // must be relative for iframe absolute position to work
+  overflow: hidden;
+  width: 100%; // full width of container, height is 0
+  padding-top: 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
+  margin: calc(#{$elementmargin} / 2) auto 0 auto;
+}
+
+// MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
+h1 {
+  @include replace-bgcolor($colorbox3, $colortoggle);
+  color: $coloryellow;
+  font-family: myfont;
+  font-size: 2.5em;
+  text-align: center;
+  margin: 0 0 calc(#{$elementmargin} / 2) 0;
+  padding: 0;
+}
+h2 {
+  @include replace-bgcolor($colorbg, $colortoggle);
+  color: $colororange;
+  font-size: 1.8em;
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+}
+h3, h4, h5, h6 {
+  @include replace-bgcolor($colorbg, $colortoggle);
+  color: $colorblue;
+  font-size: 1.3em;
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+}
+p { // markdown turns lines (including images) into p
+  @include replace-bgcolor($colorbox2, $colortoggle);
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+}
+a {
+  cursor: url("/assets/images/cursor.png"), default;
+  color: $colorgreen;
+  text-decoration: none;
+}
+a:link { // :link = pseudoclass unvisited
+ color: $colorgreen;
+}
+a:visited { // :visited = pseudoclass visited
+ color: $colorgreen;
+}
+a:hover { // :hover = pseudoclass hovered
+ color: $colorred;
+}
+a:active { // :active = pseudoclass being clicked
+ color: $coloryellow;
+}
+img {
+  margin: 0;
+  vertical-align: bottom; // displays as inline-block by default which creates The Gap
+  max-width: 100%;
+}
+ul { // for markdown again
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  li {
+    margin: calc(#{$elementmargin} / 4) 0 0 0; // just for normal li's, no effect on listing template due to large h3 margin
+    p {
+      margin: 0;
+    }
+  }
+}
+hr { // divider
+  width: 80%;
+  border: 1.5px solid $colorblue;
+  // border-radius: 20px;
+  margin: calc(#{$elementmargin} / 1) auto;
+}
+audio {
+  // cursor: url("/assets/images/cursor.png"), default;
+  vertical-align: bottom; // has gap like img, audio player displays as inline by default
+  max-width: 100%;
+  border-radius: 100px;
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+}
+iframe {
+  position: absolute; // overlaps the full area of the container
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+code { // for code, some people wrap <pre> around <code>
+  background-color: teal;
+  color: white;
+  display: inline; // default
+  max-width: 100%;
+  // width: fit-content;
+  word-wrap: break-word;
+  // overflow: auto;
+  // overflow-x: scroll;
+  // padding: calc(#{$elementmargin} / 2);
+  // margin: calc(#{$elementmargin} / 2) 0 0 0;
+}

@@ -1,0 +1,26 @@
+---
+---
+<!-- plain page template for sidebar iframes -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/images/favicon-96.png" | relative_url }}"> <!-- favicon -->
+    <link rel="stylesheet" href="{{ "/assets/css/styles-plain.css" | relative_url }}"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body>
+    {% if page.url != "/" %}
+      <h3>{{ page.title }}</h3>
+    {% endif %}
+    {{ content }}
+  </body>
+
+</html>

@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<!-- individual wikipage template -->
+<div class="flex"> <!-- two columns: body and infobox -->
+  <div class="wikibody"> <!-- main page content -->
+    {{ content }}
+  </div>
+  {% include infobox.html %}
+</div>

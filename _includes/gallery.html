@@ -1,0 +1,21 @@
+<!-- gallery source code -->
+
+<h2>plain images</h2>
+{% for item in page.gallery %} <!-- open up data -->
+  <img src="{{ '/assets/images/' | append: item.filename | relative_url }}" alt="{{ item.description }}" title="{{ item.description }}">
+{% endfor %}
+
+<h2>real gallery</h2>
+<div class="gallery">
+{% for item in page.gallery %} <!-- open up data -->
+  <div class="galleryitem">
+    <img src="{{ '/assets/images/' | append: item.filename | relative_url }}" alt="{{ item.description }}" title="{{ item.description }}" class="gallerypic">
+    <div class="galleryoverlay">
+      <div class="gallerytext">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>

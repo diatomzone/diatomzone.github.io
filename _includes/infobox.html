@@ -1,0 +1,21 @@
+<!-- wiki info box source code -->
+<!-- can use [0] [1] array to access yml keys and values -->
+<!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
+<aside class="infobox">
+  <h2>{{ page.title }}</h2> <!-- title at top of box -->
+  {% for category in page.data %} <!-- open up data -->
+    {% if category[0] == "image" %} <!-- if key is "image", print the image -->
+      <img src={{ '/assets/images/' | append: page.data.image | relative_url }} alt="bio box image" >
+    {% else %} <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">{{ category[0] }}</div> <!-- category label -->
+        {% for entry in category[1] %} <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">{{ entry[0] }}</p> <!-- print key -->
+            <p class="value">{{ entry[1] }}</p> <!-- print value -->
+          </div>
+        {% endfor %}
+      </section>
+    {% endif %}
+  {% endfor %}
+</aside>

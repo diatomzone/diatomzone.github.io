@@ -1,0 +1,35 @@
+<!-- linklist source code -->
+<!-- needs to be inside a div or else the indentation inexplicably breaks it -->
+<div>
+{% if include.listname %} <!-- if there is a listname, show that list -->
+
+  {% for list in page.linklists %} <!-- open up data -->
+    {% if list[0] == include.listname %} <!-- if specified list -->
+      <h2 id="{{ list[0] }}">{{ list[0] }}</h2> <!-- print list name, with anchor -->
+      <ul>
+        {% for item in list[1] %} <!-- for each item in list -->
+          <li>
+            <h4><a href="{{ item.url }}">{{ item.name }}</a></h4> <!-- entry label -->
+            <p>{{ item.description }}</p> <!-- print info -->
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+
+{% else %} <!-- if there isn't a listname, show all lists -->
+
+  {% for list in page.linklists %} <!-- open up data -->
+    <h2 id="{{ list[0] }}">{{ list[0] }}</h2> <!-- print list name -->
+    <ul>
+      {% for item in list[1] %} <!-- for each item in list -->
+        <li>
+          <h4><a href="{{ item.url }}">{{ item.name }}</a></h4> <!-- entry label -->
+          <p>{{ item.description }}</p> <!-- print info -->
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+{% endif %}
+
+</div>

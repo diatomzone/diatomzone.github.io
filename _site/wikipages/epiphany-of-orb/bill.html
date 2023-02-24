@@ -1,0 +1,290 @@
+<!-- default page template, includes side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>bill boatswain</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body>
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      <!-- header source code -->
+<header>
+  <a class="skip-to-content-button" href="#main">skip to content</a>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/coolheader.png" alt="placeholder site logo" title="placeholder site logo">
+  </a>
+</header>
+
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex">
+          <div class="indexmain"> <!-- main -->
+            <h1>bill boatswain</h1>
+            <!-- individual wikipage template -->
+<div class="flex"> <!-- two columns: body and infobox -->
+  <div class="wikibody"> <!-- main page content -->
+    <p>“hi! uh i hope you like the page.”</p>
+
+<p>- bill, when asked for a page statement</p>
+
+<hr />
+
+<p>BILGEWATER “BILL” BOATSWAIN is the main protagonist in epiphany of orb.</p>
+
+<p>they are a 2nd-year pastashapeography major new to the mysterious world of epiphanies, and generally “layed back”.</p>
+
+<h2 id="appearance">appearance</h2>
+
+<p>look at the pictuee</p>
+
+<h2 id="personality">personality</h2>
+
+<p>very easygoing which can come off as disinterested, but regularly gets wound up about their interests.</p>
+
+<p>sociable and often plays “straight man” to their friends’ antics.</p>
+
+<h2 id="abilities">abilities</h2>
+
+<p>gained an epiphany when they saw the curvature of the earth and considered the profundity of spheres.</p>
+
+<p>can turn small-to-medium objects they touch into orbs. the objects retain their properties and can return to normal.</p>
+
+<p>they fight using their late grandfather’s vintage cricket bat, which can also be used to launch spherical objects.</p>
+
+<p>SPOILER: they can also cause cell death by ruining cells’ surface-area-to-volume ratio.</p>
+
+<h2 id="relationships">relationships</h2>
+
+<p>besties: century, fiori</p>
+
+<p>roommate: dawn</p>
+
+<p>enigmatic encounter: mysterious figure</p>
+
+<p>enemy?: zug</p>
+
+<h2 id="trivia">trivia</h2>
+
+<ul>
+  <li>their cricket bat is haunted by the souls of 1000 dead pillbugs (indestructable) (grandpa boatswain kept using it to kill pillbugs)</li>
+  <li>wears real orecchiette pasta earrings</li>
+</ul>
+
+  </div>
+  <!-- wiki info box source code -->
+<!-- can use [0] [1] array to access yml keys and values -->
+<!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
+<aside class="infobox">
+  <h2>bill boatswain</h2> <!-- title at top of box -->
+   <!-- open up data -->
+     <!-- if key is "image", print the image -->
+      <img src=/assets/images/doggif.gif alt="bio box image" >
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">profile</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">universe</p> <!-- print key -->
+            <p class="value">epiphany of orb</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">age</p> <!-- print key -->
+            <p class="value">20</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">pronouns</p> <!-- print key -->
+            <p class="value">they</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">alias</p> <!-- print key -->
+            <p class="value">pythagorean hand</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">occupation</p> <!-- print key -->
+            <p class="value">university student</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">major</p> <!-- print key -->
+            <p class="value">2nd year pastashapeography</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">abilities</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">weapon</p> <!-- print key -->
+            <p class="value">haunted cricket bat</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">epiphany</p> <!-- print key -->
+            <p class="value">orbs</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">about</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">hobbies</p> <!-- print key -->
+            <p class="value">trying to use telepathy on pigeons and squirrels, cricket (sport)</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">likes</p> <!-- print key -->
+            <p class="value">eating citrus zest but not the fruit</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">dislikes</p> <!-- print key -->
+            <p class="value">boats</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">media</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">debut</p> <!-- print key -->
+            <p class="value">chapter 1</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+  
+</aside>
+
+</div>
+
+          </div>
+          
+        </div>
+      </main>
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <!-- footer source code -->
+<footer>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/graphicdesign.png" alt="graphic design button" title="graphic design button">
+  </a>
+</footer>
+
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>
