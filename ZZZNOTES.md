@@ -315,6 +315,10 @@ title: zzznotes
 - how to remove commit by force reset https://www.howtogeek.com/devops/how-to-remove-a-commit-from-github/
   - requires downloading git https://git-scm.com/download/win
   - git branch explanation https://git-scm.com/about
+  - steps, while in project directory:
+    - `git reset --soft HEAD~` to remove latest commit
+    - `git push origin main --force` to force push
+    - then i commit normally 
 
 ---
 

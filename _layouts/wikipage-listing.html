@@ -23,7 +23,7 @@ layout: default
       {% if item.path contains wikicategory %}
         <li>
           <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
-          <p>{{ item.content | strip_html | strip_newlines | truncate: 85 }}</p> <!-- can't get truncate_words to work for some reason -->
+          <p>{{ item.content | strip_html | strip_newlines | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
         </li>
       {% endif %}
     {% endfor %}

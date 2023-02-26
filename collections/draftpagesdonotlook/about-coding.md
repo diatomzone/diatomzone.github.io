@@ -2,7 +2,6 @@
 title: about coding
 ---
 
-i have always wanted to make a website but my brain is too small for coding.
 
 instead of getting smarter, i simply tried again and again. this is my third attempt at using [jekyll](https://jekyllrb.com/), a static site builder!
 

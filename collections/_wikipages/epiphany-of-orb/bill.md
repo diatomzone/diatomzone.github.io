@@ -5,11 +5,10 @@ data:
   image: doggif.gif
   profile:
     universe: epiphany of orb
+    type: human
     age: 20
     pronouns: they
-    alias: pythagorean hand
     occupation: university student
-    major: 2nd year pastashapeography
   abilities:
     weapon: haunted cricket bat
     epiphany: orbs
@@ -17,19 +16,14 @@ data:
     hobbies: trying to use telepathy on pigeons and squirrels, cricket (sport)
     likes: eating citrus zest but not the fruit
     dislikes: boats
-  media:
-    debut: chapter 1
+  stats:
+    cooking: '✦✦✦✦✦'
+    karaoke: '✦----'
 ---
 
-"hi! uh i hope you like the page."
+BILGEWATER "BILL" BOATSWAIN is a main protagonist in EPIPHANY OF ORB.
 
-\- bill, when asked for a page statement
-
----
-
-BILGEWATER "BILL" BOATSWAIN is the main protagonist in epiphany of orb.
-
-they are a 2nd-year pastashapeography major new to the mysterious world of epiphanies, and generally "layed back".
+they are a 2nd-year pastashapeography major new to the mysterious world of EPIPHANIES. generally "layed back".
 
 ## appearance
 
@@ -37,31 +31,47 @@ look at the pictuee
 
 ## personality
 
-very easygoing which can come off as disinterested, but regularly gets wound up about their interests.
+very easygoing which can come off as disinterested, but regularly gets wound up talking about their specific interests.
 
-sociable and often plays "straight man" to their friends' antics.
+often plays "straight man" to their friends' antics.
+
+## history
+
+[SPOILER]
 
 ## abilities
 
-gained an epiphany when they saw the curvature of the earth and considered the profundity of spheres.
+gained an EPIPHANY when they saw the curvature of the earth and considered the profundity of spheres.
 
-can turn small-to-medium objects they touch into orbs. the objects retain their properties and can return to normal.
+can turn small-to-medium-sized objects they touch into orbs. the objects retain their properties and can revert to normal.
 
-they fight using their late grandfather's vintage cricket bat, which can also be used to launch spherical objects.
+they fight using their late grandfather's vintage cricket bat, which can be used to launch spherical objects.
 
 SPOILER: they can also cause cell death by ruining cells' surface-area-to-volume ratio.
 
 ## relationships
 
-besties: century, fiori
+- century: bestie
+- fiori: bestie
+- zug: enemy...?
+- dawn: friend and roommate
+- grandpa boatswain: evil ghost grandpa
+- mysterious figure: enigmatic encounter
 
-roommate: dawn
+## featured in
 
-enigmatic encounter: mysterious figure
-
-enemy?: zug
+- eoo anime opening 1
+- eoo halloween comic
+- friend's oc crossover art
 
 ## trivia
 
 - their cricket bat is haunted by the souls of 1000 dead pillbugs (indestructable) (grandpa boatswain kept using it to kill pillbugs)
 - wears real orecchiette pasta earrings
+- rides a flying scooter
+
+---
+
+"hi! uh i hope you like the page."
+
+\- bill's page statement

@@ -4,8 +4,6 @@ title: home
 
 ## welcome to my website!
 
-wahoo! explosions!
-
 <div class="centered">
   <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
   <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">

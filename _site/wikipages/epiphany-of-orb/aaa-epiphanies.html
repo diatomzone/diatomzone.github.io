@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>home</title>
+    <title>epiphanies</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
       <!-- horizontal navigation bar source code -->
 <nav>
   
-    <a href="/home.html" class="current">
+    <a href="/home.html" >
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
@@ -73,117 +73,93 @@
       <main id="main"> <!-- main page content (with #main anchor for navigation) -->
         <div class="flex">
           <div class="indexmain"> <!-- main -->
-            <h1>home</h1>
-            <h2 id="welcome-to-my-website">welcome to my website!</h2>
+            <h1>epiphanies</h1>
+            <!-- individual wikipage template -->
+<div class="flex"> <!-- two columns: body and infobox -->
+  <div class="wikibody"> <!-- main page content -->
+    <p>EPIPHANIES are small-scale, highly specific, and relatively impractical supernatural abilities in EPIPHANY OF ORB.</p>
 
-<div class="centered">
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-</div>
+<p>this power system is inextricably rooted in the user’s experiences and worldview.</p>
 
-<p>please find the site navigation conveniently located at the top and bottom of each page.</p>
+<h2 id="background">background</h2>
 
-<h2 id="buttons">buttons</h2>
+<h3 id="supernatural-energy">supernatural energy</h3>
 
-<div class="centered">
-  <img src="/assets/images/graphicdesign.png" alt="graphic design button" title="graphic design button" />
-  <img src="/assets/images/wii.jpg" alt="nintendo wii button" title="nintendo wii button" />
-  <img src="/assets/images/kriswtf.png" alt="kris where tf are we button" title="kris where tf are we button" />
-</div>
+<p>SUPERNATURAL ENERGY saturates the planet, just like water or air.</p>
 
-<h2 id="devlinks">devlinks</h2>
+<p>high concentrations distort reality, allowing the laws of physics to be broken – objects can transform into spheres, steel can be cut like butter, etc…</p>
+
+<p>the ripples of distorted reality can be sensed by nearby epiphany users, monsters, and certain technologies.</p>
+
+<h3 id="monsters">monsters</h3>
+
+<p>MONSTERS are beings made of supernatural energy. the more energy they contain the greater their influence over reality, and the stronger their abilities become.</p>
+
+<p>to grow, they can passively absorb from their environment or consume other sources of energy, including epiphany users and each other.</p>
+
+<p>sufficient damage will destabilize a monster’s form, destroying it and releasing its energy back into the world.</p>
+
+<h2 id="epiphany-mechanics">epiphany mechanics</h2>
+
+<h3 id="gaining-epiphanies">gaining epiphanies</h3>
+
+<p>epiphanies change something in the user’s brain, allowing them to generate supernatural energy and utilize a specific ability.</p>
+
+<p>an epiphany is triggered by a pivotal character development, usually a conscious change in worldview. the resulting ability is (symbolically or vaguely) related to the user’s change.</p>
+
+<h3 id="using-epiphanies">using epiphanies</h3>
+
+<p>epiphanies and the wider supernatural world are not common knowledge, so not much is known about their causes, variety, limitations, etc.</p>
+
+<p>producing supernatural energy would probably tire you out after a while, though.</p>
+
+<p>like any supernatural activity, epiphanies can attract unwanted attention from monsters and evildoers.</p>
+
+<p>groups with the means to research these things tend to intend to use them for evil…</p>
+
+<p>SPOILERS: if one could figure out how to steal the entirety of a person’s memories and experiences, however…</p>
+
+<h2 id="trivia">trivia</h2>
 
 <ul>
-  <li><a href="/ZZZNOTES.html">zzznotes</a></li>
-  <li><a href="/mdtest.html">mdtest</a></li>
-  <li><a href="/gallery.html">gallerytest</a></li>
-  <li><a href="/collections/draftpagesdonotlook/">draftpages</a></li>
+  <li>one of my nitpicks is when superpowers and inciting incidents feel impersonalized or random, like the character has no agency. so i’m pleasantly surprised by how the pieces of this power system fell into place!</li>
 </ul>
 
-<h2 id="update-log">update log</h2>
-
-<div class="shortbox">
-
-  <h4 id="feb-24-25-2023">feb 24-25 2023</h4>
-
-  <ul>
-    <li>wikipage content</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="feb-23-2023">feb 23 2023</h4>
-
-  <ul>
-    <li>spicy fresh github repository</li>
-    <li>added update log, styled landing page, nested wikipage organization with datafile, renamed files, started wikipages</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="feb-4-22-2023">feb 4-22 2023</h4>
-
-  <ul>
-    <li>now we’re cooking with fire!!! it’s website time!</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="jan-1-2023">jan 1 2023</h4>
-
-  <ul>
-    <li>flexbox layout tutorial</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="nov-dec-2023">nov-dec 2023</h4>
-
-  <ul>
-    <li>i am consumed by the void</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="nov-14-2022">nov 14 2022</h4>
-
-  <ul>
-    <li>jekyll tutorial attempt #3</li>
-  </ul>
+  </div>
+  <!-- wiki info box source code -->
+<!-- can use [0] [1] array to access yml keys and values -->
+<!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
+<aside class="infobox">
+  <h2>epiphanies</h2> <!-- title at top of box -->
+   <!-- open up data -->
+     <!-- if key is "image", print the image -->
+      <img src=/assets/images/doggif.gif alt="bio box image" >
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">information</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">universe</p> <!-- print key -->
+            <p class="value">epiphany of orb</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+  
+</aside>
 
 </div>
 
           </div>
-           <!-- if index page, add index sidebar -->
-            <!-- index sidebar source code -->
-<aside class="indexside">
-  <h3>side box</h3>
-  <p>not sure what to put here yet!</p>
-
-  <div class="centered">
-    <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif">
-  </div>
-
-  <h3>audio player</h3>
-  <audio controls>
-    <source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg">
-    (audio player not supported)
-  </audio>
-
-  <h3>iframe</h3>
-  <div class="iframecontainer">
-    <iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=69" title="in the house like carpet" allow="fullscreen"></iframe>
-  </div>
-</aside>
-
           
         </div>
       </main>
       <!-- horizontal navigation bar source code -->
 <nav>
   
-    <a href="/home.html" class="current">
+    <a href="/home.html" >
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->

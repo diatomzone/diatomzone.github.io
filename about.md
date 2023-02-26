@@ -31,7 +31,11 @@ linklists:
 
 ## this site
 
-welcome to my website!
+i have always wanted to make a website but my brain is too small for coding.
+
+
+
+
 
 ---
 

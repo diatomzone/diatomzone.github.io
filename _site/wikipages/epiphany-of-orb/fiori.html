@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>home</title>
+    <title>fiori ironheart</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
       <!-- horizontal navigation bar source code -->
 <nav>
   
-    <a href="/home.html" class="current">
+    <a href="/home.html" >
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
@@ -73,117 +73,144 @@
       <main id="main"> <!-- main page content (with #main anchor for navigation) -->
         <div class="flex">
           <div class="indexmain"> <!-- main -->
-            <h1>home</h1>
-            <h2 id="welcome-to-my-website">welcome to my website!</h2>
+            <h1>fiori ironheart</h1>
+            <!-- individual wikipage template -->
+<div class="flex"> <!-- two columns: body and infobox -->
+  <div class="wikibody"> <!-- main page content -->
+    <p>FIORI IRONHEART is a main protagonist in EPIPHANY OF ORB.</p>
 
-<div class="centered">
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-  <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif" />
-</div>
+<p>he showed up one day and is just here to have a good time. hard to read, doesn’t seem quite human.</p>
 
-<p>please find the site navigation conveniently located at the top and bottom of each page.</p>
-
-<h2 id="buttons">buttons</h2>
-
-<div class="centered">
-  <img src="/assets/images/graphicdesign.png" alt="graphic design button" title="graphic design button" />
-  <img src="/assets/images/wii.jpg" alt="nintendo wii button" title="nintendo wii button" />
-  <img src="/assets/images/kriswtf.png" alt="kris where tf are we button" title="kris where tf are we button" />
-</div>
-
-<h2 id="devlinks">devlinks</h2>
+<h2 id="featured-in">featured in</h2>
 
 <ul>
-  <li><a href="/ZZZNOTES.html">zzznotes</a></li>
-  <li><a href="/mdtest.html">mdtest</a></li>
-  <li><a href="/gallery.html">gallerytest</a></li>
-  <li><a href="/collections/draftpagesdonotlook/">draftpages</a></li>
+  <li>eoo anime opening 1</li>
+  <li>eoo halloween comic (cameo)</li>
 </ul>
 
-<h2 id="update-log">update log</h2>
+<h2 id="trivia">trivia</h2>
 
-<div class="shortbox">
+<ul>
+  <li>walked from the west coast to flourida, then to new quark city</li>
+</ul>
 
-  <h4 id="feb-24-25-2023">feb 24-25 2023</h4>
+<hr />
 
-  <ul>
-    <li>wikipage content</li>
-  </ul>
+<p>“good morning or afternoon or evening or night, wherever you are.”</p>
 
-  <hr />
+<p>- fiori’s page statement</p>
 
-  <h4 id="feb-23-2023">feb 23 2023</h4>
-
-  <ul>
-    <li>spicy fresh github repository</li>
-    <li>added update log, styled landing page, nested wikipage organization with datafile, renamed files, started wikipages</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="feb-4-22-2023">feb 4-22 2023</h4>
-
-  <ul>
-    <li>now we’re cooking with fire!!! it’s website time!</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="jan-1-2023">jan 1 2023</h4>
-
-  <ul>
-    <li>flexbox layout tutorial</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="nov-dec-2023">nov-dec 2023</h4>
-
-  <ul>
-    <li>i am consumed by the void</li>
-  </ul>
-
-  <hr />
-
-  <h4 id="nov-14-2022">nov 14 2022</h4>
-
-  <ul>
-    <li>jekyll tutorial attempt #3</li>
-  </ul>
+  </div>
+  <!-- wiki info box source code -->
+<!-- can use [0] [1] array to access yml keys and values -->
+<!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
+<aside class="infobox">
+  <h2>fiori ironheart</h2> <!-- title at top of box -->
+   <!-- open up data -->
+     <!-- if key is "image", print the image -->
+      <img src=/assets/images/doggif.gif alt="bio box image" >
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">profile</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">universe</p> <!-- print key -->
+            <p class="value">epiphany of orb</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">type</p> <!-- print key -->
+            <p class="value">robot, eldritch being</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">age</p> <!-- print key -->
+            <p class="value">early 20's</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">pronouns</p> <!-- print key -->
+            <p class="value">she/he</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">occupation</p> <!-- print key -->
+            <p class="value">none</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">abilities</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">weapon</p> <!-- print key -->
+            <p class="value">melee, extra-dimensional gravity control</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">epiphany</p> <!-- print key -->
+            <p class="value">none</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">about</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">hobbies</p> <!-- print key -->
+            <p class="value">lying down in various locations</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">likes</p> <!-- print key -->
+            <p class="value">attending random lectures</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">dislikes</p> <!-- print key -->
+            <p class="value"></p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">stats</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">glasses lenses</p> <!-- print key -->
+            <p class="value">-----</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">cooking</p> <!-- print key -->
+            <p class="value">✦✦✦✦✦</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+  
+</aside>
 
 </div>
 
           </div>
-           <!-- if index page, add index sidebar -->
-            <!-- index sidebar source code -->
-<aside class="indexside">
-  <h3>side box</h3>
-  <p>not sure what to put here yet!</p>
-
-  <div class="centered">
-    <img src="/assets/images/explosion.gif" alt="explosion gif" title="explosion gif">
-  </div>
-
-  <h3>audio player</h3>
-  <audio controls>
-    <source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg">
-    (audio player not supported)
-  </audio>
-
-  <h3>iframe</h3>
-  <div class="iframecontainer">
-    <iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=69" title="in the house like carpet" allow="fullscreen"></iframe>
-  </div>
-</aside>
-
           
         </div>
       </main>
       <!-- horizontal navigation bar source code -->
 <nav>
   
-    <a href="/home.html" class="current">
+    <a href="/home.html" >
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
