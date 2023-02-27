@@ -5,7 +5,7 @@
   <h2>{{ page.title }}</h2> <!-- title at top of box -->
   {% for category in page.data %} <!-- open up data -->
     {% if category[0] == "image" %} <!-- if key is "image", print the image -->
-      <img src={{ '/assets/images/' | append: page.data.image | relative_url }} alt="bio box image" >
+      <img src={{ '/assets/images/' | append: page.data.image | relative_url }} alt="infobox image" >
     {% else %} <!-- else, print the text -->
       <section> <!-- category container -->
         <div class="category">{{ category[0] }}</div> <!-- category label -->

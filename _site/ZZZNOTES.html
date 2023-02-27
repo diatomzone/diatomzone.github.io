@@ -300,6 +300,7 @@
       <li>text-align: center; affects children of container (text/inline/inline-block elements)</li>
     </ul>
   </li>
+  <li>links: put link inside desired element for proper styling, not the other way around. ex: &lt;h1&gt;<a href="/home.html">enter</a>&lt;/h1&gt;</li>
   <li>anchor link: jump to anchor on same page
     <ul>
       <li><a href="#anchor-name">jump to anchor</a> -&gt; element with id=”anchor-name”</li>
@@ -310,14 +311,26 @@
     <ul>
       <li>can open page links inside iframe, link target attribute must refer to iframe name</li>
       <li>use allow=”fullscreen”, allowfullscreen is outdated/legacy</li>
-      <li>embed youtube videos: add video id to embed-type url <code class="language-plaintext highlighter-rouge">&lt;iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"&gt;&lt;/iframe&gt;</code></li>
-      <li>‘&lt;div class="iframecontainer"&gt;&lt;iframe src="" title="description"&gt;&lt;/iframe&gt;&lt;/div&gt;’</li>
+      <li>embed youtube videos: add video id to embed-type url
+        <ul>
+          <li><code class="language-plaintext highlighter-rouge">&lt;div class="iframecontainer"&gt;&lt;iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"&gt;&lt;/iframe&gt;&lt;/div&gt;</code></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>non-youtube video (video and audio tags do not support title like iframes do)
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">&lt;video controls&gt;&lt;source src="https://va.media.tumblr.com/tumblr_r9pc62fPSM1wrmzr9_720.mp4" type="video/mp4"&gt;(audio player not supported)&lt;/video&gt;</code></li>
+    </ul>
+  </li>
+  <li>audio
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">&lt;audio controls&gt;&lt;source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg"&gt;(audio player not supported)&lt;/audio&gt;</code></li>
     </ul>
   </li>
 </ul>
 
 <h2 id="accessibility">ACCESSIBILITY</h2>
-
 <ul>
   <li><code class="language-plaintext highlighter-rouge">img template: &lt;img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif"&gt;</code></li>
   <li>img alt=”alt text” shows image description if image is not viewable, required for image elements
@@ -471,7 +484,7 @@
   <li>fix code block styling</li>
   <li>reorganize scss, put variables in their own file to include in all stylesheets</li>
   <li>
-    <p>organize wikipages into folders?</p>
+    <p>hosted images are medium sized but highly compressed jpgs (10 on firealpaca, perhaps under 20kb)</p>
   </li>
   <li>SIDEBAR METHODS:
     <ul>
@@ -584,6 +597,7 @@
   </li>
   <li>putting an includes file in a scrollbar div is much more efficient than iframe-ing a whole new page with a simpler layout</li>
   <li>scrollbar box does not add top padding, simply remove margin-top from first child header etc.</li>
+  <li>sometimes youtube embeds don’t work in localhost, will work fine on normal site</li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>

@@ -109,17 +109,21 @@ title: zzznotes
 - centering
   - margin: auto; affects container (block elements)
   - text-align: center; affects children of container (text/inline/inline-block elements)
+- links: put link inside desired element for proper styling, not the other way around. ex: <h1><a href="/home.html">enter</a></h1>
 - anchor link: jump to anchor on same page
   - <a href="#anchor-name">jump to anchor</a> -> element with id="anchor-name"
   - to externally link to an anchor, add the #anchor-name directly to the end of the page's url (no /)
 - iframe: embed webpage inside a webpage, include title="description" for screen readers
   - can open page links inside iframe, link target attribute must refer to iframe name
   - use allow="fullscreen", allowfullscreen is outdated/legacy
-  - embed youtube videos: add video id to embed-type url `<iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"></iframe>`
-  - '<div class="iframecontainer"><iframe src="" title="description"></iframe></div>'
+  - embed youtube videos: add video id to embed-type url
+    - `<div class="iframecontainer"><iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"></iframe></div>`
+- non-youtube video (video and audio tags do not support title like iframes do)
+  - `<video controls><source src="https://va.media.tumblr.com/tumblr_r9pc62fPSM1wrmzr9_720.mp4" type="video/mp4">(audio player not supported)</video>`
+- audio
+  - `<audio controls><source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg">(audio player not supported)</audio>`
 
 ## ACCESSIBILITY
-
 - `img template: <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">`
 - img alt="alt text" shows image description if image is not viewable, required for image elements
   - null alt attribute: for nonessential/decorative images, use alt="" so screen readers will skip it
@@ -213,7 +217,7 @@ title: zzznotes
 - toggle color theme? certain group of pages with colorful effects theme
 - fix code block styling
 - reorganize scss, put variables in their own file to include in all stylesheets
-- organize wikipages into folders?
+- hosted images are medium sized but highly compressed jpgs (10 on firealpaca, perhaps under 20kb)
 
 - SIDEBAR METHODS:
   - HTML: include indexside.html, which is coded in html
@@ -284,6 +288,7 @@ title: zzznotes
   - included md files should not have front matter, turns --- into divider
 - putting an includes file in a scrollbar div is much more efficient than iframe-ing a whole new page with a simpler layout
 - scrollbar box does not add top padding, simply remove margin-top from first child header etc.
+- sometimes youtube embeds don't work in localhost, will work fine on normal site
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html
@@ -318,7 +323,7 @@ title: zzznotes
   - steps, while in project directory:
     - `git reset --soft HEAD~` to remove latest commit
     - `git push origin main --force` to force push
-    - then i commit normally 
+    - then i commit normally
 
 ---
 

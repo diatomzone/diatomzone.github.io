@@ -2,7 +2,7 @@
 title: shaved ice
 
 data:
-  image: doggif.gif
+  image: wikipages/eoo/shavedice.jpg
   profile:
     universe: epiphany of orb
     type: human

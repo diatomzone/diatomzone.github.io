@@ -67,7 +67,7 @@ div.buffer { // flex spacing on left and right of container
 }
 div.container { // contains all layout elements
   margin: $gapheight 0;
-  flex-basis: 750px; // initial length
+  flex-basis: 800px; // initial length
   flex-shrink: 1; // does shrink
   flex-grow: 0; // does not grow
 }
@@ -107,7 +107,7 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
   order: 2;
-  flex-basis: 200px; // initial length (width)
+  flex-basis: 250px; // initial length (width)
   flex-shrink: 1; // does shrink
   flex-grow: 0; // does not grow
   align-self: flex-start; // align to top of container (default is stretch)
@@ -116,7 +116,7 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
     // background-color: red;
   }
 }
-div.shortbox { // for update log, same padding as wikibox
+div.shortbox { // for update log, same padding as wikibox, include markdown="1"
   background-color: $colorbg;
   max-height: 8em; // changes with font-size defined in body
   overflow-y: scroll; // vertical scrollbar always shown
@@ -216,6 +216,15 @@ a:hover { // :hover = pseudoclass hovered
 a:active { // :active = pseudoclass being clicked
  color: $coloryellow;
 }
+span.spoilered {
+  background-color: $colorbox3;
+  color: transparent;
+}
+span.spoilered:hover {
+  background-color: transparent;
+  color: inherit;
+  transition: 0.2s;
+}
 img {
   margin: 0;
   vertical-align: bottom; // displays as inline-block by default which creates The Gap
@@ -248,6 +257,10 @@ audio {
   vertical-align: bottom; // has gap like img, audio player displays as inline by default
   max-width: 100%;
   border-radius: 100px;
+  margin: calc(#{$elementmargin} / 2) 0 0 0;
+}
+video {
+  max-width: 100%;
   margin: calc(#{$elementmargin} / 2) 0 0 0;
 }
 iframe { // overlaps the full area of iframe container
@@ -285,7 +298,7 @@ code { // for code, some people wrap <pre> around <code>
 header {
   background-color: $colorbox1;
   max-width: 100%;
-  // height: 150px;
+  height: 100px;
   text-align: center;
   margin: 0;
   box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
@@ -360,7 +373,7 @@ aside.infobox { // wiki info box
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center; // center small image
   order: 2;
-  flex-basis: 250px; // initial length (width)
+  flex-basis: 300px; // initial length (width)
   flex-shrink: 1; // does shrink
   flex-grow: 0; // does not grow
   align-self: flex-start; // align to top of container (default is stretch)
@@ -398,7 +411,7 @@ aside.infobox { // wiki info box
   .value {
     @include replace-bgcolor($colorbg, $colortoggle);
     width: 65%;
-    margin-left: calc(#{$elementmargin} / 4);
+    // margin-left: calc(#{$elementmargin} / 4); // doesn't work due to width percentages
   }
 }
 
@@ -470,13 +483,13 @@ aside.infobox { // wiki info box
 //   }
 // }
 
-@media screen and (max-width: 600px) { // narrow screen
+@media screen and (max-width: 700px) { // narrow screen
   // MAIN ////////////////////////////////////////////////////////////////
   body {
     font-size: 140%; // sets base size for em to use
   }
   h1 {
-    font-size: 1.5em; // slightly smaller than it would be otherwise
+    font-size: 1.7em; // slightly smaller than it would be otherwise
   }
   h2 {
     font-size: 1.3em;
@@ -486,6 +499,9 @@ aside.infobox { // wiki info box
   }
   h4, h5, h6 {
     font-size: 1em;
+  }
+  ul { // for markdown again
+    padding: 0 0 0 25px; // normally 40px
   }
   nav { // horizontal navbar
     font-size: 1.2em;

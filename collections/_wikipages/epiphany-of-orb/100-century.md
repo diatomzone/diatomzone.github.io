@@ -2,13 +2,13 @@
 title: century blue
 
 data:
-  image: doggif.gif
+  image: wikipages/eoo/century.jpg
   profile:
     universe: epiphany of orb
     type: human
     age: 21
     pronouns: she
-    occupation: university student
+    occupation: student
   abilities:
     weapon: butterknives
     epiphany: cutting anything with butterknives

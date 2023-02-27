@@ -2,7 +2,7 @@
 title: fiori ironheart
 
 data:
-  image: doggif.gif
+  image: wikipages/eoo/fiori.jpg
   profile:
     universe: epiphany of orb
     type: robot, eldritch being

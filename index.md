@@ -7,12 +7,12 @@ layout: default-plain
 
   <h2>welcome to my landing page!</h2>
 
-  <p>(website contains gifs and music)</p>
+  <p>(website contains gifs and possibly music)</p>
 
-  <img src="{{ '/assets/images/favicon-96.png' | relative_url }}" alt="favicon" title="favicon">
+  <img src="/assets/images/favicon-96.png" alt="favicon" title="favicon">
 
-  <a href="{{ '/home.html' | relative_url }}">
-    <h1>enter</h1>
-  </a>
+  <h1>
+    <a href="/home.html">enter</a>
+  </h1>
 
 </div>

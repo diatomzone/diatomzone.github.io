@@ -1,8 +1,8 @@
 ---
-title: silurian dawn
+title: dawn (silurian dawn)
 
 data:
-  image: doggif.gif
+  image: wikipages/eoo/dawn.jpg
   profile:
     universe: epiphany of orb
     type: human
@@ -31,10 +31,10 @@ he is a 2nd-year geology major who exclusively studies NaCl salt, to the detrime
 
 ## trivia
 
-- banned from cooking classrooms and campus dining halls for stealing salt shakers
+- banned from all cooking classrooms and campus dining halls for stealing salt shakers
 
 ---
 
-"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound, in chemistry i mean. don't eat the poisonous ones or you'll regret it!"
+"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. some of them are poisonous so don't go around eatin'em alright? you'll regret it!"
 
 \- dawn's page statement

@@ -2,13 +2,13 @@
 title: home
 ---
 
-## welcome to my website!
-
 <div class="centered">
   <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
   <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
   <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
 </div>
+
+hey, i'm bbq! welcome to my website! :^)
 
 please find the site navigation conveniently located at the top and bottom of each page.
 
@@ -22,10 +22,10 @@ please find the site navigation conveniently located at the top and bottom of ea
 
 ## devlinks
 
-- [zzznotes]({{ '/ZZZNOTES.html' | relative_url }})
-- [mdtest]({{ '/mdtest.html' | relative_url }})
-- [gallerytest]({{ '/gallery.html' | relative_url }})
-- [draftpages]({{ 'collections/draftpagesdonotlook/' | relative_url }})
+- [zzznotes](/ZZZNOTES.html)
+- [mdtest](/mdtest.html)
+- [gallerytest](/gallery.html)
+- [draftpages](collections/draftpagesdonotlook)
 
 ## update log
 

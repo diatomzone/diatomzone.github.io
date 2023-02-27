@@ -2,18 +2,18 @@
 title: bill boatswain
 
 data:
-  image: doggif.gif
+  image: wikipages/eoo/bill.jpg
   profile:
     universe: epiphany of orb
     type: human
     age: 20
     pronouns: they
-    occupation: university student
+    occupation: student
   abilities:
     weapon: haunted cricket bat
     epiphany: orbs
   about:
-    hobbies: trying to use telepathy on pigeons and squirrels, cricket (sport)
+    hobbies: trying to use telepathy on pigeons and squirrels
     likes: eating citrus zest but not the fruit
     dislikes: boats
   stats:
@@ -21,7 +21,7 @@ data:
     karaoke: '✦----'
 ---
 
-BILGEWATER "BILL" BOATSWAIN is a main protagonist in EPIPHANY OF ORB.
+BILGEWATER "BILL" BOATSWAIN is a main protagonist in [EPIPHANY OF ORB](/wikipages/epiphany-of-orb/000-eoo.html).
 
 they are a 2nd-year pastashapeography major new to the mysterious world of EPIPHANIES. generally "layed back".
 
@@ -62,13 +62,11 @@ SPOILER: they can also cause cell death by ruining cells' surface-area-to-volume
 
 - eoo anime opening 1
 - eoo halloween comic
-- friend's oc crossover art
 
 ## trivia
 
 - their cricket bat is haunted by the souls of 1000 dead pillbugs (indestructable) (grandpa boatswain kept using it to kill pillbugs)
 - wears real orecchiette pasta earrings
-- rides a flying scooter
 
 ---
 

@@ -1,7 +1,8 @@
 
-#### feb 24-25 2023
+#### feb 24-26 2023
 
-- wikipage content
+- wikipage content and pics
+- minor sizing changes, non-youtube video player, spoilered text
 
 ---
 
