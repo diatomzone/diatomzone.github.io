@@ -35,6 +35,6 @@ he is a 2nd-year geology major who exclusively studies NaCl salt, to the detrime
 
 ---
 
-"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. some of them are poisonous so don't go around eatin'em alright? you'll regret it!"
+"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. and some of them are poisonous, so don't go around eating any old salt you find lyin' around, alright? you'll regret it!"
 
 \- dawn's page statement

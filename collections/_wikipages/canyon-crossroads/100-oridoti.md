@@ -1,40 +1,33 @@
 ---
-title: dawn (silurian dawn)
+title: oridoti
 
 data:
   image: wikipages/cc/oridoti.jpg
   profile:
-    universe: epiphany of orb
-    type: human
-    age: 20
-    pronouns: he
-    occupation: student
+    universe: canyon crossroads
+    type: "?"
+    age: early 20's
+    pronouns: they
+    occupation: hunter
   abilities:
-    weapon: none
-    epiphany: none
-  about:
-    hobbies:
-    likes: anything involving NaCl salt
-    dislikes:
-  stats:
-    serpentining: '✦✦✦✦-'
-    cooking: '✦----'
+    weapon: crowbar, anything they can get their hands on
+    magic: ultra beam
+    horse: none
 ---
 
-SILURIAN DAWN is a minor ally in EPIPHANY OF ORB. goes by DAWN.
+ORIDOTI is a main character in CANYON CROSSROADS and a member of the TUNNEL CANYON COWPOKE GANG.
 
-he is a 2nd-year geology major who exclusively studies NaCl salt, to the detriment of his gpa. bill's roommate.
+they are a mysterious (monster, bounty) hunter who may or may not be from outer space.
 
-## featured in
-
-- eoo anime opening 1
+doesn't talk or emote much, but enjoys company.
 
 ## trivia
 
-- banned from all cooking classrooms and campus dining halls for stealing salt shakers
+- their hairstyle is based on a "biohazard" symbol
+- met jade after jade saw them fall out of the sky near canyon crossroads
 
 ---
 
-"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. some of them are poisonous so don't go around eatin'em alright? you'll regret it!"
+"...hi."
 
-\- dawn's page statement
+\- oridoti's page statement

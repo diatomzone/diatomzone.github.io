@@ -1,40 +1,32 @@
 ---
-title: dawn (silurian dawn)
+title: suero
 
 data:
   image: wikipages/cc/suero.jpg
   profile:
-    universe: epiphany of orb
+    universe: canyon crossroads
     type: human
-    age: 20
-    pronouns: he
-    occupation: student
+    age: mid 20's
+    pronouns: they
+    occupation: hostler, odd jobs
   abilities:
-    weapon: none
-    epiphany: none
-  about:
-    hobbies:
-    likes: anything involving NaCl salt
-    dislikes:
-  stats:
-    serpentining: '✦✦✦✦-'
-    cooking: '✦----'
+    weapon: crowbar, anything they can get their hands on
+    magic: rope, light
+    horse: nocturnal phantom horse
 ---
 
-SILURIAN DAWN is a minor ally in EPIPHANY OF ORB. goes by DAWN.
+SUERO is a main character in CANYON CROSSROADS and a member of the TUNNEL CANYON COWPOKE GANG.
 
-he is a 2nd-year geology major who exclusively studies NaCl salt, to the detriment of his gpa. bill's roommate.
+they are a magician who can control rope and create points of light.
 
-## featured in
-
-- eoo anime opening 1
+a friend to all horses and warm personality, they love chatting with visitors.
 
 ## trivia
 
-- banned from all cooking classrooms and campus dining halls for stealing salt shakers
+- a bit of a homebody who hasn't traveled far beyond canyon crossroads and redtail's butte
 
 ---
 
-"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. some of them are poisonous so don't go around eatin'em alright? you'll regret it!"
+"thank you for visiting my page! if you're ever in town, i'll buy you a juice! they press it fresh every morning at the inn, i can't recommend it enough."
 
-\- dawn's page statement
+\- suero's page statement

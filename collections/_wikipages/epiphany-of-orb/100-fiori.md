@@ -23,7 +23,7 @@ data:
 
 FIORI IRONHEART is a main protagonist in EPIPHANY OF ORB.
 
-he showed up one day and is just here to have a good time. hard to read, doesn't seem quite human.
+he just showed up one day and is simply here to have a good time. doesn't seem quite human.
 
 ## featured in
 
