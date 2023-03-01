@@ -17,9 +17,9 @@ data:
 
 MADD MILLENNIUM is a supporting character in CANYON CROSSROADS.
 
-she is a famous traveling (bounty, monster) hunter and mercenary, well-known for her strength.
+she is a traveling (bounty, monster) hunter and mercenary, famous across the land for her strength and code of honor.
 
-
+projects a serious and professional manner, but is really a big softie.
 
 ## trivia
 

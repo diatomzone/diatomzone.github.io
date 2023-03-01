@@ -150,7 +150,7 @@ div.dialoguebox { // same padding as wikibox
   img {
     height: 2.5em;
   }
-  p {
+  p, h4 {
     margin: 0 0 0 calc(#{$elementmargin} / 4); // for some reason without this, flexitem p will be vertically aligned to middle
     // align-self: flex-start; // align to top of container (default is stretch)
   }

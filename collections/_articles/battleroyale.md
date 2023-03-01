@@ -2,131 +2,197 @@
 title: oc battle dialogue
 
 blank:
-  - - {name: century, text: ""}
-    - {name: bill, text: ""}
-  - - {name: century, text: ""}
-    - {name: century, text: ""}
-  - - {name: century, text: ""}
-    - {name: fiori, text: ""}
-  - - {name: century, text: ""}
-    - {name: zug, text: ""}
-  - - {name: century, text: ""}
-    - {name: jade, text: ""}
-  - - {name: century, text: ""}
-    - {name: oridoti, text: ""}
-  - - {name: century, text: ""}
-    - {name: suero, text: ""}
-  - - {name: century, text: ""}
-    - {name: yasu, text: ""}
-  - - {name: century, text: ""}
-    - {name: madd-millennium, text: ""}
+  - - [century, ""]
+    - [bill, ""]
+  - - [century, ""]
+    - [century, ""]
+  - - [century, ""]
+    - [fiori, ""]
+  - - [century, ""]
+    - [zug, ""]
+  - - [century, ""]
+    - [jade, ""]
+  - - [century, ""]
+    - [oridoti, ""]
+  - - [century, ""]
+    - [suero, ""]
+  - - [century, ""]
+    - [yasu, ""]
+  - - [century, ""]
+    - [madd-millennium, ""]
 
 dialogue:
   bill:
-    - - {name: bill, text: "uh. this is awkward."}
-      - {name: bill, text: "let's try our best?"}
-    - - {name: bill, text: "your transformation is as bright as ever!"}
-      - {name: century, text: "hehe, thank ya much!"}
-    - - {name: bill, text: ""}
-      - {name: fiori, text: ""}
-    - - {name: bill, text: "zug, i'm here to stop your nefarious deeds!"}
-      - {name: zug, text: "what?? you pirate movies too!!"}
-    - - {name: bill, text: ""}
-      - {name: jade, text: ""}
-    - - {name: bill, text: ""}
-      - {name: oridoti, text: ""}
-    - - {name: bill, text: "so where'd you park your horse?"}
-      - {name: suero, text: "i... well, that's a great question, actually!"}
-    - - {name: bill, text: ""}
-      - {name: yasu, text: ""}
-    - - {name: bill, text: ""}
-      - {name: madd-millennium, text: ""}
+    - - [bill, "uh. this is awkward."]
+      - [bill, "let's try our best?"]
+    - - [bill, "your transformation is as bright as ever!"]
+      - [century, "hehe, thank ya much!"]
+    - - [bill, ""]
+      - [fiori, ""]
+    - - [bill, "zug, i'm here to stop your nefarious deeds!"]
+      - [zug, "what?? you pirate movies too!!"]
+    - - [bill, ""]
+      - [jade, ""]
+    - - [bill, ""]
+      - [oridoti, ""]
+    - - [bill, "so where'd you park your horse?"]
+      - [suero, "i... well, that's a great question, actually!"]
+    - - [bill, ""]
+      - [yasu, ""]
+    - - [bill, ""]
+      - [madd-millennium, ""]
   century:
-    - - {name: century, text: "hey bill! let's do this!!"}
-      - {name: bill, text: "heh, i'll practice what you taught me!"}
-    - - {name: century, text: "woah! you look strong!"}
-      - {name: century, text: "my thoughts exactly, me!"}
-    - - {name: century, text: ""}
-      - {name: fiori, text: ""}
-    - - {name: century, text: "uhhh, oh no!! i'm late for class!"}
-      - {name: zug, text: "that trick won't trick me thrice!!!"}
-    - - {name: century, text: ""}
-      - {name: jade, text: ""}
-    - - {name: century, text: ""}
-      - {name: oridoti, text: ""}
-    - - {name: century, text: "your sweater, what a lovely color!"}
-      - {name: suero, text: "why thank you! you can try it on if you'd like!"}
-    - - {name: century, text: ""}
-      - {name: yasu, text: ""}
-    - - {name: century, text: ""}
-      - {name: madd-millennium, text: ""}
-
-dialogueold:
+    - - [century, "hey bill! let's do this!!"]
+      - [bill, "heh, i'll practice what you taught me!"]
+    - - [century, "woah! you look strong!"]
+      - [century, "my thoughts exactly, me!"]
+    - - [century, ""]
+      - [fiori, ""]
+    - - [century, "uhhh, oh no!! i'm late for class!"]
+      - [zug, "that trick won't trick me thrice!!!"]
+    - - [century, ""]
+      - [jade, ""]
+    - - [century, ""]
+      - [oridoti, ""]
+    - - [century, "your sweater, what a lovely color!"]
+      - [suero, "why thank you! you can try it on if you'd like!"]
+    - - [century, ""]
+      - [yasu, ""]
+    - - [century, ""]
+      - [madd-millennium, ""]
   fiori:
-    - fiori: hey billy.
-      bill: hey ron!
+    - - [fiori, "hey billy."]
+      - [bill, "hey ron!"]
+    - - [fiori, ""]
+      - [century, ""]
+    - - [fiori, ""]
+      - [fiori, ""]
+    - - [fiori, ""]
+      - [zug, ""]
+    - - [fiori, ""]
+      - [jade, ""]
+    - - [fiori, ""]
+      - [oridoti, ""]
+    - - [fiori, ""]
+      - [suero, ""]
+    - - [fiori, ""]
+      - [yasu, ""]
+    - - [fiori, ""]
+      - [madd-millennium, ""]
   zug:
-    - zug: bill billy bilgewater... prepare to die.
-      bill: this isn't a fight to the death???
-    - zug: YOU!!!
-      century: WHO, ME??
-    - zug: fool... your magic has no effect on me.
-      suero: sorry, i haven't done anything yet...
-    - zug: HOHOHO...
-      zug2: EHEHEHE!!
-  suero:
-    - suero: oh! i like your bat!
-      bill: thanks, i like your hat!
-    - suero: greetings! care to join me?
-      century: let's dance!
-    - suero: you look like one tough customer!
-      zug: well YOU look like one... tall? person???
-    - suero: well... i won't be pulling any punches!
-      suero2: don't worry, i can take it.
+    - - [zug, "bill billy bilgewater... prepare to die."]
+      - [bill, "this isn't a fight to the death???"]
+    - - [zug, "YOU!!!"]
+      - [century, "WHO, ME??"]
+    - - [zug, ""]
+      - [fiori, ""]
+    - - [zug, "HOHOHO..."]
+      - [zug, "EHEHEHE!!"]
+    - - [zug, ""]
+      - [jade, ""]
+    - - [zug, ""]
+      - [oridoti, ""]
+    - - [zug, "fool... your magic has no effect on me."]
+      - [suero, "sorry, i haven't done anything yet..."]
+    - - [zug, ""]
+      - [yasu, ""]
+    - - [zug, ""]
+      - [madd-millennium, ""]
   jade:
-    - jade: brought a stick to a gun fight?
-      bill: i think we both have a few tricks up our sleeves.
-    - jade: what an arsenal!
-      century: heh, buying bulk has its perks!
-    - jade: ...hmph.
-      zug: HUH??? if you've got a problem with me, spit it out!!
-    - jade: suero, don't hold back.
-      suero: haha, i'll need to give my all to compete with you!
-    - jade: nice coat. where's it from?
-      jade2: oh, you know.
-  yasu:
-    - yasu: orbs are basically wheels, yeah?
-      bill: uh... i guess it depends?
-    - yasu: don't think you can run from me, speedy!
-      century: i'm not going anywhere!
-    - yasu: OI!! watch where you're going!
-      zug: pedestrians have the RIGHT OF WAY!!
-    - yasu: flaming rope and burning rubber...
-      suero: a battlefield blazing bright!
-    - yasu: hey, let's grab somethin' after this!
-      yasu2: drinks on you?
+    - - [jade, "brought a stick to a gun fight?"]
+      - [bill, "i think we both have a few tricks up our sleeves."]
+    - - [jade, "what an arsenal!"]
+      - [century, "heh, buying bulk has its perks!"]
+    - - [jade, ""]
+      - [fiori, ""]
+    - - [jade, "...hmph."]
+      - [zug, "HUH??? if you've got a problem with me, spit it out!!"]
+    - - [jade, "nice coat. where's it from?"]
+      - [jade, "oh, you know."]
+    - - [jade, ""]
+      - [oridoti, ""]
+    - - [jade, "suero, don't hold back."]
+      - [suero, "haha, i'll need to give my all to compete with you!"]
+    - - [jade, ""]
+      - [yasu, ""]
+    - - [jade, ""]
+      - [madd-millennium, ""]
   oridoti:
-    - oridoti: your eyes...
-      bill: huh? something on my face??
-    - oridoti: you have a bounty, but...
-      century: oh, it's in dollars... i'm sorry!
-    - oridoti: nice day out.
-      zug: is it though?
-    - oridoti: juice news?
-      suero: tomorrow they'll be pressing more apples!
-    - oridoti: ...
-      oridoti2: ...
-  madd:
-    - madd: are you prepared?
-      bill: i'll try my best!
-    - madd: are you ready?
-      century: born ready!
-    - madd: shall we?
-      zug: hell yeah. i've been waiting to go all out!
-    - madd: everything in order?
-      suero: oh! yes, i'm ready! thank you for asking!
-    - madd: would you like to duel?
-      madd2: we both know the answer to that.
+    - - [oridoti, "your eyes..."]
+      - [bill, "huh? something on my face??"]
+    - - [oridoti, "you have a bounty, but..."]
+      - [century, "oh, it's in dollars... i'm sorry!"]
+    - - [oridoti, ""]
+      - [fiori, ""]
+    - - [oridoti, "nice day out."]
+      - [zug, "is it though?"]
+    - - [oridoti, ""]
+      - [jade, ""]
+    - - [oridoti, "..."]
+      - [oridoti, "......"]
+    - - [oridoti, "juice news?"]
+      - [suero, "tomorrow they'll be pressing more apples!"]
+    - - [oridoti, ""]
+      - [yasu, ""]
+    - - [oridoti, ""]
+      - [madd-millennium, ""]
+  suero:
+    - - [suero, "oh! i like your bat!"]
+      - [bill, "thanks, i like your hat!"]
+    - - [suero, "greetings! care to join me?"]
+      - [century, "let's dance!"]
+    - - [suero, ""]
+      - [fiori, ""]
+    - - [suero, "you look like one tough customer!"]
+      - [zug, "well YOU look like one... tall? person???"]
+    - - [suero, ""]
+      - [jade, ""]
+    - - [suero, ""]
+      - [oridoti, ""]
+    - - [suero, "well... i won't be pulling any punches!"]
+      - [suero, "don't worry, i can take it."]
+    - - [suero, ""]
+      - [yasu, ""]
+    - - [suero, ""]
+      - [madd-millennium, ""]
+  yasu:
+    - - [yasu, "orbs are basically wheels, yeah?"]
+      - [bill, "uh... i guess it depends?"]
+    - - [yasu, "don't think you can run from me, speedy!"]
+      - [century, "i'm not going anywhere!"]
+    - - [yasu, ""]
+      - [fiori, ""]
+    - - [yasu, "OI!! watch where you're going!"]
+      - [zug, "pedestrians have the RIGHT OF WAY!!"]
+    - - [yasu, ""]
+      - [jade, ""]
+    - - [yasu, ""]
+      - [oridoti, ""]
+    - - [yasu, "flaming rope and burning rubber..."]
+      - [suero, "a battlefield blazing bright!"]
+    - - [yasu, "hey, let's grab somethin' after this!"]
+      - [yasu, "drinks on you?"]
+    - - [yasu, ""]
+      - [madd-millennium, ""]
+  madd-millennium:
+    - - [madd-millennium, "are you prepared?"]
+      - [bill, "i'll try my best!"]
+    - - [madd-millennium, "are you ready?"]
+      - [century, "born ready!"]
+    - - [madd-millennium, ""]
+      - [fiori, ""]
+    - - [madd-millennium, "shall we?"]
+      - [zug, "hell yeah. i've been waiting to go all out!"]
+    - - [madd-millennium, ""]
+      - [jade, ""]
+    - - [madd-millennium, ""]
+      - [oridoti, ""]
+    - - [madd-millennium, "everything in order?"]
+      - [suero, "oh! yes, i'm ready! thank you for asking!"]
+    - - [madd-millennium, ""]
+      - [yasu, ""]
+    - - [madd-millennium, "would you like to duel?"]
+      - [madd-millennium, "we both know the answer to that."]
 ---
 
 some pre-fight dialogue that could happen if the EPIPHANY OF ORB and CANYON CROSSORADS gangs were in a crossover fighting game together :^]

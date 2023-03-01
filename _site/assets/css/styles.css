@@ -40,7 +40,7 @@ div.dialoguebox { background-color: #354e51; padding: calc(20px / 2); margin: ca
 
 div.dialoguebox img { height: 2.5em; }
 
-div.dialoguebox p { margin: 0 0 0 calc(30px / 4); }
+div.dialoguebox p, div.dialoguebox h4 { margin: 0 0 0 calc(30px / 4); }
 
 div.dialoguebox div.dialogueflex { display: flex; flex-direction: row; margin: calc(30px / 4) 0 0 0; }
 

@@ -1,7 +1,7 @@
 
 #### feb 28 2023
 
-- transfer oc battle dialogue, dialoguebox includes
+- transfer oc battle dialogue, dialoguebox includes, wikipage listing images
 
 ---
 

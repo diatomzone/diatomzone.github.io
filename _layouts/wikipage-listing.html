@@ -18,14 +18,18 @@ layout: default
 
 {% for wikicategory in site.data.wikicategories %} <!-- open data list -->
   <h2 id="{{ wikicategory }}">{{ wikicategory }}</h2>
-  <ul>
-    {% for item in site[page.listcategory] %} <!-- "wikipages" accesses _wikipages collection -->
-      {% if item.path contains wikicategory %}
-        <li>
-          <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
-          <p>{{ item.content | strip_html | strip_newlines | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  {% for item in site[page.listcategory] %} <!-- "wikipages" accesses _wikipages collection -->
+    {% if item.path contains wikicategory %}
+      <div class="dialoguebox">
+        <div class="dialogueflex">
+          <img src={{ '/assets/images/' | append: item.data.image | relative_url }} style="min-width:4em; max-width:4em; height:4em; object-fit:cover;" alt="">
+          <!-- ^ for some reason both min and max width are needed, normal width doesn't work -->
+          <div>
+            <h4 style="margin-top:0;"><a href="{{ item.url }}">{{ item.title }}</a></h4>
+            <p>{{ item.content | strip_html | strip_newlines | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
