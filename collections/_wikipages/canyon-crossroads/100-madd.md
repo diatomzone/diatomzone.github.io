@@ -2,7 +2,7 @@
 title: madd millennium
 
 data:
-  image: wikipages/cc/maddmillennium.jpg
+  image: wikipages/cc/madd.jpg
   profile:
     universe: canyon crossroads
     type: human

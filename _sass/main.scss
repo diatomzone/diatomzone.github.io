@@ -143,12 +143,33 @@ div.directory { // same padding as wikibox
     }
   }
 }
+div.dialoguebox { // same padding as wikibox
+  background-color: $colorbox2;
+  padding: calc(#{$boxpadding} / 2);
+  margin: calc(#{$elementmargin} / 4) 0 0 0;
+  img {
+    height: 2.5em;
+  }
+  p {
+    margin: 0 0 0 calc(#{$elementmargin} / 4); // for some reason without this, flexitem p will be vertically aligned to middle
+    // align-self: flex-start; // align to top of container (default is stretch)
+  }
+  div.dialogueflex { // for img and p
+    // background-color: navy;
+    display: flex;
+    flex-direction: row;
+    margin: calc(#{$elementmargin} / 4) 0 0 0;
+  }
+  div.dialogueflex:first-child {
+    margin-top: 0;
+  }
+}
 div.iframecontainer { // for normal iframes
   // background-color: yellow;
   position: relative; // must be relative for iframe absolute position to work
   overflow: hidden;
   width: 100%; // full width of container, height is 0
-  padding-top: 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
+  padding-top: 56.25%; // 16:9 ratio. 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
   margin: calc(#{$elementmargin} / 2) auto 0 auto;
 }
 div.iframecontainersidebar { // for index sidebar
@@ -406,12 +427,13 @@ aside.infobox { // wiki info box
     @include replace-bgcolor($colorbg, $colortoggle);
     color: $colorblue;
     font-weight: bold;
-    width: 35%;
+    width: 40%;
   }
   .value {
     @include replace-bgcolor($colorbg, $colortoggle);
-    width: 65%;
-    // margin-left: calc(#{$elementmargin} / 4); // doesn't work due to width percentages
+    width: 60%;
+    // background-color: navy;
+    padding: 0 0 0 calc(#{$elementmargin} / 4); // in addition to width. margin doesn't work due to width percentages
   }
 }
 

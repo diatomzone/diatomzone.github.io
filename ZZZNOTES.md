@@ -194,6 +194,7 @@ title: zzznotes
   1. yaml map: key/value pairs (a dictionary), can be nested, ex: name: budd
     - mapping node: (recommended) each key has one value and order doesn't matter
     - mapping scalar: (maybe an array of strings?) each key can have multiple values and order matters
+    - useful when you want to be able to print the key, not just use the key to return the value
   2. yaml list: a sequence of items, can include maps, ex: groceries: - eggs - milk
     - you can easily call each maps's key to return its value, ex: {{ item.description }}
     - useful when you don't need the heirarchy of a map/when you know the key names
@@ -289,6 +290,11 @@ title: zzznotes
 - putting an includes file in a scrollbar div is much more efficient than iframe-ing a whole new page with a simpler layout
 - scrollbar box does not add top padding, simply remove margin-top from first child header etc.
 - sometimes youtube embeds don't work in localhost, will work fine on normal site
+- yaml can't have multiple items with the same key, or else it's overwritten (breaks old dialoguebox lines with repeated speakers), so i remade the system to make names repeatable values instead of keys, with each line being its own item
+  - related, containing items don't have to have keys, so you can directly nest them like: - - these - are - items
+  - 2 ways to do nested arrays:
+    - key/value pairs within a {} array, separated by commas (requres "" for commas and special characters)
+    - key value pairs on their own lines (does not require "" for commas, but does for other characters like colon)
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html
@@ -341,5 +347,6 @@ title: zzznotes
 - default css values https://www.w3schools.com/cssref/css_default_values.php4
 - block and inline elements https://www.w3schools.com/htmL/html_blocks.asp
 - fancy css selectors such as + and > https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+- yaml array etc. info https://www.w3schools.io/file/yaml-arrays/
 
 {% endraw %}

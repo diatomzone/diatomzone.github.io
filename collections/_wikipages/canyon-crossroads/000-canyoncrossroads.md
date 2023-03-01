@@ -4,7 +4,7 @@ title: canyon crossroads (universe)
 data:
   image: wikipages/cc/canyoncrossroads.jpg
   information:
-    imaginary format: comic, visual novel?
+    imaginary format: comic, game, visual novel?
 ---
 
 CANYON CROSSROADS is a fantasy western slice-of-life.

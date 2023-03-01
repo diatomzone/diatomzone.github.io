@@ -1,0 +1,41 @@
+<!-- dialogue box source code -->
+<div> <!-- like directory, needs to be inside a div or else the indentation inexplicably breaks it -->
+{% if include.sectionname %} <!-- if there is a sectionname, show that list -->
+
+  {% for section in page.dialogue %} <!-- open up section -->
+    {% if section[0] == include.sectionname %} <!-- if specified list -->
+      <h2 id="{{ section[0] }}">{{ section[0] }}</h2>
+      {% for entry in section[1] %} <!-- open up "-" entry -->
+        <div class="dialoguebox">
+          {% for line in entry %} <!-- open up line -->
+            <div class="dialogueflex">
+              <img src="/assets/images/oc-icons/{{ line.name | append: ".png" }}" alt="">
+              <p>{{ line.name }}: {{ line.text }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
+{% else %} <!-- if there isn't a sectionname, show all lists -->
+
+  {% for section in page.dialogue %} <!-- open up section -->
+    <h2 id="{{ section[0] }}">{{ section[0] }}</h2>
+    {% for entry in section[1] %} <!-- open up "-" entry -->
+      <div class="dialoguebox">
+        {% for line in entry %} <!-- open up line -->
+          <div class="dialogueflex">
+            <img src="/assets/images/oc-icons/{{ line.name | append: ".png" }}" alt="">
+            <p>{{ line.name }}: {{ line.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+    {% if forloop.last == false %} <!-- add hr after every section except last -->
+      <hr>
+    {% endif %}
+  {% endfor %}
+
+{% endif %}
+</div>

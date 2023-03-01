@@ -1,0 +1,12 @@
+<!-- linklist directory source code -->
+<!-- needs to be inside a div or else the indentation inexplicably breaks it -->
+<div class="directory">
+  <h4>skip to:</h4>
+  <ul>
+    {% for section in page.dialogue %} <!-- open up data -->
+      <li>
+        <a href="#{{ section[0] }}">{{ section[0] }}</a> <!-- entry label, link to anchor -->
+      </li>
+    {% endfor %}
+  </ul>
+</div>

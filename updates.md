@@ -1,5 +1,11 @@
 
-#### feb 24-28 2023
+#### feb 28 2023
+
+- transfer oc battle dialogue, dialoguebox includes
+
+---
+
+#### feb 24-27 2023
 
 - wikipage content and pics
 - minor sizing changes, non-youtube video player, spoilered text

@@ -30,5 +30,5 @@ please find the site navigation conveniently located at the top and bottom of ea
 ## update log
 
 <div class="shortbox" markdown="1">
-  {% include updates.md %}
+  {% include_relative updates.md %}
 </div>

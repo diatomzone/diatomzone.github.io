@@ -11,7 +11,7 @@ EPIPHANIES are small-scale, highly specific, and relatively impractical supernat
 
 this power system is inextricably rooted in each character's experiences and worldview.
 
-<div class="directory">
+<div class="directory"> <!-- manual instance of a directory -->
   <h4>skip to:</h4>
   <ul>
       <li><a href="#background">background</a></li> <!-- entry label, link to anchor -->

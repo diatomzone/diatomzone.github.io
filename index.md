@@ -7,7 +7,7 @@ layout: default-plain
 
   <h2>welcome to my landing page!</h2>
 
-  <p>(website contains gifs and possibly music)</p>
+  <p>(website contains explosion gifs)</p>
 
   <img src="/assets/images/favicon-96.png" alt="favicon" title="favicon">
 

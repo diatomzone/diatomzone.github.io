@@ -6,7 +6,7 @@ data:
   information:
     universe: canyon crossroads
     location: canyon crossroads
-    goal: just hanging out
+    goal: hanging out
   party stats:
     members: 4
     horses: 2
@@ -23,10 +23,10 @@ they are a group of besties based in canyon crossroads (the town).
 
 ## members
 
-- yasu
 - jade
-- suero
 - oridoti
+- suero
+- yasu
 
 ## trivia
 
