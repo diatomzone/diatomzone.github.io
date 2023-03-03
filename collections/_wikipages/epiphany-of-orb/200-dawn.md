@@ -25,10 +25,6 @@ SILURIAN DAWN is a minor ally in EPIPHANY OF ORB. goes by DAWN.
 
 he is a 2nd-year geology major who exclusively studies NaCl salt, to the detriment of his gpa. bill's roommate.
 
-## featured in
-
-- eoo anime opening 1
-
 ## trivia
 
 - banned from all cooking classrooms and campus dining halls for stealing salt shakers

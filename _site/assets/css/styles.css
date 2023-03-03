@@ -38,7 +38,7 @@ div.directory ul li { margin: 0; }
 
 div.dialoguebox { background-color: #354e51; padding: calc(20px / 2); margin: calc(30px / 4) 0 0 0; }
 
-div.dialoguebox img { height: 2.5em; }
+div.dialoguebox img { aspect-ratio: 1; object-fit: cover; }
 
 div.dialoguebox p, div.dialoguebox h4 { margin: 0 0 0 calc(30px / 4); }
 
@@ -47,8 +47,6 @@ div.dialoguebox div.dialogueflex { display: flex; flex-direction: row; margin: c
 div.dialoguebox div.dialogueflex:first-child { margin-top: 0; }
 
 div.iframecontainer { position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; margin: calc(30px / 2) auto 0 auto; }
-
-div.iframecontainersidebar { position: relative; overflow: hidden; width: 100%; padding-top: 400%; margin: 0; }
 
 h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.2em; text-align: center; margin: 0 0 calc(30px / 2) 0; padding: 0; }
 
@@ -76,9 +74,11 @@ span.spoilered:hover { background-color: transparent; color: inherit; transition
 
 img { margin: 0; vertical-align: bottom; max-width: 100%; }
 
-ul { margin: calc(30px / 2) 0 0 0; }
+ul { margin: calc(30px / 2) 0 0 0; padding: 0 0 0 2em; }
 
 ul li { margin: calc(30px / 4) 0 0 0; }
+
+ul li ul { margin: 0; padding: 0 0 0 1em; }
 
 ul li p { margin: 0; }
 
@@ -124,7 +124,7 @@ nav a:active:not(.current) { color: #ff5e7e; }
 
 aside.infobox { background-color: #354e51; padding: calc(20px / 2); margin: 0 0 0 20px; text-align: center; order: 2; flex-basis: 300px; flex-shrink: 1; flex-grow: 0; align-self: flex-start; }
 
-aside.infobox h2 { color: #ff5e7e; margin: 0; }
+aside.infobox h3 { color: #ff5e7e; margin: 0; }
 
 aside.infobox img { margin: calc(30px / 4) 0 0 0; }
 
@@ -158,6 +158,6 @@ aside.infobox .value { background-color: transparent; width: 60%; padding: 0 0 0
 
 .gallerytext { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; width: 80%; }
 
-@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 1.7em; } h2 { font-size: 1.3em; } h3 { font-size: 1.1em; } h4, h5, h6 { font-size: 1em; } ul { padding: 0 0 0 25px; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } div.iframecontainersidebar { padding-top: 100%; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
+@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 1.7em; } h2 { font-size: 1.3em; } h3 { font-size: 1.1em; } h4, h5, h6 { font-size: 1em; } ul { padding: 0 0 0 1em; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

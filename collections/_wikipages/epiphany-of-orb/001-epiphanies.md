@@ -25,7 +25,7 @@ this power system is inextricably rooted in each character's experiences and wor
 
 ### supernatural energy
 
-this mysterious energy saturates the planet, just like water or air.
+(name tbd) this mysterious energy saturates the planet, just like water or air.
 
 when a large amount of energy gathers in one place, reality distorts, allowing the laws of physics to be broken -- objects can transform into spheres, steel can be cut like butter, etc...
 
@@ -33,7 +33,7 @@ the ripples of distorted reality can be sensed by nearby epiphany users, monster
 
 ### monsters
 
-beings made of supernatural energy. the more energy they contain the greater their influence over reality, and the stronger their abilities become.
+(name tbd) beings made of supernatural energy. the more energy they contain the greater their influence over reality, and the stronger their abilities become.
 
 to grow, they can passively absorb from their environment or consume other sources of energy, including epiphany users and each other.
 

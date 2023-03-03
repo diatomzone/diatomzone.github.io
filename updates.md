@@ -1,4 +1,10 @@
 
+#### mar 03 2023
+
+- minor styling, wikipage content
+
+---
+
 #### feb 28 2023
 
 - transfer oc battle dialogue, dialoguebox includes, wikipage listing images
@@ -19,13 +25,13 @@
 
 ---
 
-#### feb 4-22 2023
+#### feb 04-22 2023
 
 - now we're cooking with fire!!! it's website time!
 
 ---
 
-#### jan 1 2023
+#### jan 01 2023
 
 - flexbox layout tutorial
 

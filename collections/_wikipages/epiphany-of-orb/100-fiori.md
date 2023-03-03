@@ -25,14 +25,10 @@ FIORI IRONHEART is a main protagonist in EPIPHANY OF ORB.
 
 he just showed up one day and is simply here to have a good time. doesn't seem quite human.
 
-## featured in
-
-- eoo anime opening 1
-- eoo halloween comic (cameo)
-
 ## trivia
 
 - walked from the west coast to flourida, then to new quark city
+- SPOILER: existential
 
 ---
 

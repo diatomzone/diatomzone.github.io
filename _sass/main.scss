@@ -102,7 +102,6 @@ div.indexmain { // main content
 }
 aside.indexside { // side content (index only), same properties as wiki infobox except it doesn't change to order: 1; (element properties apply to things outside of iframe)
   background-color: $colorbox2;
-  // padding 0 for iframe version, calc(#{$boxpadding} / 2) for html version
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
@@ -147,8 +146,10 @@ div.dialoguebox { // same padding as wikibox
   background-color: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargin} / 4) 0 0 0;
-  img {
-    height: 2.5em;
+    img {
+    // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
+    aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
+    object-fit: cover; // crop image to fill area
   }
   p, h4 {
     margin: 0 0 0 calc(#{$elementmargin} / 4); // for some reason without this, flexitem p will be vertically aligned to middle
@@ -171,14 +172,6 @@ div.iframecontainer { // for normal iframes
   width: 100%; // full width of container, height is 0
   padding-top: 56.25%; // 16:9 ratio. 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
   margin: calc(#{$elementmargin} / 2) auto 0 auto;
-}
-div.iframecontainersidebar { // for index sidebar
-  // background-color: yellow;
-  position: relative; // must be relative for iframe absolute position to work
-  overflow: hidden;
-  width: 100%; // full width of container, height is 0
-  padding-top: 400%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
-  margin: 0;
 }
 
 // MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
@@ -259,8 +252,13 @@ img {
 // }
 ul { // for markdown again
   margin: calc(#{$elementmargin} / 2) 0 0 0;
+  padding: 0 0 0 2em; // normally 40px
   li {
     margin: calc(#{$elementmargin} / 4) 0 0 0; // just for normal li's, no effect on listing template due to large h3 margin
+    ul { // nested markdown lists create a new ul inside the previous li
+      margin: 0;
+      padding: 0 0 0 1em; // normally 40px
+    }
     p {
       margin: 0;
       // display: inline-block; // BREAKS EMPTY LISTING DESCRIPTIONS
@@ -398,7 +396,7 @@ aside.infobox { // wiki info box
   flex-shrink: 1; // does shrink
   flex-grow: 0; // does not grow
   align-self: flex-start; // align to top of container (default is stretch)
-  h2 { // can't do a general :first-child, it selects the entry keys etc.
+  h3 { // can't do a general :first-child, it selects the entry keys etc.
     color: $colorred;
     margin: 0;
   }
@@ -523,7 +521,12 @@ aside.infobox { // wiki info box
     font-size: 1em;
   }
   ul { // for markdown again
-    padding: 0 0 0 25px; // normally 40px
+    padding: 0 0 0 1em; // normally 40+ px
+    li {
+      ul { // nested markdown lists create a new ul inside the previous li
+        // padding: 0 0 0 0.5em;
+      }
+    }
   }
   nav { // horizontal navbar
     font-size: 1.2em;
@@ -546,9 +549,6 @@ aside.infobox { // wiki info box
     margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
     flex-basis: 0; // initial length (height)
     align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
-  }
-  div.iframecontainersidebar {
-    padding-top: 100%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element) (includes scrollbar)
   }
   // WIKI ////////////////////////////////////////////////////////////////
   .wikibody {

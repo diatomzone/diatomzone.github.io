@@ -9,8 +9,11 @@
         <div class="dialoguebox">
           {% for line in entry %} <!-- open up line -->
             <div class="dialogueflex">
-              <img src="/assets/images/oc-icons/{{ line[0] | append: ".png" }}" alt="">
-              <p>{{ line[0] }}: {{ line[1] }}</p>
+              <img src="/assets/images/oc-icons/{{ line[0] }}.png" style="height:2.5em;" alt="">
+              <div>
+                <p><strong style="color:orange;">{{ line[0] }}</strong></p>
+                <p>{{ line[1] }}</p>
+              </div>
             </div>
           {% endfor %}
         </div>
@@ -26,8 +29,11 @@
       <div class="dialoguebox">
         {% for line in entry %} <!-- open up line -->
           <div class="dialogueflex">
-            <img src="/assets/images/oc-icons/{{ line[0] | append: ".png" }}" alt="">
-            <p>{{ line[0] }}: {{ line[1] }}</p>
+            <img src="/assets/images/oc-icons/{{ line[0] }}.png" style="height:2.5em;" alt="">
+            <div>
+              <p><strong style="color:orange;">{{ line[0] }}</strong></p>
+              <p>{{ line[1] }}</p>
+            </div>
           </div>
         {% endfor %}
       </div>

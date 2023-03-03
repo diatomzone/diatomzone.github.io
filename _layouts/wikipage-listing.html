@@ -22,8 +22,8 @@ layout: default
     {% if item.path contains wikicategory %}
       <div class="dialoguebox">
         <div class="dialogueflex">
-          <img src={{ '/assets/images/' | append: item.data.image | relative_url }} style="min-width:4em; max-width:4em; height:4em; object-fit:cover;" alt="">
-          <!-- ^ for some reason both min and max width are needed, normal width doesn't work -->
+          <img src="/assets/images/{{ item.data.image }}" style="height:4em;" alt=""> <!-- putting inside link breaks aspect ratio... -->
+          <!-- ^ aspect-ratio is needed for flex item, normal width doesn't work -->
           <div>
             <h4 style="margin-top:0;"><a href="{{ item.url }}">{{ item.title }}</a></h4>
             <p>{{ item.content | strip_html | strip_newlines | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->

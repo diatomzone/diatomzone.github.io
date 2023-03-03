@@ -1,5 +1,5 @@
 ---
-title: oc battle dialogue
+title: oc battle crossover dialogue
 
 blank:
   - - [century, ""]

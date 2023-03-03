@@ -10,8 +10,8 @@ data:
     pronouns: she
     occupation: bandit
   abilities:
-    weapon: knives, steel shin guards
-    magic:
+    weapon: knives, dual pistols, steel shin guards
+    magic: "?"
     horse: none (bike)
 ---
 
@@ -27,6 +27,6 @@ excitable and competitive, one of her favorite pastimes is escaping bounty hunte
 
 ---
 
-"huh? you wanna know why i don't ride a horse?? well LET me give it to you straight: JUST. CAN'T. STAND 'em. big and unwieldy and you can't even drift on 'em AND they poop everywhere like it's their job!! i don't trust 'horses' (air quotes) and they don't trust me, the feeling's mutual. uhhh-huh. they're pretty cute though."
+"huh? you wanna know why i don't ride a horse like everyone else?? well LET me give it to you straight: JUST. CAN'T. STAND 'em. big and unwieldy and you can't even drift on 'em AND they poop everywhere like it's their job!! i don't trust 'horses' (air quotes) and they don't trust me, the feeling's mutual. uhhh-huh. they're pretty cute though."
 
 \- yasu's page statement

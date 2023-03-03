@@ -47,7 +47,7 @@ can turn small-to-medium-sized objects they touch into orbs. the objects retain 
 
 they fight using their late grandfather's vintage cricket bat, which can be used to launch spherical objects.
 
-SPOILER: they can also cause cell death by ruining cells' surface-area-to-volume ratio.
+SPOILER: <span class="spoilered">they can also cause cell death by ruining cells' surface-area-to-volume ratio.</span>
 
 ## relationships
 
@@ -58,15 +58,11 @@ SPOILER: they can also cause cell death by ruining cells' surface-area-to-volume
 - grandpa boatswain: evil ghost grandpa
 - mysterious figure: enigmatic encounter
 
-## featured in
-
-- eoo anime opening 1
-- eoo halloween comic
-
 ## trivia
 
 - their cricket bat is haunted by the souls of 1000 dead pillbugs (indestructable) (grandpa boatswain kept using it to kill pillbugs)
 - wears real orecchiette pasta earrings
+- SPOILER: listlessness
 
 ---
 

@@ -11,19 +11,20 @@ data:
     occupation: hunter, mercenary
   abilities:
     weapon: giant broken sword
-    magic:
+    magic: "?"
     horse: none
 ---
 
 MADD MILLENNIUM is a supporting character in CANYON CROSSROADS.
 
-she is a traveling (bounty, monster) hunter and mercenary, famous across the land for her strength and code of honor.
+she is a traveling (bounty, monster) hunter and mercenary, famous across the land for her expertise and code of honor.
 
 projects a serious and professional manner, but is really a big softie.
 
 ## trivia
 
-- the dog keychain on her sword is from her girlfriend VARIA, the mayor and sheriff of redtail's butte.
+- the dog keychain on her sword is from her girlfriend VARIA, the mayor and sheriff of redtail's butte
+- (i love all my ocs equally voice) despite being a side character she has the most art cus her design is the coolest LKSJDGLF
 
 ---
 

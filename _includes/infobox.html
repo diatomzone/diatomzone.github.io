@@ -2,7 +2,7 @@
 <!-- can use [0] [1] array to access yml keys and values -->
 <!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
 <aside class="infobox">
-  <h2>{{ page.title }}</h2> <!-- title at top of box -->
+  <h3>{{ page.title }}</h3> <!-- title at top of box -->
   {% for category in page.data %} <!-- open up data -->
     {% if category[0] == "image" %} <!-- if key is "image", print the image -->
       <img src={{ '/assets/images/' | append: page.data.image | relative_url }} alt="infobox image">

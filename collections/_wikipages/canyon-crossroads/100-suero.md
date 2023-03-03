@@ -10,7 +10,7 @@ data:
     pronouns: they
     occupation: hostler, odd jobs
   abilities:
-    weapon: crowbar, anything they can get their hands on
+    weapon: rifle, rope
     magic: rope, light
     horse: nocturnal phantom horse
 ---
@@ -23,7 +23,7 @@ a friend to all horses and warm personality, they love chatting with visitors.
 
 ## trivia
 
-- a bit of a homebody who hasn't traveled far beyond canyon crossroads and redtail's butte
+- they're a bit of a homebody who hasn't traveled far beyond canyon crossroads and redtail's butte
 
 ---
 

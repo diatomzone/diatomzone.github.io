@@ -10,8 +10,8 @@ data:
     pronouns: they
     occupation: hunter
   abilities:
-    weapon: crowbar, anything they can get their hands on
-    magic: ultra beam
+    weapon: crowbar, pistol, anything they can get their hands on
+    magic: ultra beam?
     horse: none
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: wow! wiki for ocs and more!
+title: wow! wiki for my ocs and more!
 layout: wikipage-listing
 listcategory: wikipages
 ---

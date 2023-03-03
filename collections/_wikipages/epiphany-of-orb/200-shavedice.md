@@ -8,7 +8,7 @@ data:
     type: human
     age: mid 30's
     pronouns: they/he
-    occupation: fbi agent
+    occupation: secret agent
   abilities:
     weapon: pistol
     epiphany: freeze
@@ -23,12 +23,7 @@ data:
 
 SHAVED ICE is a minor antagonist in EPIPHANY OF ORB.
 
-they are a mysterious fbi agent who has been trailing fiori for years.
-
-## featured in
-
-- eoo anime opening 1
-- eoo halloween comic
+they are a mysterious agent who has been trailing fiori for years, following the incident in area 51.
 
 ## trivia
 

@@ -19,12 +19,13 @@ JADE is a main character in CANYON CROSSROADS and a member of the TUNNEL CANYON 
 
 she is an explorer documenting the land and mysteries surrounding canyon crossroads.
 
-coolheaded and sensible in any situation.
+her cool head, quick thinking, and high perception stat allow her abilities to shine.
 
 ## trivia
 
 - her deadpan humor plays well with yasu's outrageous one -- they'll often do bits to try and make oridoti crack a smile
 - travels with dozens of notebooks and research tools (conveniently stowed in pocket dimension)
+- the scar under her right eye was accidentally self-inflicted. while still figuring out her ability, she teleported an object into her face.
 
 ---
 

@@ -297,6 +297,7 @@ title: zzznotes
     - key value pairs on their own lines (does not require "" for commas, but does for other characters like colon)
   - but in the end, i used a normal [] array, first item = name, second item = text
 - when 3 periods are used in a YAML "" string and printed with a liquid variable, they don't turn into ellipses
+- css aspect-ratio: 1; can be combined with a defined width/height to create square images, useful for responsive/flex layout where fixed width/height would get messed up
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

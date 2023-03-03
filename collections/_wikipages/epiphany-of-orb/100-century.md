@@ -25,15 +25,11 @@ CENTURY BLUE is a main protagonist in EPIPHANY OF ORB.
 
 she is a 3rd-year numbers major and upbeat "magical girl" (monster-hunting vigilante).
 
-## featured in
-
-- eoo anime opening 1
-- eoo halloween comic
-
 ## trivia
 
 - wears a wide variety of hats because her head gets cold
 - says “i’m in” when opening wicrosoft mord
+- SPOILER: idealism
 
 ---
 
