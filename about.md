@@ -31,12 +31,22 @@ linklists:
 
 ## this site
 
-i have always wanted to make a website but my brain is too small for coding.
+welcome to my first website that actually works! i'm still experimenting with the setup, so stuff might move around.
 
+i'll be using this place to consolidate all sorts of things including information about my ocs, computer-related projects like twine games and sitebuilding notes, images, and maybe even some art!
 
+## websites
 
+the things people create for fun have always amazed me more than i can say. the effort and joy of making something for yourself -- it's really beautiful.
 
+i wish i was more articulate, but if you're here reading this, i'm sure you understand :^)
 
 ---
 
 {% include linklists.html listname="site credits" %}
+
+---
+
+also, i'm [zorionbbq](https://zorionbbq.tumblr.com/) on tumblr, so feel free to dm/send an ask there! :^]
+
+thanks for visiting! {{ site.emojis.zenigata }}

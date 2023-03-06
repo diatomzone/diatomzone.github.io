@@ -2,7 +2,11 @@
 title: about coding
 ---
 
+i have always wanted to make a website but my brain is too small for coding.
+
 instead of getting smarter, i simply tried again and again. this is my third attempt at using [jekyll](https://jekyllrb.com/), a static site builder!
+
+my goal is to work smarter not harder, which is hard to do when your brain is so small, but i'm getting there!
 
 my priority is to do the least work possible. i will explode into ten thousand million miserable meat chunks before i manually code every link and link description in my listing pages. so i've built my own shortcut with a listing "includes", using YAML data, liquid variables, "includes", and for loops!
 

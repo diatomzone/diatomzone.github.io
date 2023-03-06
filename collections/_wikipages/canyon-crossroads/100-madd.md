@@ -25,6 +25,7 @@ projects a serious and professional manner, but is really a big softie.
 
 - the dog keychain on her sword is from her girlfriend VARIA, the mayor and sheriff of redtail's butte
 - (i love all my ocs equally voice) despite being a side character she has the most art cus her design is the coolest LKSJDGLF
+- the basic look of her sword has actually been used by two previous ocs (now retired)
 
 ---
 

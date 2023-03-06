@@ -4,4 +4,4 @@ layout: collection-listing
 collection: articles
 ---
 
-sitebuilding notes and other writings!
+sitebuilding notes, oc stuff, and other writings!

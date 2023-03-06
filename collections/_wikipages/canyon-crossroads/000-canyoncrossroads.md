@@ -9,6 +9,12 @@ data:
 
 CANYON CROSSROADS is a fantasy western slice-of-life.
 
+## main street theme?
+
+<div class="iframecontainer">
+  <iframe src="https://www.youtube.com/embed/7IQliJHVLoo" title="jubilife city (night)" allow="fullscreen"></iframe>
+</div>
+
 ## synopsis
 
 the adventures of travelers, townsfolk, and the tunnel canyon cowpoke gang.
@@ -37,7 +43,7 @@ as the easiest (flattest) way to cross from one side of the mountains to the oth
 
 a medium-sized city located in a basin-and-range valley. named for its picturesque butte (not butt) where redtail hawks nest.
 
-despite the drier climate, redtail supports a vibrant agricultural industry thanks to mountain runoff from both sides.
+despite the drier climate, redtail supports a vibrant agricultural industry thanks to mountain runoff from both sides and groundwater specialists.
 
 canyon crossroads is roughly two hours away by train.
 

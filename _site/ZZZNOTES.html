@@ -439,7 +439,7 @@
 <h2 id="yaml-notes">YAML NOTES</h2>
 <ul>
   <li>easier to read than JSON data and allows comments (they can be used interchangeably)</li>
-  <li>2 types of data, both use indentation (spaces, not tabs) to separate parent and child
+  <li>2 types of data, both use indentation (double spaces, do not use tabs) to separate parent and child
     <ol>
       <li>yaml map: key/value pairs (a dictionary), can be nested, ex: name: budd
         <ul>
@@ -482,7 +482,7 @@
   <li>landing page before index with flashing/color warning?</li>
   <li>music player, keep player while changing page in iframe https://stackoverflow.com/questions/44778527/keep-playing-audio-when-changing-page</li>
   <li>toggle color theme? certain group of pages with colorful effects theme</li>
-  <li>fix code block styling</li>
+  <li>fix code inline/block styling</li>
   <li>reorganize scss, put variables in their own file to include in all stylesheets</li>
   <li>
     <p>hosted images are medium sized but highly compressed jpgs (10 on firealpaca, perhaps under 20kb)</p>
@@ -613,6 +613,8 @@
   </li>
   <li>when 3 periods are used in a YAML “” string and printed with a liquid variable, they don’t turn into ellipses</li>
   <li>css aspect-ratio: 1; can be combined with a defined width/height to create square images, useful for responsive/flex layout where fixed width/height would get messed up</li>
+  <li>for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p’s/lines, but if the for loop is in one line then it will print everything on the same line</li>
+  <li>values with multiple quotes will break the containing quotes, so if you’re using double quotes, surround with single quotes, and vice versa</li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>

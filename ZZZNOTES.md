@@ -190,7 +190,7 @@ title: zzznotes
 
 ## YAML NOTES
 - easier to read than JSON data and allows comments (they can be used interchangeably)
-- 2 types of data, both use indentation (spaces, not tabs) to separate parent and child
+- 2 types of data, both use indentation (double spaces, do not use tabs) to separate parent and child
   1. yaml map: key/value pairs (a dictionary), can be nested, ex: name: budd
     - mapping node: (recommended) each key has one value and order doesn't matter
     - mapping scalar: (maybe an array of strings?) each key can have multiple values and order matters
@@ -216,7 +216,7 @@ title: zzznotes
 - landing page before index with flashing/color warning?
 - music player, keep player while changing page in iframe https://stackoverflow.com/questions/44778527/keep-playing-audio-when-changing-page
 - toggle color theme? certain group of pages with colorful effects theme
-- fix code block styling
+- fix code inline/block styling
 - reorganize scss, put variables in their own file to include in all stylesheets
 - hosted images are medium sized but highly compressed jpgs (10 on firealpaca, perhaps under 20kb)
 
@@ -298,6 +298,8 @@ title: zzznotes
   - but in the end, i used a normal [] array, first item = name, second item = text
 - when 3 periods are used in a YAML "" string and printed with a liquid variable, they don't turn into ellipses
 - css aspect-ratio: 1; can be combined with a defined width/height to create square images, useful for responsive/flex layout where fixed width/height would get messed up
+- for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p's/lines, but if the for loop is in one line then it will print everything on the same line
+- values with multiple quotes will break the containing quotes, so if you're using double quotes, surround with single quotes, and vice versa
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

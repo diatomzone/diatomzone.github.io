@@ -48,7 +48,7 @@ html {
 body { // put overall styles here
   cursor: url("/assets/images/cursor.png"), default;
   // background-color: $colorbg;
-  background: linear-gradient(0deg, rgba(208,118,0,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 32%, rgba(0,126,206,1) 47%, rgba(58,78,159,1) 100%);
+  background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
   // background-image: url("/assets/images/tilenight.png");
   color: $colorwhite;
   font-family: 'Anonymous Pro', monospace;
@@ -250,6 +250,12 @@ img {
 //   // transform: rotate(10deg);
 //   transition: transform 0.1s;
 // }
+.emoji { // for both img and span
+  height: 1.4em;
+  img {
+    height: 1.4em;
+  }
+}
 ul { // for markdown again
   margin: calc(#{$elementmargin} / 2) 0 0 0;
   padding: 0 0 0 2em; // normally 40px
