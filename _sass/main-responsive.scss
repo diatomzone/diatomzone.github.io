@@ -1,0 +1,78 @@
+// sass that will be converted/imported into the built site's CSS hub styles.scss
+
+// RESPONSIVE CHANGES FOR NARROW SCREENS
+
+@media screen and (max-width: 700px) { // narrow screen
+
+  // MAIN ////////////////////////////////////////////////////////////////
+  body {
+    font-size: 140%; // sets base size for em to use
+  }
+  h1 {
+    font-size: 1.7em; // slightly smaller than it would be otherwise
+  }
+  h2 {
+    font-size: 1.3em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  h4, h5, h6 {
+    font-size: 1em;
+  }
+  ul { // for markdown again
+    padding: 0 0 0 1em; // normally 40+ px
+    li {
+      ul { // nested markdown lists create a new ul inside the previous li
+        // padding: 0 0 0 0.5em;
+      }
+    }
+  }
+  nav { // horizontal navbar
+    font-size: 1.2em;
+  }
+  div.buffer { // remove buffers
+    display: none;
+  }
+  div.container { // contains all layout elements
+    width: 100%;
+  }
+  div.flex {
+    flex-direction: column;
+  }
+  div.indexmain { // index main content
+    max-width: 100%;
+    margin: 0;
+  }
+  aside.indexside { // index side content, same properties as wiki infobox
+    max-width: 100%;
+    margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
+    flex-basis: 0; // initial length (height)
+    align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
+  }
+
+  // WIKI ////////////////////////////////////////////////////////////////
+  .wikibody {
+    order: 2;
+    max-width: 100%;
+    margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
+  }
+  aside.infobox { // wiki info box
+    order: 1;
+    max-width: 100%;
+    margin: 0;
+    flex-basis: 0; // initial length (height)
+    align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
+  }
+
+  // GALLERY ////////////////////////////////////////////////////////////////
+  .column { // gallery = 2 columns
+    flex: 50%;
+    max-width: 50%;
+    // flex: 100%; // 1 column
+    // max-width: 100%;
+  }
+  .galleryitem { // container for picture, overlay, and text
+    width: 100%;
+  }
+}

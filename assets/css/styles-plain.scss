@@ -2,7 +2,8 @@
 ---
 
 // CSS hub to list/organize CSS files
-// automatically generates into static site's styles-plain.css, which is a stylesheet used by layouts
+// automatically generates into static site's styles.css, which is the stylesheet used by layouts
+// import order matters, ex: put variables before they're called in the main
 
-// tell sass to look for a file called plain in /_sass
-@import "main-plain";
+@import "main-variables";
+@import "main-plain"; // tell sass to look for a file called plain in /_sass

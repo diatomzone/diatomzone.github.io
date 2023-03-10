@@ -1,4 +1,10 @@
 
+#### mar 09 2023
+
+- divided scss files, added background customization, organized images
+
+---
+
 #### mar 03-04 2023
 
 - minor styling, wikipage content, page content
@@ -7,7 +13,7 @@
 
 #### feb 28 2023
 
-- transfer oc battle dialogue, dialoguebox includes, wikipage listing images
+- transfered oc battle dialogue, dialoguebox includes, wikipage listing images
 
 ---
 

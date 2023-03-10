@@ -1,0 +1,9 @@
+# stores data for emojis, call with "site.data.emojis"
+
+enid: '<img src="/assets/images/emojis/enid.png" class="emoji" alt="enid emoji" title="enid emoji">'
+zenigata: '<img src="/assets/images/emojis/zenigata.png" class="emoji" alt="zenigata emoji" title="zenigata emoji">'
+loveimages: '<img src="/assets/images/emojis/loveimages.png" class="emoji" alt="loveimages emoji" title="loveimages emoji">'
+reigen: '<img src="/assets/images/emojis/reigen.png" class="emoji" alt="reigen emoji" title="reigen emoji">'
+shannon: '<img src="/assets/images/emojis/shannon.png" class="emoji" alt="shannon emoji" title="shannon emoji">'
+ungalo: '<img src="/assets/images/emojis/ungalo.png" class="emoji" alt="ungalo emoji" title="ungalo emoji">'
+evil: '<img src="/assets/images/emojis/evil.png" class="emoji" alt="evil emoji" title="evil emoji">'

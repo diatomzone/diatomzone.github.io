@@ -16,7 +16,13 @@
     </script>
   </head>
 
-  <body>
+  <body
+  {% if page.background %}
+    style="background:{{ site.data.backgrounds[page.background] }};"
+  {% else %}
+    style="background:{{ site.data.backgrounds.default }};"
+  {% endif %}
+  > <!-- customized background -->
     <div class="buffer"></div>
     <div class="container"> <!-- full layout -->
       {% include header.html %}

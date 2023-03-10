@@ -1,0 +1,19 @@
+# stores data for emojis, call with "site.data.backgrounds"
+# gradients count as background-image, but you can also use the shorthand background for multiple types
+
+default: "linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%)"
+
+sky: "linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%)"
+
+basic: "rgb(26,28,43)" # $colorbg
+turquoise: "turquoise"
+yellow: "orange" # $coloryellow
+
+# images only work if entry is surrounded by "" and url is surrounded by '', not the other way around
+tilesea: "url('/assets/images/backgrounds/tilesea.png')"
+tilenight: "url('/assets/images/backgrounds/tilenight.png')"
+tileflame: "url('/assets/images/backgrounds/tileflame.png')"
+
+cursor: "url('/assets/images/cursor.png')"
+explosion: "url('/assets/images/gifs/explosion.gif')"
+zenigata: "url('/assets/images/emojis/zenigata.png')"

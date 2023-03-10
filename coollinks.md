@@ -1,5 +1,6 @@
 ---
 title: cool links
+background: basic
 
 linklists:
   web building:

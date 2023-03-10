@@ -1,43 +1,6 @@
 // sass that will be converted/imported into the built site's CSS hub styles.scss
 
-// SET SCSS VARIABLES /////////////////////////////////////////////////////////////////////////////
-// $relativeurl: "/baseurl"; // for when it unfortunately needs to be hardcoded
-$gapheight: 30px; // spacing between main layout elements
-$boxpadding: 20px; // padding for containers
-$elementmargin: 30px; // spacing for contained elements, ex: h1 or p
-
-$colorbg: rgb(26,28,43);
-$colorbox1: rgb(44,52,67);
-$colorbox2: rgb(53,78,81);
-$colorbox3: rgb(47,98,81);
-$colorwhite: rgb(235,231,214);
-
-$colorred: rgb(255,94,126);
-$colororange: coral;
-$coloryellow: orange;
-$colorgreen: rgb(127,217,68);
-$colorblue: rgb(77, 198, 255);
-$colorpurple: plum;
-
-// SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
-// $colortoggle: true;
-$colortoggle: false;
-
-@mixin replace-bgcolor($localcolor, $colortoggle) {
-  @if $colortoggle {
-    background-color: $localcolor; // use given color when toggle is on
-  } @else {
-    background-color: transparent; // default color when toggle is off
-  }
-}
-
-// FONTS /////////////////////////////////////////////////////////////////////////////
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@font-face { // set custom font
-  font-family: myfont;
-  src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl
-}
+// ELEMENT STYLES
 
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
@@ -45,11 +8,12 @@ html {
   height: 100%; // full screen, base for other adjustments including background
   scroll-behavior: smooth; // for jumping between anchors (must be in html section)
 }
-body { // put overall styles here
+body { // put overall styles here (gradients count as background-image)
   cursor: url("/assets/images/cursor.png"), default;
-  // background-color: $colorbg;
-  background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
-  // background-image: url("/assets/images/tilenight.png");
+  // backgrounds controlled by default layout/page.background/data.backgrounds presets
+  // background: $colorbg;
+  // background: url("/assets/images/tilenight.png");
+  // background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
   color: $colorwhite;
   font-family: 'Anonymous Pro', monospace;
   font-size: 118%; // sets base size for em to use
@@ -498,85 +462,4 @@ aside.infobox { // wiki info box
   -ms-transform: translate(-50%, -50%); // internet explorer
   text-align: center;
   width: 80%;
-}
-
-// RESPONSIVE SIDENAV /////////////////////////////////////////////////////////////////////////////
-
-// @media screen and (max-width: 900px) { // medium screen
-//   .column { // gallery = 2 columns
-//   flex: 50%;
-//   max-width: 50%;
-//   }
-// }
-
-@media screen and (max-width: 700px) { // narrow screen
-  // MAIN ////////////////////////////////////////////////////////////////
-  body {
-    font-size: 140%; // sets base size for em to use
-  }
-  h1 {
-    font-size: 1.7em; // slightly smaller than it would be otherwise
-  }
-  h2 {
-    font-size: 1.3em;
-  }
-  h3 {
-    font-size: 1.1em;
-  }
-  h4, h5, h6 {
-    font-size: 1em;
-  }
-  ul { // for markdown again
-    padding: 0 0 0 1em; // normally 40+ px
-    li {
-      ul { // nested markdown lists create a new ul inside the previous li
-        // padding: 0 0 0 0.5em;
-      }
-    }
-  }
-  nav { // horizontal navbar
-    font-size: 1.2em;
-  }
-  div.buffer { // remove buffers
-    display: none;
-  }
-  div.container { // contains all layout elements
-    width: 100%;
-  }
-  div.flex {
-    flex-direction: column;
-  }
-  div.indexmain { // index main content
-    max-width: 100%;
-    margin: 0;
-  }
-  aside.indexside { // index side content, same properties as wiki infobox
-    max-width: 100%;
-    margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
-    flex-basis: 0; // initial length (height)
-    align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
-  }
-  // WIKI ////////////////////////////////////////////////////////////////
-  .wikibody {
-    order: 2;
-    max-width: 100%;
-    margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
-  }
-  aside.infobox { // wiki info box
-    order: 1;
-    max-width: 100%;
-    margin: 0;
-    flex-basis: 0; // initial length (height)
-    align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
-  }
-  // GALLERY ////////////////////////////////////////////////////////////////
-  .column { // gallery = 2 columns
-    flex: 50%;
-    max-width: 50%;
-    // flex: 100%; // 1 column
-    // max-width: 100%;
-  }
-  .galleryitem { // container for picture, overlay, and text
-    width: 100%;
-  }
 }

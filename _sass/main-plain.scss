@@ -1,44 +1,5 @@
 // sass that will be converted/imported into the built site's CSS hub styles.scss
 
-// SET SCSS VARIABLES /////////////////////////////////////////////////////////////////////////////
-// $relativeurl: "/baseurl"; // for when it unfortunately needs to be hardcoded
-$gapheight: 30px; // spacing between main layout elements
-$boxpadding: 20px; // padding for containers
-$elementmargin: 30px; // spacing for contained elements, ex: h1 or p
-
-$colorbg: rgb(26,28,43);
-$colorbox1: rgb(44,52,67);
-$colorbox2: rgb(53,78,81);
-$colorbox3: rgb(47,98,81);
-$colorwhite: rgb(235,231,214);
-
-$colorred: rgb(255,94,126);
-$colororange: coral;
-$coloryellow: orange;
-$colorgreen: rgb(127,217,68);
-$colorblue: rgb(77, 198, 255);
-$colorpurple: plum;
-
-// SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
-// $colortoggle: true;
-$colortoggle: false;
-
-@mixin replace-bgcolor($localcolor, $colortoggle) {
-  @if $colortoggle {
-    background-color: $localcolor; // use given color when toggle is on
-  } @else {
-    background-color: transparent; // default color when toggle is off
-  }
-}
-
-// FONTS /////////////////////////////////////////////////////////////////////////////
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@font-face { // set custom font
-  font-family: myfont;
-  src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl
-}
-
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
   cursor: url("/assets/images/cursor.png"), default; // added because body is not full height in main_plain.scss

@@ -122,6 +122,7 @@ title: zzznotes
   - `<video controls><source src="https://va.media.tumblr.com/tumblr_r9pc62fPSM1wrmzr9_720.mp4" type="video/mp4">(audio player not supported)</video>`
 - audio
   - `<audio controls><source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg">(audio player not supported)</audio>`
+- can't change background-image opacity without affecting children, according to article
 
 ## ACCESSIBILITY
 - `img template: <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">`
@@ -233,6 +234,9 @@ title: zzznotes
   - write pages
   - organize zzznotes
   - mystuff category
+  - redo landing page and stylesheet
+  - move emojis and custom page bgs to custom data file
+  - update landing gradient
 
 ## SITEBUILDING RULES
 - margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin
@@ -300,6 +304,7 @@ title: zzznotes
 - css aspect-ratio: 1; can be combined with a defined width/height to create square images, useful for responsive/flex layout where fixed width/height would get messed up
 - for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p's/lines, but if the for loop is in one line then it will print everything on the same line
 - values with multiple quotes will break the containing quotes, so if you're using double quotes, surround with single quotes, and vice versa
+- includes won't work if within a html tag's <>
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

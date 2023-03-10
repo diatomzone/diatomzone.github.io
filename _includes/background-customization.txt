@@ -1,0 +1,7 @@
+<!-- background customization source code -->
+
+{% if page.background %}
+  style="{{ site.data.backgrounds[page.background] }}"
+{% else %}
+  style="{{ site.data.backgrounds.default }}"
+{% endif %}

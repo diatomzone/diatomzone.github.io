@@ -16,7 +16,13 @@
     </script>
   </head>
 
-  <body>
+  <body
+  {% if page.background %}
+    style="{{ site.data.backgrounds[page.background] }}"
+  {% else %}
+    style="{{ site.data.backgrounds.default }}"
+  {% endif %}
+  > <!-- customized background -->
     {% if page.url != "/" %}
       <h3>{{ page.title }}</h3>
     {% endif %}

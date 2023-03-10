@@ -3,6 +3,8 @@
 
 // CSS hub to list/organize CSS files
 // automatically generates into static site's styles.css, which is the stylesheet used by layouts
+// import order matters, ex: put variables before they're called in the main
 
-// tell sass to look for a file called main.scss in /_sass
-@import "main";
+@import "main-variables";
+@import "main"; // tell sass to look for a file called main.scss in /_sass
+@import "main-responsive";

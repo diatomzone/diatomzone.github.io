@@ -16,7 +16,7 @@ layout: default
   </ul>
 </div>
 
-{% for wikicategory in site.data.wikicategories %} <!-- open data list -->
+{% for wikicategory in site.data.wikicategories %} <!-- open _data list -->
   <h2 id="{{ wikicategory }}">{{ wikicategory }}</h2>
   {% for item in site[page.listcategory] %} <!-- "wikipages" accesses _wikipages collection -->
     {% if item.path contains wikicategory %}

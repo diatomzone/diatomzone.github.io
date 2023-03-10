@@ -1,5 +1,6 @@
 ---
 title: most influential discord emojis
+background: zenigata
 emojiheight: 4em
 
 emojilist:
@@ -21,7 +22,7 @@ emojilist:
 ---
 
 here is a collection/safekeeping of the top emojis i wish i could use on every platform
-{{ site.emojis.zenigata }} {{ site.emojis.zenigata }}
+{{ site.data.emojis.zenigata }} {{ site.data.emojis.zenigata }}
 
 names in hovertext!
 

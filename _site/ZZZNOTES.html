@@ -14,7 +14,11 @@
     </script>
   </head>
 
-  <body>
+  <body
+  
+    style="background:linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);"
+  
+  > <!-- customized background -->
     <div class="buffer"></div>
     <div class="container"> <!-- full layout -->
       <!-- header source code -->
@@ -32,35 +36,35 @@
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/about.html" >
       about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/articles.html" >
       articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/wikipages.html" >
       wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/mystuff.html" >
       mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/coollinks.html" >
@@ -328,6 +332,7 @@
       <li><code class="language-plaintext highlighter-rouge">&lt;audio controls&gt;&lt;source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg"&gt;(audio player not supported)&lt;/audio&gt;</code></li>
     </ul>
   </li>
+  <li>can’t change background-image opacity without affecting children, according to article</li>
 </ul>
 
 <h2 id="accessibility">ACCESSIBILITY</h2>
@@ -509,6 +514,9 @@
       <li>write pages</li>
       <li>organize zzznotes</li>
       <li>mystuff category</li>
+      <li>redo landing page and stylesheet</li>
+      <li>move emojis and custom page bgs to custom data file</li>
+      <li>update landing gradient</li>
     </ul>
   </li>
 </ul>
@@ -615,6 +623,7 @@
   <li>css aspect-ratio: 1; can be combined with a defined width/height to create square images, useful for responsive/flex layout where fixed width/height would get messed up</li>
   <li>for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p’s/lines, but if the for loop is in one line then it will print everything on the same line</li>
   <li>values with multiple quotes will break the containing quotes, so if you’re using double quotes, surround with single quotes, and vice versa</li>
+  <li>includes won’t work if within a html tag’s &lt;&gt;</li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>
@@ -709,35 +718,35 @@
       home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/about.html" >
       about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/articles.html" >
       articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/wikipages.html" >
       wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/mystuff.html" >
       mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
     </a>
      <!-- add image after every link except last -->
-      <img src="/assets/images/explosion.gif" alt="" title="explosion gif">
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
     
   
     <a href="/coollinks.html" >
@@ -750,7 +759,7 @@
       <!-- footer source code -->
 <footer>
   <a href="/home.html"> <!-- link to home page -->
-    <img src="/assets/images/graphicdesign.png" alt="graphic design button" title="graphic design button">
+    <img src="/assets/images/buttons/graphicdesign.png" alt="graphic design button" title="graphic design button">
   </a>
 </footer>
 
