@@ -27,13 +27,19 @@ linklists:
     - name: shrink page margins
       url: https://stackoverflow.com/questions/67858284/how-to-have-one-item-shrink-fully-before-another-starts-to-shrink
       description: buffers disappear before page content is affected
+    - name: css gradient
+      url: https://cssgradient.io/
+      description: a nice css gradient maker
+    - name: styling unordered/ordered list items
+      url: https://web.dev/css-marker-pseudo-element/
+      description: i was havin trouble with nested lists
 ---
 
 ## this site
 
 welcome to my first website that actually works! i'm still experimenting with the setup, so stuff might move around.
 
-i'll be using this place to consolidate all sorts of things including information about my ocs, computer-related projects like twine games and sitebuilding notes, images, and maybe even some art!
+i'll be using this place to consolidate all sorts of things including information about my ocs, computer-related projects like twine games and sitebuilding notes, important images, and maybe even some art!
 
 ## websites
 

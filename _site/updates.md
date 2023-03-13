@@ -1,4 +1,11 @@
 
+#### mar 11-12 2023
+
+- unordered/ordered list fixes and marker styling, minor dialoguebox organization, adjusted/matched line/emoji height and element top/bottom margins, fixed article excerpt newline erasure
+- started shiny coding notes, codingnotes and webtips
+
+---
+
 #### mar 09 2023
 
 - divided scss files, added background customization, organized images

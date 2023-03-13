@@ -20,10 +20,10 @@
   h4, h5, h6 {
     font-size: 1em;
   }
-  ul { // for markdown again
-    padding: 0 0 0 1em; // normally 40+ px
+  ul, ol { // for markdown again
+    padding: 0 0 0 1.6em; // normally 40+ px
     li {
-      ul { // nested markdown lists create a new ul inside the previous li
+      ul, ol { // nested markdown lists create a new ul inside the previous li
         // padding: 0 0 0 0.5em;
       }
     }

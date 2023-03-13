@@ -195,7 +195,7 @@ dialogue:
       - [madd-millennium, "we both know the answer to that."]
 ---
 
-some pre-fight dialogue that could happen if the EPIPHANY OF ORB and CANYON CROSSORADS gangs were in a crossover fighting game together :^]
+some pre-fight dialogue that could happen if characters from EPIPHANY OF ORB and CANYON CROSSORADS were in a crossover fighting game together :^]
 
 categorized by player 1. (some matchups tbd)
 

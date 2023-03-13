@@ -2,7 +2,7 @@
 title: zzznotes
 ---
 
-{% raw %} <!-- prevents code from being read -->
+{% raw %} <!-- prevents liquid code from being read -->
 
 ## PROJECT INFO
 - site new url
@@ -10,19 +10,19 @@ title: zzznotes
   - public repository, as private repository disables github pages
 - no posts or production build, just normal and collection pages
 - no spaces in filenames (standard practice + breaks navigation highlighting)
-- use relative_url filter instead of site.baseurl, fewer moving parts
-  - {{ "/about.html" | relative_url }}
-  - [description]({{ '/about.html' | relative_url }})
+- use `relative_url` filter instead of `site.baseurl`, fewer moving parts
+  - `{{ "/about.html" | relative_url }}`
+  - `[description]({{ '/about.html' | relative_url }})`
   - list of hardcoded /baseurl
     - main.scss custom font import
     - main.scss background-image  
 
 ## NEWNOTES: NO BASEURL
 - scss
-  - retain url in quotes
-    - `src: url("/assets/fonts/fullfont.ttf");`
+  - retain url in single quotes (in case it needs to be used in YAML, which requires double quotes on the outside)
+    - `"src: url('/assets/fonts/fullfont.ttf');"`
 - html
-  - extract url from liquid filter
+  - can remove liquid filter
     - `<link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png">`
 
 ---
@@ -54,7 +54,7 @@ title: zzznotes
 - url vs. baseurl https://mademistakes.com/mastering-jekyll/site-url-baseurl/
   - both are site-wide variables set in config, do not include trailing /'s
   - url: site's full url (https://diatomzone.github.io)
-  - baseurl: subdirectory the site is served from (/baseurl), recommended for when you have subdomains like github project sites
+  - baseurl: subdirectory the site is served from (/baseurl), recommended for when you have subdirectories like github project sites
   - page url: everything after base url (/about.html)
 - no way to automatically prepend baseurl to all site links...
 - links: prepend {{ site.baseurl }} or use {{ "/about.html" | relative_url }} filter
@@ -230,13 +230,14 @@ title: zzznotes
     - will only be the size of the iframe container (tried to make a height=100%; sidebar with a de-styled iframe, but it doesn't work because the flex stuff interferes i think)
   - conclusion: iframe sizing is not flexible so i'm going back to old html version for now
 
-- CURRENT
+- CURRENT TASKS
   - write pages
   - organize zzznotes
   - mystuff category
-  - redo landing page and stylesheet
-  - move emojis and custom page bgs to custom data file
-  - update landing gradient
+  - redo landing page and its stylesheet more logically
+  - folder order wikipages
+  - fix code block styling (change to pre tag?)
+  - STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY
 
 ## SITEBUILDING RULES
 - margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin
@@ -305,6 +306,15 @@ title: zzznotes
 - for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p's/lines, but if the for loop is in one line then it will print everything on the same line
 - values with multiple quotes will break the containing quotes, so if you're using double quotes, surround with single quotes, and vice versa
 - includes won't work if within a html tag's <>
+- zzznotes and codingnotes which use raw/endraw tags will bring up warnings about "a Liquid block containing the exceprt separator "\n\n"", which is used in jekyll posts to define excerpt cutoffs, i'm just ignoring it
+- markdown nested lists: unordered lists CAN work with just one indent (2 spaces) but ordered lists require 2 indents (4 spaces) as is the norm
+- how to separate lists/prevent them from combining: add a line with an empty comment `<!-- -->`
+- list default bullet vs. text
+  - the heights of bullet markers and text markers are the same, even if the widths are different
+  - yet somehow it seems the differently sized bullet throws off the height of the actual list item content
+  - so i changed the default bullet to a text "*  " which is 3 monospaced spaces just like "1) "
+  - content: "• ";  unicode default bullet U+2022 will work correctly, but having no styling/the real default bullet will throw off the height
+- jekyll collection subfolder order (alphabetical) will dictate the order of printed collection items, great for reordering wikilisting items
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

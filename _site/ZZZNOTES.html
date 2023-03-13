@@ -78,7 +78,7 @@
         <div class="flex">
           <div class="indexmain"> <!-- main -->
             <h1>zzznotes</h1>
-            <p><!-- prevents code from being read --></p>
+            <p><!-- prevents liquid code from being read --></p>
 
 <h2 id="project-info">PROJECT INFO</h2>
 <ul>
@@ -90,28 +90,10 @@
   </li>
   <li>no posts or production build, just normal and collection pages</li>
   <li>no spaces in filenames (standard practice + breaks navigation highlighting)</li>
-  <li>use relative_url filter instead of site.baseurl, fewer moving parts
+  <li>use <code class="language-plaintext highlighter-rouge">relative_url</code> filter instead of <code class="language-plaintext highlighter-rouge">site.baseurl</code>, fewer moving parts
     <ul>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>{{ “/about.html”</td>
-              <td>relative_url }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>[description]({{ ‘/about.html’</td>
-              <td>relative_url }})</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
+      <li><code class="language-plaintext highlighter-rouge">{{ "/about.html" | relative_url }}</code></li>
+      <li><code class="language-plaintext highlighter-rouge">[description]({{ '/about.html' | relative_url }})</code></li>
       <li>list of hardcoded /baseurl
         <ul>
           <li>main.scss custom font import</li>
@@ -126,16 +108,16 @@
 <ul>
   <li>scss
     <ul>
-      <li>retain url in quotes
+      <li>retain url in single quotes (in case it needs to be used in YAML, which requires double quotes on the outside)
         <ul>
-          <li><code class="language-plaintext highlighter-rouge">src: url("/assets/fonts/fullfont.ttf");</code></li>
+          <li><code class="language-plaintext highlighter-rouge">"src: url('/assets/fonts/fullfont.ttf');"</code></li>
         </ul>
       </li>
     </ul>
   </li>
   <li>html
     <ul>
-      <li>extract url from liquid filter
+      <li>can remove liquid filter
         <ul>
           <li><code class="language-plaintext highlighter-rouge">&lt;link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"&gt;</code></li>
         </ul>
@@ -200,7 +182,7 @@
     <ul>
       <li>both are site-wide variables set in config, do not include trailing /’s</li>
       <li>url: site’s full url (https://diatomzone.github.io)</li>
-      <li>baseurl: subdirectory the site is served from (/baseurl), recommended for when you have subdomains like github project sites</li>
+      <li>baseurl: subdirectory the site is served from (/baseurl), recommended for when you have subdirectories like github project sites</li>
       <li>page url: everything after base url (/about.html)</li>
     </ul>
   </li>
@@ -509,14 +491,15 @@
       <li>conclusion: iframe sizing is not flexible so i’m going back to old html version for now</li>
     </ul>
   </li>
-  <li>CURRENT
+  <li>CURRENT TASKS
     <ul>
       <li>write pages</li>
       <li>organize zzznotes</li>
       <li>mystuff category</li>
-      <li>redo landing page and stylesheet</li>
-      <li>move emojis and custom page bgs to custom data file</li>
-      <li>update landing gradient</li>
+      <li>redo landing page and its stylesheet more logically</li>
+      <li>folder order wikipages</li>
+      <li>fix code block styling (change to pre tag?)</li>
+      <li>STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY</li>
     </ul>
   </li>
 </ul>
@@ -624,6 +607,18 @@
   <li>for loops printing yaml maps: if the for loop is nested normally on separate lines it will print the items in separate p’s/lines, but if the for loop is in one line then it will print everything on the same line</li>
   <li>values with multiple quotes will break the containing quotes, so if you’re using double quotes, surround with single quotes, and vice versa</li>
   <li>includes won’t work if within a html tag’s &lt;&gt;</li>
+  <li>zzznotes and codingnotes which use raw/endraw tags will bring up warnings about “a Liquid block containing the exceprt separator “\n\n””, which is used in jekyll posts to define excerpt cutoffs, i’m just ignoring it</li>
+  <li>markdown nested lists: unordered lists CAN work with just one indent (2 spaces) but ordered lists require 2 indents (4 spaces) as is the norm</li>
+  <li>how to separate lists/prevent them from combining: add a line with an empty comment <code class="language-plaintext highlighter-rouge">&lt;!-- --&gt;</code></li>
+  <li>list default bullet vs. text
+    <ul>
+      <li>the heights of bullet markers and text markers are the same, even if the widths are different</li>
+      <li>yet somehow it seems the differently sized bullet throws off the height of the actual list item content</li>
+      <li>so i changed the default bullet to a text “*  “ which is 3 monospaced spaces just like “1) “</li>
+      <li>content: “• “;  unicode default bullet U+2022 will work correctly, but having no styling/the real default bullet will throw off the height</li>
+    </ul>
+  </li>
+  <li>jekyll collection subfolder order (alphabetical) will dictate the order of printed collection items, great for reordering wikilisting items</li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>

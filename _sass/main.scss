@@ -4,7 +4,7 @@
 
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
-  background-color: turquoise; // color behind desktop scrollbar when body uses background-color
+  background: $colorbg; // color sometimes shows behind desktop scrollbar
   height: 100%; // full screen, base for other adjustments including background
   scroll-behavior: smooth; // for jumping between anchors (must be in html section)
 }
@@ -39,15 +39,19 @@ div.flex {
   display: flex;
   flex-direction: row;
 }
+div.flexcentered { // use in conjunction with normal .flex
+  justify-content: center;
+  align-items: center;
+}
 div.centered { // to contain images etc.
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
   text-align: center;
 }
 div { // markdown does not generate divs as far as i can tell
 
 }
 main { // main layout element, contains page content in indexmain (and indexside)
-  background-color: $colorbox1;
+  background: $colorbox1;
   max-width: 100%;
   margin-top: $gapheight;
   padding: $boxpadding;
@@ -65,7 +69,7 @@ div.indexmain { // main content
   flex-grow: 1; // does grow
 }
 aside.indexside { // side content (index only), same properties as wiki infobox except it doesn't change to order: 1; (element properties apply to things outside of iframe)
-  background-color: $colorbox2;
+  background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
@@ -76,30 +80,30 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   align-self: flex-start; // align to top of container (default is stretch)
   h3:first-child, p:first-child { // whichever is first, remove the top margin (, = or)
     margin-top: 0;
-    // background-color: red;
+    // background: red;
   }
 }
 div.shortbox { // for update log, same padding as wikibox, include markdown="1"
-  background-color: $colorbg;
+  background: $colorbg;
   max-height: 8em; // changes with font-size defined in body
   overflow-y: scroll; // vertical scrollbar always shown
   padding: calc(#{$boxpadding} / 2);
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
-  h4, ul, li {
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
+  h4, ul, ol, li {
     margin: 0;
   }
   hr {
-    margin: calc(#{$elementmargin} / 2) auto;
+    margin: calc(#{$elementmargintb} / 2) auto;
   }
 }
 div.directory { // same padding as wikibox
-  background-color: $colorbox2;
+  background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
   h4 {
     margin-top: 0;
   }
-  ul {
+  ul, ol {
     margin: 0;
     li {
       margin: 0;
@@ -107,35 +111,37 @@ div.directory { // same padding as wikibox
   }
 }
 div.dialoguebox { // same padding as wikibox
-  background-color: $colorbox2;
+  background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
-  margin: calc(#{$elementmargin} / 4) 0 0 0;
-    img {
-    // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
-    aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
-    object-fit: cover; // crop image to fill area
-  }
-  p, h4 {
-    margin: 0 0 0 calc(#{$elementmargin} / 4); // for some reason without this, flexitem p will be vertically aligned to middle
-    // align-self: flex-start; // align to top of container (default is stretch)
+  margin: calc(#{$elementmargintb} / 4) 0 0 0;
+  img {
+  // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
+  aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
+  object-fit: cover; // crop image to fill area
   }
   div.dialogueflex { // for img and p
-    // background-color: navy;
+    // background: navy;
     display: flex;
     flex-direction: row;
-    margin: calc(#{$elementmargin} / 4) 0 0 0;
+    margin: calc(#{$elementmargintb} / 4) 0 0 0;
+    div {
+      margin: 0 0 0 0.5em;
+      p {
+        margin: 0;
+      }
+    }
   }
   div.dialogueflex:first-child {
     margin-top: 0;
   }
 }
 div.iframecontainer { // for normal iframes
-  // background-color: yellow;
+  // background: yellow;
   position: relative; // must be relative for iframe absolute position to work
   overflow: hidden;
   width: 100%; // full width of container, height is 0
   padding-top: 56.25%; // 16:9 ratio. 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
-  margin: calc(#{$elementmargin} / 2) auto 0 auto;
+  margin: calc(#{$elementmargintb} / 2) auto 0 auto;
 }
 
 // MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
@@ -146,41 +152,40 @@ h1 {
   font-size: 2.2em;
   text-align: center;
   // display: inline-block;
-  margin: 0 0 calc(#{$elementmargin} / 2) 0;
-  // padding: calc(#{$elementmargin} / 4) $elementmargin calc(#{$elementmargin} / 4) $elementmargin;
+  margin: 0 0 calc(#{$elementmargintb} / 1.5) 0;
   padding: 0;
 }
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colororange;
   font-size: 1.6em;
-  // margin: calc(#{$elementmargin} / 1) 0;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  // margin: calc(#{$elementmargintb} / 1) 0;
+  margin: calc(#{$elementmargintb} / 1.5) 0 0 0;
 }
 h3 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colorblue;
   font-size: 1.3em;
-  // margin: calc(#{$elementmargin} / 1) 0 calc(#{$elementmargin} / 4) 0;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 h4, h5, h6 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colorpurple;
   font-size: 1.15em;
-  // margin: calc(#{$elementmargin} / 1) 0 calc(#{$elementmargin} / 4) 0;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p { // markdown turns lines (including images) into p
   @include replace-bgcolor($colorbox2, $colortoggle);
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
+}
+p, li { // line height of normal text
+  line-height: $lineheight;
 }
 a {
   @include replace-bgcolor($colorbg, $colortoggle);
   cursor: url("/assets/images/cursor.png"), default;
   color: $colorgreen;
   text-decoration: none;
-  // margin: calc(#{$elementmargin} / 2) 0 0 0; // BREAKS SKIP TO CONTENT BUTTON
 }
 a:link { // :link = pseudoclass unvisited
  color: $colorgreen;
@@ -195,11 +200,11 @@ a:active { // :active = pseudoclass being clicked
  color: $coloryellow;
 }
 span.spoilered {
-  background-color: $colorbox3;
+  background: $colorbox3;
   color: transparent;
 }
 span.spoilered:hover {
-  background-color: transparent;
+  background: transparent;
   color: inherit;
   transition: 0.2s;
 }
@@ -215,19 +220,23 @@ img {
 //   transition: transform 0.1s;
 // }
 .emoji { // for both img and span
-  height: 1.4em;
+  height: $lineheight;
   img {
-    height: 1.4em;
+    height: $lineheight;
   }
 }
-ul { // for markdown again
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+ul, ol { // for markdown again
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
   padding: 0 0 0 2em; // normally 40px
   li {
-    margin: calc(#{$elementmargin} / 4) 0 0 0; // just for normal li's, no effect on listing template due to large h3 margin
-    ul { // nested markdown lists create a new ul inside the previous li
+    @include replace-bgcolor($colorbox2, $colortoggle);
+    margin: calc(#{$elementmargintb} / 4) 0 0 0;
+    ul, ol { // nested markdown lists create a new ul inside the previous li
       margin: 0;
       padding: 0 0 0 1em; // normally 40px
+      li { // just for colortoggle visibility
+        @include replace-bgcolor($colorbox3, $colortoggle);
+      }
     }
     p {
       margin: 0;
@@ -235,22 +244,56 @@ ul { // for markdown again
     }
   }
 }
+ul.listdefault, ol.listdefault { // for demonstration in sitefeatures
+  ::marker {
+    content: normal;
+  }
+}
+ul { // unordered list marker styling
+  ::marker { // 1st+ level ul
+    // content: "•  "; // customized default bullet
+    // content: "🟊 "; // custom bullet
+    content: "*  "; // custom bullet
+    color: $colorpurple;
+  }
+  ul {
+    ::marker { // 2nd+ level ul
+      content: "~  "; // custom bullet
+    }
+  }
+}
+ol { // ordered list marker styling
+  ::marker { // 1st+ level ol
+     content: counter(list-item)") ";
+     color: $colorpurple;
+  }
+  ul {
+    ::marker { // 2nd+ level ul
+      content: "~  ";
+    }
+    ol {
+      ::marker { // 3rd+ level ol
+         content: counter(list-item)") ";
+      }
+    }
+  }
+}
 hr { // divider
   width: 80%;
   border: 1.5px solid $colorblue;
   // border-radius: 20px;
-  margin: calc(#{$elementmargin} / 1) auto;
+  margin: calc(#{$elementmargintb} / 1) auto;
 }
 audio {
   // cursor: url("/assets/images/cursor.png"), default;
   vertical-align: bottom; // has gap like img, audio player displays as inline by default
   max-width: 100%;
   border-radius: 100px;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 video {
   max-width: 100%;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 iframe { // overlaps the full area of iframe container
   position: absolute;
@@ -266,16 +309,20 @@ iframe { // overlaps the full area of iframe container
   border: none;
 }
 code { // for code, some people wrap <pre> around <code>
-  background-color: teal;
-  color: white;
+  // i think the "preserve formatting" and "contain and add scrollbar" are conflicting for code blocks
+  background: black;
+  color: $colorblue;
+  font-family: 'Anonymous Pro', monospace;
   display: inline; // default
-  max-width: 100%;
+  // display: inline-block; // for code block
+  // max-width: 100%;
+  white-space: break-spaces; // break lines as necessary, preserve whitespace even at end of line
   // width: fit-content;
-  word-wrap: break-word;
+  // word-wrap: break-word;
   // overflow: auto;
   // overflow-x: scroll;
-  // padding: calc(#{$elementmargin} / 2);
-  // margin: calc(#{$elementmargin} / 2) 0 0 0;
+  padding: 0 0.2em;
+  // margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 .borderimg {
   border: 10px solid transparent;
@@ -285,7 +332,7 @@ code { // for code, some people wrap <pre> around <code>
 
 // HEADER, FOOTER, NAVIGATION /////////////////////////////////////////////////////////////////////////////
 header {
-  background-color: $colorbox1;
+  background: $colorbox1;
   max-width: 100%;
   height: 100px;
   text-align: center;
@@ -298,7 +345,7 @@ header {
     // margin: auto; // center
   }
   .skip-to-content-button {
-    background-color: $colorbox1;
+    background: $colorbox1;
     position: absolute;
     top: 0;
     left: 50%;
@@ -310,14 +357,14 @@ header {
   }
 }
 footer {
-  background-color: $colorbox1;
+  background: $colorbox1;
   max-width: 100%;
   text-align: center;
   margin-top: $gapheight;
   box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
 }
 nav { // horizontal navbar
-  background-color: $colorbox2;
+  background: $colorbox2;
   font-size: 1.3em;
   max-width: 100%;
   margin-top: $gapheight;
@@ -353,11 +400,11 @@ nav { // horizontal navbar
   flex-grow: 1; // does grow
   h2:first-child, p:first-child { // whichever is first, remove the top margin (, = or)
     margin-top: 0;
-    // background-color: red;
+    // background: red;
   }
 }
 aside.infobox { // wiki info box
-  background-color: $colorbox2;
+  background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center; // center small image
@@ -372,23 +419,24 @@ aside.infobox { // wiki info box
   }
   img {
     // max-width: 100%; // now under normal img
-    margin: calc(#{$elementmargin} / 4) 0 0 0;
+    margin: calc(#{$elementmargintb} / 4) 0 0 0;
   }
   section {
     margin: 0;
   }
   .category { // category label
-    background-color: $colorbox3;
+    background: $colorbox3;
     font-weight: bold;
     color: $coloryellow;
-    margin: calc(#{$elementmargin} / 4) 0 0 0;
+    margin: calc(#{$elementmargintb} / 4) 0 0 0;
   }
-  .entry{ // entry
+  .entry{ // entry contains key and value
     display: flex;
     text-align: left;
     margin: 0; // taken care of by <p> margin-top
     p {
-      margin: calc(#{$elementmargin} / 4) 0 0 0;
+      margin: calc(#{$elementmargintb} / 4) 0 0 0;
+      line-height: normal;
     }
   }
   .key {
@@ -400,8 +448,8 @@ aside.infobox { // wiki info box
   .value {
     @include replace-bgcolor($colorbg, $colortoggle);
     width: 60%;
-    // background-color: navy;
-    padding: 0 0 0 calc(#{$elementmargin} / 4); // in addition to width. margin doesn't work due to width percentages
+    // background: navy;
+    padding: 0 0 0 0.3em; // detracts from both key and value width. margin doesn't work due to width percentages
   }
 }
 
@@ -440,7 +488,7 @@ aside.infobox { // wiki info box
   align-self: center;
 }
 .galleryoverlay { // overlay
-  background-color: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.5);
   opacity: 0;
   position: absolute;
   top: 0;

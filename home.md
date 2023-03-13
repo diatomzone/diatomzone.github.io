@@ -20,6 +20,8 @@ please find the site navigation conveniently located at the top and bottom of ea
   <img src="{{ '/assets/images/buttons/kriswtf.png' | relative_url }}" alt="kris where tf are we button" title="kris where tf are we button">
 </div>
 
+(site button coming soon)
+
 ## devlinks
 
 - [zzznotes](/ZZZNOTES.html)

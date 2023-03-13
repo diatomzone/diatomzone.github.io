@@ -85,8 +85,49 @@
 
 <ul>
   <li>when resizing the browser, page content will not shrink until margins disappear</li>
-  <li>no extra space at top or bottom of containers – elements run flush with padding</li>
+  <li>no extra space at top or bottom of containers – elements run flush with padding (SPACING IS THE #1 GRIPE EVER)</li>
+  <li>customized unordered and ordered list markers (bullets) so list items have the same height (WHY ARE THEY DIFFERENT <img src="/assets/images/emojis/ungalo.png" class="emoji" alt="ungalo emoji" title="ungalo emoji" />)</li>
 </ul>
+
+<div class="flex flexcentered">
+<div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
+<div style="padding:0 0.5em;">
+      <ul>
+        <li>ITEM</li>
+        <li>ITEM</li>
+        <li>ITEM</li>
+        <li>ITEM</li>
+      </ul>
+    </div>
+<div style="padding:0 0.5em;">
+      <ol>
+        <li>ITEM</li>
+        <li>ITEM</li>
+        <li>ITEM</li>
+        <li>ITEM</li>
+      </ol>
+    </div>
+</div>
+<p style="padding:0 1em;">custom vs. default</p>
+<div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
+<div style="padding:0 0.5em;">
+  <ul class="listdefault">
+    <li>ITEM</li>
+    <li>ITEM</li>
+    <li>ITEM</li>
+    <li>ITEM</li>
+  </ul>
+</div>
+<div style="padding:0 0.5em;">
+  <ol class="listdefault">
+    <li>ITEM</li>
+    <li>ITEM</li>
+    <li>ITEM</li>
+    <li>ITEM</li>
+  </ol>
+</div>
+</div>
+</div>
 
 <h2 id="functional-features">functional features</h2>
 
@@ -102,7 +143,11 @@
 <ul>
   <li>image alt text hovertext</li>
   <li>iframes (ex: youtube embeds) maintain 16:9 aspect ratio</li>
-  <li>“discord emojis” stored as global variables, called with <code class="language-plaintext highlighter-rouge">{{site.emojis.emojiname}}</code></li>
+  <li>“discord emojis” stored as global variables, called with <code class="language-plaintext highlighter-rouge">{{site.emojis.emojiname}}</code>
+    <ul>
+      <li>emoji height matches line height so emojis don’t throw off spacing</li>
+    </ul>
+  </li>
   <li>no javascript (yet)</li>
   <li>lightweight: external videos, no large image files, etc.</li>
   <li>custom cursor and handwritten font</li>

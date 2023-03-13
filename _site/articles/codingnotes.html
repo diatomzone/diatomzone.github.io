@@ -1,0 +1,288 @@
+<!-- default page template, includes side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>shiny coding notes</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body
+  
+    style="background:url('/assets/images/backgrounds/tilesea.png');"
+  
+  > <!-- customized background -->
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      <!-- header source code -->
+<header>
+  <a class="skip-to-content-button" href="#main">skip to content</a>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/coolheader.png" alt="placeholder site logo" title="placeholder site logo">
+  </a>
+</header>
+
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex">
+          <div class="indexmain"> <!-- main -->
+            <h1>shiny coding notes</h1>
+            <!-- individual coolpage template -->
+<p><!-- prevents liquid code from being read --></p>
+
+<p>parts of my notes that are general and readable enough to be useful 😌</p>
+
+<h2 id="stylin-with-css">stylin’ with css</h2>
+
+<h3 id="compare-and-contrast">compare and contrast</h3>
+
+<ul>
+  <li>class vs. id: an element can have many classes and can appear many times per page, while id’s are exclusive and unique</li>
+  <li>padding = inside element, margin = outside element
+    <ul>
+      <li>margin: auto; will horizontally center element within container</li>
+      <li>adjacent paddings will stack (5px + 5px = 10px), while adjacent VERTICAL margins will overlap (5px + 5px = 5px)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="mechanics">mechanics</h3>
+
+<ul>
+  <li>value order based on number of values
+    <ul>
+      <li>2: topbottom rightleft</li>
+      <li>3: top rightleft bottom</li>
+      <li>4: top right bottom left (clockwise)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="css-selectors-more-info">css selectors <a href="https://www.w3schools.com/cssref/css_selectors.php">(more info)</a></h3>
+
+<ul>
+  <li>a:link:not(.current) {} selects elements besides those with the “current” class</li>
+  <li>:last-child selects last child of parent (ex: last p in body)</li>
+  <li>:not(:last-child) {} selects every element besides last child</li>
+</ul>
+
+<h3 id="fun-effects">fun effects</h3>
+
+<ul>
+  <li>shadows
+    <ul>
+      <li>text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements</li>
+      <li>filter: drop-shadow(1px 1px 1px orange)</li>
+    </ul>
+  </li>
+  <li>outline = inside element, border = outside element (and more properites such as round corners and specific sides)</li>
+</ul>
+
+<h3 id="display-the-most-important-css-property-for-layout">display: the most important css property for layout</h3>
+<ul>
+  <li>inline: default, height/width values do not apply</li>
+  <li>inline-block: inline, but height/width values do apply</li>
+  <li>block: starts on new line, takes up full width (can use margin:auto; to center)</li>
+  <li>none: element will be completely removed (maybe more popular than width:0px;)</li>
+  <li>inherit: inherits display property from parent</li>
+</ul>
+
+<h3 id="position">position</h3>
+
+<p>choose value then move with top/right/bottom/left properties</p>
+
+<ol>
+  <li>static: default, not affected by properties, normal page flow (won’t overlap)</li>
+  <li>relative: can be moved relative to its normal position</li>
+  <li>fixed: relative to viewport, doesn’t move when scrolled</li>
+  <li>absolute: can be moved relative to its containing box, outside normal page flow</li>
+  <li>sticky: toggles between relative and fixed depending on scroll position</li>
+</ol>
+
+<ul>
+  <li>an element’s “containing block” (ex: for width % value) is the first parent element with position relative/absolute, and if there are none then &lt;body&gt;</li>
+</ul>
+
+<h3 id="font-size-units">font size units</h3>
+
+<ul>
+  <li>font size: em is a relative unit that allows users to resize text in browser menu
+    <ul>
+      <li>1em = current font size, browser default is 16px</li>
+      <li>w3schools rec: set default size (100%) in body and use em to change other elements</li>
+    </ul>
+  </li>
+  <li>% vs em: % resizes with window width, em resizes with page zoom</li>
+  <li>z-index: element stacking order, higher # is in front</li>
+</ul>
+
+<h3 id="responsive-styles">responsive styles</h3>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">@media screen and (max-width: 700px) {}</code>: the contained styles will apply when screen width &lt;= 700px</li>
+  <li>can also load separate stylesheets in &lt;head&gt;:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (min-device-width: 700px)" href="css/narrow.css"/&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="css/medium.css"/&gt;</code></li>
+      <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (max-device-width: 901px)" href="css/wide.css"/&gt;</code></li>
+    </ul>
+  </li>
+  <li>centering
+    <ul>
+      <li>margin: auto; affects container (block elements)</li>
+      <li>text-align: center; affects children of container (text/inline/inline-block elements)</li>
+    </ul>
+  </li>
+  <li>links: put link inside desired element for proper styling, not the other way around. ex: &lt;h1&gt;<a href="/home.html">enter</a>&lt;/h1&gt;</li>
+</ul>
+
+<h2 id="html-the-building-blocks-of-the-website">html: the building blocks of the website</h2>
+
+<h3 id="anchor-link-jump-to-anchor-on-same-page">anchor link: jump to anchor on same page</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">&lt;a href="#anchor-name"&gt;jump to anchor&lt;/a&gt;</code> jumps to element with <code class="language-plaintext highlighter-rouge">id="anchor-name"</code></li>
+  <li>to externally link to an anchor, add the #anchor-name directly to the end of the page’s url (no /)</li>
+</ul>
+
+<h3 id="iframe-embed-webpage-inside-a-webpage">iframe: embed webpage inside a webpage</h3>
+
+<ul>
+  <li>include title=”description” for screen readers</li>
+  <li>can open page links inside iframe, link target attribute must refer to iframe name</li>
+  <li>use allow=”fullscreen”, allowfullscreen is outdated/legacy</li>
+  <li>embed youtube videos: add video id to embed-type url
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">&lt;div class="iframecontainer"&gt;&lt;iframe src="https://www.youtube.com/embed/6plVf2T6AOo?start=72" title="in the house like carpet" allow="fullscreen"&gt;&lt;/iframe&gt;&lt;/div&gt;</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="non-youtube-video">non-youtube video</h3>
+
+<ul>
+  <li>video and audio tags do not support “title” descriptions like iframes do
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">&lt;video controls&gt;&lt;source src="https://va.media.tumblr.com/tumblr_r9pc62fPSM1wrmzr9_720.mp4" type="video/mp4"&gt;(audio player not supported)&lt;/video&gt;</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="audio">audio</h3>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">&lt;audio controls&gt;&lt;source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg"&gt;(audio player not supported)&lt;/audio&gt;</code></li>
+</ul>
+
+
+
+          </div>
+          
+        </div>
+      </main>
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <!-- footer source code -->
+<footer>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/buttons/graphicdesign.png" alt="graphic design button" title="graphic design button">
+  </a>
+</footer>
+
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>

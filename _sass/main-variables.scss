@@ -6,7 +6,8 @@
 // $relativeurl: "/baseurl"; // for when it unfortunately needs to be hardcoded
 $gapheight: 30px; // spacing between main layout elements
 $boxpadding: 20px; // padding for containers
-$elementmargin: 30px; // spacing for contained elements, ex: h1 or p
+$elementmargintb: 40px; // top/bottom spacing for contained elements, ex: h1 or p
+$lineheight: 1.4em; // for normal text and emojis, 1.6 is recommended, wikibox p's are reset to "normal" (~110%-120%)
 
 $colorbg: rgb(26,28,43);
 $colorbox1: rgb(44,52,67);

@@ -34,7 +34,7 @@
             {{ content }}
           </div>
           {% if page.url == "/home.html" %} <!-- if index page, add index sidebar -->
-            {% include indexside.html %}
+            {% include_relative homeside.html %}
           {% endif %}
         </div>
       </main>

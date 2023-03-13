@@ -33,10 +33,10 @@ div.centered { // to contain images etc, in this case for index it's the main el
     margin-top: 0;
   }
   img {
-    margin: calc(#{$elementmargin} / 2) 0 0 0;
+    margin: calc(#{$elementmargintb} / 2) 0 0 0;
   }
   h1 {
-    margin: calc(#{$elementmargin} / 2) 0 0 0;
+    margin: calc(#{$elementmargintb} / 2) 0 0 0;
   }
 }
 
@@ -53,7 +53,7 @@ div.iframecontainer {
   overflow: hidden;
   width: 100%; // full width of container, height is 0
   padding-top: 75%; // padding creates the height, 4:3 aspect ratio (% is based on width of the containing element)
-  margin: calc(#{$elementmargin} / 2) auto 0 auto;
+  margin: calc(#{$elementmargintb} / 2) auto 0 auto;
 }
 
 // MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
@@ -63,24 +63,24 @@ h1 {
   font-family: myfont;
   font-size: 2.5em;
   text-align: center;
-  margin: 0 0 calc(#{$elementmargin} / 2) 0;
+  margin: 0 0 calc(#{$elementmargintb} / 2) 0;
   padding: 0;
 }
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colororange;
   font-size: 1.8em;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 h3, h4, h5, h6 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colorblue;
   font-size: 1.3em;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p { // markdown turns lines (including images) into p
   @include replace-bgcolor($colorbox2, $colortoggle);
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 a {
   cursor: url("/assets/images/cursor.png"), default;
@@ -105,9 +105,9 @@ img {
   max-width: 100%;
 }
 ul { // for markdown again
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
   li {
-    margin: calc(#{$elementmargin} / 4) 0 0 0; // just for normal li's, no effect on listing template due to large h3 margin
+    margin: calc(#{$elementmargintb} / 4) 0 0 0; // just for normal li's, no effect on listing template due to large h3 margin
     p {
       margin: 0;
     }
@@ -117,14 +117,14 @@ hr { // divider
   width: 80%;
   border: 1.5px solid $colorblue;
   // border-radius: 20px;
-  margin: calc(#{$elementmargin} / 1) auto;
+  margin: calc(#{$elementmargintb} / 1) auto;
 }
 audio {
   // cursor: url("/assets/images/cursor.png"), default;
   vertical-align: bottom; // has gap like img, audio player displays as inline by default
   max-width: 100%;
   border-radius: 100px;
-  margin: calc(#{$elementmargin} / 2) 0 0 0;
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 iframe {
   position: absolute; // overlaps the full area of the container
@@ -145,6 +145,5 @@ code { // for code, some people wrap <pre> around <code>
   word-wrap: break-word;
   // overflow: auto;
   // overflow-x: scroll;
-  // padding: calc(#{$elementmargin} / 2);
-  // margin: calc(#{$elementmargin} / 2) 0 0 0;
+  // margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
