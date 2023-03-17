@@ -2,6 +2,8 @@
 title: my stuff
 ---
 
-stuff i've made :^) (UNDER CONSTRUCTION)
+(UNDER CONSTRUCTION)
+
+stuff i've made :^)
 
 ## twine games

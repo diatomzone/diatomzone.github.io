@@ -4,39 +4,40 @@ title: shiny coding notes
 
 {% raw %} <!-- prevents liquid code from being read -->
 
-parts of my notes that are general and readable enough to be useful 😌
+parts of my notes that are general and readable enough to be of use 😌
 
 ## stylin' with css
 
 ### compare and contrast
 
-- class vs. id: an element can have many classes and can appear many times per page, while id's are exclusive and unique
-- padding = inside element, margin = outside element
-  - margin: auto; will horizontally center element within container
+- class vs. id
+  - an element can have multiple classes and classes can appear many times per page, while id's are exclusive and can only appear once per page
+- padding vs. margin
+  - padding = inside element, margin = outside element
   - adjacent paddings will stack (5px + 5px = 10px), while adjacent VERTICAL margins will overlap (5px + 5px = 5px)
 
 ### mechanics
 
-- value order based on number of values
+- order when there are multiple values
   - 2: topbottom rightleft
   - 3: top rightleft bottom
   - 4: top right bottom left (clockwise)
 
-### css selectors [(more info)](https://www.w3schools.com/cssref/css_selectors.php)
+- css selectors [(more info)](https://www.w3schools.com/cssref/css_selectors.php)
+  - `a:link:not(.current)` selects elements besides those with the "current" class
+  - `:last-child` selects last child of parent (ex: last p in body)
+  - `:not(:last-child)` selects every element besides last child
 
-- a:link:not(.current) {} selects elements besides those with the "current" class
-- :last-child selects last child of parent (ex: last p in body)
-- :not(:last-child) {} selects every element besides last child
+- centering
+  - margin: auto; affects container (block elements)
+  - text-align: center; affects children of container (text/inline/inline-block elements)
 
-### fun effects
-
-- shadows
-  - text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements
-  - filter: drop-shadow(1px 1px 1px orange)
-- outline = inside element, border = outside element (and more properites such as round corners and specific sides)
+- turning elements into links
+  - put link inside desired element for proper styling, not the other way around. ex: `<h1><a href="/home.html">enter</a></h1>`
 
 
 ### display: the most important css property for layout
+
 - inline: default, height/width values do not apply
 - inline-block: inline, but height/width values do apply
 - block: starts on new line, takes up full width (can use margin:auto; to center)
@@ -74,11 +75,14 @@ choose value then move with top/right/bottom/left properties
   - `<link rel="stylesheet" media="screen and (min-width: 701px) and (max-width: 900px)" href="css/medium.css"/>`
   - `<link rel="stylesheet" media="screen and (max-device-width: 901px)" href="css/wide.css"/>`
 
+### fun effects
 
-- centering
-  - margin: auto; affects container (block elements)
-  - text-align: center; affects children of container (text/inline/inline-block elements)
-- links: put link inside desired element for proper styling, not the other way around. ex: <h1><a href="/home.html">enter</a></h1>
+- shadows
+  - text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements
+  - filter: drop-shadow(1px 1px 1px orange)
+- outline = inside element, border = outside element (and more properites such as round corners and specific sides)
+
+---
 
 ## html: the building blocks of the website
 

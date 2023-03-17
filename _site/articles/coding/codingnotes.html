@@ -78,20 +78,24 @@
         <div class="flex">
           <div class="indexmain"> <!-- main -->
             <h1>shiny coding notes</h1>
-            <!-- individual coolpage template -->
+            <!-- individual article template -->
 <p><!-- prevents liquid code from being read --></p>
 
-<p>parts of my notes that are general and readable enough to be useful 😌</p>
+<p>parts of my notes that are general and readable enough to be of use 😌</p>
 
 <h2 id="stylin-with-css">stylin’ with css</h2>
 
 <h3 id="compare-and-contrast">compare and contrast</h3>
 
 <ul>
-  <li>class vs. id: an element can have many classes and can appear many times per page, while id’s are exclusive and unique</li>
-  <li>padding = inside element, margin = outside element
+  <li>class vs. id
     <ul>
-      <li>margin: auto; will horizontally center element within container</li>
+      <li>an element can have multiple classes and classes can appear many times per page, while id’s are exclusive and can only appear once per page</li>
+    </ul>
+  </li>
+  <li>padding vs. margin
+    <ul>
+      <li>padding = inside element, margin = outside element</li>
       <li>adjacent paddings will stack (5px + 5px = 10px), while adjacent VERTICAL margins will overlap (5px + 5px = 5px)</li>
     </ul>
   </li>
@@ -100,36 +104,35 @@
 <h3 id="mechanics">mechanics</h3>
 
 <ul>
-  <li>value order based on number of values
+  <li>order when there are multiple values
     <ul>
       <li>2: topbottom rightleft</li>
       <li>3: top rightleft bottom</li>
       <li>4: top right bottom left (clockwise)</li>
     </ul>
   </li>
-</ul>
-
-<h3 id="css-selectors-more-info">css selectors <a href="https://www.w3schools.com/cssref/css_selectors.php">(more info)</a></h3>
-
-<ul>
-  <li>a:link:not(.current) {} selects elements besides those with the “current” class</li>
-  <li>:last-child selects last child of parent (ex: last p in body)</li>
-  <li>:not(:last-child) {} selects every element besides last child</li>
-</ul>
-
-<h3 id="fun-effects">fun effects</h3>
-
-<ul>
-  <li>shadows
+  <li>css selectors <a href="https://www.w3schools.com/cssref/css_selectors.php">(more info)</a>
     <ul>
-      <li>text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements</li>
-      <li>filter: drop-shadow(1px 1px 1px orange)</li>
+      <li><code class="language-plaintext highlighter-rouge">a:link:not(.current)</code> selects elements besides those with the “current” class</li>
+      <li><code class="language-plaintext highlighter-rouge">:last-child</code> selects last child of parent (ex: last p in body)</li>
+      <li><code class="language-plaintext highlighter-rouge">:not(:last-child)</code> selects every element besides last child</li>
     </ul>
   </li>
-  <li>outline = inside element, border = outside element (and more properites such as round corners and specific sides)</li>
+  <li>centering
+    <ul>
+      <li>margin: auto; affects container (block elements)</li>
+      <li>text-align: center; affects children of container (text/inline/inline-block elements)</li>
+    </ul>
+  </li>
+  <li>turning elements into links
+    <ul>
+      <li>put link inside desired element for proper styling, not the other way around. ex: <code class="language-plaintext highlighter-rouge">&lt;h1&gt;&lt;a href="/home.html"&gt;enter&lt;/a&gt;&lt;/h1&gt;</code></li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="display-the-most-important-css-property-for-layout">display: the most important css property for layout</h3>
+
 <ul>
   <li>inline: default, height/width values do not apply</li>
   <li>inline-block: inline, but height/width values do apply</li>
@@ -178,14 +181,21 @@
       <li><code class="language-plaintext highlighter-rouge">&lt;link rel="stylesheet" media="screen and (max-device-width: 901px)" href="css/wide.css"/&gt;</code></li>
     </ul>
   </li>
-  <li>centering
+</ul>
+
+<h3 id="fun-effects">fun effects</h3>
+
+<ul>
+  <li>shadows
     <ul>
-      <li>margin: auto; affects container (block elements)</li>
-      <li>text-align: center; affects children of container (text/inline/inline-block elements)</li>
+      <li>text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements</li>
+      <li>filter: drop-shadow(1px 1px 1px orange)</li>
     </ul>
   </li>
-  <li>links: put link inside desired element for proper styling, not the other way around. ex: &lt;h1&gt;<a href="/home.html">enter</a>&lt;/h1&gt;</li>
+  <li>outline = inside element, border = outside element (and more properites such as round corners and specific sides)</li>
 </ul>
+
+<hr />
 
 <h2 id="html-the-building-blocks-of-the-website">html: the building blocks of the website</h2>
 

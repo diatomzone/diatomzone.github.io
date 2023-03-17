@@ -542,7 +542,7 @@
   </li>
   <li>strange gap at top of page was caused by header/paragraph/etc. margins</li>
   <li>when starting css, make sure to include a long page, it catches so many problems</li>
-  <li>small gap under img is because img is inline, it’s treated as text and sits on baseline
+  <li>small gap under img is because img is inline (inline-block), it’s treated as text and sits on baseline
     <ul>
       <li>common fixes: display block, vertical-align bottom, container line-height 0%</li>
     </ul>
@@ -619,6 +619,8 @@
     </ul>
   </li>
   <li>jekyll collection subfolder order (alphabetical) will dictate the order of printed collection items, great for reordering wikilisting items</li>
+  <li>remember to add collections to config for them to work!</li>
+  <li>doing for loops properly (on multiple lines) will create whitespaces between consecutive images, but if it’s all in one line there won’t be whitespace, meaning the newlines/indentation have effect, which is not supposed to happen</li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>

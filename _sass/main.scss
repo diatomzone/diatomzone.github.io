@@ -39,13 +39,16 @@ div.flex {
   display: flex;
   flex-direction: row;
 }
-div.flexcentered { // use in conjunction with normal .flex
+div.flexcentered { // use in conjunction with normal .flex (flex flexcentered)
   justify-content: center;
   align-items: center;
 }
 div.centered { // to contain images etc.
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
   text-align: center;
+  img {
+    max-height: 10em;
+  }
 }
 div { // markdown does not generate divs as far as i can tell
 
@@ -212,6 +215,7 @@ img {
   margin: 0;
   vertical-align: bottom; // displays as inline-block by default which creates The Gap
   max-width: 100%;
+  max-height: 100%;
   // object-fit: contain;
 }
 // img:hover {

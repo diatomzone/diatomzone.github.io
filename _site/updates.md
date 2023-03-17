@@ -1,8 +1,21 @@
 
+#### mar 16 2023
+
+- page content and article organization, meme acquisition, added collectionlisting layout categories
+- added brawl food article and excerpt separator
+
+---
+
+#### mar 14-15 2023
+
+- page content
+
+---
+
 #### mar 11-12 2023
 
 - unordered/ordered list fixes and marker styling, minor dialoguebox organization, adjusted/matched line/emoji height and element top/bottom margins, fixed article excerpt newline erasure
-- started shiny coding notes, codingnotes and webtips
+- started shinycodingnotes and webtips
 
 ---
 

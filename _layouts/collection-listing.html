@@ -1,14 +1,47 @@
 ---
 layout: default
 ---
-<!-- listing page layout -->
+<!-- wiki listing page layout -->
 {{ content }}
 
-<ul>
-  {% for page in site[page.collection] %}
-    <li>
-      <h4><a href="{{ page.url }}">{{ page.title }}</a></h4>
-      <p>{{ page.content | strip_html | truncate: 130 }}</p> <!-- can't get truncate_words to work for some reason -->
-    </li>
+{% if site.data[page.collection] %}
+<!-- if this collection has defined categories, use category layout -->
+
+  <!-- needs to be inside a div or else the indentation inexplicably breaks it -->
+  <div class="directory">
+    <h4>skip to:</h4>
+    <ul>
+      {% for category in site.data[page.collection] %} <!-- open up data -->
+        <li>
+          <a href="#{{ category }}">{{ category }}</a> <!-- entry label, link to anchor -->
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% for category in site.data[page.collection] %} <!-- open _data list -->
+    <h2 id="{{ category }}">{{ category }}</h2>
+    <ul>
+      {% for item in site[page.collection] %} <!-- "articles" accesses _articles collection -->
+        {% if item.path contains category %}
+          <li>
+            <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+            <p>{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
   {% endfor %}
-</ul>
+
+{% else %}
+<!-- if this collection does not have defined categories, use plain layout -->
+
+  <ul>
+    {% for item in site[page.collection] %} <!-- "articles" accesses _articles collection -->
+      <li>
+        <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
+        <p>{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endif %}

@@ -1,5 +1,5 @@
 ---
-title: "my website: specil features!"
+title: "check it out: website specil features!"
 ---
 
 i am extremely particular about my webpage preferences.
@@ -7,8 +7,9 @@ i am extremely particular about my webpage preferences.
 ## zestiest features
 
 - when resizing the browser, page content will not shrink until margins disappear
-- no extra space at top or bottom of containers -- elements run flush with padding (SPACING IS THE #1 GRIPE EVER)
+- no extra space at top or bottom of containers -- elements run flush with padding (SPACING IS MY #1 GRIPE EVER DEATH AND DESTRUCTION {{site.data.emojis.explosion}})
 - customized unordered and ordered list markers (bullets) so list items have the same height (WHY ARE THEY DIFFERENT {{site.data.emojis.ungalo}})
+  - (EDIT: apparently default works perfectly fine on chrome FIREFOX HOW COULD YOU DO THIS TO MEEEE)
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
@@ -48,17 +49,17 @@ i am extremely particular about my webpage preferences.
 
 ## functional features
 
-- responsive layout: elements resize and reorder on narrow browsers/mobile
+- responsive layout: elements resize and reorder for narrow browsers/mobile
 - additional navigation at bottom of page
 - hidden "skip to content" button for keyboard users/screen readers (press TAB then ENTER)
-- larger font size and dark background because my eyeballs
+- larger font size and dark background because my eye balls
 
 ## bonus features
 
-- image alt text hovertext
-- iframes (ex: youtube embeds) maintain 16:9 aspect ratio
-- "discord emojis" stored as global variables, called with {%raw%}`{{site.emojis.emojiname}}`{%endraw%}
+- "discord emojis" stored as global variables, called with {%raw%}`{{site.data.emojis.emojiname}}`{%endraw%}
   - emoji height matches line height so emojis don't throw off spacing
+- image alt text in hovertext
+- iframes (ex: youtube embeds) maintain 16:9 aspect ratio
 - no javascript (yet)
 - lightweight: external videos, no large image files, etc.
 - custom cursor and handwritten font

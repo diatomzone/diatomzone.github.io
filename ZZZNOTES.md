@@ -262,7 +262,7 @@ title: zzznotes
   - sass file can't include front matter (can't use liquid variables, for background-image relative_url etc.)
 - strange gap at top of page was caused by header/paragraph/etc. margins
 - when starting css, make sure to include a long page, it catches so many problems
-- small gap under img is because img is inline, it's treated as text and sits on baseline
+- small gap under img is because img is inline (inline-block), it's treated as text and sits on baseline
   - common fixes: display block, vertical-align bottom, container line-height 0%
 - localhost bugs
   - sometimes command prompt does not auto refresh, ctrl+c or enter to wake it up
@@ -315,6 +315,8 @@ title: zzznotes
   - so i changed the default bullet to a text "*  " which is 3 monospaced spaces just like "1) "
   - content: "• ";  unicode default bullet U+2022 will work correctly, but having no styling/the real default bullet will throw off the height
 - jekyll collection subfolder order (alphabetical) will dictate the order of printed collection items, great for reordering wikilisting items
+- remember to add collections to config for them to work!
+- doing for loops properly (on multiple lines) will create whitespaces between consecutive images, but if it's all in one line there won't be whitespace, meaning the newlines/indentation have effect, which is not supposed to happen
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

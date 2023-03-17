@@ -1,4 +1,4 @@
-# stores data for wikipage listing, call with "site.data.wikicategories"
+# stores categories for wikipage listing, call with "site.data.wikicategories"
 # listing will follow this order
 
 - canyon-crossroads

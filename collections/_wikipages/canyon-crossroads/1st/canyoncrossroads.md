@@ -29,13 +29,13 @@ home to our protagonists, canyon crossroads sits atop grassy foothills where the
 
 once a simple pit stop, canyon crossroads has grown into a small town that sees visitors year-round. quality lodgings and its proximity to the mountains and their forests make it popular with (game, bounty, monster) hunters as well.
 
-according to jade, the number of natural and magical anomalies that occur in the surrounding area "is anomalous itself".
+according to jade, the number of natural and magical anomalies that occur in the surrounding area "is anomalous in itself".
 
 ### tunnel canyon
 
 confusingly, this is a tunnel, not a canyon.
 
-tunnel canyon is a massive, perfectly circular and straight tunnel that bores all the way through the local mountain range. it was formed long ago, but the cause and details are unknown.
+tunnel canyon is a massive, perfectly circular and once-perfectly-straight tunnel that bores all the way through the local mountain range. it was formed long ago, but the cause and details are unknown.
 
 as the easiest (flattest) way to cross from one side of the mountains to the other, the train line running through it gets plenty of use.
 
@@ -47,7 +47,7 @@ despite the drier climate, redtail supports a vibrant agricultural industry than
 
 canyon crossroads is roughly two hours away by train.
 
-## media
+## existing media
 
 - cowpoke visual novel demo?
 

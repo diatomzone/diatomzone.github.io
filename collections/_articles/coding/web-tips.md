@@ -1,22 +1,14 @@
 ---
-title: knowledge i wish i knew when i started websiteing
+title: knowledge i wish i knew when i started siteing
 ---
 
-coding is sohard
+## tip top tips
 
----
+### how to get rid of the gap underneath images!!!
 
-### my #1 annoyingest fix: img gap!!!
+images display as "inline" (inline-block) by default, meaning they sit up on the text "baseline" rather than the bottom of the. wherever they're supposed to be (this haunted me for actual years {{ site.data.emojis.enid }})
 
-this haunted me for years {{site.data.emojis.enid}}
-
-by default, images have a small gap beneath them because images display as "inline" elements!
-
-this means an image is treated as text and sits on the "baseline" rather than where it should be...
-
-common fixes:
-
--
+my fix: `img { vertical-align: bottom; }`
 
 ---
 
@@ -51,9 +43,13 @@ a link to `/index.html` in your project site will send you all the way back to t
 
 it would probably be really annoying and bad if i hardcoded the baseurl in every single link, so here's what i did:
 
+{% raw %}
+
 1. define your baseurl in `_config.yml`: `baseurl: /myproject`
   - (i also have my site url defined here)
 2. use the "relative_url" liquid filter on any link to add your baseurl
   - html: `<a href="{{ '/index.html' | relative_url }}"></a>`
   - html image: `<img src="{{ '/assets/images/dog.png' | relative_url }}" alt="dog">`
   - markdown: `[home]({{ '/index.html' | relative_url }})`
+
+{% endraw %}

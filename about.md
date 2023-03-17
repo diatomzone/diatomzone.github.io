@@ -5,7 +5,7 @@ linklists:
   site credits:
     - name: w3schools
       url: https://www.w3schools.com/
-      description: the only light illuminating this cruel earth
+      description: everyone's favorite wiki for all things coding! (the only light illuminating this cruel earth)
     - name: w3schools -- responsive iframe
       url: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
       description:
@@ -29,30 +29,42 @@ linklists:
       description: buffers disappear before page content is affected
     - name: css gradient
       url: https://cssgradient.io/
-      description: a nice css gradient maker
+      description: an elegant css gradient maker
     - name: styling unordered/ordered list items
       url: https://web.dev/css-marker-pseudo-element/
-      description: i was havin trouble with nested lists
+      description: nested lists were givin' me trouble
+    - name: "jekyll: loop through images in folder"
+      url: https://stackoverflow.com/questions/17677094/jekyll-for-loop-over-all-images-in-a-folder
+      description:
+
 ---
+
+## coding moodboard
+
+<div class="centered">
+  <img src="{{ '/assets/images/memes/wayne.png' | relative_url }}" alt="wayne from hylics 2 lying facedown on the ground" title="wayne from hylics 2 lying facedown on the ground">
+  <img src="{{ '/assets/images/memes/chomp.jpg' | relative_url }}" alt="reaction image of someone furiously chomping an unbothered person's head" title="reaction image of someone furiously chomping an unbothered person's head">
+  <img src="{{ '/assets/images/memes/worthit.jpg' | relative_url }}" alt="cursed emoji meme reading 'I don't want to see... BUT I DO. and sometimes... It's worth it'" title="cursed emoji meme reading 'I don't want to see... BUT I DO. and sometimes... It's worth it'">
+  <img src="{{ '/assets/images/memes/thumbsup.jpg' | relative_url }}" alt="reaction image of a crudely-drawn yet smug thumbs-up" title="reaction image of a crudely-drawn yet smug thumbs-up">
+  <img src="{{ '/assets/images/memes/coding.jpg' | relative_url }}" alt="the 'fuck them kids' meme edited to just say 'fuck them', labeled 'ceo of coding @ me'" title="the 'fuck them kids' meme edited to just say 'fuck them', labeled 'ceo of coding @ me'">
+</div>
 
 ## this site
 
-welcome to my first website that actually works! i'm still experimenting with the setup, so stuff might move around.
+my brain is so small and coding is so hard.
 
-i'll be using this place to consolidate all sorts of things including information about my ocs, computer-related projects like twine games and sitebuilding notes, important images, and maybe even some art!
+and yet,
 
-## websites
+the endless torment is outweighed by the joy of creation and self-expression.
 
-the things people create for fun have always amazed me more than i can say. the effort and joy of making something for yourself -- it's really beautiful.
+when i see something i've made from scratch, and what others have made from the love in their hearts, the world is beautiful.
 
-i wish i was more articulate, but if you're here reading this, i'm sure you understand :^)
+this is what gives me the strength to try.
+
+(countless clueless directionless hopeless webpages and two catastrophic jekyll failures have paved the way)
+
+thank you for visiting my very first website that actually works! {{ site.data.emojis.pie }}
 
 ---
 
 {% include linklists.html listname="site credits" %}
-
----
-
-also, i'm [zorionbbq](https://zorionbbq.tumblr.com/) on tumblr, so feel free to dm/send an ask there! :^]
-
-thanks for visiting! {{ site.emojis.zenigata }}

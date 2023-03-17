@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>knowledge i wish i knew when i started websiteing</title>
+    <title>most influential discord emojis</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 
   <body
   
-    style="background:url('/assets/images/backgrounds/tilesea.png');"
+    style="background:url('/assets/images/emojis/zenigata.png');"
   
   > <!-- customized background -->
     <div class="buffer"></div>
@@ -77,75 +77,34 @@
       <main id="main"> <!-- main page content (with #main anchor for navigation) -->
         <div class="flex">
           <div class="indexmain"> <!-- main -->
-            <h1>knowledge i wish i knew when i started websiteing</h1>
-            <!-- individual coolpage template -->
-<p>coding is sohard</p>
+            <h1>most influential discord emojis</h1>
+            <!-- individual article template -->
+<p>here is a collection/safekeeping of the top emojis i wish i could use on every platform
+<img src="/assets/images/emojis/zenigata.png" class="emoji" alt="zenigata emoji" title="zenigata emoji" /> <img src="/assets/images/emojis/zenigata.png" class="emoji" alt="zenigata emoji" title="zenigata emoji" /></p>
 
-<hr />
+<p>names in hovertext!</p>
 
-<h3 id="my-1-annoyingest-fix-img-gap">my #1 annoyingest fix: img gap!!!</h3>
+<div class="centered">
+  <span class="emoji">
+    
+      <img src="/assets/images/emojis/enid.png" style="height:4em;" alt="enid -- enid from ok ko doing the pensive gorilla munch face" title="enid -- enid from ok ko doing the pensive gorilla munch face" />
+    
+      <img src="/assets/images/emojis/zenigata.png" style="height:4em;" alt="zenigata -- zenigata from lupin iii doing a goofy shout" title="zenigata -- zenigata from lupin iii doing a goofy shout" />
+    
+      <img src="/assets/images/emojis/loveimages.png" style="height:4em;" alt="loveimages -- the contently smiling dog from the i love images meme" title="loveimages -- the contently smiling dog from the i love images meme" />
+    
+      <img src="/assets/images/emojis/reigen.png" style="height:4em;" alt="reigen -- reigen from mob psycho 100 cackling unphotogenically" title="reigen -- reigen from mob psycho 100 cackling unphotogenically" />
+    
+      <img src="/assets/images/emojis/shannon.png" style="height:4em;" alt="shannon -- shannon from ok ko doing the tails gets trolled face" title="shannon -- shannon from ok ko doing the tails gets trolled face" />
+    
+      <img src="/assets/images/emojis/ungalo.png" style="height:4em;" alt="ungalo -- ungalo from jojo sweating and screaming in despair" title="ungalo -- ungalo from jojo sweating and screaming in despair" />
+    
+      <img src="/assets/images/emojis/evil.png" style="height:4em;" alt="evil -- the face from the driving home/penis comic" title="evil -- the face from the driving home/penis comic" />
+    
+  </span>
+</div>
 
-<p>this haunted me for years <img src="/assets/images/emojis/enid.png" class="emoji" alt="enid emoji" title="enid emoji" /></p>
-
-<p>by default, images have a small gap beneath them because images display as “inline” elements!</p>
-
-<p>this means an image is treated as text and sits on the “baseline” rather than where it should be…</p>
-
-<p>common fixes:</p>
-
-<p>-</p>
-
-<hr />
-
-<h2 id="best-practices">best practices</h2>
-
-<h3 id="general">general</h3>
-
-<ul>
-  <li>no spaces in filenames! a general coding “best practice”. spaces broke my navbar’s highlighting class…</li>
-  <li>when testing your site, force reload the page with ctrl + shift + r (or ctrl + f5). this clears the cache and updates things (like stylesheets maybe) that may not update with a regular reload.</li>
-</ul>
-
-<h3 id="html-tags">html tags</h3>
-
-<p><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">semantic elements</a>! use tags that have meaning / are easy to identify, such as &lt;nav&gt; and &lt;footer&gt; instead of plain &lt;div&gt;’s.</p>
-
-<p>div, nav, header etc. are all exactly the same (a plain container), but i find named elements easier to keep track of. i don’t need id’s for everything either!</p>
-
-<hr />
-
-<h2 id="github-pages--jekyll">github pages / jekyll</h2>
-
-<h3 id="how-to-test-site-locally">how to test site locally</h3>
-
-<ol>
-  <li>command prompt: <code class="language-plaintext highlighter-rouge">cd [local project path]</code></li>
-  <li>web browser: http://localhost:4000/</li>
-  <li>command prompt: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code></li>
-</ol>
-
-<h3 id="how-to-adjust-links-for-a-project-site-subdirectory">how to adjust links for a project site (subdirectory)</h3>
-
-<p>a github pages “project site” (https://username.github.io/myproject) is a subdirectory of your “user site” (https://username.github.io), which can throw off links for project sites.</p>
-
-<p>a link to <code class="language-plaintext highlighter-rouge">/index.html</code> in your project site will send you all the way back to the root, rather than the index of your project site.</p>
-
-<p>it would probably be really annoying and bad if i hardcoded the baseurl in every single link, so here’s what i did:</p>
-
-<ol>
-  <li>define your baseurl in <code class="language-plaintext highlighter-rouge">_config.yml</code>: <code class="language-plaintext highlighter-rouge">baseurl: /myproject</code>
-    <ul>
-      <li>(i also have my site url defined here)</li>
-    </ul>
-  </li>
-  <li>use the “relative_url” liquid filter on any link to add your baseurl
-    <ul>
-      <li>html: <code class="language-plaintext highlighter-rouge">&lt;a href="/index.html"&gt;&lt;/a&gt;</code></li>
-      <li>html image: <code class="language-plaintext highlighter-rouge">&lt;img src="/assets/images/dog.png" alt="dog"&gt;</code></li>
-      <li>markdown: <code class="language-plaintext highlighter-rouge">[home](/index.html)</code></li>
-    </ul>
-  </li>
-</ol>
+<p><span class="spoilered">honorable mention: komaeda hand sprite</span></p>
 
 
           </div>

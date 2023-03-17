@@ -5,7 +5,7 @@
 url: https://diatomzone.github.io
 # baseurl: /webbed-site
 
-# sass for new stylesheets?
+# sass location
 sass:
     sass_dir: _sass
 
@@ -15,6 +15,8 @@ collections:
   articles:
     output: true # creates a page for each document. if false, your .md file won't be linkable even if it exists
   wikipages:
+    output: true
+  test:
     output: true
 
 # define collections directory, if you want it somewhere besides root
@@ -45,3 +47,7 @@ defaults:
     values:
       layout: "wikipage"
       background: tilenight
+
+# excerpt separator for blog posts
+# gets rid of "excerpt separator" replacement warning for pages with raw/endraw
+excerpt_separator: <!-- excerpt separator -->

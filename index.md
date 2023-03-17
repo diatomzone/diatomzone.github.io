@@ -9,7 +9,7 @@ layout: default-plain
 
   <p>(website contains explosion gifs)</p>
 
-  <img src="/assets/images/favicon-96.png" alt="favicon" title="favicon">
+  <img src="/assets/images/emojis/zenigata.png" alt="favicon" title="favicon">
 
   <h1>
     <a href="/home.html">enter</a>

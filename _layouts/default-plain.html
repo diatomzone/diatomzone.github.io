@@ -18,9 +18,9 @@
 
   <body
   {% if page.background %}
-    style="{{ site.data.backgrounds[page.background] }}"
+    style="background:{{ site.data.backgrounds[page.background] }};"
   {% else %}
-    style="{{ site.data.backgrounds.default }}"
+    style="background:{{ site.data.backgrounds.default }};"
   {% endif %}
   > <!-- customized background -->
     {% if page.url != "/" %}

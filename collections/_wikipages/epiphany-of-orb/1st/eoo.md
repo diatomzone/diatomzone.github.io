@@ -44,7 +44,7 @@ the school bill and friends attend. neither prestigous nor unprestigious, but ac
 
 the campus and its bustling college town are located on the edge of new quark city, near the specific ocean (the aquatic ocean is on the west coast).
 
-## media
+## existing media
 
 - eoo anime opening 1
 - eoo halloween comic

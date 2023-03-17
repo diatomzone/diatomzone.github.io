@@ -1,0 +1,6 @@
+# stores categories for "articles" collection listing, call with "site.data.articles"
+# listing will follow this order
+
+- coding
+- images
+- oc-stuff

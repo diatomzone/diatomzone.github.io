@@ -5,4 +5,4 @@ collection: articles
 background: tilesea
 ---
 
-sitebuilding notes, oc stuff, and other writings!
+sitebuilding notes, image galleries, oc bonus features, and other writings!
