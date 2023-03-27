@@ -22,6 +22,8 @@ EPIPHANY OF ORB is an urban fantasy shounen, featuring impractical superpowers a
   <iframe src="https://www.youtube.com/embed/QhW3P7_jvWY" title="that's the way of the world" allow="fullscreen"></iframe>
 </div>
 
+(apparently some youtube embeds don't work on firefox {{site.data.emojis.enid}})
+
 ## synopsis
 
 uranium university, 20XX.

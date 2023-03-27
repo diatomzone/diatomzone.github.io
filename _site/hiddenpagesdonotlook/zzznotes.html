@@ -241,6 +241,7 @@
     <ul>
       <li>text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements</li>
       <li>filter: drop-shadow(1px 1px 1px orange)</li>
+      <li>box shadow uses the element’s entire (rectangular) box, while drop shadow uses the shape (alpha channel) of the image/text</li>
     </ul>
   </li>
   <li>outline = inside element, border = outside element (and more properites such as round corners and specific sides)</li>
@@ -315,7 +316,20 @@
     </ul>
   </li>
   <li>can’t change background-image opacity without affecting children, according to article</li>
+  <li>directory template</li>
 </ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="directory"&gt; &lt;!-- manual instance of a directory --&gt;
+  &lt;h4&gt;skip to:&lt;/h4&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="#tip-top-tips"&gt;tip top tips&lt;/a&gt;&lt;/li&gt; &lt;!-- entry label, link to anchor --&gt;
+      &lt;li&gt;&lt;a href="#best-practices"&gt;best practices&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#spacing-and-layouts"&gt;spacing and layouts&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#github-pages--jekyll"&gt;github pages / jekyll&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#ways-of-the-web"&gt;ways of the web&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre></div></div>
 
 <h2 id="accessibility">ACCESSIBILITY</h2>
 <ul>
@@ -493,13 +507,15 @@
   </li>
   <li>CURRENT TASKS
     <ul>
-      <li>write pages</li>
-      <li>organize zzznotes</li>
+      <li>STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY</li>
+      <li>organize zzznotes
+        <ul>
+          <li>discoveries article</li>
+        </ul>
+      </li>
       <li>mystuff category</li>
       <li>redo landing page and its stylesheet more logically</li>
-      <li>folder order wikipages</li>
       <li>fix code block styling (change to pre tag?)</li>
-      <li>STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY</li>
     </ul>
   </li>
 </ul>
@@ -662,6 +678,11 @@
     </ul>
   </li>
   <li>ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it’s a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists</li>
+  <li>how to reset iframe without js?
+    <ul>
+      <li>reloading page and iframe don’t work, so use reset macro within twine (perhaps sidebar)</li>
+    </ul>
+  </li>
 </ul>
 
 <hr />
@@ -679,6 +700,20 @@
           <li>then i commit normally</li>
         </ul>
       </li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="bonus-webtip-notes">BONUS WEBTIP NOTES</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">@media</code> queries must go AFTER the styles they change (put at bottom of stylesheet)</li>
+  <li>use <code class="language-plaintext highlighter-rouge">max-width</code> and <code class="language-plaintext highlighter-rouge">max-height</code> instead of fixed <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> where possible</li>
+  <li>you can put basics like color and <code class="language-plaintext highlighter-rouge">font-size: 118%;</code> in <code class="language-plaintext highlighter-rouge">body{}</code> since they apply to everything</li>
+  <li>web inspector real mvp
+    <ul>
+      <li>hit F12 to open the inspector and use the selector (ctrl + shift + c) to check an element’s details. troubleshoot spacing, see how other sites work, etc.</li>
     </ul>
   </li>
 </ul>

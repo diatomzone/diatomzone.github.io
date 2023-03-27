@@ -139,7 +139,7 @@ div.dialoguebox { // same padding as wikibox
   }
 }
 div.iframecontainer { // for normal iframes
-  // background: yellow;
+  background: darkslateblue; // for transparent vid element on mobile?
   position: relative; // must be relative for iframe absolute position to work
   overflow: hidden;
   width: 100%; // full width of container, height is 0
@@ -237,7 +237,7 @@ ul, ol { // for markdown again
     margin: calc(#{$elementmargintb} / 4) 0 0 0;
     ul, ol { // nested markdown lists create a new ul inside the previous li
       margin: 0;
-      padding: 0 0 0 1em; // normally 40px
+      padding: 0 0 0 1.6em; // normally 40px
       li { // just for colortoggle visibility
         @include replace-bgcolor($colorbox3, $colortoggle);
       }
@@ -281,6 +281,12 @@ ol { // ordered list marker styling
       }
     }
   }
+}
+sup { // superscript
+  color: $coloryellow;
+  vertical-align: top; // top and bottom both work by bringing it to middle, super/sub/middle/etc. cause offset
+  position: relative; // allow positioning
+  bottom: 0.5em; // push up from the bottom
 }
 hr { // divider
   width: 80%;

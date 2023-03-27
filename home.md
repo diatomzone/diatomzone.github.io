@@ -8,16 +8,25 @@ title: home
   <img src="{{ '/assets/images/gifs/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
 </div>
 
+## waoh! explosionomics!
+
 hello and welcome to my website! :^]
 
-i'll be using this spot to consolidate all sorts of things including information about my ocs, computer-related projects like twine games and sitebuilding notes, excellent links, and maybe even some art!
+this spicy spot will include all sorts of things, including:
 
-- this site works best on desktop (tested on firefox) but also supports narrow screens / mobile {{site.data.emojis.loveimages}}
-- i'm always testing stuff and scooting things around, so if you find any broken images or links do let me know!
+- wikipages about my ocs
+- computer-related projects like sitebuilding notes and twine games
+- excellent links
+- and more!<sup>1</sup>
 
 please find the navigation conveniently located at the top and bottom of each page 😌
 
-have a burg {{ site.data.emojis.burger }} and an elegant stay!
+take this burg {{site.data.emojis.burger}} from super smash brothers brawl for the nintendo wii and have an elegant stay! {{site.data.emojis.loveimages}}
+
+### bonus notes
+
+- this site works best on desktop (tested on firefox) but also supports narrow screens/mobile 😎
+- things are always scooting around, so if you find any broken images or links please let me know!
 
 ## update log
 
@@ -27,7 +36,8 @@ have a burg {{ site.data.emojis.burger }} and an elegant stay!
 
 ## devlinks
 
-- [zzznotes](/ZZZNOTES.html)
-- [mdtest](/mdtest.html)
-- [gallerytest](/gallery.html)
-- [draftpages](collections/draftpagesdonotlook)
+- [hiddenpages](hiddenpagesdonotlook/)
+
+---
+
+- <sup>1</sup> including footnote capabilities!

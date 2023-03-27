@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="utf-8">
-    <title>knowledge i wish i knew when i started siteing</title>
+    <title>basic knowledge i wish i knew when i started siteing</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon-96.png"> <!-- favicon -->
     <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,8 +77,19 @@
       <main id="main"> <!-- main page content (with #main anchor for navigation) -->
         <div class="flex">
           <div class="indexmain"> <!-- main -->
-            <h1>knowledge i wish i knew when i started siteing</h1>
+            <h1>basic knowledge i wish i knew when i started siteing</h1>
             <!-- individual article template -->
+<div class="directory"> <!-- manual instance of a directory -->
+  <h4>skip to:</h4>
+  <ul>
+      <li><a href="#tip-top-tips">tip top tips</a></li> <!-- entry label, link to anchor -->
+      <li><a href="#best-practices">best practices</a></li>
+      <li><a href="#spacing-and-layouts">spacing and layouts</a></li>
+      <li><a href="#github-pages--jekyll">github pages / jekyll</a></li>
+      <li><a href="#ways-of-the-web">ways of the web</a></li>
+  </ul>
+</div>
+
 <h2 id="tip-top-tips">tip top tips</h2>
 
 <h3 id="how-to-get-rid-of-the-gap-underneath-images">how to get rid of the gap underneath images!!!</h3>
@@ -94,33 +105,66 @@
 <h3 id="general">general</h3>
 
 <ul>
-  <li>no spaces in filenames! a general coding “best practice”. spaces broke my navbar’s highlighting class…</li>
-  <li>when testing your site, force reload the page with ctrl + shift + r (or ctrl + f5). this clears the cache and updates things (like stylesheets maybe) that may not update with a regular reload.</li>
+  <li>no spaces in filenames
+    <ul>
+      <li>a general coding “best practice”! spaces broke my navbar’s highlighting class…</li>
+    </ul>
+  </li>
+  <li>force reload when testing your site
+    <ul>
+      <li>force reload the webpage with ctrl + shift + r (or ctrl + f5). this clears the cache and updates things (like stylesheets?) that may not update with a regular reload</li>
+    </ul>
+  </li>
 </ul>
 
 <h3 id="html-tags">html tags</h3>
 
-<p><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">semantic elements</a>! use tags that have meaning / are easy to identify, such as &lt;nav&gt; and &lt;footer&gt; instead of plain &lt;div&gt;’s.</p>
+<h4 id="semantic-elements-more-info">semantic elements <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">(more info)</a></h4>
 
-<p>div, nav, header etc. are all exactly the same (a plain container), but i find named elements easier to keep track of. i don’t need id’s for everything either!</p>
+<p>use tags that have meaning/are easy to identify, such as <code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;footer&gt;</code>, instead of plain <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code>’s.</p>
+
+<p>div, nav, footer etc. are all exactly the same (a plain container), but named elements are easier to keep track of. i don’t need id’s for everything either!</p>
+
+<h4 id="nice-tag-choices">nice tag choices</h4>
+
+<ul>
+  <li>use new paragraph <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> instead of line break <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code></li>
+  <li>use <strong>strong</strong> <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code> and <em>emphasis</em> <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code> instead of <b>bold</b> <code class="language-plaintext highlighter-rouge">&lt;b&gt;</code> and <i>italic</i> <code class="language-plaintext highlighter-rouge">&lt;i&gt;</code>
+    <ul>
+      <li>they are semantic, work with screen readers, are less likely to confuse mobile styling (ex: bolding already bolded text), and can be styled individually</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="spacing-and-layouts">spacing and layouts</h2>
+
+<h3 id="my-margin-method">my margin method</h3>
+
+<p>to keep spacing simple, consistent, and avoid pointless margin overlap, i style with top margins and set bottom margins to 0.</p>
+
+<p>this means the last element in a container will run flush with the bottom (it won’t create an extra gap)!</p>
+
+<p>since i start each page with <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> (and start other containers with a known alternative), i give that first element a top margin of 0 so it will run flush with the top. (i can also give it a bottom margin if needed)</p>
+
+<h3 id="layouts">layouts</h3>
+
+<p>flexboxes are great for building a responsive layout! basically, they let you put elements side by side (ex: a sidebar and main body), and you can easily reorganize/reorder elements for narrow screens.</p>
+
+<p>(layout tutorial link in “about” page is currently down)</p>
 
 <hr />
 
 <h2 id="github-pages--jekyll">github pages / jekyll</h2>
 
-<h3 id="how-to-test-site-locally">how to test site locally</h3>
-
-<ol>
-  <li>command prompt: <code class="language-plaintext highlighter-rouge">cd [local project path]</code></li>
-  <li>web browser: http://localhost:4000/</li>
-  <li>command prompt: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code></li>
-</ol>
+<p>(both are free! 😎)</p>
 
 <h3 id="how-to-adjust-links-for-a-project-site-subdirectory">how to adjust links for a project site (subdirectory)</h3>
 
 <p>a github pages “project site” (https://username.github.io/myproject) is a subdirectory of your “user site” (https://username.github.io), which can throw off links for project sites.</p>
 
-<p>a link to <code class="language-plaintext highlighter-rouge">/index.html</code> in your project site will send you all the way back to the root, rather than the index of your project site.</p>
+<p>a link to <code class="language-plaintext highlighter-rouge">/index.html</code> in your project site will send you all the way back to the root, rather than to the index of your project site.</p>
 
 <p>it would probably be really annoying and bad if i hardcoded the baseurl in every single link, so here’s what i did:</p>
 
@@ -139,6 +183,41 @@
   </li>
 </ol>
 
+<p>now if your baseurl changes, you can easily update it in config!</p>
+
+<h3 id="jekyll-static-site-builder-is-helpful">jekyll (static site builder) is helpful</h3>
+
+<p>jekyll introduces a hundred more moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:</p>
+
+<ul>
+  <li>write your layouts/source codes once, then apply ‘em anywhere you like</li>
+  <li>use LIQUID to harness the essentials of code: variables, for loops, and if statements</li>
+  <li>YAML data is very easy to read and edit – use with the above to efficiently print things onto your page, ex: wiki infobox content!</li>
+  <li>write your page content in markdown! jekyll converts it to html</li>
+  <li>BONUS: <a href="https://jekyllrb.com/docs/step-by-step/07-assets/">the tutorial</a> introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities</li>
+</ul>
+
+<h3 id="how-to-test-site-locally">how to test site locally</h3>
+
+<p>once you’ve <a href="https://jekyllrb.com/docs/installation/">installed everything</a> and <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">set up jekyll</a> in your local project directory…</p>
+
+<ol>
+  <li>command prompt: <code class="language-plaintext highlighter-rouge">cd [local project path]</code></li>
+  <li>web browser: http://localhost:4000/</li>
+  <li>command prompt: <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code></li>
+</ol>
+
+<hr />
+
+<h2 id="ways-of-the-web">ways of the web</h2>
+
+<h3 id="no-hotlinking">no hotlinking</h3>
+
+<p>hotlinking: embedding images/media on your site by directly linking them from someone else’s site. considered poor “netiquette” because it uses up the other person’s data.</p>
+
+<p>instead, download the image/media and host it on your own site, or use an external host (ex: youtube)!</p>
+
+<p>(i hotlink from my own blog/drafts though cus it’s tumblr <img src="/assets/images/emojis/zenigata.png" class="emoji" alt="zenigata emoji" title="zenigata emoji" />)</p>
 
 
           </div>

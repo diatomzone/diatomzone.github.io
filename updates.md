@@ -1,4 +1,18 @@
 
+
+#### mar 27 2023
+
+- page content for coding articles, superscript styling
+
+---
+
+#### mar 23-24 2023
+
+- page content for coding articles, mystuff category, twine test and embed
+- added codebank doc
+
+---
+
 #### mar 16 2023
 
 - page content and article organization, meme acquisition, added collectionlisting layout categories

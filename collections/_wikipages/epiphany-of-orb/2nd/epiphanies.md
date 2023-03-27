@@ -9,7 +9,7 @@ data:
 
 EPIPHANIES are small-scale, highly specific, and relatively impractical supernatural abilities in EPIPHANY OF ORB.
 
-this power system is inextricably rooted in each character's experiences and worldview.
+this power system is inextricably rooted in each user's experiences and worldview.
 
 <div class="directory"> <!-- manual instance of a directory -->
   <h4>skip to:</h4>

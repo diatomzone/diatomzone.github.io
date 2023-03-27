@@ -16,6 +16,8 @@ collections:
     output: true # creates a page for each document. if false, your .md file won't be linkable even if it exists
   wikipages:
     output: true
+  mystuff:
+    output: true
   test:
     output: true
 
@@ -47,6 +49,12 @@ defaults:
     values:
       layout: "wikipage"
       background: tilenight
+  - scope: # mystuff template
+      path: ""
+      type: "mystuff"
+    values:
+      layout: "article"
+      background: tileflame
 
 # excerpt separator for blog posts
 # gets rid of "excerpt separator" replacement warning for pages with raw/endraw

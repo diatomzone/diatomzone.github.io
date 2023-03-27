@@ -9,9 +9,9 @@ linklists:
     - name: w3schools -- responsive iframe
       url: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
       description:
-    - name: sadgrl.online
-      url: https://sadgrl.online/
-      description: flexbox layout tutorial
+    - name: sadgrl's flexbox layout tutorial
+      url: https://learn.sadgrl.online/building-a-layout-from-start-to-finish/
+      description: (i think page is temporarily down?)
     - name: css tricks
       url: https://css-tricks.com/how-to-create-a-skip-to-content-link/
       description: keyboard/screen reader accessible "skip to content" link
@@ -61,7 +61,7 @@ when i see something i've made from scratch, and what others have made from the 
 
 this is what gives me the strength to try.
 
-(countless clueless directionless hopeless webpages and two catastrophic jekyll failures have paved the way)
+(countless clueless directionless webpages and two catastrophic jekyll failures have paved the way)
 
 thank you for visiting my very first website that actually works! {{ site.data.emojis.pie }}
 

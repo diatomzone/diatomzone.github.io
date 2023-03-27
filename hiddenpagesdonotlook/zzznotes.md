@@ -81,6 +81,7 @@ title: zzznotes
 - shadows
   - text-shadow for text (text-shadow: 3px 3px 3px black;), box-shadow for elements
   - filter: drop-shadow(1px 1px 1px orange)
+  - box shadow uses the element's entire (rectangular) box, while drop shadow uses the shape (alpha channel) of the image/text
 - outline = inside element, border = outside element (and more properites such as round corners and specific sides)
 - display: the most important css property for layout
   - inline: default, height/width values do not apply
@@ -123,6 +124,20 @@ title: zzznotes
 - audio
   - `<audio controls><source src="/assets/audio/sfx-selectjingle.wav" type="audio/mpeg">(audio player not supported)</audio>`
 - can't change background-image opacity without affecting children, according to article
+- directory template
+
+```
+<div class="directory"> <!-- manual instance of a directory -->
+  <h4>skip to:</h4>
+  <ul>
+      <li><a href="#tip-top-tips">tip top tips</a></li> <!-- entry label, link to anchor -->
+      <li><a href="#best-practices">best practices</a></li>
+      <li><a href="#spacing-and-layouts">spacing and layouts</a></li>
+      <li><a href="#github-pages--jekyll">github pages / jekyll</a></li>
+      <li><a href="#ways-of-the-web">ways of the web</a></li>
+  </ul>
+</div>
+```
 
 ## ACCESSIBILITY
 - `img template: <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">`
@@ -231,13 +246,12 @@ title: zzznotes
   - conclusion: iframe sizing is not flexible so i'm going back to old html version for now
 
 - CURRENT TASKS
-  - write pages
+  - STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY
   - organize zzznotes
+    - discoveries article
   - mystuff category
   - redo landing page and its stylesheet more logically
-  - folder order wikipages
   - fix code block styling (change to pre tag?)
-  - STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY
 
 ## SITEBUILDING RULES
 - margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin
@@ -341,6 +355,8 @@ title: zzznotes
     - i can do path: "testfolder" (regular folder) and assign values that way, but then you lose the collection capabilities
   - could not figure how to access scope path within _wikipages (tried with _category and plain folder, with multiple variations in config) in order to assign front matter "universe" default value to each page based on folder, so my workaround is to define the categories in a _data file and sort through all _wikipage entry paths that way
 - ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it's a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists
+- how to reset iframe without js?
+  - reloading page and iframe don't work, so use reset macro within twine (perhaps sidebar)
 
 ---
 
@@ -352,6 +368,15 @@ title: zzznotes
     - `git reset --soft HEAD~` to remove latest commit
     - `git push origin main --force` to force push
     - then i commit normally
+
+---
+
+## BONUS WEBTIP NOTES
+- `@media` queries must go AFTER the styles they change (put at bottom of stylesheet)
+- use `max-width` and `max-height` instead of fixed `width` and `height` where possible
+- you can put basics like color and `font-size: 118%;` in `body{}` since they apply to everything
+- web inspector real mvp
+  - hit F12 to open the inspector and use the selector (ctrl + shift + c) to check an element's details. troubleshoot spacing, see how other sites work, etc.
 
 ---
 

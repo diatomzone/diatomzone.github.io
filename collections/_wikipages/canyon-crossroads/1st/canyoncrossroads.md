@@ -15,6 +15,12 @@ CANYON CROSSROADS is a fantasy western slice-of-life.
   <iframe src="https://www.youtube.com/embed/7IQliJHVLoo" title="jubilife city (night)" allow="fullscreen"></iframe>
 </div>
 
+(also idk if this could be a groovy fight theme or something i just like it)
+
+<div class="iframecontainer">
+  <iframe src="https://www.youtube.com/embed/pcTYlJ_Jvqc" title="route 246" allow="fullscreen"></iframe>
+</div>
+
 ## synopsis
 
 the adventures of travelers, townsfolk, and the tunnel canyon cowpoke gang.

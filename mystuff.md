@@ -1,9 +1,8 @@
 ---
 title: my stuff
+layout: collection-listing
+collection: mystuff
+background: tileflame
 ---
 
-(UNDER CONSTRUCTION)
-
-stuff i've made :^)
-
-## twine games
+computer stuff i've made :^)

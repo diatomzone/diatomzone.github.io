@@ -1,5 +1,5 @@
 ---
-title: "check it out: website specil features!"
+title: "check it out: my website's specil features!"
 ---
 
 i am extremely particular about my webpage preferences.
@@ -7,9 +7,11 @@ i am extremely particular about my webpage preferences.
 ## zestiest features
 
 - when resizing the browser, page content will not shrink until margins disappear
-- no extra space at top or bottom of containers -- elements run flush with padding (SPACING IS MY #1 GRIPE EVER DEATH AND DESTRUCTION {{site.data.emojis.explosion}})
-- customized unordered and ordered list markers (bullets) so list items have the same height (WHY ARE THEY DIFFERENT {{site.data.emojis.ungalo}})
-  - (EDIT: apparently default works perfectly fine on chrome FIREFOX HOW COULD YOU DO THIS TO MEEEE)
+- no extra space at top or bottom of containers -- elements run flush with padding<sup>1</sup>
+
+### specific spacing
+
+- custom unordered/ordered list markers (bullets) so list items have the same height<sup>2 3</sup>
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
@@ -47,12 +49,37 @@ i am extremely particular about my webpage preferences.
 </div>
 </div>
 
+- custom superscript<sup>(wow!)</sup> styling as well
+
+<div class="flex flexcentered">
+<div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
+<div markdown="1" style="padding:0 0.5em;">
+  - NO-SUP
+  - NO-SUP
+  - NO-SUP
+  - NO-SUP
+</div>
+<div markdown="1" style="padding:0 0.5em;">
+  - CUSTOM<sup>#</sup>
+  - CUSTOM<sup>#</sup>
+  - CUSTOM<sup>#</sup>
+  - CUSTOM<sup>#</sup>
+</div>
+<div markdown="1" style="padding:0 0.5em;">
+  - DFAULT<sup style="vertical-align:super; position:static;">#</sup>
+  - DFAULT<sup style="vertical-align:super; position:static;">#</sup>
+  - DFAULT<sup style="vertical-align:super; position:static;">#</sup>
+  - DFAULT<sup style="vertical-align:super; position:static;">#</sup>
+</div>
+</div>
+</div>
+
 ## functional features
 
 - responsive layout: elements resize and reorder for narrow browsers/mobile
 - additional navigation at bottom of page
-- hidden "skip to content" button for keyboard users/screen readers (press TAB then ENTER)
 - larger font size and dark background because my eye balls
+- hidden "skip to content" button for keyboard users/screen readers (at top of page, press TAB then ENTER)
 
 ## bonus features
 
@@ -63,3 +90,9 @@ i am extremely particular about my webpage preferences.
 - no javascript (yet)
 - lightweight: external videos, no large image files, etc.
 - custom cursor and handwritten font
+
+---
+
+- <sup>1</sup> SPACING IS MY #1 GRIPE EVER DEATH AND DESTRUCTION {{site.data.emojis.explosion}}
+- <sup>2</sup> WHY ARE THEY DIFFERENT {{site.data.emojis.ungalo}}
+- <sup>3</sup> EDIT: apparently default works perfectly fine on chrome FIREFOX HOW COULD YOU DO THIS TO MEEEEE

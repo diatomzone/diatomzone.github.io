@@ -52,7 +52,7 @@ div.dialoguebox div.dialogueflex div p { margin: 0; }
 
 div.dialoguebox div.dialogueflex:first-child { margin-top: 0; }
 
-div.iframecontainer { position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; margin: calc(40px / 2) auto 0 auto; }
+div.iframecontainer { background: darkslateblue; position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; margin: calc(40px / 2) auto 0 auto; }
 
 h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.2em; text-align: center; margin: 0 0 calc(40px / 1.5) 0; padding: 0; }
 
@@ -90,7 +90,7 @@ ul, ol { margin: calc(40px / 2) 0 0 0; padding: 0 0 0 2em; }
 
 ul li, ol li { background-color: transparent; margin: calc(40px / 4) 0 0 0; }
 
-ul li ul, ul li ol, ol li ul, ol li ol { margin: 0; padding: 0 0 0 1em; }
+ul li ul, ul li ol, ol li ul, ol li ol { margin: 0; padding: 0 0 0 1.6em; }
 
 ul li ul li, ul li ol li, ol li ul li, ol li ol li { background-color: transparent; }
 
@@ -107,6 +107,8 @@ ol ::marker { content: counter(list-item) ") "; color: plum; }
 ol ul ::marker { content: "~  "; }
 
 ol ul ol ::marker { content: counter(list-item) ") "; }
+
+sup { color: orange; vertical-align: top; position: relative; bottom: 0.5em; }
 
 hr { width: 80%; border: 1.5px solid #4dc6ff; margin: calc(40px / 1) auto; }
 
@@ -184,6 +186,6 @@ aside.infobox .value { background-color: transparent; width: 60%; padding: 0 0 0
 
 .gallerytext { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; width: 80%; }
 
-@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 1.7em; } h2 { font-size: 1.3em; } h3 { font-size: 1.1em; } h4, h5, h6 { font-size: 1em; } ul, ol { padding: 0 0 0 1.6em; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
+@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 1.7em; } h2 { font-size: 1.3em; } h3 { font-size: 1.1em; } h4, h5, h6 { font-size: 1em; } ul, ol { padding: 0 0 0 1.6em; } ul li ul, ul li ol, ol li ul, ol li ol { padding: 0 0 0 1em; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

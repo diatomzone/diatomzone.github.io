@@ -75,18 +75,6 @@ some gems of the world wide web!
 
 {% include linklists-directory.html %}
 
-<ul>
-  <li>
-    <p>lsdkjfldskjfldsjkfsdlfjk  ksdjflsdf</p>
-  </li>
-  <li>
-    <p>lsdkjfldskjfldsjkfsdlfjk  ksdjflsdf</p>
-  </li>
-  <li>
-    <p>lsdkjfldskjfldsjkfsdlfjk  ksdjflsdf</p>
-  </li>
-</ul>
-
 {% include linklists.html listname="web building" %}
 
 {% include linklists.html listname="other" %}
