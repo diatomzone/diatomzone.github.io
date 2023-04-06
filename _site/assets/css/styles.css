@@ -168,6 +168,8 @@ aside.infobox .key { background-color: transparent; color: #4dc6ff; font-weight:
 
 aside.infobox .value { background-color: transparent; width: 60%; padding: 0 0 0 0.3em; }
 
+.photogallery img { width: 100%; }
+
 .row { display: flex; flex-wrap: wrap; margin: 0; max-width: 100%; }
 
 .column { flex: 25%; max-width: 25%; margin: 0; }

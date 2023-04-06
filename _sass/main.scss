@@ -464,6 +464,13 @@ aside.infobox { // wiki info box
 }
 
 // GALLERY ELEMENTS /////////////////////////////////////////////////////////////////////////////
+// basic gallery
+.photogallery {
+  img {
+    width: 100%;
+  }
+}
+
 // old responsive version
 .row {
   display: flex;

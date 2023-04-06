@@ -246,10 +246,10 @@ title: zzznotes
   - conclusion: iframe sizing is not flexible so i'm going back to old html version for now
 
 - CURRENT TASKS
-  - STOP QUASHING VERBIAGE IN PURSUIT OF DIGESTABILITY
   - organize zzznotes
     - discoveries article
-  - mystuff category
+  - twine
+  - coollinks
   - redo landing page and its stylesheet more logically
   - fix code block styling (change to pre tag?)
 
@@ -331,6 +331,8 @@ title: zzznotes
 - jekyll collection subfolder order (alphabetical) will dictate the order of printed collection items, great for reordering wikilisting items
 - remember to add collections to config for them to work!
 - doing for loops properly (on multiple lines) will create whitespaces between consecutive images, but if it's all in one line there won't be whitespace, meaning the newlines/indentation have effect, which is not supposed to happen
+- to make markdown (ex: updates.md) embeddable in shortbox and also have it show up as its own page, make 1) a plain md file you can embed and 2) a frontmatter'd md file that includes the plain md file (needs front matter to be converted to html/made available as a page)
+  - if you try to add front matter to the plain md file, the triple dashes will show up as hr's and mess up the page when embedded
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

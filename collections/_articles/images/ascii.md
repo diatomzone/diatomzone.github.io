@@ -231,3 +231,5 @@ c'.................        .okkkkkkkkkxoc:cllooodddooodddxd;                    
 </pre></div>
 
 you too can create an ascii art of yakuza 0 with [ascii art generator](https://www.ascii-art-generator.org/)!
+
+(wow this goes way out of bounds on mobile)

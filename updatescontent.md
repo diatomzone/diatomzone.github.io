@@ -1,8 +1,20 @@
 
+#### apr 4 2023
 
-#### mar 27 2023
+- page content for uncategorized articles
+
+---
+
+#### mar 31 2023
+
+- page content for art-transcripts and uncategorized articles, brain radio archive, update log fullscreen version (markdown testing)
+
+---
+
+#### mar 26-27 2023
 
 - page content for coding articles, superscript styling
+- added article categories: art-transcripts, uncategorized
 
 ---
 

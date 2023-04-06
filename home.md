@@ -30,8 +30,10 @@ take this burg {{site.data.emojis.burger}} from super smash brothers brawl for t
 
 ## update log
 
+[(view fullscreen)](updates.html)
+
 <div class="shortbox" markdown="1">
-  {% include_relative updates.md %}
+  {% include_relative updatescontent.md %}
 </div>
 
 ## devlinks
@@ -40,4 +42,4 @@ take this burg {{site.data.emojis.burger}} from super smash brothers brawl for t
 
 ---
 
-- <sup>1</sup> including footnote capabilities!
+- <sup>1</sup> now with footnote capabilities!
