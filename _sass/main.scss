@@ -229,6 +229,9 @@ img {
     height: $lineheight;
   }
 }
+.dimmed { // for dimming white images
+  filter: brightness(90%);
+}
 ul, ol { // for markdown again
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
   padding: 0 0 0 2em; // normally 40px
@@ -342,15 +345,18 @@ code { // for code, some people wrap <pre> around <code>
 
 // HEADER, FOOTER, NAVIGATION /////////////////////////////////////////////////////////////////////////////
 header {
-  background: $colorbox1;
+  // background: $colorbox1;
+  background: transparent;
   max-width: 100%;
-  height: 100px;
+  height: 40px;
   text-align: center;
   margin: 0;
-  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
+  // box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
   img { // needs adjustment
-    max-height: 100%;
+    // max-height: 100%;
+    height: 100%;
     max-width: 50%;
+    filter: drop-shadow(calc(#{$gapheight} / 6) calc(#{$gapheight} / 6) 0px $colorwhite);
     // display: block; // link takes up full image size
     // margin: auto; // center
   }

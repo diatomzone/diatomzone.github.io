@@ -1,5 +1,11 @@
 
-#### apr 4-6 2023
+#### apr 9-10 2023
+
+- page content/cleanup for articles, tag hall of fame article, some styling, header image-ing
+
+---
+
+#### apr 4-7 2023
 
 - page content for uncategorized articles
 

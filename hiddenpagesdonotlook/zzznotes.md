@@ -333,6 +333,7 @@ title: zzznotes
 - doing for loops properly (on multiple lines) will create whitespaces between consecutive images, but if it's all in one line there won't be whitespace, meaning the newlines/indentation have effect, which is not supposed to happen
 - to make markdown (ex: updates.md) embeddable in shortbox and also have it show up as its own page, make 1) a plain md file you can embed and 2) a frontmatter'd md file that includes the plain md file (needs front matter to be converted to html/made available as a page)
   - if you try to add front matter to the plain md file, the triple dashes will show up as hr's and mess up the page when embedded
+- if an image's filename has brackets, it won't display properly (at least when printed with a for loop)
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

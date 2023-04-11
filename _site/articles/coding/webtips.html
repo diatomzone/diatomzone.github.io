@@ -24,9 +24,12 @@
       <!-- header source code -->
 <header>
   <a class="skip-to-content-button" href="#main">skip to content</a>
+  <!-- <h1> -->
   <a href="/home.html"> <!-- link to home page -->
-    <img src="/assets/images/coolheader.png" alt="placeholder site logo" title="placeholder site logo">
+    <img src="/assets/images/pixelbanner.png" alt="placeholder site logo" title="placeholder site logo">
+    <!-- DIATOMZONE -->
   </a>
+  <!-- </h1> -->
 </header>
 
       <!-- horizontal navigation bar source code -->
@@ -128,10 +131,14 @@
 <h4 id="nice-tag-choices">nice tag choices</h4>
 
 <ul>
-  <li>use new paragraph <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> instead of line break <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code></li>
+  <li>use new paragraph <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> instead of line break <code class="language-plaintext highlighter-rouge">&lt;br&gt;</code>
+    <ul>
+      <li>markdown does this when you double-enter</li>
+    </ul>
+  </li>
   <li>use <strong>strong</strong> <code class="language-plaintext highlighter-rouge">&lt;strong&gt;</code> and <em>emphasis</em> <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code> instead of <b>bold</b> <code class="language-plaintext highlighter-rouge">&lt;b&gt;</code> and <i>italic</i> <code class="language-plaintext highlighter-rouge">&lt;i&gt;</code>
     <ul>
-      <li>they are semantic, work with screen readers, are less likely to confuse mobile styling (ex: bolding already bolded text), and can be styled individually</li>
+      <li>they are semantic, work with screen readers, are less likely to confuse mobile styling (ex: bolding already bolded text), and can be styled in your stylesheet</li>
     </ul>
   </li>
 </ul>
@@ -142,7 +149,7 @@
 
 <h3 id="my-margin-method">my margin method</h3>
 
-<p>to keep spacing simple, consistent, and avoid pointless margin overlap, i style with top margins and set bottom margins to 0.</p>
+<p>to keep vertical spacing simple, consistent, and avoid pointless margin overlap, i style with top margins and set bottom margins to 0.</p>
 
 <p>this means the last element in a container will run flush with the bottom (it won’t create an extra gap)!</p>
 
@@ -166,7 +173,7 @@
 
 <p>a link to <code class="language-plaintext highlighter-rouge">/index.html</code> in your project site will send you all the way back to the root, rather than to the index of your project site.</p>
 
-<p>it would probably be really annoying and bad if i hardcoded the baseurl in every single link, so here’s what i did:</p>
+<p>it would likely be really annoying and bad if i hardcoded the baseurl in every single link, so here’s what i did:</p>
 
 <ol>
   <li>define your baseurl in <code class="language-plaintext highlighter-rouge">_config.yml</code>: <code class="language-plaintext highlighter-rouge">baseurl: /myproject</code>
@@ -174,7 +181,7 @@
       <li>(i also have my site url defined here)</li>
     </ul>
   </li>
-  <li>use the “relative_url” liquid filter on any link to add your baseurl
+  <li>use the “relative_url” liquid filter on any link to automatically add your baseurl
     <ul>
       <li>html: <code class="language-plaintext highlighter-rouge">&lt;a href="{{ '/index.html' | relative_url }}"&gt;&lt;/a&gt;</code></li>
       <li>html image: <code class="language-plaintext highlighter-rouge">&lt;img src="{{ '/assets/images/dog.png' | relative_url }}" alt="dog"&gt;</code></li>
@@ -187,14 +194,14 @@
 
 <h3 id="jekyll-static-site-builder-is-helpful">jekyll (static site builder) is helpful</h3>
 
-<p>jekyll introduces a hundred more moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:</p>
+<p>jekyll introduces a hundred extra moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:</p>
 
 <ul>
-  <li>write your layouts/source codes once, then apply ‘em anywhere you like</li>
+  <li>write your page layouts/source codes once, then apply ‘em anywhere you like</li>
   <li>use LIQUID to harness the essentials of code: variables, for loops, and if statements</li>
-  <li>YAML data is very easy to read and edit – use with the above to efficiently print things onto your page, ex: wiki infobox content!</li>
+  <li>YAML data is very easy to read and edit – combine it with liquid to efficiently print things onto your page, ex: wiki infobox content!</li>
   <li>write your page content in markdown! jekyll converts it to html</li>
-  <li>BONUS: <a href="https://jekyllrb.com/docs/step-by-step/07-assets/">the tutorial</a> introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities</li>
+  <li>BONUS: <a href="https://jekyllrb.com/docs/step-by-step/07-assets/">the jekyll tutorial</a> introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities</li>
 </ul>
 
 <h3 id="how-to-test-site-locally">how to test site locally</h3>

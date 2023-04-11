@@ -43,9 +43,9 @@ linklists:
 
 <div class="centered">
   <img src="{{ '/assets/images/memes/wayne.png' | relative_url }}" alt="wayne from hylics 2 lying facedown on the ground" title="wayne from hylics 2 lying facedown on the ground">
-  <img src="{{ '/assets/images/memes/chomp.jpg' | relative_url }}" alt="reaction image of someone furiously chomping an unbothered person's head" title="reaction image of someone furiously chomping an unbothered person's head">
+  <img src="{{ '/assets/images/memes/chomp.jpg' | relative_url }}" alt="reaction image of someone furiously chomping an unbothered person's head" title="reaction image of someone furiously chomping an unbothered person's head" class="dimmed">
   <img src="{{ '/assets/images/memes/worthit.jpg' | relative_url }}" alt="cursed emoji meme reading 'I don't want to see... BUT I DO. and sometimes... It's worth it'" title="cursed emoji meme reading 'I don't want to see... BUT I DO. and sometimes... It's worth it'">
-  <img src="{{ '/assets/images/memes/thumbsup.jpg' | relative_url }}" alt="reaction image of a crudely-drawn yet smug thumbs-up" title="reaction image of a crudely-drawn yet smug thumbs-up">
+  <img src="{{ '/assets/images/memes/thumbsup.jpg' | relative_url }}" alt="reaction image of a crudely-drawn yet smug thumbs-up" title="reaction image of a crudely-drawn yet smug thumbs-up" class="dimmed">
   <img src="{{ '/assets/images/memes/coding.jpg' | relative_url }}" alt="the 'fuck them kids' meme edited to just say 'fuck them', labeled 'ceo of coding @ me'" title="the 'fuck them kids' meme edited to just say 'fuck them', labeled 'ceo of coding @ me'">
 </div>
 

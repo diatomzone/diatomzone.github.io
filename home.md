@@ -8,7 +8,7 @@ title: home
   <img src="{{ '/assets/images/gifs/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">
 </div>
 
-## waoh! explosionomics!
+## waoh! explosions!
 
 hello and welcome to my website! :^]
 
@@ -42,4 +42,4 @@ take this burg {{site.data.emojis.burger}} from super smash brothers brawl for t
 
 ---
 
-- <sup>1</sup> now with footnote capabilities!
+- <sup>1</sup> including footnote capabilities!

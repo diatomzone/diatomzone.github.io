@@ -7,7 +7,7 @@ an image description of my EPIPHANY OF ORB halloween comic!
 <a href="#transcript">(skip to transcript)</a>
 <br><br>
 
-<div class="photogallery">
+<div class="photogallery dimmed">
   <img src="https://64.media.tumblr.com/5a00075692f2a12045366b59f6d2f346/79fedfbef5f5c910-b2/s1280x1920/6f4c982088741d1a410c7fd870e07304df31cf80.png" alt="page 1" title="page 1">
   <br><br>
   <img src="https://64.media.tumblr.com/c63801025d6d6f386cf24d3dd97da280/79fedfbef5f5c910-98/s1280x1920/f45c93240848ea063f648eb22f986a2cb22d5936.png" alt="page 2" title="page 2">

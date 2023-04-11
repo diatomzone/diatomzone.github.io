@@ -43,8 +43,9 @@ div, nav, footer etc. are all exactly the same (a plain container), but named el
 #### nice tag choices
 
 - use new paragraph `<p>` instead of line break `<br>`
+  - markdown does this when you double-enter
 - use <strong>strong</strong> `<strong>` and <em>emphasis</em> `<em>` instead of <b>bold</b> `<b>` and <i>italic</i> `<i>`
-  - they are semantic, work with screen readers, are less likely to confuse mobile styling (ex: bolding already bolded text), and can be styled individually
+  - they are semantic, work with screen readers, are less likely to confuse mobile styling (ex: bolding already bolded text), and can be styled in your stylesheet
 
 ---
 
@@ -52,7 +53,7 @@ div, nav, footer etc. are all exactly the same (a plain container), but named el
 
 ### my margin method
 
-to keep spacing simple, consistent, and avoid pointless margin overlap, i style with top margins and set bottom margins to 0.
+to keep vertical spacing simple, consistent, and avoid pointless margin overlap, i style with top margins and set bottom margins to 0.
 
 this means the last element in a container will run flush with the bottom (it won't create an extra gap)!
 
@@ -76,12 +77,12 @@ a github pages "project site" (https://username.github.io/myproject) is a subdir
 
 a link to `/index.html` in your project site will send you all the way back to the root, rather than to the index of your project site.
 
-it would probably be really annoying and bad if i hardcoded the baseurl in every single link, so here's what i did:
+it would likely be really annoying and bad if i hardcoded the baseurl in every single link, so here's what i did:
 
 {% raw %}
 1. define your baseurl in `_config.yml`: `baseurl: /myproject`
   - (i also have my site url defined here)
-2. use the "relative_url" liquid filter on any link to add your baseurl
+2. use the "relative_url" liquid filter on any link to automatically add your baseurl
   - html: `<a href="{{ '/index.html' | relative_url }}"></a>`
   - html image: `<img src="{{ '/assets/images/dog.png' | relative_url }}" alt="dog">`
   - markdown: `[home]({{ '/index.html' | relative_url }})`
@@ -91,13 +92,13 @@ now if your baseurl changes, you can easily update it in config!
 
 ### jekyll (static site builder) is helpful
 
-jekyll introduces a hundred more moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:
+jekyll introduces a hundred extra moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:
 
-- write your layouts/source codes once, then apply 'em anywhere you like
+- write your page layouts/source codes once, then apply 'em anywhere you like
 - use LIQUID to harness the essentials of code: variables, for loops, and if statements
-- YAML data is very easy to read and edit -- use with the above to efficiently print things onto your page, ex: wiki infobox content!
+- YAML data is very easy to read and edit -- combine it with liquid to efficiently print things onto your page, ex: wiki infobox content!
 - write your page content in markdown! jekyll converts it to html
-- BONUS: [the tutorial](https://jekyllrb.com/docs/step-by-step/07-assets/) introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities
+- BONUS: [the jekyll tutorial](https://jekyllrb.com/docs/step-by-step/07-assets/) introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities
 
 ### how to test site locally
 
