@@ -42,19 +42,19 @@ defaults:
       type: "articles" # optional, select filetype within the above path (pages, posts, drafts, or [collectionname])
     values: # can add your own values, ex: universe: "canyoncrossroads"
       layout: "article"
-      background: tilesea
+      background: tilecloud
   - scope: # wikipage template
       path: ""
       type: "wikipages"
     values:
       layout: "wikipage"
-      background: tilenight
+      background: tilethree
   - scope: # mystuff template
       path: ""
       type: "mystuff"
     values:
       layout: "article"
-      background: tileflame
+      background: tilemulti
 
 # excerpt separator for blog posts
 # gets rid of "excerpt separator" replacement warning for pages with raw/endraw

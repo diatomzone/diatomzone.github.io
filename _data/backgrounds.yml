@@ -13,6 +13,10 @@ yellow: "orange" # $coloryellow
 tilesea: "url('/assets/images/backgrounds/tilesea.png')"
 tilenight: "url('/assets/images/backgrounds/tilenight.png')"
 tileflame: "url('/assets/images/backgrounds/tileflame.png')"
+tilecloud: "url('/assets/images/backgrounds/tilecloud.png')"
+tilemulti: "url('/assets/images/backgrounds/tilemulti.png')"
+tilewave: "url('/assets/images/backgrounds/tilewave.png')"
+tilethree: "url('/assets/images/backgrounds/tilethree.png')"
 
 cursor: "url('/assets/images/cursor.png')"
 explosion: "url('/assets/images/gifs/explosion.gif')"

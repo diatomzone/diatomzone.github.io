@@ -26,6 +26,14 @@ ZUGZWANG "ZUG" ARCHAEOPTERYX is a main antagonist in EPIPHANY OF ORB.
 
 they are a melodramatic henchman trying to capture bill, century, and fiori for their mysterious boss. mostly ineffectual.
 
+## character song?
+
+<div class="iframecontainer">
+  <iframe src="https://www.youtube.com/embed/btjb8IHjaxE" title="myosotis (full mix)" allow="fullscreen"></iframe>
+</div>
+
+(i forgot how good this song was until it lost the first round of a tumblr poll which is absurd it's opera dubstep!!!)
+
 ## trivia
 
 - owns the red "FART" jacket street thugs wear in yakuza games

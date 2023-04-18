@@ -12,7 +12,7 @@ title: home
 
 hello and welcome to my website! :^]
 
-this spicy spot will include all sorts of things, including:
+this flammable spot will house all sorts of things, including:
 
 - wikipages about my ocs
 - computer-related projects like sitebuilding notes and twine games
@@ -42,4 +42,4 @@ take this burg {{site.data.emojis.burger}} from super smash brothers brawl for t
 
 ---
 
-- <sup>1</sup> including footnote capabilities!
+- <sup>1</sup> including footnotes!

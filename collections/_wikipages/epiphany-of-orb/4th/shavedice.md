@@ -7,7 +7,7 @@ data:
     universe: epiphany of orb
     type: human
     age: mid 30's
-    pronouns: they/he
+    pronouns: he/they
     occupation: secret agent
   abilities:
     weapon: pistol
