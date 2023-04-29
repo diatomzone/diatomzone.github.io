@@ -31,7 +31,7 @@ the adventures of travelers, townsfolk, and the tunnel canyon cowpoke gang.
 
 a scenic outpost of REDTAIL'S BUTTE.
 
-home to our protagonists, canyon crossroads sits atop grassy foothills where the railroad exits TUNNEL CANYON on its way down to redtail.
+home to our protagonists, canyon crossroads sits atop grassy foothills where the railroad exits TUNNEL CANYON on its way down to redtail. [EDIT]
 
 once a simple pit stop, canyon crossroads has grown into a small town that sees visitors year-round. quality lodgings and its proximity to the mountains and their forests make it popular with (game, bounty, monster) hunters as well.
 
@@ -49,9 +49,9 @@ as the easiest (flattest) way to cross from one side of the mountains to the oth
 
 a medium-sized city located in a basin-and-range valley. named for its picturesque butte (not butt) where redtail hawks nest.
 
-despite the drier climate, redtail supports a vibrant agricultural industry thanks to mountain runoff from both sides and groundwater specialists.
+despite the drier climate, redtail supports a vibrant agricultural industry thanks to channeled mountain runoff from both sides and the work of groundwater specialists.
 
-canyon crossroads is roughly two hours away by train.
+canyon crossroads is vaguely two hours away by train going uphill, and one hour downhill.
 
 ## existing media
 

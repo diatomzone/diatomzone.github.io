@@ -5,7 +5,7 @@ linklists:
   site credits:
     - name: w3schools
       url: https://www.w3schools.com/
-      description: everyone's favorite wiki for all things coding! (the only light illuminating this cruel earth)
+      description: the only light illuminating this cruel earth (everyone's favorite wiki for all things coding!)
     - name: w3schools -- responsive iframe
       url: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
       description:
@@ -17,7 +17,7 @@ linklists:
       description: keyboard/screen reader accessible "skip to content" link
     - name: jekyll tutorial
       url: https://jekyllrb.com/docs/step-by-step/01-setup/
-      description: made no sense during my first jekyll attempt, i couldn't even figure out how to test my site locally RIP. but after reading through the github tutorial, the combined knowledge from both sources made my second run way smoother!
+      description: the main tutorial i used! made no sense on my first run, though.
     - name: github pages jekyll tutorial
       url: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
       description: used during my second jekyll attempt. unfortunately scrapped the site because it came with a premade "theme".

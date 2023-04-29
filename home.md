@@ -12,7 +12,7 @@ title: home
 
 hello and welcome to my website! :^]
 
-this flammable spot will house all sorts of things, including:
+this flammable spot will include all sorts of things, including:
 
 - wikipages about my ocs
 - computer-related projects like sitebuilding notes and twine games

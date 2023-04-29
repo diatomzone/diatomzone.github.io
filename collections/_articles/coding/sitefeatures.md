@@ -22,7 +22,6 @@ i am extremely particular about my webpage preferences.
 
 - "discord emojis" stored as global variables, called with {%raw%}`{{site.data.emojis.emojiname}}`{%endraw%}
   - emoji height matches line height so they don't throw off spacing
-- various elements printed using LIQUID functionality and YAML data (ex: wiki infobox content, lists of links/descriptions)
 - image alt text in hovertext
 - `.dimmed` class for dimming white images
 - spoiler text capabilities (hover to reveal) <span class="spoilered">a three minute egg...</span>
@@ -30,6 +29,7 @@ i am extremely particular about my webpage preferences.
 - lightweight: external videos, no large image files, etc.
 - custom cursor and handwritten font
 - no javascript (yet)
+- various elements printed using LIQUID functions and YAML data (ex: wiki infobox content, lists of links/descriptions)
 
 ## specific spacings
 

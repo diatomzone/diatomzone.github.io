@@ -248,11 +248,13 @@ title: zzznotes
 - CURRENT TASKS
   - organize zzznotes
     - discoveries article
-  - twine
+  - twine: reset button
   - coollinks
   - redo landing page and its stylesheet more logically
   - fix code block styling (change to pre tag?)
-  - favicon
+  - flavor text item emporium (next round)
+
+[EDIT] tag for edits
 
 ## SITEBUILDING RULES
 - margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin

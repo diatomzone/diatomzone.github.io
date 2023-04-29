@@ -188,7 +188,7 @@ dialogue:
     - - [madd-millennium, ""]
       - [oridoti, ""]
     - - [madd-millennium, "everything in order?"]
-      - [suero, "oh! yes, i'm ready! thank you for asking!"]
+      - [suero, "oh, yes i'm ready! thank you for asking!"]
     - - [madd-millennium, ""]
       - [yasu, ""]
     - - [madd-millennium, "would you like to duel?"]
