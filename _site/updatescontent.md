@@ -2,6 +2,7 @@
 #### apr 20's 2023
 
 - twine game: kamurocho court adventure
+- some twine and minor site stylings
 
 ---
 

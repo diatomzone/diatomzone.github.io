@@ -1,6 +1,6 @@
 ---
 title: cool links
-background: tilewave
+background: tilethree
 
 linklists:
   web building:

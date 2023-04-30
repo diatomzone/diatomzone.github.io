@@ -48,7 +48,7 @@ defaults:
       type: "wikipages"
     values:
       layout: "wikipage"
-      background: tilethree
+      background: tilewave
   - scope: # mystuff template
       path: ""
       type: "mystuff"
