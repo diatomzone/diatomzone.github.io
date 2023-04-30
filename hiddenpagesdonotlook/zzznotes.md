@@ -248,8 +248,8 @@ title: zzznotes
 - CURRENT TASKS
   - organize zzznotes
     - discoveries article
-  - twine: reset button
   - coollinks
+  - wiki cleanup
   - redo landing page and its stylesheet more logically
   - fix code block styling (change to pre tag?)
   - flavor text item emporium (next round)

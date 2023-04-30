@@ -36,31 +36,6 @@ linklists:
     - name:
       url:
       description:
-  category:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
-    - name:
-      url:
-      description:
 ---
 
 some gems of the world wide web!

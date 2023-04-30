@@ -5,16 +5,16 @@ data:
   image: wikipages/cc/tccg.jpg
   information:
     universe: canyon crossroads
-    location: canyon crossroads
-    goal: hanging out
+    HQ: canyon crossroads
+    goal: just chillin
   party stats:
     members: 4
-    horses: 2
-    funds: '✦✦---'
+    horses: 2.5
+    funds: '✦----'
     influence: '✦----'
     cooking: '✦✦✦--'
-    combat: '✦✦✦✦-'
-    balance: '✦✦✦✦-'
+    combat: '✦✦✦--'
+    friendship: '✦✦✦✦✦'
 ---
 
 the TUNNEL CANYON COWPOKE GANG is the main party in CANYON CROSSROADS.
@@ -30,4 +30,4 @@ they are a group of besties based in canyon crossroads (the town).
 
 ## trivia
 
-- they don't have a cohesive theme, but are trying to develop matching accessories
+- they don't have a cohesive theme, but they're trying to develop matching accessories

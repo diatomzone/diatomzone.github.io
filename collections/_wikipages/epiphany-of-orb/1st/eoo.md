@@ -54,6 +54,6 @@ the campus and its bustling college town are located on the edge of new quark ci
 ## trivia
 
 - this started with me trying to combine as many overused tropes and nonsensical ideas as possible, then it accidentally became compelling
-  - it was a desperate attempt to get anything down, which i have big trouble doing
+  - like putting down agar for cultures to grow on
 - out of all my ocs, this main cast has the most characterization by far (meaning, more than none)
 - i did not know "savior of song" had been used as an anime op when i chose it, no wonder it fit the 1:30min format so well...

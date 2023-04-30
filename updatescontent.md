@@ -3,6 +3,7 @@
 
 - twine game: kamurocho court adventure
 - some twine and minor site stylings
+- some wiki cleanup
 
 ---
 

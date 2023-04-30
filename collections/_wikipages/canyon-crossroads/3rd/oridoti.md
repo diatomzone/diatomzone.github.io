@@ -11,7 +11,7 @@ data:
     occupation: hunter
   abilities:
     weapon: crowbar, pistol, anything they can get their hands on
-    magic: ultra beam?
+    magic: beam?
     horse: none
 ---
 
@@ -24,11 +24,12 @@ doesn't talk or emote much, but enjoys company.
 ## trivia
 
 - their hairstyle is based on a "biohazard" symbol
-- they can boil water by staring at it, but only when no one else is around.
+- they can boil water by staring at it, but only when no one else is around
   - jade thinks oridoti uses "infrared waves"
   - yasu thinks oridoti uses "michael waves"
   - suero thinks oridoti uses "geoffrey waves"
-- met jade after jade saw them fall out of the sky near canyon crossroads
+- a good cook but a picky eater
+- met jade after jade watched them fall out of the sky near canyon crossroads
 
 ---
 

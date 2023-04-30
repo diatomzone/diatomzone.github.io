@@ -19,11 +19,14 @@ YASU is a main character in CANYON CROSSROADS and a member of the TUNNEL CANYON 
 
 she is a bandit who rides a bike really fast instead of riding a horse.
 
-excitable and competitive, one of her favorite pastimes is escaping bounty hunters in redtail's butte.
+excitable and competitive, one of her favorite pastimes is dodging bounty hunters in redtail's butte.
 
 ## trivia
 
 - stores an "advanced disguise" (groucho glasses) under her hat for emergencies
+- has tried making rollerbootskates but they're impractical on uneven terrain
+- the redtail print shop gives her free copies of her wanted posters, which she collects in a scrapbook
+- oridoti and madd millennium (bounty hunters) don't consider her a target for different reasons
 
 ---
 
