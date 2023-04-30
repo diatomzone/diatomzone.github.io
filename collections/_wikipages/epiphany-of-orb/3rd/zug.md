@@ -10,15 +10,15 @@ data:
     pronouns: they/she
     occupation: evil henchman
   abilities:
-    weapon: sword?
+    weapon: wire, scythe, sword, chisel, metal pipe, grappling hook, the list goes on...
     epiphany: none
   about:
-    hobbies:
-    likes:
-    dislikes:
+    hobbies: opening wikipedia pages in new tabs
+    likes: not feeling pressured to make small talk with their evil coworkers at HQ
+    dislikes: not being able to teleport
   stats:
     evil laugh: '✦✦✦--'
-    chess knowledge: '-----'
+    board game knowledge: '-----'
 
 ---
 
@@ -36,8 +36,8 @@ they are a melodramatic henchman trying to capture bill, century, and fiori for 
 
 ## trivia
 
-- owns the red "FART" jacket street thugs wear in yakuza games
-- keeps a crystal chess set in her evil lair (college town apartment) for aesthetic (and namesake)
+- owns the red "FART" jacket street thugs sometimes wear in yakuza games
+- keeps a crystal chess set in her evil lair (college town apartment) for ambiance (and namesake)
 
 ---
 

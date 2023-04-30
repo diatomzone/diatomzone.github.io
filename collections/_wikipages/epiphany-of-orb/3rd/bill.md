@@ -17,17 +17,16 @@ data:
     likes: eating citrus zest but not the fruit
     dislikes: boats
   stats:
-    cooking: '✦✦✦✦✦'
-    karaoke: '✦----'
+    raspberry allergy: '✦----'
 ---
 
-BILGEWATER "BILL" BOATSWAIN is a main protagonist in [EPIPHANY OF ORB](/wikipages/epiphany-of-orb/000-eoo.html).
+BILGEWATER "BILL" BOATSWAIN is a main protagonist in EPIPHANY OF ORB.
 
 they are a 2nd-year pastashapeography major new to the mysterious world of EPIPHANIES. generally "layed back".
 
 ## appearance
 
-bill is a young adult with a medium height and medium build. they have tan skin and short brown hair swept back with a hairband.
+bill is a young adult of medium height and medium build. they have tan skin and short brown hair swept back with a hairband.
 
 they often wear a sleeveless crop top, crop sweatpants, sneakers, and a patterned coat tied around their waist.
 
