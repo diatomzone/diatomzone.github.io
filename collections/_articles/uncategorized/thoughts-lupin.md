@@ -2,7 +2,7 @@
 title: "thoughts dump: lupin iii"
 ---
 
-good gravy!! my favorite absolutely terrible show that i would not recommend to anyone!!!!!!!
+good gravy!! my most favorite absolutely terrible show that i would not recommend to anyone!!!!!!!
 
 ## what's it?
 
@@ -10,21 +10,19 @@ an ongoing 50+ year-old franchise about the infamous thief lupin iii and his gan
 
 ## analysis
 
-supposedly it's like scooby doo if it was bad
-
-also my friends and i have agreed the best lupin movie is dreamworks' "the bad guys"!<sup>1</sup> thank you the bad guys! {{site.data.emojis.loveimages}}
+my friends and i have agreed the best lupin movie is dreamworks' "the bad guys"!<sup>1</sup> thank you the bad guys! {{site.data.emojis.loveimages}}
 
 ---
 
 ## THE sandbox anime of all time
 
-i forgot who called lupin a sandbox anime/build-a-bear series but that's exactly the appeal to me!!
+i forgot who called lupin a sandbox anime/build-a-bear series but that's exactly what appeals to me!!
 
 against all odds, the long-running, continuity-less structure packed with wildly different tones and conflicting characterizations actually works in the series' favor!
 
 1. it makes the series and characters feel complex and timeless -- while each member of lupingang might have 1-3 character traits per work LMAO, multiply that by 2309483 versions of themselves... from wacky cartoon slapstick to whatever was going on in twcfm, they've done it all in every decade, THEY HAVE THE RANGE!! i adore the sense that no matter what changes, the core cast will always be the most important part of each other's lives... literally the blorbesties of all time OUGH
 
-2. with so much material and zero canon, you're free to build the most compelling version of the series and characters with whatever appeals most to you!<sup>2</sup> {{site.data.emojis.evil}} i personally enjoy tumbling the characters in a washer of goofs 'n gags while extrapolating their extremely human and tragic existences for an underlying "depth of flavor" 😌 cooking hacks!
+2. with so much material and zero "canon", you're free to build the most compelling version of the series and characters with whatever appeals most to you!<sup>2</sup> {{site.data.emojis.evil}} i personally enjoy tumbling the characters in a washer of goofs 'n gags while extrapolating their extremely human and tragic existences for an underlying "depth of flavor" 😌 cooking hacks!
 
 ---
 
@@ -32,19 +30,19 @@ against all odds, the long-running, continuity-less structure packed with wildly
 
 BEST CHARACTER NOT EVEN JOKING my whole lupingang fiat thesis etc. etc.
 
-### sad fiat appearances: (let's get these out of the way first)
+### sad fiat appearances (let's get these out of the way first):
 
 - blue jacket: its washed-out barely-yellow color is disappointing considering this modern part has plenty of bright colors. fiat crashes and gets replaced by a cop car for like the rest of whichever part. UNACCEPTABLE!!!!!!!
-- part 6: same dull palette. fiat gets shot to smithereens in like the first ep, that chase does NOT hit like the following:
+- part 6: same dull palette. fiat gets shot to smithereens in like the first ep, that chase is NOTHING like any of the following:
 
 ### extremely excellent fiat appearances:
 
 - the first: (got so long it needs its own bullet points {{site.data.emojis.zenigata}})
   - BRIGHT yellow glossy fresh paint and that orbiting shot and those SPICYFLAVOR exhaust/tire smoke 2d effects in the opening YEAAAAAAHHHHHHHHHHHHH 🔥🔥🔥🔥
-  - i watched [the carchase trailer](https://www.youtube.com/watch?v=XM1HmNXpA-w) 94583 times before the blu-ray came out my god establishing jigen goemon and fiat's abilities SO CONCICELY with UNLIMITED SWAG, jigen with his insane rearview mirror trickshots and the fiat being small enough for him to stick his entire gun arm out the window, goyamon sleepin in the backseat and popping in and out of the sunroof with his signature roofsurfing YES, fiat pulling 180's swerving around bashing bigger cars and jumping off the pavement like the character it is...!!
-  - the perfect combination of "actually strategizing to use the environment to your advantage" and "using cartoon physics to pull off that ridiculous strategy in the coolest way possible", the way jigen decelerated and passed UNDER the airborne truck to catch goemon, the streetlights revealing SMUDGES ON FIAT'S WINDOWS (and the behind-the-scenes pic with the shoe scuffs on the dashboard...! gotta find that one 😭💕), zenigata chasing them 0.5 seconds after the speeding truck explodes completely unfazed cus he's built different, lupingang utterly outclassing zenigata's entourage, complete coordination without exchanging a single word...!!!
+  - i watched [the carchase trailer](https://www.youtube.com/watch?v=XM1HmNXpA-w) 94583 times before the blu-ray came out my god establishing jigen goemon and fiat's abilities SO CONCICELY with UNLIMITED SWAG, jigen with his insane rearview mirror trickshots and the fiat being small enough for him to prop his entire gun arm out the window, goyamon sleepin in the backseat and popping in and out of the sunroof with his signature roofsurfing YES, fiat pulling 180's swerving around bashing bigger cars and jumping off the pavement like the character it is...!!
+  - the perfect combination of "actually strategizing to use the environment to your advantage" and "cartoon physics letting you pull off that ridiculous strategy in the coolest way possible", the way jigen decelerated and passed UNDER the airborne truck to catch goemon, the streetlights revealing SMUDGES ON FIAT'S WINDOWS (and the behind-the-scenes pic with the shoe scuffs on the dashboard...! gotta find that one 😭💕), zenigata chasing them 0.5 seconds after the speeding truck explodes completely unfazed cus he's built different, lupingang utterly outclassing zenigata's entourage, complete coordination without exchanging a single word...!!!
   - ...ok yeah now that i've typed a whole essay top cinema moments of all time actually FIAT NATION ULTIMATE WIN!!!!!!!!! also later when everyone was clambering around the clown car and goemon let lupin fall off the plane and die LKASJGLKJFGF
-- cagliostro: FIAT 500 SHOOTS TO STARDOM!!!! cute travel-packed fiat, gorgeous fire treasure roadtrip montage, rock-paper-gun tire changing intermission, and of course the [famous clarisse car chase](https://www.youtube.com/watch?v=LTOJZiDv1Uk) with jigen stanced through the sunroof, wall-riding, and the souped-up engine!! EXTREMELY iconic all around!!! always remember backseat goemon suffocating in the money pile 😌
+- cagliostro: FIAT 500 SHOOTS TO STARDOM!!!! cute travel-packed fiat, gorgeous fire treasure roadtrip montage, rock-paper-gun tire-changing roof-lounging intermission, and of course [the famous clarisse car chase](https://www.youtube.com/watch?v=LTOJZiDv1Uk) with jigen stanced through the sunroof, wall-riding, and the souped-up engine!! EXTREMELY iconic all around!!! always remember backseat goemon suffocating in the money pile 😌
 - fuma conspiracy: fuma's animation was insanely good and the multiple(!) unnecessarily long and extravagantly chaotic car chases took full advantage of it -- i loved every second!!!! the MOST destruction of public and private property, LEAST regard for the laws of physics, MOST items debris police cars and comical npc interactions drawn, and shockingly, zero civilians hit! fujiko's motorcycling looked fantastic too (parts of the second chase were literally [animated on 1's](https://www.youtube.com/watch?v=WTGPoZzG-PI&t=197s)) and i love how she and the others got to work together against zenigata in that one!! we also got fiat amphibious mode LOL
 - occasional blue fiat: baby blue or deep sky blue, it looks perfect!!! especially with the bright palette of part 3!
 
@@ -109,4 +107,4 @@ while the core of the ost is timeless jazz, i also love the extreme 80's-ness go
 - <sup>4</sup> i wish i could watch more cus it got to the point where the subtitle quality was incomprehensible 😭😭
 - <sup>5</sup> fun fact: the trailer for the first is what got me into lupin HA, it was the most expressive and flavorful adaptation of 2d chardesigns to 3d i'd ever seen!!!
 
-last updated: apr 9 2023
+last updated: apr 30 2023

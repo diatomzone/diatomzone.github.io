@@ -63,8 +63,6 @@ since i start each page with `<h1>` (and start other containers with a known alt
 
 flexboxes are great for building a responsive layout! basically, they let you put elements side by side (ex: a sidebar and main body), and you can easily reorganize/reorder elements for narrow screens.
 
-(layout tutorial link in "about" page is currently down)
-
 ---
 
 ## github pages / jekyll
@@ -92,7 +90,7 @@ now if your baseurl changes, you can easily update it in config!
 
 ### jekyll (static site builder) is helpful
 
-jekyll introduces a hundred extra moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:
+jekyll introduces a hundred more moving parts and takes me forever to figure out, but it makes things so much easier in the long run! some featured favorite features:
 
 - write your page layouts/source codes once, then apply 'em anywhere you like
 - use LIQUID to harness the essentials of code: variables, for loops, and if statements

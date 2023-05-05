@@ -82,8 +82,8 @@ dialogue:
   zug:
     - - [zug, "bill billy bilgewater... prepare to die."]
       - [bill, "this isn't a fight to the death???"]
-    - - [zug, "YOU!!!"]
-      - [century, "WHO, ME??"]
+    - - [zug, ""]
+      - [century, ""]
     - - [zug, ""]
       - [fiori, ""]
     - - [zug, "HOHOHO..."]
@@ -102,7 +102,7 @@ dialogue:
     - - [jade, "brought a stick to a gun fight?"]
       - [bill, "i think we both have a few tricks up our sleeves."]
     - - [jade, "what an arsenal!"]
-      - [century, "heh, buying bulk has its perks!"]
+      - [century, "heh, buying bulk is where it's at!"]
     - - [jade, ""]
       - [fiori, ""]
     - - [jade, "...hmph."]
@@ -197,7 +197,7 @@ dialogue:
 
 some pre-fight dialogue that could happen if characters from EPIPHANY OF ORB and CANYON CROSSORADS were in a crossover fighting game together :^]
 
-categorized by player 1. (some matchups tbd)
+categorized by player 1 (some matchups tbd)
 
 {% include dialoguebox-directory.html %}
 

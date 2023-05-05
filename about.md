@@ -5,34 +5,37 @@ linklists:
   site credits:
     - name: w3schools
       url: https://www.w3schools.com/
-      description: the only light illuminating this cruel earth (everyone's favorite wiki for all things coding!)
-    - name: w3schools -- responsive iframe
-      url: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
-      description:
+      description: the only light illuminating this cruel earth (everyone's favorite interactive wiki for all things coding!)
     - name: sadgrl's flexbox layout tutorial
       url: https://learn.sadgrl.online/building-a-layout-from-start-to-finish/
-      description: (i think page is temporarily down?)
-    - name: css tricks
-      url: https://css-tricks.com/how-to-create-a-skip-to-content-link/
-      description: keyboard/screen reader accessible "skip to content" link
+      description: (i think the page is temporarily down?)
     - name: jekyll tutorial
       url: https://jekyllrb.com/docs/step-by-step/01-setup/
-      description: the main tutorial i used! made no sense on my first run, though.
-    - name: github pages jekyll tutorial
+      description: jekyll is the static site builder that powers github pages! here's the main jekyll tutorial i used -- it made no sense on my first try, though.
+    - name: jekyll tutorial -- github pages
       url: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-      description: used during my second jekyll attempt. unfortunately scrapped the site because it came with a premade "theme".
+      description: github pages lets you host straight from your repository! here's a jekyll tutorial i used on my second try -- unfortunately scrapped the site because it came with a premade "theme".
+    - name: neocities
+      url: https://neocities.org/
+      description: this site's host -- check out the neocities "websites" and "activity" tabs to peruse a wealth of charming personal sites!
     - name: my friend
       url: https://www.youtube.com/watch?v=oZTbnoSFgMU
       description: helped me fix my one of my includes which was broken for no reason
-    - name: shrink page margins
+    - name: '"skip to content" button'
+      url: https://css-tricks.com/how-to-create-a-skip-to-content-link/
+      description: for keyboards/screen readers
+    - name: iframe aspect ratio
+      url: https://www.w3schools.com/howto/howto_css_responsive_iframes.asp
+      description:
+    - name: shrinkable page margins
       url: https://stackoverflow.com/questions/67858284/how-to-have-one-item-shrink-fully-before-another-starts-to-shrink
-      description: buffers disappear before page content is affected
-    - name: css gradient
+      description: buffers disappear before page content is affected (flex-shrink and flex-grow)
+    - name: css gradient maker
       url: https://cssgradient.io/
-      description: an elegant css gradient maker
-    - name: styling unordered/ordered list items
+      description:
+    - name: bullet styling
       url: https://web.dev/css-marker-pseudo-element/
-      description: nested lists were givin' me trouble
+      description: nested list items were givin' me trouble
     - name: "jekyll: loop through images in folder"
       url: https://stackoverflow.com/questions/17677094/jekyll-for-loop-over-all-images-in-a-folder
       description:

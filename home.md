@@ -12,21 +12,21 @@ title: home
 
 hello and welcome to my website! :^]
 
-this flammable spot will include all sorts of things, including:
+this flammable spot hosts all sorts of things, including:
 
 - wikipages about my ocs
-- computer-related projects like sitebuilding notes and twine games
+- computer stuff like sitebuilding notes and twine games
 - excellent links
 - and more!<sup>1</sup>
 
 please find the navigation conveniently located at the top and bottom of each page 😌
 
-take this burg {{site.data.emojis.burger}} from super smash brothers brawl for the nintendo wii and have an elegant stay! {{site.data.emojis.loveimages}}
+have a burg {{site.data.emojis.burger}} from super smash bros brawl and an elegant stay! {{site.data.emojis.loveimages}}
 
 ### bonus notes
 
 - this site works best on desktop (tested on firefox) but also supports narrow screens/mobile 😎
-- things are always scooting around, so if you find any broken images or links please let me know!
+- things are always under construction (especially the wiki), so if you find any broken images or links please let me know!
 
 ## update log
 
@@ -35,10 +35,6 @@ take this burg {{site.data.emojis.burger}} from super smash brothers brawl for t
 <div class="shortbox" markdown="1">
   {% include_relative updatescontent.md %}
 </div>
-
-## devlinks
-
-- [hiddenpages](hiddenpagesdonotlook/)
 
 ---
 

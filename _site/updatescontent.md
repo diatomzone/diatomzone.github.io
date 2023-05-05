@@ -1,9 +1,33 @@
 
+#### may 5 2023
+
+- diatomzone grand opening!!
+
+---
+
+#### may 3-4 2023
+
+- coollinks and a bit of cleanup
+
+---
+
+#### may 1-2 2023
+
+- neocities setup :^o and transfer using neocities command line interface B^)
+- file cleanup
+
+---
+
+#### apr 30 2023
+
+- more cleanup
+
+---
+
 #### apr 20's 2023
 
 - twine game: kamurocho court adventure
-- some twine and minor site stylings
-- some wiki cleanup
+- some twine and minor site stylings, some wiki cleanup
 
 ---
 

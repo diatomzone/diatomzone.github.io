@@ -124,15 +124,13 @@ code { background: black; color: #4dc6ff; font-family: 'Anonymous Pro', monospac
 
 .borderimg { border: 10px solid transparent; padding: 20px; border-image: url("/assets/images/tilenight.png") 20 round; }
 
-header { background: transparent; max-width: 100%; height: 2em; text-align: center; margin: 0; }
-
-header img { height: 100%; }
+header { max-width: 100%; height: 2em; text-align: center; margin: 0; }
 
 header .skip-to-content-button { background: #2c3443; position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); transition: transform 0.2s; }
 
 header .skip-to-content-button:focus { transform: translate(-50%, 0%); }
 
-footer { max-width: 100%; text-align: center; margin-top: 20px; }
+footer { max-width: 100%; height: 2em; text-align: center; margin-top: 20px; }
 
 nav { background: #354e51; font-size: 1.2em; max-width: 100%; margin-top: 20px; text-align: center; padding: calc(20px / 2); box-shadow: calc(20px / 2) calc(20px / 2) black; }
 

@@ -20,7 +20,7 @@ i am extremely particular about my webpage preferences.
 
 ## bonus features
 
-- "discord emojis" stored as global variables, called with {%raw%}`{{site.data.emojis.emojiname}}`{%endraw%}
+- "discord emojis" stored as variables, called with {%raw%}`{{site.data.emojis.emojiname}}`{%endraw%}
   - emoji height matches line height so they don't throw off spacing
 - image alt text in hovertext
 - `.dimmed` class for dimming white images
@@ -33,7 +33,7 @@ i am extremely particular about my webpage preferences.
 
 ## specific spacings
 
-- custom unordered/ordered list markers (aka bullets) so list items have the same height<sup>2 3</sup>
+- custom unordered/ordered list markers (aka bullets) so list items are the same height<sup>2 3</sup>
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->

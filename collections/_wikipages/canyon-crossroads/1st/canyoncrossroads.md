@@ -49,7 +49,7 @@ as the easiest (flattest) way to cross from one side of the range to the other, 
 
 a medium-sized city located in a basin-and-range valley. named for its picturesque butte (not butt) where redtail hawks nest.
 
-despite the drier climate, redtail is able to support vibrant industry thanks to channeled mountain runoff from both sides and the work of groundwater specialists.
+despite the drier climate, redtail supports vibrant communities thanks to channeled mountain runoff from both sides and the work of groundwater specialists.
 
 canyon crossroads is roughly two hours by train going uphill, and the way back down is faster.
 

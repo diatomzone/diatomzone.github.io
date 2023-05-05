@@ -26,6 +26,7 @@ projects a serious and professional manner, but is really a big softie.
 - the dog keychain on her sword is from her girlfriend VARIA, a community organizer in redtail's butte
 - (i love all my ocs equally voice) despite being a side character she has the most art cus her design is the coolest LKSJDGLF
 - the basic look of her sword has actually been used by two previous (obsolete) ocs
+- doesn't ride a horse because she wouldn't want to put one in danger
 
 ---
 

@@ -346,14 +346,13 @@ code { // for code, some people wrap <pre> around <code>
 // HEADER, FOOTER, NAVIGATION /////////////////////////////////////////////////////////////////////////////
 header {
   // background: $colorbox1;
-  background: transparent;
   max-width: 100%;
   height: 2em;
   text-align: center;
   margin: 0;
   // box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
   img { // needs adjustment
-    height: 100%;
+    // height: 100%;
     // filter: drop-shadow(calc(#{$gapheight} / 8) calc(#{$gapheight} / 8) 0px black);
     // display: block; // link takes up full image size
     // margin: auto; // center
@@ -373,9 +372,13 @@ header {
 footer {
   // background: $colorbox1;
   max-width: 100%;
+  height: 2em;
   text-align: center;
   margin-top: $gapheight;
   // box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
+  img {
+    // height: 100%;
+  }
 }
 nav { // horizontal navbar
   background: $colorbox2;

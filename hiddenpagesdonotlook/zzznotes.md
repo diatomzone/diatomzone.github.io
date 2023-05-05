@@ -375,6 +375,16 @@ title: zzznotes
     - `git push origin main --force` to force push
     - then i commit normally
 
+## NEOCITIES NOTES
+- neocities command line interface installed (while in github site directory, if that matters) https://neocities.org/cli
+- "The api key for diatomzone has been stored in [...]AppData\Local/neocities/config."
+- invalid file types: wav
+- workflow
+  - edit site in github as usual
+  - build site by saving file
+  - to upload: while in _site (built site) directory, `neocities push .`
+  - (backup site to github using desktop client as well)
+
 ---
 
 ## BONUS WEBTIP NOTES

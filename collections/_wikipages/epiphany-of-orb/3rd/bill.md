@@ -32,13 +32,9 @@ they often wear a sleeveless crop top, crop sweatpants, sneakers, and a patterne
 
 ## personality
 
-very easygoing which often comes off as disinterested. but they'll easily get wound up if it's 1) a topic of personal interest, or 2) for the bit.
+very easygoing which usually comes off as disinterested. but they'll easily get wound up if it's 1) a topic of personal interest, or 2) for the bit.
 
 often plays "straight man" to their friends' antics.
-
-## history
-
-SPOILER: listlessness
 
 ## abilities
 
@@ -46,7 +42,7 @@ SPOILER: listlessness
 
 they use their cricket bat to great effect for attack, defense, and launching spherical objects.
 
-their melee is relatively bad, but they are a fast runner and have good HP, DEF, and CON.
+their melee is bad, but they are a fast runner and have good HP, DEF, and CON.
 
 ### epiphany
 
@@ -62,13 +58,14 @@ SPOILER: <span class="spoilered">they can also cause cell death by ruining cells
 - fiori: bestie
 - zug: enemy...?
 - dawn: friend and roommate
-- grandpa boatswain: evil ghost grandpa
+- grampa boatswain: evil ghost grandpa
 - mysterious figure: enigmatic encounter
 
 ## trivia
 
 - their late grandfather's vintage cricket bat is haunted by the souls of 1000 dead pillbugs (indestructable) (grandpa boatswain kept using it to kill pillbugs)
 - wears real orecchiette pasta earrings
+- SPOILER: listlessness
 
 ---
 

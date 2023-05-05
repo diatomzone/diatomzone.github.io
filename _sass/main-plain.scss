@@ -28,7 +28,7 @@ div.centered { // to contain images etc, in this case for index it's the main el
   background-color: $colorbox1;
   text-align: center;
   padding: calc(#{$boxpadding} / 1);
-  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
+  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
   h2 {
     margin-top: 0;
   }

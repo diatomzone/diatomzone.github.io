@@ -13,12 +13,11 @@ data:
     weapon: none
     epiphany: none
   about:
-    hobbies:
+    hobbies: minecraft (only creative mode)
     likes: anything involving NaCl salt
-    dislikes:
+    dislikes: pine tree sap
   stats:
-    serpentining: '✦✦✦✦-'
-    cooking: '✦----'
+    bodysurfing: '✦✦✦--'
 ---
 
 SILURIAN DAWN is a minor ally in EPIPHANY OF ORB. goes by DAWN.
@@ -31,6 +30,6 @@ he is a 2nd-year geology major who exclusively studies NaCl salt, to the detrime
 
 ---
 
-"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. and some of them are poisonous, so don't go around eating any old salt you find lyin' around, alright? you'll regret it!"
+"just so you know, "salt" doesn't just mean table salt. "salts" are a type of compound -- in chemistry i mean. and some of them are poisonous, so don't go around lickin' any old salt you find, alright? you'll regret it big time!"
 
 \- dawn's page statement
