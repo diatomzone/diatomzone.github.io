@@ -1,5 +1,5 @@
 ---
-title: diatomzone landing page!
+title: diatomzone
 layout: default-plain
 ---
 
