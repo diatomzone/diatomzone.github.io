@@ -1,7 +1,7 @@
 ---
 title: my stuff
 layout: collection-listing
-collection: mystuff
+collection: mystuffdir
 background: tilemulti
 ---
 

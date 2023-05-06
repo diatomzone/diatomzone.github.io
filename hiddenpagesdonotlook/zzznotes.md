@@ -384,6 +384,11 @@ title: zzznotes
   - build site by saving file
   - to upload: while in _site (built site) directory, `neocities push .`
   - (backup site to github using desktop client as well)
+- "page not found" and 403 errors on neocities
+  - renamed collection folders so that the dirs and pages don't have the same name, likely confusing neocities, and on delete/reupload it did fix all issues with wiki/articles https://www.reddit.com/r/neocities/comments/12fphou/help_whats_wrong/
+  - but then mystuff only worked on mobile not desktop (page not found error)?? it's going to /mystuff instead of /mystuffdir, so somehow the linking didn't update, then i refreshed the page and the link is now correct?? the files and everything are up but i guess the site somehow doesn't automatically refresh the file structure (and the success can vary between devices), which is very strange
+  - there was also a strange top margin on a wiki p that fixed itself after refresh, i guess it's just not instant
+  - everything works on pal's mobile now!
 
 ---
 

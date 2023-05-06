@@ -1,4 +1,4 @@
-# stores categories for "articles" collection listing, call with "site.data.articles"
+# stores categories for "articlesdir" collection listing, call with "site.data.articlesdir"
 # listing will follow this order
 
 - coding

@@ -1,5 +1,0 @@
-# stores categories for "mystuff" collection listing, call with "site.data.mystuff"
-# listing will follow this order
-
-- twine-games
-- uncategorized

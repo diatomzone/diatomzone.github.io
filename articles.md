@@ -1,7 +1,7 @@
 ---
 title: articles
 layout: collection-listing
-collection: articles
+collection: articlesdir
 background: tilecloud
 ---
 

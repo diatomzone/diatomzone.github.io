@@ -1,0 +1,5 @@
+# stores categories for "mystuffdir" collection listing, call with "site.data.mystuffdir"
+# listing will follow this order
+
+- twine-games
+- uncategorized

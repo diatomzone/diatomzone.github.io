@@ -2,6 +2,8 @@
 #### may 5 2023
 
 - diatomzone grand opening!!
+- pagenotfound/403 error troubleshooting NOOOOOOO
+- dir renaming and file cleanup
 
 ---
 

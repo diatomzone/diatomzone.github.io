@@ -1,7 +1,7 @@
 ---
 title: wow! wiki for my ocs and more!
 layout: wikipage-listing
-listcategory: wikipages
+listcategory: wikipagesdir
 background: tilewave
 ---
 
