@@ -20,7 +20,10 @@ linklists:
       description: this site's host -- check out the neocities "websites" and "activity" tabs to peruse a wealth of charming personal sites!
     - name: my friend
       url: https://www.youtube.com/watch?v=oZTbnoSFgMU
-      description: helped me fix my one of my includes which was broken for no reason
+      description: helped me fix one of my includes which was broken for no reason
+    - name: lark and deus
+      url: https://www.youtube.com/watch?v=JM5oZ7qNEMk
+      description: page testing, quality control, and copyediting B^)
     - name: '"skip to content" button'
       url: https://css-tricks.com/how-to-create-a-skip-to-content-link/
       description: for keyboards/screen readers

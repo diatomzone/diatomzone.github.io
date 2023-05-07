@@ -9,13 +9,14 @@ i am extremely particular about my webpage preferences.
 ## zestiest features
 
 - when resizing the browser, page content will not shrink until margins disappear
-- no extra space at the top or bottom of containers -- elements run flush with padding<sup>1</sup>
+- no extra space at the top or bottom of containers -- elements run flush with padding{{site.data.foot.t1}}
 
 ## functional features
 
 - responsive layout: elements resize and reorder for narrow browsers/mobile
 - additional navigation at bottom of page
 - larger font size and dark background because my eye balls
+- 2-way footnote links, called with {%raw%}`{{site.data.foot.locationnumber}}`{%endraw%}
 - hidden "skip to content" button for keyboard users/screen readers (at top of page, press TAB then ENTER)
 
 ## bonus features
@@ -33,7 +34,7 @@ i am extremely particular about my webpage preferences.
 
 ## specific spacings
 
-- custom unordered/ordered list markers (aka bullets) so list items are the same height<sup>2 3</sup>
+- custom unordered/ordered list markers (aka bullets) so list items are the same height{{site.data.foot.t2}} {{site.data.foot.t3}}
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
@@ -98,6 +99,6 @@ i am extremely particular about my webpage preferences.
 
 ---
 
-- <sup>1</sup> SPACING IS MY #1 GRIPE EVER DEATH AND DESTRUCTION {{site.data.emojis.explosion}}
-- <sup>2</sup> WHY ARE THEY DIFFERENT {{site.data.emojis.ungalo}}
-- <sup>3</sup> EDIT: apparently default works perfectly fine on chrome and mobile firefox FIREFOX HOW COULD YOU DO THIS TO MEEEEEEE
+- {{site.data.foot.b1}} SPACING IS MY #1 GRIPE EVER DEATH AND DESTRUCTION {{site.data.emojis.explosion}}
+- {{site.data.foot.b2}} WHY ARE THEY DIFFERENT {{site.data.emojis.ungalo}}
+- {{site.data.foot.b3}} EDIT: apparently default works perfectly fine on chrome and mobile firefox FIREFOX HOW COULD YOU DO THIS TO MEEEEEEE

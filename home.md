@@ -17,7 +17,7 @@ this flammable spot hosts all sorts of things, including:
 - wikipages about my ocs
 - computer stuff like sitebuilding notes and twine games
 - excellent links
-- and more!<sup>1</sup>
+- and more!{{site.data.foot.t1}}
 
 please find the navigation conveniently located at the top and bottom of each page 😌
 
@@ -38,4 +38,4 @@ have a burg {{site.data.emojis.burger}} from super smash bros brawl and an elega
 
 ---
 
-- <sup>1</sup> including footnotes!
+- {{site.data.foot.b1}} including footnotes!

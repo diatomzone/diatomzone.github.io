@@ -50,8 +50,8 @@ div.centered { // to contain images etc.
     max-height: 10em;
   }
 }
-div { // markdown does not generate divs as far as i can tell
-
+div { // markdown does not generate divs as far as i can tell, this is for photogalleries etc.
+  margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 main { // main layout element, contains page content in indexmain (and indexside)
   background: $colorbox1;

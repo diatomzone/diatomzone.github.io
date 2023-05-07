@@ -10,7 +10,7 @@ an ongoing 50+ year-old franchise about the infamous thief lupin iii and his gan
 
 ## analysis
 
-my friends and i have agreed the best lupin movie is dreamworks' "the bad guys"!<sup>1</sup> thank you the bad guys! {{site.data.emojis.loveimages}}
+my friends and i have agreed the best lupin movie is dreamworks' "the bad guys"!{{site.data.foot.t1}} thank you the bad guys! {{site.data.emojis.loveimages}}
 
 ---
 
@@ -22,7 +22,7 @@ against all odds, the long-running, continuity-less structure packed with wildly
 
 1. it makes the series and characters feel complex and timeless -- while each member of lupingang might have 1-3 character traits per work LMAO, multiply that by 2309483 versions of themselves... from wacky cartoon slapstick to whatever was going on in twcfm, they've done it all in every decade, THEY HAVE THE RANGE!! i adore the sense that no matter what changes, the core cast will always be the most important part of each other's lives... literally the blorbesties of all time OUGH
 
-2. with so much material and zero "canon", you're free to build the most compelling version of the series and characters with whatever appeals most to you!<sup>2</sup> {{site.data.emojis.evil}} i personally enjoy tumbling the characters in a washer of goofs 'n gags while extrapolating their extremely human and tragic existences for an underlying "depth of flavor" 😌 cooking hacks!
+2. with so much material and zero "canon", you're free to build the most compelling version of the series and characters with whatever appeals most to you!{{site.data.foot.t2}} {{site.data.emojis.evil}} i personally enjoy tumbling the characters in a washer of goofs 'n gags while extrapolating their extremely human and tragic existences for an underlying "depth of flavor" 😌 cooking hacks!
 
 ---
 
@@ -52,13 +52,13 @@ i also love the mercedes ssk as well :^) the cars are friends!
 
 ## music!!!
 
-the ost is so important i love it so much thank you yuji ohno and bands for my life!!! also it's one of the few objectively good things about lupin HRGH<sup>3</sup>
+the ost is so important i love it so much thank you yuji ohno and bands for my life!!! also it's one of the few objectively good things about lupin HRGH{{site.data.foot.t3}} href="#footbottom3">3</a></sup>
 
 without such a fun stylish bangin' and iconic musical identity poopin the turd would be nothing!!! hunter x hunter's "departure" is so excellent they used it for 147 episodes straight but who else has been rearranging the same lupin theme for like. uhhh from part 2 to part 6 that's 1977-2022 so 45 YEARS OF TV AND FILM LDKJGLERKJGGLKJFG {{site.data.emojis.reigen}} {{site.data.emojis.reigen}} ([here's](https://completely-legit.tumblr.com/post/650235599173926912) a non-comprehensive but very cool lupin iii theme comp!)
 
 anyways my favorite version is the '80 version (it's in swing!) so here's an [awesome live version](https://www.youtube.com/watch?v=Kyl7fgvV1oo) and a version with [a ton of fun vibraphone solos](https://www.youtube.com/watch?v=6ZMitvIHIkI)!! :^)
 
-while the core of the ost is timeless jazz, i also love the extreme 80's-ness going on in certain places like the sun-drenched brightly-colored pink jacket anime -- the retro feeling is delicious!<sup>4</sup>
+while the core of the ost is timeless jazz, i also love the extreme 80's-ness going on in certain places like the sun-drenched brightly-colored pink jacket anime -- the retro feeling is delicious!{{site.data.foot.t4}}
 
 ### some favorite osts:
 
@@ -97,14 +97,14 @@ while the core of the ost is timeless jazz, i also love the extreme 80's-ness go
 
 - series: part 2 ([ESPECIALLY THE DUB OF ALL TIME](https://rhymewithrachel.tumblr.com/post/190810815338/what-im-saying-is-that-this-is-the-only-dub-that))
 - films: fuma conspiracy, eternal mermaid, obligatory cagliostro {{site.data.emojis.zenigata}}
-- chardesigns: part 1, part 2, part 3/babylon, fuma conspiracy, the first<sup>5</sup>, twcfm/koike trilogy (LOVE twcfm's whole aesthetic and the chardesigns slowly grew on me... except zenigata he's still too uncanny HA)
+- chardesigns: part 1, part 2, part 3/babylon, fuma conspiracy, the first{{site.data.foot.t5}}, twcfm/koike trilogy (LOVE twcfm's whole aesthetic and the chardesigns slowly grew on me... except zenigata he's still too uncanny HA)
 
 ---
 
-- <sup>1</sup> lupin is like the dirt that allows beautiful crops to flourish
-- <sup>2</sup> plus, you can fill in the generous gaps with anything you'd like! so porous {{site.data.emojis.zenigata}}
-- <sup>3</sup> another objective good: the signature 3 mouth >:^]
-- <sup>4</sup> i wish i could watch more cus it got to the point where the subtitle quality was incomprehensible 😭😭
-- <sup>5</sup> fun fact: the trailer for the first is what got me into lupin HA, it was the most expressive and flavorful adaptation of 2d chardesigns to 3d i'd ever seen!!!
+- {{site.data.foot.b1}} lupin is like the dirt that allows beautiful crops to flourish
+- {{site.data.foot.b2}} plus, you can fill in the generous gaps with anything you'd like! so porous {{site.data.emojis.zenigata}}
+- {{site.data.foot.b3}} another objective good: the signature 3 mouth >:^]
+- {{site.data.foot.b4}} i wish i could watch more cus it got to the point where the subtitle quality was incomprehensible 😭😭
+- {{site.data.foot.b5}} fun fact: the trailer for the first is what got me into lupin HA, it was the most expressive and flavorful adaptation of 2d chardesigns to 3d i'd ever seen!!!
 
-last updated: apr 30 2023
+last updated: may 06 2023

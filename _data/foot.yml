@@ -1,0 +1,18 @@
+# stores data for 2-way footnote links, call with "site.data.foot"
+# double footnotes like 2 3 can be their own variables separated by a space
+
+# top footnotes, in the text
+t1: '<sup><a id="foottop1" href="#footbottom1">1</a></sup>'
+t2: '<sup><a id="foottop2" href="#footbottom2">2</a></sup>'
+t3: '<sup><a id="foottop3" href="#footbottom3">3</a></sup>'
+t4: '<sup><a id="foottop4" href="#footbottom4">4</a></sup>'
+t5: '<sup><a id="foottop5" href="#footbottom5">5</a></sup>'
+t6: '<sup><a id="foottop6" href="#footbottom6">6</a></sup>'
+
+# bottom footnotes, at bottom of page
+b1: '<sup><a id="footbottom1" href="#foottop1">1</a></sup>'
+b2: '<sup><a id="footbottom2" href="#foottop2">2</a></sup>'
+b3: '<sup><a id="footbottom3" href="#foottop3">3</a></sup>'
+b4: '<sup><a id="footbottom4" href="#foottop4">4</a></sup>'
+b5: '<sup><a id="footbottom5" href="#foottop5">5</a></sup>'
+b6: '<sup><a id="footbottom6" href="#foottop6">6</a></sup>'

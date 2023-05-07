@@ -1,19 +1,29 @@
 
-#### may 5 2023
+#### may 06 2023
+
+- copyediting/page testing (ty lark :^D)
+- spicy new more-user-friendly cursor
+- added 2-way footnote links
+- added neocities 404 page
+
+---
+
+#### may 05 2023
 
 - diatomzone grand opening!!
 - pagenotfound/403 error troubleshooting NOOOOOOO
 - dir renaming and file cleanup
+- page testing/quality control (ty deus :^])
 
 ---
 
-#### may 3-4 2023
+#### may 03-04 2023
 
 - coollinks and a bit of cleanup
 
 ---
 
-#### may 1-2 2023
+#### may 01-02 2023
 
 - neocities setup :^o and transfer using neocities command line interface B^)
 - file cleanup
@@ -39,19 +49,19 @@
 
 ---
 
-#### apr 3 2023
+#### apr 03 2023
 
 - page content for uncategorized articles
 
 ---
 
-#### apr 9-11 2023
+#### apr 09-11 2023
 
 - page content/cleanup for articles, tag hall of fame article, layout styling, favicons, header image-ing, tile backgrounds
 
 ---
 
-#### apr 4-7 2023
+#### apr 04-07 2023
 
 - page content for uncategorized articles
 
@@ -141,7 +151,7 @@
 
 ---
 
-#### nov-dec 2023
+#### nov-dec 2022
 
 - i am consumed by the void
 

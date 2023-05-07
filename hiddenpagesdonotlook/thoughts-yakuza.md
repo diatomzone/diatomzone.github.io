@@ -8,27 +8,27 @@ OUUUUUUGGGGGGGGGGGUUUGHHGGHHH
 
 "half beat-em-up crime drama thriller, half everything BUT that" -- me
 
-an ongoing brawler/open world rpg series about the legendary yakuza kiryu's life in (and out of) organized crime!<sup>1</sup>
+an ongoing brawler/open world rpg series about the legendary yakuza kiryu's life in (and out of) organized crime!{{site.data.foot.t1}}
 
 ---
 
 ## gameplay log
 
 - i have played y0, yk1, yk2, y3 and am still playing y4! no spoilers please 😌
-- y0 was my introduction to the series<sup>2</sup> and is still my favorite entry! it's the only one i'd give my "masterpiece" seal of approval so far, mainplot-wise {{site.data.emojis.zenigata}}
+- y0 was my introduction to the series{{site.data.foot.t2}} and is still my favorite entry! it's the only one i'd give my "masterpiece" seal of approval so far, mainplot-wise {{site.data.emojis.zenigata}}
 
 ---
 
 ## game series evolution
 
-rgg is the first real series i've gotten into -- i had only played games that came in ones or twos<sup>3</sup>, so getting to see how the gameplay, writing, and overall production has changed over the course of a relatively long-running series (with a continuous story no less!) has been super intriguing to me! what works what doesn't and why? 🤔 game design is so cool!!!
+rgg is the first real series i've gotten into -- i had only played games that came in ones or twos{{site.data.foot.t3}}, so getting to see how the gameplay, writing, and overall production has changed over the course of a relatively long-running series (with a continuous story no less!) has been super intriguing to me! what works what doesn't and why? 🤔 game design is so cool!!!
 
 ### exp and upgrades
 
 even if kiryu learns and forgets his strongest moves like 4 games in a row LMAO, the exp/upgrade system has changed every game i've played so far which is super interesting!!
 
 - y0
-  - a feature unique to y0 is buying upgrades with money instead of exp!<sup>4</sup> on my first playthrough i finished the story with only half of the moves/stats/etc. unlocked because i spent all my money on real estate {{site.data.emojis.zenigata}} and for certainly unrelated reasons, i died in y0 exponentially more than any other entry {{site.data.emojis.reigen}}
+  - a feature unique to y0 is buying upgrades with money instead of exp!{{site.data.foot.t4}} on my first playthrough i finished the story with only half of the moves/stats/etc. unlocked because i spent all my money on real estate {{site.data.emojis.zenigata}} and for certainly unrelated reasons, i died in y0 exponentially more than any other entry {{site.data.emojis.reigen}}
 - yk1
   - brings back the "skill tree" format from y0, except the tree categories are different and you buy with exp as per usual! on one hand i liked not splitting my funds between upgrades and business and was able to unlock everything by endgame, but the fact that 1) you run out of things to spend on and end up sitting with maxed-out 9999 exp could easily be solved with bonus health/heat/etc. unlockables which they had in the previously released game y0...? and 2) the dragon style is strangely organized (the majima everywhere system unlocks things out of order?) and virtually useless until maxed out 🤔 both of these feel like big and easily-amendable oversights!
 - yk2
@@ -136,9 +136,9 @@ there is so much happening in these games and so much games. to the point where 
 
 ---
 
-- <sup>1</sup> apparently ichiban takes over as protag in the turn-based 7th game, but i haven't gotten there yet
-- <sup>2</sup> coincidentally, i started playing after an extremely coincidental recommendation. if that hadn't happened... {{site.data.emojis.shannon}} much to think about!
-- <sup>3</sup> also counting same-game type deals like the smash bros series
-- <sup>4</sup> "investing in yourself"?? i know i'm not the only one who has decided these guys are eating dollar bills LKJGDLKFJD
+- {{site.data.foot.b1}} apparently ichiban takes over as protag in the turn-based 7th game, but i haven't gotten there yet
+- {{site.data.foot.b2}} coincidentally, i started playing after an extremely coincidental recommendation. if that hadn't happened... {{site.data.emojis.shannon}} much to think about!
+- {{site.data.foot.b3}} also counting same-game type deals like the smash bros series
+- {{site.data.foot.b4}} "investing in yourself"?? i know i'm not the only one who has decided these guys are eating dollar bills LKJGDLKFJD
 
-last updated: apr 13 2023
+last updated: may 06 2023

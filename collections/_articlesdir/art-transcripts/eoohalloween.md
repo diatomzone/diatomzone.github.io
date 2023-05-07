@@ -4,8 +4,7 @@ title: eoo halloween comic
 
 an image description of my EPIPHANY OF ORB halloween comic!
 
-<a href="#transcript">(skip to transcript)</a>
-<br><br>
+<a href="#transcript">(skip to transcript)</a>  
 
 <div class="photogallery dimmed">
   <img src="https://64.media.tumblr.com/5a00075692f2a12045366b59f6d2f346/79fedfbef5f5c910-b2/s1280x1920/6f4c982088741d1a410c7fd870e07304df31cf80.png" alt="page 1" title="page 1">

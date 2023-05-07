@@ -507,7 +507,7 @@
   </li>
   <li>CURRENT TASKS
     <ul>
-      <li>organize zzznotes
+      <li>organize zzznotes 🌟🌟🌟
         <ul>
           <li>discoveries article</li>
         </ul>
@@ -517,6 +517,8 @@
       <li>redo landing page and its stylesheet more logically</li>
       <li>fix code block styling (change to pre tag?)</li>
       <li>flavor text item emporium (next round)</li>
+      <li>images within photogallery divs use br’s, replace them with styling (ex: halloween comic and tag hall of fame)</li>
+      <li>clean redundant div margins</li>
     </ul>
   </li>
 </ul>
@@ -546,6 +548,9 @@
   </li>
   <li>wiki data has 3 layers (all map): data &gt; category &gt; entry</li>
   <li>linklist data has 3 layers (list): linklists &gt; list &gt; entry</li>
+  <li>
+    <h2 id="footnotes">footnotes</h2>
+  </li>
 </ul>
 
 <hr />
@@ -686,10 +691,25 @@
       <li>could not figure how to access scope path within _wikipages (tried with _category and plain folder, with multiple variations in config) in order to assign front matter “universe” default value to each page based on folder, so my workaround is to define the categories in a _data file and sort through all _wikipage entry paths that way</li>
     </ul>
   </li>
-  <li>ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it’s a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists</li>
-  <li>how to reset iframe without js?
+  <li>
+    <p>ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it’s a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists</p>
+  </li>
+  <li>MAC FIREFOX PROBLEMS
     <ul>
-      <li>reloading page and iframe don’t work, so use reset macro within twine (perhaps sidebar)</li>
+      <li>skip to content button is broken (tab hits the actual firefox ui then skips the dropdown)</li>
+      <li>hovertext is underneath the cursor</li>
+      <li>custom cursor may also disappear when something is selected but will return once the mouse goes back into the page</li>
+    </ul>
+  </li>
+  <li>QUALITY CONTROL SUGGESTIONS
+    <ul>
+      <li>linked footnotes (options below)
+        <ul>
+          <li>{% include foot.html num=”t1” %} adapts to whatever is input, complex code (gave up just imagining how i’d process the input string HA)</li>
+          <li>{{site.data.foot.t1}} each option would need to be written out like emojis</li>
+        </ul>
+      </li>
+      <li>asymmetrical/more obvious cursor because it’s top left not center (suggestion x2)</li>
     </ul>
   </li>
 </ul>
@@ -713,6 +733,8 @@
   </li>
 </ul>
 
+<hr />
+
 <h2 id="neocities-notes">NEOCITIES NOTES</h2>
 <ul>
   <li>neocities command line interface installed (while in github site directory, if that matters) https://neocities.org/cli</li>
@@ -723,14 +745,21 @@
       <li>edit site in github as usual</li>
       <li>build site by saving file</li>
       <li>to upload: while in _site (built site) directory, <code class="language-plaintext highlighter-rouge">neocities push .</code></li>
+      <li>to delete: can’t deleteall so just type out the names (keep assets folder though?)</li>
       <li>(backup site to github using desktop client as well)</li>
     </ul>
   </li>
-  <li>“page not found” and 403 errors on neocities
+  <li>to update updates logs: <code class="language-plaintext highlighter-rouge">neocities upload updates.html updatescontent.md home.html</code></li>
+  <li>“page not found” and 403 (permission) errors on neocities
     <ul>
-      <li>renamed collection folders so that the dirs and pages don’t have the same name, likely confusing neocities, and on delete/reupload it did fix all issues with wiki/articles https://www.reddit.com/r/neocities/comments/12fphou/help_whats_wrong/</li>
-      <li>but then mystuff only worked on mobile not desktop (page not found error)?? it’s going to /mystuff instead of /mystuffdir, so somehow the linking didn’t update, then i refreshed the page and the link is now correct?? the files and everything are up but i guess the site somehow doesn’t automatically refresh the file structure (and the success can vary between devices), which is very strange</li>
+      <li>renamed collection folders so that the dirs and pages don’t have the same name, which apparently confuses neocities, and on delete/reupload this did fix all issues with wiki/articles https://www.reddit.com/r/neocities/comments/12fphou/help_whats_wrong/</li>
+      <li>but then kamurocho mystuff only worked on mobile not desktop (page not found error)?? it’s going through /mystuff instead of /mystuffdir, so somehow the linking didn’t update, then i refreshed the page and the link is now correct?? the files and everything are up but i guess the site somehow doesn’t automatically refresh the file structure (and the success can vary between devices), which is very strange</li>
       <li>there was also a strange top margin on a wiki p that fixed itself after refresh, i guess it’s just not instant</li>
+      <li>also, mobile took me to a page with a / after it, and when i deleted the / it worked…? so it just adds whatever it feels like to the url? i don’t think this was a same folder/file name situation either it might have been one of the wikipages
+        <ul>
+          <li>once i got an error because a “/” had been added to the end of the url out of nowhere…</li>
+        </ul>
+      </li>
       <li>everything works on pal’s mobile now!</li>
     </ul>
   </li>

@@ -246,13 +246,15 @@ title: zzznotes
   - conclusion: iframe sizing is not flexible so i'm going back to old html version for now
 
 - CURRENT TASKS
-  - organize zzznotes
+  - organize zzznotes 🌟🌟🌟
     - discoveries article
   - coollinks
   - wiki cleanup
   - redo landing page and its stylesheet more logically
   - fix code block styling (change to pre tag?)
   - flavor text item emporium (next round)
+  - images within photogallery divs use br's, replace them with styling (ex: halloween comic and tag hall of fame)
+  - clean redundant div margins
 
 [EDIT] tag for edits
 
@@ -269,6 +271,8 @@ title: zzznotes
   - coding sites use new paragraphs for everything and margin top as well
 - wiki data has 3 layers (all map): data > category > entry
 - linklist data has 3 layers (list): linklists > list > entry
+- footnotes
+  -
 
 ---
 
@@ -361,8 +365,16 @@ title: zzznotes
     - i can do path: "testfolder" (regular folder) and assign values that way, but then you lose the collection capabilities
   - could not figure how to access scope path within _wikipages (tried with _category and plain folder, with multiple variations in config) in order to assign front matter "universe" default value to each page based on folder, so my workaround is to define the categories in a _data file and sort through all _wikipage entry paths that way
 - ASSET ORGANIZATION: coollinks page uses default template and manually includes directory and linklists (meant to be flexible and includes are meant to be used in other places as well), meanwhile articles page uses plain collection_listing template (it's a collection), and wikipages page is one of a kind so it uses wikipage-listing template, which contains directory and listings inside itself, and about page includes a linklists
-- how to reset iframe without js?
-  - reloading page and iframe don't work, so use reset macro within twine (perhaps sidebar)
+
+- MAC FIREFOX PROBLEMS
+  - skip to content button is broken (tab hits the actual firefox ui then skips the dropdown)
+  - hovertext is underneath the cursor
+  - custom cursor may also disappear when something is selected but will return once the mouse goes back into the page
+- QUALITY CONTROL SUGGESTIONS
+  - linked footnotes (options below)
+    - {% include foot.html num="t1" %} adapts to whatever is input, complex code (gave up just imagining how i'd process the input string HA)
+    - {{site.data.foot.t1}} each option would need to be written out like emojis
+  - asymmetrical/more obvious cursor because it's top left not center (suggestion x2)
 
 ---
 
@@ -375,6 +387,8 @@ title: zzznotes
     - `git push origin main --force` to force push
     - then i commit normally
 
+---
+
 ## NEOCITIES NOTES
 - neocities command line interface installed (while in github site directory, if that matters) https://neocities.org/cli
 - "The api key for diatomzone has been stored in [...]AppData\Local/neocities/config."
@@ -383,11 +397,15 @@ title: zzznotes
   - edit site in github as usual
   - build site by saving file
   - to upload: while in _site (built site) directory, `neocities push .`
+  - to delete: can't deleteall so just type out the names (keep assets folder though?)
   - (backup site to github using desktop client as well)
-- "page not found" and 403 errors on neocities
-  - renamed collection folders so that the dirs and pages don't have the same name, likely confusing neocities, and on delete/reupload it did fix all issues with wiki/articles https://www.reddit.com/r/neocities/comments/12fphou/help_whats_wrong/
-  - but then mystuff only worked on mobile not desktop (page not found error)?? it's going to /mystuff instead of /mystuffdir, so somehow the linking didn't update, then i refreshed the page and the link is now correct?? the files and everything are up but i guess the site somehow doesn't automatically refresh the file structure (and the success can vary between devices), which is very strange
+- to update updates logs: `neocities upload updates.html updatescontent.md home.html`
+- "page not found" and 403 (permission) errors on neocities
+  - renamed collection folders so that the dirs and pages don't have the same name, which apparently confuses neocities, and on delete/reupload this did fix all issues with wiki/articles https://www.reddit.com/r/neocities/comments/12fphou/help_whats_wrong/
+  - but then kamurocho mystuff only worked on mobile not desktop (page not found error)?? it's going through /mystuff instead of /mystuffdir, so somehow the linking didn't update, then i refreshed the page and the link is now correct?? the files and everything are up but i guess the site somehow doesn't automatically refresh the file structure (and the success can vary between devices), which is very strange
   - there was also a strange top margin on a wiki p that fixed itself after refresh, i guess it's just not instant
+  - also, mobile took me to a page with a / after it, and when i deleted the / it worked...? so it just adds whatever it feels like to the url? i don't think this was a same folder/file name situation either it might have been one of the wikipages
+    - once i got an error because a "/" had been added to the end of the url out of nowhere…
   - everything works on pal's mobile now!
 
 ---

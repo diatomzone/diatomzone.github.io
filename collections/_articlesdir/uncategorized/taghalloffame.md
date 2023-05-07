@@ -4,7 +4,7 @@ imgheight: 2em
 
 ---
 
-some of the humerus-est non-specific<sup>1</sup> tags people have left on my art HEHEHFJG
+some of the humerus-est non-specific{{site.data.foot.t1}} tags people have left on my art HEHEHFJG
 
 text in hovertext!
 
@@ -18,4 +18,4 @@ text in hovertext!
 
 ---
 
-- <sup>1</sup> not including equally-treasured specific or wholesome tags cus i'd get embarrassed dislaying nice things HRGH thank you very much everyone!! :'^)
+- {{site.data.foot.b1}} not including equally-treasured specific or wholesome tags cus i'd get embarrassed dislaying nice things HRGH thank you very much everyone!! :'^)
