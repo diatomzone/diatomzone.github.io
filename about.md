@@ -24,6 +24,9 @@ linklists:
     - name: lark and deus
       url: https://www.youtube.com/watch?v=JM5oZ7qNEMk
       description: page testing, quality control, and copyediting B^)
+    - name: my pal
+      url: https://www.youtube.com/watch?v=xLvHJmzmXb0
+      description: page testing, design consultation, and web adventuring companion!
     - name: '"skip to content" button'
       url: https://css-tricks.com/how-to-create-a-skip-to-content-link/
       description: for keyboards/screen readers

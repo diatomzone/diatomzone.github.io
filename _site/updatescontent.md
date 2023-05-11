@@ -1,4 +1,12 @@
 
+#### may 09-10 2023
+
+- updated site credits
+- noindex testing
+- robots.txt testing
+
+---
+
 #### may 06 2023
 
 - copyediting/page testing (ty lark :^D)

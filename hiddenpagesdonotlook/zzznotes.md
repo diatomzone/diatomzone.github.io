@@ -255,6 +255,8 @@ title: zzznotes
   - flavor text item emporium (next round)
   - images within photogallery divs use br's, replace them with styling (ex: halloween comic and tag hall of fame)
   - clean redundant div margins
+  - noindex: robots.txt
+  - landing page cursor goes away at bottom of page
 
 [EDIT] tag for edits
 
@@ -271,8 +273,6 @@ title: zzznotes
   - coding sites use new paragraphs for everything and margin top as well
 - wiki data has 3 layers (all map): data > category > entry
 - linklist data has 3 layers (list): linklists > list > entry
-- footnotes
-  -
 
 ---
 

@@ -52,7 +52,7 @@ i also love the mercedes ssk as well :^) the cars are friends!
 
 ## music!!!
 
-the ost is so important i love it so much thank you yuji ohno and bands for my life!!! also it's one of the few objectively good things about lupin HRGH{{site.data.foot.t3}} href="#footbottom3">3</a></sup>
+the ost is so important i love it so much thank you yuji ohno and bands for my life!!! also it's one of the few objectively good things about lupin HRGH{{site.data.foot.t3}}
 
 without such a fun stylish bangin' and iconic musical identity poopin the turd would be nothing!!! hunter x hunter's "departure" is so excellent they used it for 147 episodes straight but who else has been rearranging the same lupin theme for like. uhhh from part 2 to part 6 that's 1977-2022 so 45 YEARS OF TV AND FILM LDKJGLERKJGGLKJFG {{site.data.emojis.reigen}} {{site.data.emojis.reigen}} ([here's](https://completely-legit.tumblr.com/post/650235599173926912) a non-comprehensive but very cool lupin iii theme comp!)
 
