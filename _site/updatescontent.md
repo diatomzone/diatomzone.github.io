@@ -1,4 +1,24 @@
 
+#### jun 15 2023
+
+- wiki page content
+
+---
+#### jun 12-13 2023
+
+- wiki page content
+- added site gallery to sidebar
+- removed mysterious layout main flexbox topmargin, which i somehow didn't notice before
+
+---
+
+#### jun 09-10 2023
+
+- new brain radio
+- new wiki category: castle guard
+
+---
+
 #### may 09-10 2023
 
 - updated site credits

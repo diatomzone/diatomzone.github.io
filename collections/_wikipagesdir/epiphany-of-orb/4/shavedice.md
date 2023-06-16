@@ -6,7 +6,7 @@ data:
   profile:
     universe: epiphany of orb
     type: human
-    age: mid 30's
+    age: early 40's
     pronouns: he/they
     occupation: secret agent
   abilities:

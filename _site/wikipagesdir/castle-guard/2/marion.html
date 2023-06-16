@@ -1,0 +1,237 @@
+<!-- default page template, includes optional side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>marion</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/gifs/explosion.gif"> <!-- favicon -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex"> <!-- prevent search engine indexing -->
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body
+  
+    style="background:url('/assets/images/backgrounds/tilewave.png');"
+  
+  > <!-- customized background -->
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      <!-- header source code -->
+<header>
+  <a class="skip-to-content-button" href="#main">skip to content</a>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/pixelbanner.png" alt="placeholder site banner" title="placeholder site banner">
+  </a>
+</header>
+
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex" style="margin:0;">
+          <div class="indexmain"> <!-- main -->
+            <h1>marion</h1>
+            <!-- individual wikipage template -->
+<div class="flex"> <!-- two columns: body and infobox -->
+  <div class="wikibody"> <!-- main page content -->
+    <p>MARION is a main character in CASTLE GUARD.</p>
+
+<p>she is a mage who is one of the four leaders spearheading the revolution.</p>
+
+<p>no-nonsense, trying to kill the king.</p>
+
+<h2 id="history">history</h2>
+
+<p>born and raised under the king’s reign of terror, her (concealed) rage is personal.</p>
+
+<p>has a complicated(?) one-sided antagonistic relationship with rosenwall (rosenwall doesn’t care)</p>
+
+<p>rosenwall doesn’t seem to</p>
+
+<p>besides the obvious “we are on opposite sides of the civil war” scenario, marion seems to have a personal grudge against rosenwall. what past do they share…? 🤔</p>
+
+<h2 id="abilities">abilities</h2>
+
+<p>highly skilled with telekinesis and fire magic.</p>
+
+<p>the rosenwall vs. marion animatic is like one of the earlymiddle fights – since rosenwall is virtually invincible, marion will be gamebreaking <img src="/assets/images/emojis/evil.png" class="emoji" alt="evil emoji" title="evil emoji" /></p>
+
+<h2 id="trivia">trivia</h2>
+
+<ul>
+  <li>her cloak is purple, which was perhaps unintentionally based on those assassin guys from ranger’s apprentice <img src="/assets/images/emojis/zenigata.png" class="emoji" alt="zenigata emoji" title="zenigata emoji" /></li>
+</ul>
+
+  </div>
+  <!-- wiki info box source code -->
+<!-- can use [0] [1] array to access yml keys and values -->
+<!-- pretty sure this could also be done with a YAML list instead of straight nested map -->
+<aside class="infobox">
+  <h3>marion</h3> <!-- title at top of box -->
+   <!-- open up data -->
+     <!-- if key is "image", print the image -->
+      <img src=/assets/images/wikipages/cg/marion.png alt="infobox image">
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">profile</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">universe</p> <!-- print key -->
+            <p class="value">castle guard</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">type</p> <!-- print key -->
+            <p class="value">human</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">age</p> <!-- print key -->
+            <p class="value">early 30's</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">pronouns</p> <!-- print key -->
+            <p class="value">she</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">occupation</p> <!-- print key -->
+            <p class="value">revolutionary leader</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+   <!-- open up data -->
+     <!-- else, print the text -->
+      <section> <!-- category container -->
+        <div class="category">abilities</div> <!-- category label -->
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">weapon</p> <!-- print key -->
+            <p class="value">none, various concealed tools</p> <!-- print value -->
+          </div>
+         <!-- entry -->
+          <div class="entry"> <!-- flex = two column format -->
+            <p class="key">magic</p> <!-- print key -->
+            <p class="value">telekinesis, fire magic</p> <!-- print value -->
+          </div>
+        
+      </section>
+    
+  
+</aside>
+
+</div>
+
+          </div>
+          
+        </div>
+      </main>
+      <!-- horizontal navigation bar source code -->
+<nav>
+  
+    <a href="/home.html" >
+      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/about.html" >
+      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/articles.html" >
+      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/wikipages.html" >
+      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/mystuff.html" >
+      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+     <!-- add image after every link except last -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
+    
+  
+    <a href="/coollinks.html" >
+      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
+    </a>
+    
+  
+</nav>
+
+      <!-- footer source code -->
+<footer>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/emojis/loveimages.png" alt="loveimages emoji" title="loveimages emoji">
+  </a>
+</footer>
+
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>

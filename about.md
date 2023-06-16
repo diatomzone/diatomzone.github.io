@@ -14,7 +14,7 @@ linklists:
       description: jekyll is the static site builder that powers github pages! here's the main jekyll tutorial i used -- it made no sense on my first try, though.
     - name: jekyll tutorial -- github pages
       url: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
-      description: github pages lets you host straight from your repository! here's a jekyll tutorial i used on my second try -- unfortunately scrapped the site because it came with a premade "theme".
+      description: github pages lets you host straight from your repository! here's a tutorial i used on my second try -- unfortunately scrapped the site because it came with a premade "theme".
     - name: neocities
       url: https://neocities.org/
       description: this site's host -- check out the neocities "websites" and "activity" tabs to peruse a wealth of charming personal sites!

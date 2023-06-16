@@ -407,6 +407,10 @@ title: zzznotes
   - also, mobile took me to a page with a / after it, and when i deleted the / it worked...? so it just adds whatever it feels like to the url? i don't think this was a same folder/file name situation either it might have been one of the wikipages
     - once i got an error because a "/" had been added to the end of the url out of nowhere…
   - everything works on pal's mobile now!
+- grand opening troubleshooting notes
+    - apparently neocities gets confused when there are folders and files with the same name and will take you to the wrong one (a nonexistent page), causing an error
+    - it seems files/links/changes in folder structure can take a while to show up, even after the uploads say they're successful... page errors may randomly fix themselves after several minutes or won't at all until you (force?) reload the page
+    - perhaps most puzzling, the error/success rate varies between devices
 
 ---
 
