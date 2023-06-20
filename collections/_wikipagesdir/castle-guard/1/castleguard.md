@@ -20,11 +20,11 @@ CASTLE GUARD is a mundane slice-of-life from rosenwall's perspective, and a grim
 
 a kingdom in the throes of civil war -- a corrupt king who rules through fear, and the downtrodden revolutionaries who seek to overthrow him.
 
-it is up to one knight to change everyone's lives... by making things even worse.
+it's up to the strongest knight in the land to change everyone's lives... by making things even worse.
 
 when asked why she serves the evil king, rosenwall simply shrugs.
 
-nobody is having a good time.
+nobody is having a good time!
 
 ## setting
 
@@ -43,6 +43,17 @@ the castle the titular castle guard guards.
 this grand fortress sit atop a hill{{site.data.foot.t1}} in the center of the capital city, and it is under siege in the animatic because everyone wants to kill the king 👍
 
 beneath the castle lies the sprawling dungeon that imprisons hundreds of citizens, including pasquale's family.
+
+## characters who don't need their own pages
+
+- the king
+- the king's right hand?
+- the king's court
+- the other "head of the royal __" castle department leaders besides rosenwall
+  - kitchen, dungeon, topiary, execution, etc.
+- the other 3 revolutionary leaders besides marion
+  - (i have no idea what their specialites are {{site.data.emojis.zenigata}})
+- pasquale's family
 
 ## existing media
 

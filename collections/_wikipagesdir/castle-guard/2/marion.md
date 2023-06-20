@@ -18,24 +18,37 @@ MARION is a main character in CASTLE GUARD.
 
 she is a mage who is one of the four leaders spearheading the revolution.
 
-no-nonsense, trying to kill the king.
+a no-nonsense lone wolf who serves as the rebels' ace assassin (duelist?).
+
+wants to kill the king, but rosenwall stands in her way.
+
+## relationships
+
+- king: wants to kill him, his entire court, etc.
+- rosenwall: complicated(?) one-sided antagonism on marion's part{{site.data.foot.t1}}.
+- aldus: knows of them. they've fought in the same battles, but haven't met directly.
 
 ## history
 
-born and raised under the king's reign of terror, her (concealed) rage is personal.
+raised during the king's reign of terror and a witness to the people's suffering, marion's (concealed) rage is personal.
 
-has a complicated(?) one-sided antagonistic relationship with rosenwall (rosenwall doesn't care)
-
-rosenwall doesn't seem to
-
-besides the obvious "we are on opposite sides of the civil war" scenario, marion seems to have a personal grudge against rosenwall. what past do they share...? 🤔
+got involved with the revolutionaries at some point and climbed the ranks.
 
 ## abilities
 
 highly skilled with telekinesis and fire magic.
 
-the rosenwall vs. marion animatic is like one of the earlymiddle fights -- since rosenwall is virtually invincible, marion will be gamebreaking {{site.data.emojis.evil}}
+strategic, uses misdirection and the environment to her advantage.
+
+her strong yet focused offense is less effective against large crowds.
+
+the rosenwall vs. marion animatic is like one of the earlymiddle fights -- since rosenwall is virtually indestructible, marion will have to be gamebreaking to truly take her on {{site.data.emojis.evil}}
 
 ## trivia
 
 - her cloak is purple, which was perhaps unintentionally based on those assassin guys from ranger's apprentice {{site.data.emojis.zenigata}}
+- it's standard practice for good-quality armor, weapons, etc. to be warded against magic (such as telekinesis), lest mages kill owners with their own equipment
+
+---
+
+- {{site.data.foot.b1}} rosenwall doesn't care, or perhaps doesn't remember why marion hates her 🤔 or both!
