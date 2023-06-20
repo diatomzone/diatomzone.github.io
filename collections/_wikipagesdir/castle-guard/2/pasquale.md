@@ -18,13 +18,13 @@ PASQUALE is a main character in CASTLE GUARD.
 
 he is a novice knight who has been blackmailed into serving the king.
 
-the only decent person here {{site.data.emojis.zenigata}}
+basically the only decent person here {{site.data.emojis.zenigata}}
 
 ## relationships
 
 - king: hates for obvious reasons. wants to defeat him to save his family, but can't do it alone.
-- rosenwall: works under her as part of the royal guard. basically the only person who isn't terrified of and/or trying to kill her, so he follows her around.
-- aldus: often works with them. weirded out by the fact that aldus initiates normal, casual conversations.
+- rosenwall: works under her as part of the royal guard. pasquale is one of the two people in existence who aren't terrified of her/trying to kill her, so he follows her around.
+- aldus: often works with them. gets weirded out when the murderous aldus initiates normal, casual conversations.
 
 ## history
 

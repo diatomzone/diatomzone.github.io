@@ -18,7 +18,7 @@ MARION is a main character in CASTLE GUARD.
 
 she is a mage who is one of the four leaders spearheading the revolution.
 
-a no-nonsense lone wolf who serves as the rebels' ace assassin (duelist?).
+a no-nonsense lone wolf who serves as the rebels' top assassin (duelist?).
 
 wants to kill the king, but rosenwall stands in her way.
 
@@ -42,11 +42,12 @@ strategic, uses misdirection and the environment to her advantage.
 
 her strong yet focused offense is less effective against large crowds.
 
-the rosenwall vs. marion animatic is like one of the earlymiddle fights -- since rosenwall is virtually indestructible, marion will have to be gamebreaking to truly take her on {{site.data.emojis.evil}}
+the rosenwall vs. marion animatic is like one of the earlymiddle fights -- since rosenwall is virtually indestructible, marion will have to break physics to truly take her on {{site.data.emojis.evil}}
 
 ## trivia
 
 - her cloak is purple, which was perhaps unintentionally based on those assassin guys from ranger's apprentice {{site.data.emojis.zenigata}}
+  - feels like that series inspired several things...
 - it's standard practice for good-quality armor, weapons, etc. to be warded against magic (such as telekinesis), lest mages kill owners with their own equipment
 
 ---

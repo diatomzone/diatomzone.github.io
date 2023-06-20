@@ -16,11 +16,11 @@ data:
 
 ALDUS is a supporting character in CASTLE GUARD.
 
-they are a mercenary archer currently in service of the king.
+they are a mercenary archer who serves the highest bidder -- currently the king.
 
-a legendary crackshot whose signature is shooting people through the eye -- after shooting out each of their limbs.
+a legendary crackshot whose signature is shooting people through the eye... after shooting out each of their limbs.
 
-this sadism is starkly contrasted by their amicable air off the battlefield.
+their sadistic style is jarringly contrasted by their amicable air off the battlefield.
 
 ## relationships
 
@@ -31,13 +31,15 @@ this sadism is starkly contrasted by their amicable air off the battlefield.
 
 ## history
 
-has been scooting from place to place, only serving the highest bidder.
+has been scooting from place to place, even switching sides in the middle of a fight to secure the highest pay.
+
+the king's castle provides a bit of shelter from the exorbitant number of enemies they've made this way.
 
 ## abilities
 
 unrivaled with their powerful longbow.
 
-it's roughly based on an english longbow, which puts it around 6 feet long, with a draw weight of 100-150 lbs.
+it's based on an english longbow, which puts it around 6 feet long, with a draw weight of 100-150 lbs.
 
 stays up and away to avoid close combat.
 

@@ -40,7 +40,7 @@ this place sucks... there's always mortal peril...
 
 the castle the titular castle guard guards.
 
-this grand fortress sit atop a hill{{site.data.foot.t1}} in the center of the capital city, and it is under siege in the animatic because everyone wants to kill the king 👍
+this grand fortress sits atop a hill{{site.data.foot.t1}} in the center of the capital city, and it is under siege in the animatic because everyone wants to kill the king 👍
 
 beneath the castle lies the sprawling dungeon that imprisons hundreds of citizens, including pasquale's family.
 
@@ -49,11 +49,13 @@ beneath the castle lies the sprawling dungeon that imprisons hundreds of citizen
 - the king
 - the king's right hand?
 - the king's court
-- the other "head of the royal __" castle department leaders besides rosenwall
+- the other "head of the royal [blank]" castle department leaders besides rosenwall
   - kitchen, dungeon, topiary, execution, etc.
 - the other 3 revolutionary leaders besides marion
   - (i have no idea what their specialites are {{site.data.emojis.zenigata}})
 - pasquale's family
+- the queen and prince/princess(?)
+  - (they are also in the dungeon)
 
 ## existing media
 

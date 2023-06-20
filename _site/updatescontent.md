@@ -1,8 +1,16 @@
 
+#### jun 20 2023
+
+- wiki edits
+
+---
+
 #### jun 19 2023
 
 - wiki page content
 - castleguard wiki site update!
+- added cat to button gallery
+- this brainradio youtube embed doesn't work on firefox...
 
 ---
 

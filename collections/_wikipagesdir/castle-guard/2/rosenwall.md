@@ -33,7 +33,7 @@ no personality, morals, or discernable motives.
 
 ## history
 
-even i don't know why she started working for the king {{site.data.emojis.zenigata}} she probably killed a quarter of his troops so he offered her money and she said ok...
+even i don't know why she started working for the king {{site.data.emojis.zenigata}} she probably killed a quarter of his troops for fun so he offered her money and she said ok...
 
 besides the obvious "we are on opposite sides of the civil war" scenario, marion seems to have a personal grudge against rosenwall. what past do they share...? 🤔
 
@@ -45,6 +45,7 @@ extremely overpowered, cannot be killed by currently known methods.
 
 - her hair bun is fancily styled, perhaps a bundled-up braid vaguely resembling a rose
 - was once approached by an assassin who asked her to poison the king. she said ok and poured the assassin's vial of poison into the castle's main well. everyone had stomach problems for a week, including rosenwall.
+- probably my most straight-up evil oc. women's wrongs <3
 
 ---
 
