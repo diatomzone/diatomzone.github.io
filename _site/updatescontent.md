@@ -1,4 +1,33 @@
 
+#### oct 04 2023
+
+- new brain radio (doesn't embed on firefox again...)
+- some more coollinks
+- mystuff: twine gatcha test
+
+---
+
+#### sep 23 2023
+
+- article content
+
+---
+
+#### sep 21 2023
+
+- new brain radio(s)
+- new article: spam reviews
+
+---
+
+#### aug 03 2023
+
+- new brain radio
+- new article: oc category memes
+- article content
+
+---
+
 #### jun 20 2023
 
 - wiki edits

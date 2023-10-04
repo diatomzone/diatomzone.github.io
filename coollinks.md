@@ -35,6 +35,9 @@ linklists:
     - name: everything ⭐
       url: https://www.voidtools.com/
       description: a file search for windows computers that actually works
+    - name: onelook thesarus
+      url: https://www.onelook.com/thesaurus/
+      description: for when you can't think of the word for something
   fun stuff:
     - name: noclip
       url: https://noclip.website
@@ -76,6 +79,12 @@ linklists:
     - name: twine ⭐
       url: https://twinery.org/
       description: no-code text-based games -- they export to HTML so you can play 'em in any browser!
+    - name: "twine docs: cookbook"
+      url: https://twinery.org/cookbook/
+      description:
+    - name: "twine docs: harlowe manual"
+      url: https://twine2.neocities.org/
+      description:
     - name: ren'py
       url: https://www.renpy.org/
       description: visual novel engine

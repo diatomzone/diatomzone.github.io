@@ -11,7 +11,9 @@ text in hovertext!
 <div class="centered dimmed">
     {% for image in site.static_files %}
       {% if image.path contains 'assets/images/tags' %}
-        <img src="{{ image.path }}" alt="{{ image.basename }}" title="{{ image.basename }}" style="max-width:70%;"><br><br>
+        <p>
+          <img src="{{ image.path }}" alt="{{ image.basename }}" title="{{ image.basename }}" style="width:100%;">
+        </p>
       {% endif %}
     {% endfor %}
 </div>

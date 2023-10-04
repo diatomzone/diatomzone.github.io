@@ -38,6 +38,7 @@ century carries handfuls of butterknives in her fanny pack at all times, includi
 
 - wears a wide variety of hats because her head gets cold
 - says “i’m in” when opening wicrosoft mord
+- owns a retro "[handheld pc](https://en.wikipedia.org/wiki/Handheld_PC)"
 - SPOILER: idealism
 
 ---

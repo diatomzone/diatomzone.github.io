@@ -6,7 +6,7 @@ a bizarre series of events based on "nightmare court rotation" {{site.data.emoji
 
 (SITE EMBED/MOBILE/ETC. STYLINGS ARE SUPER BROKEN {{site.data.emojis.ungalo}} {{site.data.emojis.ungalo}} please use desktop fullscreen for now!)
 
-<div class="iframecontainer"><iframe src="/assets/twine/kamurocho-court-adventure.html" title="twine game test"></iframe></div>
+<div class="iframecontainer"><iframe src="/assets/twine/kamurocho-court-adventure.html" title="twine game window"></iframe></div>
 
 [(experimental: mobile fullscreen button)](/assets/twine/kamurocho-court-adventure.html)
 
