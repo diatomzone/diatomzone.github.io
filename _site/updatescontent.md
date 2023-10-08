@@ -1,4 +1,10 @@
 
+#### oct 08 2023
+
+- article: y0 rec
+
+---
+
 #### oct 04 2023
 
 - new brain radio (doesn't embed on firefox again...)
@@ -17,6 +23,7 @@
 
 - new brain radio(s)
 - new article: spam reviews
+- ^ gallery styling
 
 ---
 
