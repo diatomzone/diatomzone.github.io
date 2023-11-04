@@ -13,18 +13,32 @@
   <img src="{{ '/assets/images/buttons/wii.jpg' | relative_url }}" alt="nintendo wii button" title="nintendo wii button">
 </div>
 
-<!-- centered full width images -->
-<div class="centered dimmed">
+<!-- centered images from folder data -->
+<div class="centered">
     {% for image in site.static_files %}
-      {% if image.path contains 'assets/images/spamreviews' %}
-        <p>
-          <img src="{{ image.path }}" alt="" title="{{ image.basename }}" style="width:100%; max-height:none;">
-        </p>
+      {% if image.path contains 'assets/images/brawl/food' %}
+        <img src="{{ image.path }}" alt="{{ image.basename }}" title="{{ image.basename }}">
       {% endif %}
     {% endfor %}
 </div>
 
-<!-- photogallery with transcript -->
+<!-- centered images from various sources with descriptions -->
+<!-- (a stripped down "gallery" data setup, without the overlays etc.) -->
+gallery:
+  - filename: gifs/halloween1.gif
+    description: a dark tiled background for your site
+  - filename: gifs/halloween2.gif
+    description: a dark tiled background for your site
+
+names in hovertext!
+
+<div class="centered"> <!-- a stripped down "gallery" data setup, without the overlays etc. -->
+{% for item in page.gallery %} <!-- open up data -->
+    <img src="{{ '/assets/images/' | append: item.filename | relative_url }}" alt="{{ item.description }}" title="{{ item.description }}">
+{% endfor %}
+</div>
+
+<!-- full-width photogallery -->
 <a href="#transcript">(skip to transcript)</a>
 <div class="photogallery dimmed">
   <img src="https://64.media.tumblr.com/5a00075692f2a12045366b59f6d2f346/79fedfbef5f5c910-b2/s1280x1920/6f4c982088741d1a410c7fd870e07304df31cf80.png" alt="page 1" title="page 1">
@@ -37,6 +51,25 @@
 [image description: summary
 content
 end image description]
+
+<!-- full-width photogallery from folder data -->
+<a href="#transcript">(skip to transcript)</a>
+<div class="photogallery dimmed">
+    {% for image in site.static_files %}
+      {% if image.path contains 'assets/images/spamreviews' %}
+        <p>
+          <img src="{{ image.path }}" alt="" title="{{ image.basename }}" style="width:100%; max-height:none;">
+        </p>
+      {% endif %}
+    {% endfor %}
+</div>
+
+## transcript
+
+[image description: summary
+content
+end image description]
+
 
 <!-- iframe/youtube video -->
 <div class="iframecontainer">

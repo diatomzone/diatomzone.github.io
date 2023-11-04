@@ -4,7 +4,7 @@
 
   {% for section in page.dialogue %} <!-- open up section -->
     {% if section[0] == include.sectionname %} <!-- if specified list -->
-      <h2 id="{{ section[0] }}">{{ section[0] }}</h2>
+      <h2 id="{{ section[0] }}">{{ section[0] }}</h2><br>
       {% for entry in section[1] %} <!-- open up "-" entry -->
         <div class="dialoguebox">
           {% for line in entry %} <!-- open up line -->
@@ -24,7 +24,7 @@
 {% else %} <!-- if there isn't a sectionname, show all lists -->
 
   {% for section in page.dialogue %} <!-- open up section -->
-    <h2 id="{{ section[0] }}">{{ section[0] }}</h2>
+    <h2 id="{{ section[0] }}">{{ section[0] }}</h2><br>
     {% for entry in section[1] %} <!-- open up "-" entry -->
       <div class="dialoguebox">
         {% for line in entry %} <!-- open up line -->

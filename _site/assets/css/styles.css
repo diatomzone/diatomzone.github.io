@@ -56,9 +56,9 @@ div.dialoguebox div.dialogueflex:first-child { margin-top: 0; }
 
 div.iframecontainer { background: darkslateblue; position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; margin: calc(40px / 2) auto 0 auto; }
 
-h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.2em; text-align: center; margin: 0 0 calc(40px / 1.5) 0; padding: 0; }
+h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.2em; text-align: center; margin: 0 0 calc(40px / 1) 0; padding: 0; }
 
-h2 { background-color: transparent; color: coral; font-size: 1.6em; margin: calc(40px / 1.5) 0 0 0; }
+h2 { background-color: transparent; color: coral; font-size: 1.6em; margin: calc(40px / 1) 0 0 0; }
 
 h3 { background-color: transparent; color: #4dc6ff; font-size: 1.3em; margin: calc(40px / 2) 0 0 0; }
 
@@ -170,7 +170,7 @@ aside.infobox .key { background-color: transparent; color: #4dc6ff; font-weight:
 
 aside.infobox .value { background-color: transparent; width: 60%; padding: 0 0 0 0.3em; }
 
-.photogallery img { width: 100%; }
+div.photogallery img { width: 100%; }
 
 .row { display: flex; flex-wrap: wrap; margin: 0; max-width: 100%; }
 

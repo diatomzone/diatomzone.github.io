@@ -14,7 +14,7 @@ different team combinations/combo abilities and hero/enemy matchups are so good 
 
 swag examples:
 
-- rise of the teenage mutant ninja turtles: arcade fight with all the game-themed attacks and enemies, the over-the-top fish and ladders fight with SO many good cartoon physics gags too, each recurring villain having their own signature theme/ability sometimes even used against them)
+- rise of the teenage mutant ninja turtles: arcade fight with all the game-themed attacks and enemies, the over-the-top fish and ladders fight with SO many good cartoon physics gags too, each recurring villain having their own signature theme/ability which often gets used against them)
 - kipo and the age of wonderbeasts: animal-specific abilities like frog tongues (for maneuvering and team attacks), learning to use the mega bunny to foil enemies, wolf using her staff to hook __)
 
 ## THE RANGE

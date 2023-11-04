@@ -6,7 +6,7 @@ some incredible reviews for various "spam" products that my friends and i found 
 
 <a href="#transcript">(skip to transcript)</a>
 
-<div class="centered dimmed">
+<div class="photogallery dimmed">
     {% for image in site.static_files %}
       {% if image.path contains 'assets/images/spamreviews' %}
         <p>

@@ -38,13 +38,13 @@ i am extremely particular about my webpage preferences.
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
-<div markdown="1" style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   - ITEM
   - ITEM
   - ITEM
   - ITEM
 </div>
-<div markdown="1" style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   1. ITEM
   1. ITEM
   1. ITEM
@@ -53,7 +53,7 @@ i am extremely particular about my webpage preferences.
 </div>
 <p style="padding:0 1em;">custom vs. default</p>
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
-<div style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   <ul class="listdefault">
     <li>ITEM</li>
     <li>ITEM</li>
@@ -61,7 +61,7 @@ i am extremely particular about my webpage preferences.
     <li>ITEM</li>
   </ul>
 </div>
-<div style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   <ol class="listdefault">
     <li>ITEM</li>
     <li>ITEM</li>
@@ -76,19 +76,19 @@ i am extremely particular about my webpage preferences.
 
 <div class="flex flexcentered">
 <div class="directory" style="display:flex; flex-shrink:0;"> <!-- if the contained divs are indented, they somehow turn into code blocks -->
-<div markdown="1" style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   - NO
   - NO
   - NO
   - NO
 </div>
-<div markdown="1" style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   - CS<sup>#</sup>
   - CS<sup>#</sup>
   - CS<sup>#</sup>
   - CS<sup>#</sup>
 </div>
-<div markdown="1" style="padding:0 0.5em;">
+<div markdown="1" style="padding:0 0.5em; margin: 0;">
   - DF<sup style="vertical-align:super; position:static;">#</sup>
   - DF<sup style="vertical-align:super; position:static;">#</sup>
   - DF<sup style="vertical-align:super; position:static;">#</sup>

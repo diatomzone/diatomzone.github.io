@@ -20,15 +20,28 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 >>> blockquote 3
 
-direct link [link](https://www.youtube.com/watch?v=kY27wmTZwyg)
+direct link: [link](https://www.youtube.com/watch?v=kY27wmTZwyg)
 
-automatic link <https://www.youtube.com/watch?v=kY27wmTZwyg>
+automatic link: <https://www.youtube.com/watch?v=kY27wmTZwyg>
 
 <email@example.com>
 
-![alt text](https://64.media.tumblr.com/b50308bacd4bc2dad3ed153d5c6ea95d/tumblr_pf0zqh71uO1wrmzr9o3_r1_400.pnj)
+![markdown image]({{ '/assets/images/pixelbanner.png' | relative_url }})
 
-![alt text]({{ '/assets/images/favicon-96.png' | relative_url }})
+sphinx of black `quartz`, judge my vow
+
+`code`
+
+```
+code block
+lots of code
+  ldsfj lskdjfdf jfkj abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+{ljdf}
+```
+
+^ if anyone knows how to style code blocks please send articles my way {{site.data.emojis.enid}}
+
+---
 
 - unordered
 - unordered
@@ -44,12 +57,13 @@ automatic link <https://www.youtube.com/watch?v=kY27wmTZwyg>
         1. ordered
         1. ordered
 
-<!--  -->
+<!-- can use comment to separate ordered lists (the small gap is actually a normal list gap)-->
 
 1. item
 2. item
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - Lorem ipsum
+  - Lorem ipsum
+    - (a further indented ol/ul item doesn't work here...)
 
 - Lorem ipsum
 - Lorem ipsum
@@ -59,16 +73,3 @@ automatic link <https://www.youtube.com/watch?v=kY27wmTZwyg>
             1. ITEM
         - item
     3. item
-
----
-
-lskdjflsdjf skdjfsdlfjsd sldkjfls djflsdjkflsd fsdlfjsdljfsdljflsd flsdjk fsdljf lsdj flsdjk fdlsjflsdj flsd `code` skdjfsdlfjsd sldkjfls djflsdjkflsd fsdlfjsdljfsdljflsd flsdjk fsdljf lsd
-
-`code`
-
-```
-code block
-lots of code                                                                                              %
-  ldsfj lskdjfdf jfkj abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
-{ljdf}
-```

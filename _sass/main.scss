@@ -43,7 +43,7 @@ div.flexcentered { // use in conjunction with normal .flex (flex flexcentered)
   justify-content: center;
   align-items: center;
 }
-div.centered { // to contain images etc.
+div.centered { // for small images etc. -- "photogallery" has 100% width and no height cap
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
   text-align: center;
   img {
@@ -155,7 +155,7 @@ h1 {
   font-size: 2.2em;
   text-align: center;
   // display: inline-block;
-  margin: 0 0 calc(#{$elementmargintb} / 1.5) 0;
+  margin: 0 0 calc(#{$elementmargintb} / 1) 0;
   padding: 0;
 }
 h2 {
@@ -163,7 +163,7 @@ h2 {
   color: $colororange;
   font-size: 1.6em;
   // margin: calc(#{$elementmargintb} / 1) 0;
-  margin: calc(#{$elementmargintb} / 1.5) 0 0 0;
+  margin: calc(#{$elementmargintb} / 1) 0 0 0;
 }
 h3 {
   @include replace-bgcolor($colorbg, $colortoggle);
@@ -472,7 +472,7 @@ aside.infobox { // wiki info box
 
 // GALLERY ELEMENTS /////////////////////////////////////////////////////////////////////////////
 // basic gallery
-.photogallery {
+div.photogallery { //  for full-width images -- "centered" has height cap for small images
   img {
     width: 100%;
   }

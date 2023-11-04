@@ -1,4 +1,12 @@
 
+#### nov 04 2023
+
+- lazy loading research?
+- minor spacing edits and style code cleanup
+- new articles: seasonal images, markdown test
+
+---
+
 #### oct 08 2023
 
 - article: y0 rec
