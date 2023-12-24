@@ -1,4 +1,12 @@
 
+#### dec 24 2023
+
+- twine game: kamurocho court adventure TWO!
+- 2 new coollinks
+- new brain radio
+
+---
+
 #### nov 04 2023
 
 - lazy loading research?

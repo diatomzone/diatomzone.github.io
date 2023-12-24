@@ -4,6 +4,7 @@ title: brain radio archive
 
 (NEWEST)
 
+- [F.A.N.G theme](https://www.youtube.com/watch?v=6hU6VQpmzjY) -- street fighter v
 - [give me the night](https://www.youtube.com/watch?v=FIF7wKJb2iU) -- george benson
 - [2nd street](https://www.youtube.com/watch?v=RhFpDOyohu0) -- dimension
 - [HEART de furimuite](https://www.youtube.com/watch?v=ouoOXDrTsGY) -- kanako wada

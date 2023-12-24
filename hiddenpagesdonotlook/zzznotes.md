@@ -257,6 +257,7 @@ title: zzznotes
   - clean redundant div margins
   - noindex: robots.txt
   - landing page cursor goes away at bottom of page
+  - add lazy loading (loading="lazy") in for loop of specific types of image galleries
 
 [EDIT] tag for edits
 
@@ -319,7 +320,7 @@ title: zzznotes
 - yaml can't have multiple items with the same key, or else it's overwritten (breaks old dialoguebox lines with repeated speakers), so i remade the system to make names repeatable values instead of keys, with each line being its own item
   - related, containing items don't have to have keys, so you can directly nest them like: - - these - are - items
   - 2 ways to do nested arrays:
-    - key/value pairs within a {} array, separated by commas (requres "" for commas and special characters)
+    - key/value pairs within a {} array, separated by commas (requires "" for commas and special characters)
     - key value pairs on their own lines (does not require "" for commas, but does for other characters like colon)
   - but in the end, i used a normal [] array, first item = name, second item = text
 - when 3 periods are used in a YAML "" string and printed with a liquid variable, they don't turn into ellipses
@@ -352,7 +353,7 @@ title: zzznotes
 - gallery hovers prevent images from being right clicked/long pressed
 - THE GREAT LINKLIST INDENTATION MYSTERY
   - my html is not displaying properly inside a liquid if statement, tried everything including restarting jekyll serve, it breaks and displays everything as code element/an unrendered text p if indented twice or more, it only works when the content inside the if statement is indented once/nonce
-  - internet suggestion: "Add markdown="0" attribute to a top-level tag [ex: i trieed it on body in layout template] to disable Markdown parsing." (but it doesn't do anything)
+  - internet suggestion: "Add markdown="0" attribute to a top-level tag [ex: i tried it on body in layout template] to disable Markdown parsing." (but it doesn't do anything)
   - tried the above by putting everything in a div
   - thankfully my friend discovered it works if simply contained in a div........ i guess it was misinterpreting the liquid tag/indentation and turned it into code?? the jekyll highlighter rouge or whatever was showing up in f12 too
 - can't format code blocks to fit max-width: 100%; only works with with pixel amount or inline

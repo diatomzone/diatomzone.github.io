@@ -38,6 +38,9 @@ linklists:
     - name: onelook thesarus
       url: https://www.onelook.com/thesaurus/
       description: for when you can't think of the word for something
+    - name: bassoontracker
+      url: https://www.stef.be/bassoontracker/
+      description: idk how to use trackers but it's a neat in-browser music maker, open source and 100% javascript!
   fun stuff:
     - name: noclip
       url: https://noclip.website
@@ -91,6 +94,9 @@ linklists:
     - name: bitsy
       url: https://make.bitsy.org/
       description: haven't tried this one myself, but it looks neat and exports to HTML
+    - name: gbastudio
+      url: https://www.gbstudio.dev/
+      description: drag-and-drop retro game engine with sprite and music editors, exports to ROM and web!
   art making / art reference:
     - name: krita ⭐
       url: https://krita.org/
