@@ -1,4 +1,12 @@
 
+#### feb 09 2024
+
+- reviews corner: mp100, gk
+- renamed and reordered some article categories
+- new brain radio
+
+---
+
 #### dec 24 2023
 
 - twine game: kamurocho court adventure TWO!

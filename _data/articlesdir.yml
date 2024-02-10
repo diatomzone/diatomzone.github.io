@@ -1,9 +1,9 @@
 # stores categories for "articlesdir" collection listing, call with "site.data.articlesdir"
 # listing will follow this order
 
-- coding
 - images
+- thoughts-n-reviews
 - oc-stuff
 - art-transcripts
-- thoughts-dump
+- coding
 - uncategorized

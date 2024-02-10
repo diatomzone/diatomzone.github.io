@@ -4,6 +4,16 @@ title: zzznotes
 
 {% raw %} <!-- prevents liquid code from being read -->
 
+- is there something wrong with the article layout? brawlsprites and spamreviews show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 upload changes
+
+
+
+
+
+
+
+
+
 ## PROJECT INFO
 - site new url
   - successfully added site through files alone, didn't need to reinstall command prompt stuff in new directory

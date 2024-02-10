@@ -1,4 +1,4 @@
-# stores data for 2-way footnote links, call with "site.data.foot"
+# stores data for 2-way footnote links, call with "{{site.data.foot.t1}}"
 # double footnotes like 2 3 can be their own variables separated by a space
 
 # top footnotes, in the text
