@@ -4,7 +4,7 @@ title: zzznotes
 
 {% raw %} <!-- prevents liquid code from being read -->
 
-- is there something wrong with the article layout? brawlsprites and spamreviews show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 upload changes
+- is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes
 
 
 
