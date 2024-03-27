@@ -22,6 +22,8 @@ some incredible reviews for various "spam" products that my friends and i found 
 
 3 stars from Mars: Salty but not in a comforting way. However, I can respect the grind.
 
+5 stars from Smi: I like the spam lite best of all but we have a Talladega Alabama spam a rama cookout and we have every kind that they have cooked every way you can have it we all enjoy it
+
 5 stars from BigD!: I had a sample of the less sodium spam here at the muesum! Taste amazing I would rate it a 10
 
 5 stars from Big birta: Sould xome to this fine astablishnent agaib

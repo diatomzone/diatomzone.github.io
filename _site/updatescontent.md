@@ -1,4 +1,17 @@
 
+#### mar 26 2024
+
+- article: bad fics i typed in discord
+- new brain radio
+
+---
+
+#### mar 10 2024
+
+- added entry to spamreviews
+
+---
+
 #### feb 09 2024
 
 - reviews corner: mp100, gk
