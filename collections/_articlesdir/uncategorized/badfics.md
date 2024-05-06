@@ -7,6 +7,7 @@ title: really bad fics i typed in discord in one go
   <ul>
       <li><a href="#overwatch-fanfiction">overwatch fanfic (1064 words)</a></li> <!-- entry label, link to anchor -->
       <li><a href="#final-fantasy-7-fanfiction">final fantasy 7 fanfic (350 words)</a></li>
+      <li><a href="#doppio-diavolo-fanfiction">doppio diavolo fanfic (904 words)</a></li>
   </ul>
 </div>
 
@@ -111,5 +112,77 @@ i go to it (the door) and open it (with the doorknob). the bright sunlight flood
 i take a bite of the warm, crunchy treat, but there's a strange tartness.
 
 they're skittles...
+
+THE END
+
+---
+
+## doppio diavolo fanfiction
+
+(904 words)
+
+my name is diavolo (no last name becasue i have erased my past for security reasons) and i am a mafia boss in charge of the passionee gang in italy. we sell drugs, make drugs, distribute drugs, trade drugs, and other criminal (totally illeagal!) activities of the sort. the only henchman i trust is my beloved 2nd in command doppio, who's real name is vinegar (maybe his family speaks english?). in fact, i am goign to hand this over to him right now so i can attend to my important mafia duties. (telephone click sound effect)
+
+my name is vinegar doppio, and i'm a mafioso in the passione gang in italy. my favorite animal is a frog becuase thye're are so cute! also sometiems i get crazy migraines and then have no memory of the previous segment of time which is slightly worryign, but probably not an issue... anyways, today i'm at the farmar (short for FARmer's MARket) buying some produce such as tomatoes and fresh beautiful corns, and also browsing the crafts such as homemade beeswax candles and trying on the stylish crop tops (this gold and red swirly patterned one is right up my alley!), when suddently my phone rings!
+
+BRINGINGRWN! ow, that's loud! i pick up my telephone from the bakery stand on my right and press the soft, buttery, and flaky receiver to my ear.
+
+"hello?" i say loudly over the commotion around me.
+
+"doppio!" it's the boss's voice!
+
+"hiya, boss!"
+
+"hi, doppio listen up," he nearly cuts me off, sounding harried. "there's danger afoot!"
+
+"what?? back it up, boss, what's got you--"
+
+SWOOSH!!!! the old bakery stand lady swings a rolled up interior design magazine at the side of my head but with my lightning fast/catlike/etc. reflexes i jolt back and it misses its mark but in fact i'm just a tad to slow and the wad of glossy heavyweight pages scratches straight across my eyelids!!!
+
+"YEOOOWCH!" i cry out in pain! that REALLY hurt!!
+
+the boss chuckles from inside the phone i thankfully did not drop. "ha ha, i tricked you into getting bonked on the head! there was no danger afoot atall! april fool's!"
+
+"BOSS!!!" i yell in frustration! this is no time for goofs OR gags! "she got my eyes!! i can't see a thing!!!" i need to apply neosporin antibiotic gel to prevent infection STAT!
+
+"o-oh my god, i'm so sorry." says the boss, which is the most apologetic sentence from him i've ever heard. "i'll come over and--"
+
+"be my eyes?" i finish. i hear the boss nod. we're always on the same page when it counts!
+
+"yes, doppio, but first i NEED you need to get OUT of the farmar. i will meet you at the north end of the parking lot behind that weird tree."
+
+"you want me to walk blindly into traffic?"
+
+the boss says "ah." he takes a big breath and sounds really agitated, like he's scratchign his fingers through his hair. "alright. i REALLY dont' want to do this. but i'll do it JUST for you, my specialest little one of a kind miraculous treasured doppio."
+
+ZWOOP!!! i, diavolo, arrive, taking doppio's place in the middle of the bustling farmar! oh my god, it's loud. i force my stinging eyes open but seeing the crowd of hungry, menacing gazes around me shakes me to my core!!!!
+
+i drop doppio's phone in terror, and the screen breaks like this --> [SHATTERS IN CROISSANT]. oops. i dash out of the market faster than i've EVER dashed before, some glass jar in doppio's tote bag slamming against my side.
+
+before i know it, i'm wheezing my lungs out besides the tree, finally freed from that infernal crowd. then my phone rings!
+
+DDRRRDRDRRGBBR! yikes, i shoudl really change my ringtone. i very gently remove my earbud from the tree trucnk and stick the hook over my ear (it conveniently has grippy feet for nonslip wear).
+
+"BOSS!" i've never been so glad to hear doppio's voice! "wow, you really did it!! are you--" he listens for a sec. "....are you crying?"
+
+i hadn't noticed. but my stupid purple armband comes off my face darkened with running eyeliner (which i had swiftly applied upon my arrival in the farmar). how embarrassing! but more importantly, what a waste!!
+
+i clear my throat awkwardly. "my eyes were just stinging alot. we're safe now, doppio."
+
+"boss....." doppio says. i lean wearily against the tree. "i can't believe you did all that, for me?"
+
+"of course. trusted suboordinates like you are few and far between."
+
+doppio's infectious smile creeps onto my face. but then he huffs in annoyance! "never try to april fool's me again! that was a terrible and frankly humorless prank!" and look where that got us, was the implicication..... very well, i'd better hold off on my schemes for the time being.
+
+"i'll buy you your antibiotic ointment, alright?" i appeal.
+
+"uh huh. you know i'd just write it off as a business expense anyway!"
+
+we share a laugh (mine internally, of course. i dont "laugh out loud"). all's well that ends well, i suppose!
+
+…
+
+(in reality, diavolo forgets to buy the antibiotic ointment, and since doppio cannot find his brand name first aid in the italian pharmacutical retailer nearest to his house, he gets an eyelid infection and has to go to ciocolatta's emergency room for italian antibiotics and (wound) dressing.)
 
 THE END

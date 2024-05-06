@@ -4,6 +4,7 @@ title: brain radio archive
 
 (NEWEST)
 
+- [receive you the hyperactive](https://www.youtube.com/watch?v=90zWq5r7zc8) -- like a dragon
 - [runner's high](https://www.youtube.com/watch?v=X8_IDTXiduo) -- kirinji
 - [eternal fire](https://www.youtube.com/watch?v=ylZjg4HTogQ) -- like a dragon ishin
 - [F.A.N.G theme](https://www.youtube.com/watch?v=6hU6VQpmzjY) -- street fighter v

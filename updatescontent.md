@@ -1,4 +1,11 @@
 
+#### may 05 2024
+
+- added new bad fic
+- new brain radio
+
+---
+
 #### mar 26 2024
 
 - article: bad fics i typed in discord
