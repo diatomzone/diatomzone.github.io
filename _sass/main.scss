@@ -15,8 +15,9 @@ body { // put overall styles here (gradients count as background-image)
   // background: url("/assets/images/tilenight.png");
   // background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
   color: $colorwhite;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 118%; // sets base size for em to use
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 110%; // sets base size for em to use
+  text-shadow: 2px 2px 0px black;
   margin: 0; // full screen
   min-height: 100%; // full screen
   overflow-y: scroll; // vertical scrollbar always shown
@@ -62,7 +63,9 @@ main { // main layout element, contains page content in indexmain (and indexside
   // br {display: none;} // for {{ content | newline_to_br }}
   // p br {display: inline;}
   // can't remove margin-top from first children or else it affects everything
-  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
+  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
+  border: 2px solid $colorwhite;
+  border-radius: 15px;
 }
 div.indexmain { // main content
   order: 1;
@@ -76,6 +79,7 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
+  border: $borderstyle;
   order: 2;
   flex-basis: 250px; // initial length (width)
   flex-shrink: 1; // does shrink
@@ -87,11 +91,12 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   }
 }
 div.shortbox { // for update log, same padding as wikibox, include markdown="1"
-  background: $colorbg;
+  background: $colorbox1;
   max-height: 8em; // changes with font-size defined in body
   overflow-y: scroll; // vertical scrollbar always shown
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
+  border: $borderstyle;
   h4, ul, ol, li {
     margin: 0;
   }
@@ -103,6 +108,7 @@ div.directory { // same padding as wikibox
   background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
+  border: $borderstyle;
   h4 {
     margin-top: 0;
   }
@@ -117,18 +123,18 @@ div.dialoguebox { // same padding as wikibox
   background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 4) 0 0 0;
+  border: $borderstyle;
   img {
   // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
   aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
   object-fit: cover; // crop image to fill area
   }
   div.dialogueflex { // for img and p
-    // background: navy;
     display: flex;
     flex-direction: row;
     margin: calc(#{$elementmargintb} / 4) 0 0 0;
     div {
-      margin: 0 0 0 0.5em;
+      margin: 0 0 0 1em;
       p {
         margin: 0;
       }
@@ -151,8 +157,9 @@ div.iframecontainer { // for normal iframes
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
   color: $coloryellow;
-  font-family: myfont;
-  font-size: 2.2em;
+  // font-family: myfont;
+  font-family: "Supermercado One", monospace;
+  font-size: 2.4em;
   text-align: center;
   // display: inline-block;
   margin: 0 0 calc(#{$elementmargintb} / 1) 0;
@@ -161,20 +168,23 @@ h1 {
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colororange;
-  font-size: 1.6em;
+  font-family: "Supermercado One", monospace;
+  font-size: 1.9em;
   // margin: calc(#{$elementmargintb} / 1) 0;
   margin: calc(#{$elementmargintb} / 1) 0 0 0;
 }
 h3 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colorblue;
-  font-size: 1.3em;
+  font-family: "Supermercado One", monospace;
+  font-size: 1.6em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 h4, h5, h6 {
   @include replace-bgcolor($colorbg, $colortoggle);
   color: $colorpurple;
-  font-size: 1.15em;
+  font-family: "Supermercado One", monospace;
+  font-size: 1.4em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p { // markdown turns lines (including images) into p
@@ -203,12 +213,14 @@ a:active { // :active = pseudoclass being clicked
  color: $coloryellow;
 }
 span.spoilered {
-  background: $colorbox3;
+  background: $colorspoiler;
   color: transparent;
+  text-shadow: none;
 }
 span.spoilered:hover {
   background: transparent;
   color: inherit;
+  text-shadow: inherit;
   transition: 0.2s;
 }
 img {
@@ -381,14 +393,15 @@ footer {
   }
 }
 nav { // horizontal navbar
-  background: $colorbox2;
-  font-size: 1.2em;
+  background: $colorbox1;
+  font-size: 1.1em;
   max-width: 100%;
   margin-top: $gapheight;
-  text-align: center;
   padding: calc(#{$boxpadding} / 2);
-  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
-  img {
+  text-align: center;
+  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
+  border: 2px solid $colorwhite;
+  border-radius: 15px;  img {
     height: 1em;
   }
   a.current { // "current" class for highlighting navigation
@@ -425,6 +438,7 @@ aside.infobox { // wiki info box
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center; // center small image
+  border: $borderstyle;
   order: 2;
   flex-basis: 300px; // initial length (width)
   flex-shrink: 1; // does shrink

@@ -78,6 +78,9 @@ linklists:
     - name: texture town
       url: https://textures.neocities.org/
       description: texture gallery -- check out the playroom where you can drag your own images onto 3d objects!
+    - name: random webcomic
+      url: https://randomwebcomic.com/
+      description: click for a random webcomic
   game making:
     - name: twine ⭐
       url: https://twinery.org/

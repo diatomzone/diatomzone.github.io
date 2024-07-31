@@ -30,12 +30,12 @@ against all odds, the long-running, continuity-less structure packed with wildly
 
 BEST CHARACTER NOT EVEN JOKING my whole lupingang fiat thesis etc. etc.
 
-### sad fiat appearances (let's get these out of the way first):
+### saddest fiat appearances (let's get these out of the way first):
 
 - blue jacket: its washed-out barely-yellow color is disappointing considering this modern part has plenty of bright colors. fiat crashes and gets replaced by a cop car for like the rest of whichever part. UNACCEPTABLE!!!!!!!
 - part 6: same dull palette. fiat gets shot to smithereens in like the first ep, that chase is NOTHING like any of the following:
 
-### extremely excellent fiat appearances:
+### most excellent fiat appearances:
 
 - the first: (got so long it needs its own bullet points {{site.data.emojis.zenigata}})
   - BRIGHT yellow glossy fresh paint and that orbiting shot and those SPICYFLAVOR exhaust/tire smoke 2d effects in the opening YEAAAAAAHHHHHHHHHHHHH 🔥🔥🔥🔥

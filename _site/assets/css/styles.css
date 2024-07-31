@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
 @font-face { font-family: myfont; src: url("/assets/fonts/fullfont.ttf"); }
 
-html { background: #1a1c2b; height: 100%; scroll-behavior: smooth; }
+html { background: black; height: 100%; scroll-behavior: smooth; }
 
-body { cursor: url("/assets/images/cursor.png"), default; color: #ebe7d6; font-family: 'Anonymous Pro', monospace; font-size: 118%; margin: 0; min-height: 100%; overflow-y: scroll; overflow-wrap: anywhere; display: flex; flex-direction: row; }
+body { cursor: url("/assets/images/cursor.png"), default; color: #ebe7d6; font-family: 'Spline Sans Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; margin: 0; min-height: 100%; overflow-y: scroll; overflow-wrap: anywhere; display: flex; flex-direction: row; }
 
 div.buffer { flex-basis: 0; flex-shrink: 0; flex-grow: 1; }
 
@@ -20,21 +20,21 @@ div.centered img { max-height: 10em; }
 
 div { margin: calc(40px / 2) 0 0 0; }
 
-main { background: #2c3443; max-width: 100%; margin-top: 20px; padding: 20px; text-align: left; box-shadow: calc(20px / 2) calc(20px / 2) black; }
+main { background: rgba(0, 0, 0, 0.8); max-width: 100%; margin-top: 20px; padding: 20px; text-align: left; box-shadow: calc(20px / 3) calc(20px / 3) #ebe7d6; border: 2px solid #ebe7d6; border-radius: 15px; }
 
 div.indexmain { order: 1; margin: 0; flex-basis: 0; flex-shrink: 0; flex-grow: 1; }
 
-aside.indexside { background: #354e51; padding: calc(20px / 2); margin: 0 0 0 20px; text-align: center; order: 2; flex-basis: 250px; flex-shrink: 1; flex-grow: 0; align-self: flex-start; }
+aside.indexside { background: rgba(50, 50, 50, 0.8); padding: calc(20px / 2); margin: 0 0 0 20px; text-align: center; border: 2px dotted #ebe7d6; order: 2; flex-basis: 250px; flex-shrink: 1; flex-grow: 0; align-self: flex-start; }
 
 aside.indexside h3:first-child, aside.indexside p:first-child { margin-top: 0; }
 
-div.shortbox { background: #1a1c2b; max-height: 8em; overflow-y: scroll; padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; }
+div.shortbox { background: rgba(0, 0, 0, 0.8); max-height: 8em; overflow-y: scroll; padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; border: 2px dotted #ebe7d6; }
 
 div.shortbox h4, div.shortbox ul, div.shortbox ol, div.shortbox li { margin: 0; }
 
 div.shortbox hr { margin: calc(40px / 2) auto; }
 
-div.directory { background: #354e51; padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; }
+div.directory { background: rgba(50, 50, 50, 0.8); padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; border: 2px dotted #ebe7d6; }
 
 div.directory h4 { margin-top: 0; }
 
@@ -42,13 +42,13 @@ div.directory ul, div.directory ol { margin: 0; }
 
 div.directory ul li, div.directory ol li { margin: 0; }
 
-div.dialoguebox { background: #354e51; padding: calc(20px / 2); margin: calc(40px / 4) 0 0 0; }
+div.dialoguebox { background: rgba(50, 50, 50, 0.8); padding: calc(20px / 2); margin: calc(40px / 4) 0 0 0; border: 2px dotted #ebe7d6; }
 
 div.dialoguebox img { aspect-ratio: 1; object-fit: cover; }
 
 div.dialoguebox div.dialogueflex { display: flex; flex-direction: row; margin: calc(40px / 4) 0 0 0; }
 
-div.dialoguebox div.dialogueflex div { margin: 0 0 0 0.5em; }
+div.dialoguebox div.dialogueflex div { margin: 0 0 0 1em; }
 
 div.dialoguebox div.dialogueflex div p { margin: 0; }
 
@@ -56,13 +56,13 @@ div.dialoguebox div.dialogueflex:first-child { margin-top: 0; }
 
 div.iframecontainer { background: darkslateblue; position: relative; overflow: hidden; width: 100%; padding-top: 56.25%; margin: calc(40px / 2) auto 0 auto; }
 
-h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.2em; text-align: center; margin: 0 0 calc(40px / 1) 0; padding: 0; }
+h1 { background-color: transparent; color: orange; font-family: "Supermercado One", monospace; font-size: 2.4em; text-align: center; margin: 0 0 calc(40px / 1) 0; padding: 0; }
 
-h2 { background-color: transparent; color: coral; font-size: 1.6em; margin: calc(40px / 1) 0 0 0; }
+h2 { background-color: transparent; color: coral; font-family: "Supermercado One", monospace; font-size: 1.9em; margin: calc(40px / 1) 0 0 0; }
 
-h3 { background-color: transparent; color: #4dc6ff; font-size: 1.3em; margin: calc(40px / 2) 0 0 0; }
+h3 { background-color: transparent; color: #4dc6ff; font-family: "Supermercado One", monospace; font-size: 1.6em; margin: calc(40px / 2) 0 0 0; }
 
-h4, h5, h6 { background-color: transparent; color: plum; font-size: 1.15em; margin: calc(40px / 2) 0 0 0; }
+h4, h5, h6 { background-color: transparent; color: plum; font-family: "Supermercado One", monospace; font-size: 1.4em; margin: calc(40px / 2) 0 0 0; }
 
 p { background-color: transparent; margin: calc(40px / 2) 0 0 0; }
 
@@ -78,9 +78,9 @@ a:hover { color: #ff5e7e; }
 
 a:active { color: orange; }
 
-span.spoilered { background: #2f6251; color: transparent; }
+span.spoilered { background: #555555; color: transparent; text-shadow: none; }
 
-span.spoilered:hover { background: transparent; color: inherit; transition: 0.2s; }
+span.spoilered:hover { background: transparent; color: inherit; text-shadow: inherit; transition: 0.2s; }
 
 img { margin: 0; vertical-align: bottom; max-width: 100%; max-height: 100%; }
 
@@ -128,13 +128,13 @@ code { background: black; color: #4dc6ff; font-family: 'Anonymous Pro', monospac
 
 header { max-width: 100%; height: 2em; text-align: center; margin: 0; }
 
-header .skip-to-content-button { background: #2c3443; position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); transition: transform 0.2s; }
+header .skip-to-content-button { background: rgba(0, 0, 0, 0.8); position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); transition: transform 0.2s; }
 
 header .skip-to-content-button:focus { transform: translate(-50%, 0%); }
 
 footer { max-width: 100%; height: 2em; text-align: center; margin-top: 20px; }
 
-nav { background: #354e51; font-size: 1.2em; max-width: 100%; margin-top: 20px; text-align: center; padding: calc(20px / 2); box-shadow: calc(20px / 2) calc(20px / 2) black; }
+nav { background: rgba(0, 0, 0, 0.8); font-size: 1.1em; max-width: 100%; margin-top: 20px; padding: calc(20px / 2); text-align: center; box-shadow: calc(20px / 3) calc(20px / 3) #ebe7d6; border: 2px solid #ebe7d6; border-radius: 15px; }
 
 nav img { height: 1em; }
 
@@ -152,7 +152,7 @@ nav a:active:not(.current) { color: #ff5e7e; }
 
 .wikibody h2:first-child, .wikibody p:first-child { margin-top: 0; }
 
-aside.infobox { background: #354e51; padding: calc(20px / 2); margin: 0 0 0 20px; text-align: center; order: 2; flex-basis: 300px; flex-shrink: 1; flex-grow: 0; align-self: flex-start; }
+aside.infobox { background: rgba(50, 50, 50, 0.8); padding: calc(20px / 2); margin: 0 0 0 20px; text-align: center; border: 2px dotted #ebe7d6; order: 2; flex-basis: 300px; flex-shrink: 1; flex-grow: 0; align-self: flex-start; }
 
 aside.infobox h3 { color: #ff5e7e; margin: 0; }
 
@@ -160,7 +160,7 @@ aside.infobox img { margin: calc(40px / 4) 0 0 0; }
 
 aside.infobox section { margin: 0; }
 
-aside.infobox .category { background: #2f6251; font-weight: bold; color: orange; margin: calc(40px / 4) 0 0 0; }
+aside.infobox .category { background: rgba(85, 85, 85, 0.8); font-weight: bold; color: orange; margin: calc(40px / 4) 0 0 0; }
 
 aside.infobox .entry { display: flex; text-align: left; margin: 0; }
 

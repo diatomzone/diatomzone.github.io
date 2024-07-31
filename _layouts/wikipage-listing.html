@@ -22,7 +22,7 @@ layout: default
     {% if item.path contains wikicategory %}
       <div class="dialoguebox">
         <div class="dialogueflex">
-          <img src="/assets/images/{{ item.data.image }}" style="height:4em;" alt=""> <!-- putting inside link breaks aspect ratio... -->
+          <img src="/assets/images/{{ item.data.image }}" style="height:4.5em;" alt=""> <!-- putting inside link breaks aspect ratio... -->
           <!-- ^ aspect-ratio is needed for flex item, normal width doesn't work -->
           <div>
             <h4 style="margin-top:0;"><a href="{{ item.url }}">{{ item.title }}</a></h4>

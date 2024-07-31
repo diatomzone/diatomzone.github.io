@@ -9,18 +9,21 @@ $boxpadding: 20px; // padding for containers
 $elementmargintb: 40px; // top/bottom spacing for contained elements, ex: h1 or p
 $lineheight: 1.4em; // for normal text and emojis, 1.6 is recommended, wikibox p's are reset to "normal" (~110%-120%)
 
-$colorbg: rgb(26,28,43);
-$colorbox1: rgb(44,52,67);
-$colorbox2: rgb(53,78,81);
-$colorbox3: rgb(47,98,81);
-$colorwhite: rgb(235,231,214);
+$colorbg: rgb(0,0,0);
+$colorbox1: rgba(0,0,0,0.8);
+$colorbox2: rgba(50,50,50,0.8);
+$colorbox3: rgba(85,85,85,0.8);
+$colorspoiler: rgb(85,85,85);
 
+$colorwhite: rgb(235,231,214);
 $colorred: rgb(255,94,126);
 $colororange: coral;
 $coloryellow: orange;
 $colorgreen: rgb(127,217,68);
 $colorblue: rgb(77, 198, 255);
 $colorpurple: plum;
+
+$borderstyle: 2px dotted $colorwhite;
 
 // SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
 // $colortoggle: true;
@@ -35,8 +38,8 @@ $colortoggle: false;
 }
 
 // FONTS /////////////////////////////////////////////////////////////////////////////
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
 @font-face { // set custom font
   font-family: myfont;
   src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl

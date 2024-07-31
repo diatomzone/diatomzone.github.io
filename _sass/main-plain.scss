@@ -13,8 +13,9 @@ body { // put overall styles here
   background: linear-gradient(0deg, rgba(208,118,0,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 32%, rgba(0,126,206,1) 47%, rgba(58,78,159,1) 100%);
   // background-image: url("/assets/images/tilenight.png");
   color: $colorwhite;
-  font-family: 'Anonymous Pro', monospace;
-  font-size: 118%; // sets base size for em to use
+  font-family: 'Spline Sans Mono', monospace;
+  font-size: 110%; // sets base size for em to use
+  text-shadow: 2px 2px 0px black;
   min-height: 100%; // full screen creates an extra bit of scroll in iframes
   overflow-y: auto; // vertical scrollbar only shown when needed
   overflow-wrap: anywhere; // long words will break to next line
@@ -28,8 +29,9 @@ div.centered { // to contain images etc, in this case for index it's the main el
   background-color: $colorbox1;
   text-align: center;
   padding: calc(#{$boxpadding} / 1);
-  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
-  h2 {
+  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
+  border: 2px solid $colorwhite;
+  border-radius: 15px;  h2 {
     margin-top: 0;
   }
   img {
@@ -60,22 +62,17 @@ div.iframecontainer {
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
   color: $coloryellow;
-  font-family: myfont;
-  font-size: 2.5em;
+  font-family: "Supermercado One", monospace;
+  font-size: 2.4em;
   text-align: center;
   margin: 0 0 calc(#{$elementmargintb} / 2) 0;
   padding: 0;
 }
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
+  font-family: "Supermercado One", monospace;
   color: $colororange;
-  font-size: 1.8em;
-  margin: calc(#{$elementmargintb} / 2) 0 0 0;
-}
-h3, h4, h5, h6 {
-  @include replace-bgcolor($colorbg, $colortoggle);
-  color: $colorblue;
-  font-size: 1.3em;
+  font-size: 1.9em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p { // markdown turns lines (including images) into p

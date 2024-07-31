@@ -1,4 +1,12 @@
 
+#### jul 30-31 2024
+
+- diatomzone style 2.0: new box colors and borders, fonts and sizes, etc.
+- new buttons
+- new brain radio
+
+---
+
 #### may 05 2024
 
 - added new bad fic

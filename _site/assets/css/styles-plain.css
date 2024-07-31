@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
 @font-face { font-family: myfont; src: url("/assets/fonts/fullfont.ttf"); }
 
 html { cursor: url("/assets/images/cursor.png"), default; background-color: turquoise; height: 100%; scroll-behavior: smooth; }
 
-body { cursor: url("/assets/images/cursor.png"), default; background: linear-gradient(0deg, #d07600 0%, #acac68 13%, #80b473 23%, #16a691 32%, #007ece 47%, #3a4e9f 100%); color: #ebe7d6; font-family: 'Anonymous Pro', monospace; font-size: 118%; min-height: 100%; overflow-y: auto; overflow-wrap: anywhere; margin: 0; display: flex; justify-content: center; align-items: center; }
+body { cursor: url("/assets/images/cursor.png"), default; background: linear-gradient(0deg, #d07600 0%, #acac68 13%, #80b473 23%, #16a691 32%, #007ece 47%, #3a4e9f 100%); color: #ebe7d6; font-family: 'Spline Sans Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; min-height: 100%; overflow-y: auto; overflow-wrap: anywhere; margin: 0; display: flex; justify-content: center; align-items: center; }
 
-div.centered { background-color: #2c3443; text-align: center; padding: calc(20px / 1); box-shadow: calc(20px / 2) calc(20px / 2) black; }
+div.centered { background-color: rgba(0, 0, 0, 0.8); text-align: center; padding: calc(20px / 1); box-shadow: calc(20px / 3) calc(20px / 3) #ebe7d6; border: 2px solid #ebe7d6; border-radius: 15px; }
 
 div.centered h2 { margin-top: 0; }
 
@@ -18,11 +18,9 @@ div.flex { display: flex; flex-direction: row; }
 
 div.iframecontainer { position: relative; overflow: hidden; width: 100%; padding-top: 75%; margin: calc(40px / 2) auto 0 auto; }
 
-h1 { background-color: transparent; color: orange; font-family: myfont; font-size: 2.5em; text-align: center; margin: 0 0 calc(40px / 2) 0; padding: 0; }
+h1 { background-color: transparent; color: orange; font-family: "Supermercado One", monospace; font-size: 2.4em; text-align: center; margin: 0 0 calc(40px / 2) 0; padding: 0; }
 
-h2 { background-color: transparent; color: coral; font-size: 1.8em; margin: calc(40px / 2) 0 0 0; }
-
-h3, h4, h5, h6 { background-color: transparent; color: #4dc6ff; font-size: 1.3em; margin: calc(40px / 2) 0 0 0; }
+h2 { background-color: transparent; font-family: "Supermercado One", monospace; color: coral; font-size: 1.9em; margin: calc(40px / 2) 0 0 0; }
 
 p { background-color: transparent; margin: calc(40px / 2) 0 0 0; }
 

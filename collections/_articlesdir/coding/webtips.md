@@ -103,8 +103,8 @@ jekyll introduces a hundred more moving parts and takes me forever to figure out
 once you've [installed everything](https://jekyllrb.com/docs/installation/) and [set up jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/) in your local project directory...
 
 1. command prompt: `cd [local project path]`
-2. web browser: http://localhost:4000/
-3. command prompt: `bundle exec jekyll serve --livereload`
+2. command prompt: `bundle exec jekyll serve --livereload`
+3. web browser: http://localhost:4000/
 
 ---
 
