@@ -26,7 +26,7 @@ here is a collection/safekeeping of the top emojis i wish i could use on every p
 
 names in hovertext!
 
-<div class="centered">
+<div class="centered imagegrow">
   <span class="emoji">
     {% for emoji in page.emojilist %}
       <img src="/assets/images/emojis/{{ emoji.filename }}" style="height:{{ page.emojiheight }};" alt="{{ emoji.description }}" title="{{ emoji.description }}">

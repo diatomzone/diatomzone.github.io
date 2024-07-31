@@ -98,6 +98,13 @@ jekyll introduces a hundred more moving parts and takes me forever to figure out
 - write your page content in markdown! jekyll converts it to html
 - BONUS: [the jekyll tutorial](https://jekyllrb.com/docs/step-by-step/07-assets/) introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities
 
+JUST LEARNED (7/31/24) you can strip annoying whitespaces from liquid tags {{site.data.emojis.enid}} {{site.data.emojis.enid}} this fixes both my spacing issues and excessive newlines in the built site... i'm saved...
+
+{% raw %}
+- add dashes to the inside of tags, like this: `{{- -}}` `{%- -%}`
+- check the [whitespace control documentation](https://shopify.github.io/liquid/basics/whitespace/) for specifics
+{% endraw %}
+
 ### how to test site locally
 
 once you've [installed everything](https://jekyllrb.com/docs/installation/) and [set up jekyll](https://jekyllrb.com/docs/step-by-step/01-setup/) in your local project directory...

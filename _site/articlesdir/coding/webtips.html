@@ -31,49 +31,19 @@
 </header>
 
       <!-- horizontal navigation bar source code -->
-<nav>
-  
-    <a href="/home.html" >
-      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/about.html" >
-      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/articles.html" >
-      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/wikipages.html" >
-      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/mystuff.html" >
-      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/coollinks.html" >
-      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-    
-  
-</nav>
+<!-- whitespace adjusted: links have no whitespace, divider has whitespace on both sides due to newline -->
+
+<nav><a href="/home.html">home</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/about.html">about</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/articles.html">articles</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/wikipages.html">wikipages</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/mystuff.html">mystuff</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/coollinks.html">coollinks</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing --></nav>
 
       <main id="main"> <!-- main page content (with #main anchor for navigation) -->
         <div class="flex" style="margin:0;">
@@ -200,6 +170,13 @@
   <li>BONUS: <a href="https://jekyllrb.com/docs/step-by-step/07-assets/">the jekyll tutorial</a> introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities</li>
 </ul>
 
+<p>JUST LEARNED (7/31/24) you can strip annoying whitespaces from liquid tags <img src="/assets/images/emojis/enid.png" class="emoji" alt="enid emoji" title="enid emoji" /> <img src="/assets/images/emojis/enid.png" class="emoji" alt="enid emoji" title="enid emoji" /> this fixes both my spacing issues and excessive newlines in the built site… i’m saved…</p>
+
+<ul>
+  <li>add dashes to the inside of tags, like this: <code class="language-plaintext highlighter-rouge">{{- -}}</code> <code class="language-plaintext highlighter-rouge">{%- -%}</code></li>
+  <li>check the <a href="https://shopify.github.io/liquid/basics/whitespace/">whitespace control documentation</a> for specifics</li>
+</ul>
+
 <h3 id="how-to-test-site-locally">how to test site locally</h3>
 
 <p>once you’ve <a href="https://jekyllrb.com/docs/installation/">installed everything</a> and <a href="https://jekyllrb.com/docs/step-by-step/01-setup/">set up jekyll</a> in your local project directory…</p>
@@ -228,49 +205,19 @@
         </div>
       </main>
       <!-- horizontal navigation bar source code -->
-<nav>
-  
-    <a href="/home.html" >
-      home <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/about.html" >
-      about <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/articles.html" >
-      articles <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/wikipages.html" >
-      wikipages <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/mystuff.html" >
-      mystuff <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-     <!-- add image after every link except last -->
-      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif">
-    
-  
-    <a href="/coollinks.html" >
-      coollinks <!-- breaking the a into 3 lines adds a space after the link name for some reason, but it doesn't affect the actual navbar spacing -->
-    </a>
-    
-  
-</nav>
+<!-- whitespace adjusted: links have no whitespace, divider has whitespace on both sides due to newline -->
+
+<nav><a href="/home.html">home</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/about.html">about</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/articles.html">articles</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/wikipages.html">wikipages</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/mystuff.html">mystuff</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/coollinks.html">coollinks</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing --></nav>
 
       <!-- footer source code -->
 <footer>

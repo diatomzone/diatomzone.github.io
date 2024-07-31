@@ -4,6 +4,7 @@ title: brain radio archive
 
 (NEWEST)
 
+- [only a fool would say that](https://www.youtube.com/watch?v=Hvz0TOm0zgI) -- steely dan
 - [receive you the hyperactive](https://www.youtube.com/watch?v=90zWq5r7zc8) -- like a dragon
 - [runner's high](https://www.youtube.com/watch?v=X8_IDTXiduo) -- kirinji
 - [eternal fire](https://www.youtube.com/watch?v=ylZjg4HTogQ) -- like a dragon ishin

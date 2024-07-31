@@ -23,7 +23,11 @@ $colorgreen: rgb(127,217,68);
 $colorblue: rgb(77, 198, 255);
 $colorpurple: plum;
 
-$borderstyle: 2px dotted $colorwhite;
+$layoutborderstyle: 2px solid $colorwhite;
+$layoutborderradius: 15px;
+$layoutdropshadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
+$boxborderstyle: 2px dotted $colorwhite;
+$textdropshadow: 2px 2px 0px black;
 
 // SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
 // $colortoggle: true;

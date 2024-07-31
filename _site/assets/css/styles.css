@@ -18,6 +18,10 @@ div.centered { margin: calc(40px / 2) 0 0 0; text-align: center; }
 
 div.centered img { max-height: 10em; }
 
+.imagegrow img { transition: transform 0.1s; }
+
+.imagegrow img:hover { transform: scale(1.5); transition: transform 0.1s; }
+
 div { margin: calc(40px / 2) 0 0 0; }
 
 main { background: rgba(0, 0, 0, 0.8); max-width: 100%; margin-top: 20px; padding: 20px; text-align: left; box-shadow: calc(20px / 3) calc(20px / 3) #ebe7d6; border: 2px solid #ebe7d6; border-radius: 15px; }
@@ -28,7 +32,7 @@ aside.indexside { background: rgba(50, 50, 50, 0.8); padding: calc(20px / 2); ma
 
 aside.indexside h3:first-child, aside.indexside p:first-child { margin-top: 0; }
 
-div.shortbox { background: rgba(0, 0, 0, 0.8); max-height: 8em; overflow-y: scroll; padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; border: 2px dotted #ebe7d6; }
+div.shortbox { background: rgba(0, 0, 0, 0.8); max-height: 9em; overflow-y: scroll; padding: calc(20px / 2); margin: calc(40px / 2) 0 0 0; border: 2px dotted #ebe7d6; }
 
 div.shortbox h4, div.shortbox ul, div.shortbox ol, div.shortbox li { margin: 0; }
 
@@ -84,7 +88,7 @@ span.spoilered:hover { background: transparent; color: inherit; text-shadow: inh
 
 img { margin: 0; vertical-align: bottom; max-width: 100%; max-height: 100%; }
 
-.emoji { height: 1.4em; }
+.emoji { height: 1.4em; filter: drop-shadow(2px 2px 0px black); }
 
 .emoji img { height: 1.4em; }
 
@@ -114,7 +118,7 @@ ol ul ol ::marker { content: counter(list-item) ") "; }
 
 sup { color: orange; vertical-align: top; position: relative; bottom: 0.5em; }
 
-hr { width: 80%; border: 1.5px solid #4dc6ff; margin: calc(40px / 1) auto; }
+hr { width: 80%; border: 1.5px solid #4dc6ff; border-radius: 5px; margin: calc(40px / 1) auto; }
 
 audio { vertical-align: bottom; max-width: 100%; border-radius: 100px; margin: calc(40px / 2) 0 0 0; }
 
@@ -171,12 +175,6 @@ aside.infobox .key { background-color: transparent; color: #4dc6ff; font-weight:
 aside.infobox .value { background-color: transparent; width: 60%; padding: 0 0 0 0.3em; }
 
 div.photogallery img { width: 100%; }
-
-.row { display: flex; flex-wrap: wrap; margin: 0; max-width: 100%; }
-
-.column { flex: 25%; max-width: 25%; margin: 0; }
-
-.column img { margin-bottom: 0; vertical-align: middle; width: 100%; }
 
 .gallery { display: flex; flex-wrap: wrap; }
 

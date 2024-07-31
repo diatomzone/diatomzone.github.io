@@ -5,12 +5,8 @@ title: zzznotes
 {% raw %} <!-- prevents liquid code from being read -->
 
 - is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes
-
-
-
-
-
-
+- ok looks like it's because these use {% for image in site.static_files %} to return every static file in the directory, which takes a billion loops, so now i'm looking for an alternate solution
+- IT TURNS OUT ADDING DASHES TO LIQUID SYNTAX STRIPS WHITESPACE. DAN. no alternate directory read method needed
 
 
 

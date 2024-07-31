@@ -7,13 +7,13 @@ some incredible reviews for various "spam" products that my friends and i found 
 <a href="#transcript">(skip to transcript)</a>
 
 <div class="photogallery dimmed">
-    {% for image in site.static_files %}
-      {% if image.path contains 'assets/images/spamreviews' %}
+    {%- for image in site.static_files -%}
+      {%- if image.path contains 'assets/images/spamreviews' -%}
         <p>
           <img src="{{ image.path }}" alt="" title="{{ image.basename }}" style="width:100%; max-height:none;">
         </p>
-      {% endif %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
 </div>
 
 ## transcript

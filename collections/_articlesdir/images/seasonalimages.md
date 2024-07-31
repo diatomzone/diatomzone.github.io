@@ -12,9 +12,9 @@ gallery:
 
 collected as time proceeds 😌
 
-(needs hovertext)
+(needs hovertext) (i didn't make these)
 
-<div class="centered"> <!-- a stripped down "gallery" data setup, without the overlays etc. -->
+<div class="centered imagegrow"> <!-- a stripped down "gallery" data setup, without the overlays etc. -->
   {% for section in page.gallery %} <!-- open up data -->
     <h2 id="{{ section[0] }}" style="text-align:left;">{{ section[0] }}</h2><br>
     {% for image in section[1] %}

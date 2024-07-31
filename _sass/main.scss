@@ -17,7 +17,7 @@ body { // put overall styles here (gradients count as background-image)
   color: $colorwhite;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 110%; // sets base size for em to use
-  text-shadow: 2px 2px 0px black;
+  text-shadow: $textdropshadow;
   margin: 0; // full screen
   min-height: 100%; // full screen
   overflow-y: scroll; // vertical scrollbar always shown
@@ -51,6 +51,15 @@ div.centered { // for small images etc. -- "photogallery" has 100% width and no 
     max-height: 10em;
   }
 }
+.imagegrow { // hover to grow, intended for use with div.centered
+  img {
+    transition: transform 0.1s;
+  }
+  img:hover {
+    transform: scale(1.5);
+    transition: transform 0.1s;
+  }
+}
 div { // markdown does not generate divs as far as i can tell, this is for photogalleries etc.
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
@@ -63,9 +72,9 @@ main { // main layout element, contains page content in indexmain (and indexside
   // br {display: none;} // for {{ content | newline_to_br }}
   // p br {display: inline;}
   // can't remove margin-top from first children or else it affects everything
-  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
-  border: 2px solid $colorwhite;
-  border-radius: 15px;
+  box-shadow: $layoutdropshadow;
+  border: $layoutborderstyle;
+  border-radius: $layoutborderradius;
 }
 div.indexmain { // main content
   order: 1;
@@ -79,7 +88,7 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
-  border: $borderstyle;
+  border: $boxborderstyle;
   order: 2;
   flex-basis: 250px; // initial length (width)
   flex-shrink: 1; // does shrink
@@ -92,11 +101,11 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
 }
 div.shortbox { // for update log, same padding as wikibox, include markdown="1"
   background: $colorbox1;
-  max-height: 8em; // changes with font-size defined in body
+  max-height: 9em; // changes with font-size defined in body
   overflow-y: scroll; // vertical scrollbar always shown
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
-  border: $borderstyle;
+  border: $boxborderstyle;
   h4, ul, ol, li {
     margin: 0;
   }
@@ -108,7 +117,7 @@ div.directory { // same padding as wikibox
   background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
-  border: $borderstyle;
+  border: $boxborderstyle;
   h4 {
     margin-top: 0;
   }
@@ -123,7 +132,7 @@ div.dialoguebox { // same padding as wikibox
   background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 4) 0 0 0;
-  border: $borderstyle;
+  border: $boxborderstyle;
   img {
   // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
   aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
@@ -166,7 +175,7 @@ h1 {
   padding: 0;
 }
 h2 {
-  @include replace-bgcolor($colorbg, $colortoggle);
+  @include replace-bgcolor($colorbox3, $colortoggle);
   color: $colororange;
   font-family: "Supermercado One", monospace;
   font-size: 1.9em;
@@ -174,7 +183,7 @@ h2 {
   margin: calc(#{$elementmargintb} / 1) 0 0 0;
 }
 h3 {
-  @include replace-bgcolor($colorbg, $colortoggle);
+  @include replace-bgcolor($colorbox3, $colortoggle);
   color: $colorblue;
   font-family: "Supermercado One", monospace;
   font-size: 1.6em;
@@ -188,14 +197,14 @@ h4, h5, h6 {
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p { // markdown turns lines (including images) into p
-  @include replace-bgcolor($colorbox2, $colortoggle);
+  @include replace-bgcolor(forestgreen, $colortoggle);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 p, li { // line height of normal text
   line-height: $lineheight;
 }
 a {
-  @include replace-bgcolor($colorbg, $colortoggle);
+  @include replace-bgcolor(brown, $colortoggle);
   cursor: url("/assets/images/cursor.png"), default;
   color: $colorgreen;
   text-decoration: none;
@@ -228,15 +237,10 @@ img {
   vertical-align: bottom; // displays as inline-block by default which creates The Gap
   max-width: 100%;
   max-height: 100%;
-  // object-fit: contain;
 }
-// img:hover {
-//   transform: scale(1.5);
-//   // transform: rotate(10deg);
-//   transition: transform 0.1s;
-// }
 .emoji { // for both img and span
   height: $lineheight;
+  filter: drop-shadow($textdropshadow);
   img {
     height: $lineheight;
   }
@@ -248,7 +252,7 @@ ul, ol { // for markdown again
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
   padding: 0 0 0 2em; // normally 40px
   li {
-    @include replace-bgcolor($colorbox2, $colortoggle);
+    @include replace-bgcolor(steelblue, $colortoggle);
     margin: calc(#{$elementmargintb} / 4) 0 0 0;
     ul, ol { // nested markdown lists create a new ul inside the previous li
       margin: 0;
@@ -306,7 +310,7 @@ sup { // superscript
 hr { // divider
   width: 80%;
   border: 1.5px solid $colorblue;
-  // border-radius: 20px;
+  border-radius: 5px;
   margin: calc(#{$elementmargintb} / 1) auto;
 }
 audio {
@@ -362,13 +366,6 @@ header {
   height: 2em;
   text-align: center;
   margin: 0;
-  // box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) black;
-  img { // needs adjustment
-    // height: 100%;
-    // filter: drop-shadow(calc(#{$gapheight} / 8) calc(#{$gapheight} / 8) 0px black);
-    // display: block; // link takes up full image size
-    // margin: auto; // center
-  }
   .skip-to-content-button {
     background: $colorbox1;
     position: absolute;
@@ -387,7 +384,6 @@ footer {
   height: 2em;
   text-align: center;
   margin-top: $gapheight;
-  // box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
   img {
     // height: 100%;
   }
@@ -399,9 +395,10 @@ nav { // horizontal navbar
   margin-top: $gapheight;
   padding: calc(#{$boxpadding} / 2);
   text-align: center;
-  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
-  border: 2px solid $colorwhite;
-  border-radius: 15px;  img {
+  box-shadow: $layoutdropshadow;
+  border: $layoutborderstyle;
+  border-radius: $layoutborderradius;
+  img {
     height: 1em;
   }
   a.current { // "current" class for highlighting navigation
@@ -438,7 +435,7 @@ aside.infobox { // wiki info box
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center; // center small image
-  border: $borderstyle;
+  border: $boxborderstyle;
   order: 2;
   flex-basis: 300px; // initial length (width)
   flex-shrink: 1; // does shrink
@@ -489,25 +486,6 @@ aside.infobox { // wiki info box
 div.photogallery { //  for full-width images -- "centered" has height cap for small images
   img {
     width: 100%;
-  }
-}
-
-// old responsive version
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  max-width: 100%;
-}
-.column { // 4 columns
-  flex: 25%;
-  max-width: 25%;
-  margin: 0;
-  img {
-    margin-bottom: 0;
-    vertical-align: middle;
-    width: 100%;
-    // max-width: 100%;
   }
 }
 

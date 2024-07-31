@@ -9,13 +9,13 @@ some of the humerus-est non-specific{{site.data.foot.t1}} tags people have left 
 text in hovertext!
 
 <div class="photogallery dimmed">
-    {% for image in site.static_files %}
-      {% if image.path contains 'assets/images/tags' %}
+    {%- for image in site.static_files -%}
+      {%- if image.path contains 'assets/images/tags' -%}
         <p>
           <img src="{{ image.path }}" alt="{{ image.basename }}" title="{{ image.basename }}">
         </p>
-      {% endif %}
-    {% endfor %}
+      {%- endif -%}
+    {%- endfor -%}
 </div>
 
 ---
