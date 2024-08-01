@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
 @font-face { font-family: myfont; src: url("/assets/fonts/fullfont.ttf"); }
@@ -106,7 +107,7 @@ ul li p, ol li p { margin: 0; }
 
 ul.listdefault ::marker, ol.listdefault ::marker { content: normal; }
 
-ul ::marker { content: "*  "; color: plum; }
+ul ::marker { content: "🟊 "; color: plum; }
 
 ul ul ::marker { content: "~  "; }
 
@@ -132,7 +133,7 @@ code { background: black; color: #4dc6ff; font-family: 'Anonymous Pro', monospac
 
 header { max-width: 100%; height: 2em; text-align: center; margin: 0; }
 
-header .skip-to-content-button { background: rgba(0, 0, 0, 0.8); position: absolute; top: 0; left: 50%; transform: translate(-50%, -100%); transition: transform 0.2s; }
+header .skip-to-content-button { background: rgba(0, 0, 0, 0.8); position: absolute; top: 0; left: 50%; transform: translate(-50%, -150%); transition: transform 0.2s; }
 
 header .skip-to-content-button:focus { transform: translate(-50%, 0%); }
 
@@ -188,6 +189,6 @@ div.photogallery img { width: 100%; }
 
 .gallerytext { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; width: 80%; }
 
-@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 1.7em; } h2 { font-size: 1.3em; } h3 { font-size: 1.1em; } h4, h5, h6 { font-size: 1em; } ul, ol { padding: 0 0 0 1.6em; } ul li ul, ul li ol, ol li ul, ol li ol { padding: 0 0 0 1em; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
+@media screen and (max-width: 700px) { body { font-size: 140%; } h1 { font-size: 2em; } h2 { font-size: 1.7em; } h3 { font-size: 1.5em; } h4, h5, h6 { font-size: 1.3em; } ul, ol { padding: 0 0 0 1.6em; } ul li ul, ul li ol, ol li ul, ol li ol { padding: 0 0 0 1em; } nav { font-size: 1.2em; } div.buffer { display: none; } div.container { width: 100%; } div.flex { flex-direction: column; } div.indexmain { max-width: 100%; margin: 0; } aside.indexside { max-width: 100%; margin: 20px 0 0 0; flex-basis: 0; align-self: stretch; } .wikibody { order: 2; max-width: 100%; margin: 20px 0 0 0; } aside.infobox { order: 1; max-width: 100%; margin: 0; flex-basis: 0; align-self: stretch; } .column { flex: 50%; max-width: 50%; } .galleryitem { width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

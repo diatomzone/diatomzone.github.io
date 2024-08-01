@@ -98,7 +98,7 @@ jekyll introduces a hundred more moving parts and takes me forever to figure out
 - write your page content in markdown! jekyll converts it to html
 - BONUS: [the jekyll tutorial](https://jekyllrb.com/docs/step-by-step/07-assets/) introduced me to SASS, a CSS extension, which has ultra swag variable and nesting(!!) capabilities
 
-JUST LEARNED (7/31/24) you can strip annoying whitespaces from liquid tags {{site.data.emojis.enid}} {{site.data.emojis.enid}} this fixes both my spacing issues and excessive newlines in the built site... i'm saved...
+JUST LEARNED (7/31/24) you can strip the annoying whitespaces from liquid tags {{site.data.emojis.enid}} {{site.data.emojis.enid}} this fixes both my spacing issues and the excessive newlines in the built site... i'm saved...
 
 {% raw %}
 - add dashes to the inside of tags, like this: `{{- -}}` `{%- -%}`

@@ -1,5 +1,25 @@
 ---
 title: home
+
+buttonlist:
+  - filename: bigfontnow.png
+    description: "big font now button"
+  - filename: iheartostsshirt.png
+    description: "i heart ost's button"
+  - filename: graphicdesign.png
+    description: "graphic design is my passion button"
+  - filename: wii.jpg
+    description: "nintendo wii button"
+  - filename: kriswtf.png
+    description: "kris where tf are we button"
+  - filename: minecraft.gif
+    description: "minecraft button"
+  - filename: mspaint.gif
+    description: "i use ms paint button"
+  - filename: neocities_hosted2.gif
+    description: "hosted on neocities button"
+  - filename: eatingchips.gif
+    description: "cat munching chips stamp"
 ---
 
 <div class="centered">

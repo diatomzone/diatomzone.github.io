@@ -1,16 +1,17 @@
 
 #### jul 30-31 2024
 
-- diatomzone style 2.0: new layout colors and borders, fonts and sizes, removed imagegallery whitespace, etc.
+- diatomzone style 2.0: new layout colors and borders, fonts and sizes including responsive, text/emoji shadow, etc.
+- stripped whitespace from (the most egregious) liquid tags!!!
+  - fixed navbar and imagegallery whitespace issues!
+  - fixed excessive newlines in built site!
+  - added tip to "basic knowledge i wish i knew..." article
+- changed buttongallery and aboutgallery into loops
 - added imagegrow hover effect on certain galleries
 - new buttons
 - stylesheet cleanup
-- start stripping whitespace from liquid tags (added to "basic knowledge i wish i knew..." article)
-  - fixed the image whitespace issue
-  - fixed navbar whitespace issue
-- fixed excessive newlines: again, it was the whitespace, can keep image directory search
+- article: diatomzone style archive
 - new brain radio
-- to do: update responsive sizing
 
 ---
 

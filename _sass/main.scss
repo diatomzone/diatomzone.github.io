@@ -1,7 +1,5 @@
 // sass that will be converted/imported into the built site's CSS hub styles.scss
 
-// ELEMENT STYLES
-
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
   background: $colorbg; // color sometimes shows behind desktop scrollbar
@@ -10,10 +8,7 @@ html {
 }
 body { // put overall styles here (gradients count as background-image)
   cursor: url("/assets/images/cursor.png"), default;
-  // backgrounds controlled by default layout/page.background/data.backgrounds presets
-  // background: $colorbg;
-  // background: url("/assets/images/tilenight.png");
-  // background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
+  // background controlled by default layout/page.background/data.backgrounds presets
   color: $colorwhite;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 110%; // sets base size for em to use
@@ -66,12 +61,9 @@ div { // markdown does not generate divs as far as i can tell, this is for photo
 main { // main layout element, contains page content in indexmain (and indexside)
   background: $colorbox1;
   max-width: 100%;
-  margin-top: $gapheight;
+  margin-top: $gapheight; // can't remove margin-top from first children or else it affects everything
   padding: $boxpadding;
   text-align: left;
-  // br {display: none;} // for {{ content | newline_to_br }}
-  // p br {display: inline;}
-  // can't remove margin-top from first children or else it affects everything
   box-shadow: $layoutdropshadow;
   border: $layoutborderstyle;
   border-radius: $layoutborderradius;
@@ -96,7 +88,6 @@ aside.indexside { // side content (index only), same properties as wiki infobox 
   align-self: flex-start; // align to top of container (default is stretch)
   h3:first-child, p:first-child { // whichever is first, remove the top margin (, = or)
     margin-top: 0;
-    // background: red;
   }
 }
 div.shortbox { // for update log, same padding as wikibox, include markdown="1"
@@ -133,10 +124,9 @@ div.dialoguebox { // same padding as wikibox
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 4) 0 0 0;
   border: $boxborderstyle;
-  img {
-  // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
-  aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
-  object-fit: cover; // crop image to fill area
+  img { // define height inline, since this is used for both wikipage-listing and actual dialogueboxes
+    aspect-ratio: 1; // square, great for responsive/flex layouts which can mess up fixed width/height
+    object-fit: cover; // crop image to fill area
   }
   div.dialogueflex { // for img and p
     display: flex;
@@ -166,11 +156,9 @@ div.iframecontainer { // for normal iframes
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
   color: $coloryellow;
-  // font-family: myfont;
   font-family: "Supermercado One", monospace;
   font-size: 2.4em;
   text-align: center;
-  // display: inline-block;
   margin: 0 0 calc(#{$elementmargintb} / 1) 0;
   padding: 0;
 }
@@ -179,7 +167,6 @@ h2 {
   color: $colororange;
   font-family: "Supermercado One", monospace;
   font-size: 1.9em;
-  // margin: calc(#{$elementmargintb} / 1) 0;
   margin: calc(#{$elementmargintb} / 1) 0 0 0;
 }
 h3 {
@@ -274,9 +261,8 @@ ul.listdefault, ol.listdefault { // for demonstration in sitefeatures
 }
 ul { // unordered list marker styling
   ::marker { // 1st+ level ul
-    // content: "•  "; // customized default bullet
-    // content: "🟊 "; // custom bullet
-    content: "*  "; // custom bullet
+    content: "🟊 "; // custom bullet
+    // content: "*  "; // custom bullet
     color: $colorpurple;
   }
   ul {
@@ -314,7 +300,6 @@ hr { // divider
   margin: calc(#{$elementmargintb} / 1) auto;
 }
 audio {
-  // cursor: url("/assets/images/cursor.png"), default;
   vertical-align: bottom; // has gap like img, audio player displays as inline by default
   max-width: 100%;
   border-radius: 100px;
@@ -332,9 +317,6 @@ iframe { // overlaps the full area of iframe container
   right: 0;
   width: 100%;
   height: 100%;
-  // cursor: url("/assets/images/cursor.png"), default;
-  // display: inline-block;
-  // vertical-align: bottom; // has gap like img, iframe displays as inline by default ("inline frame")
   border: none;
 }
 code { // for code, some people wrap <pre> around <code>
@@ -343,15 +325,8 @@ code { // for code, some people wrap <pre> around <code>
   color: $colorblue;
   font-family: 'Anonymous Pro', monospace;
   display: inline; // default
-  // display: inline-block; // for code block
-  // max-width: 100%;
   white-space: break-spaces; // break lines as necessary, preserve whitespace even at end of line
-  // width: fit-content;
-  // word-wrap: break-word;
-  // overflow: auto;
-  // overflow-x: scroll;
   padding: 0 0.2em;
-  // margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 .borderimg {
   border: 10px solid transparent;
@@ -371,7 +346,7 @@ header {
     position: absolute;
     top: 0;
     left: 50%;
-    transform: translate(-50%, -100%); // x axis, y axis (compensate for width and hide offscreen)
+    transform: translate(-50%, -150%); // x axis, y axis (compensate for width and hide offscreen)
     transition: transform 0.2s;
   }
   .skip-to-content-button:focus { // when selected by keyboard users/screen readers
@@ -476,20 +451,19 @@ aside.infobox { // wiki info box
   .value {
     @include replace-bgcolor($colorbg, $colortoggle);
     width: 60%;
-    // background: navy;
     padding: 0 0 0 0.3em; // detracts from both key and value width. margin doesn't work due to width percentages
   }
 }
 
 // GALLERY ELEMENTS /////////////////////////////////////////////////////////////////////////////
-// basic gallery
-div.photogallery { //  for full-width images -- "centered" has height cap for small images
+// basic gallery for full-width images -- "centered" has height cap for small images
+div.photogallery {
   img {
     width: 100%;
   }
 }
 
-// new flex version
+// new flex gallery
 .gallery {
   display: flex;
   flex-wrap: wrap;

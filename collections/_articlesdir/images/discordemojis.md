@@ -28,9 +28,9 @@ names in hovertext!
 
 <div class="centered imagegrow">
   <span class="emoji">
-    {% for emoji in page.emojilist %}
+    {%- for emoji in page.emojilist -%}
       <img src="/assets/images/emojis/{{ emoji.filename }}" style="height:{{ page.emojiheight }};" alt="{{ emoji.description }}" title="{{ emoji.description }}">
-    {% endfor %}
+    {%- endfor -%}
   </span>
 </div>
 
