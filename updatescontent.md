@@ -1,4 +1,9 @@
 
+#### aug 01 2024
+
+- changed responsive buttongallery size and wikimenu margin
+
+---
 #### jul 30-31 2024
 
 - diatomzone style 2.0: new layout colors and borders, fonts and sizes including responsive, text/emoji shadow, etc.

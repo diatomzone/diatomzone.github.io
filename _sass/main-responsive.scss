@@ -49,6 +49,19 @@
     margin: $boxpadding 0 0 0; // layout spacing, so keep as $boxpadding
     flex-basis: 0; // initial length (height)
     align-self: stretch; // default is stretch, but without this it shrinks, maybe because max-width != width
+    div.centered {
+      img {
+        min-height: 2.5em; // for buttons and stamps
+        min-width: 7em;
+      }
+    }
+  }
+  div.dialoguebox {
+    div.dialogueflex { // for img and p
+      div {
+        margin: 0 0 0 0.5em;
+      }
+    }
   }
 
   // WIKI ////////////////////////////////////////////////////////////////

@@ -75,7 +75,7 @@ div.indexmain { // main content
   flex-shrink: 0; // does not shrink
   flex-grow: 1; // does grow
 }
-aside.indexside { // side content (index only), same properties as wiki infobox except it doesn't change to order: 1; (element properties apply to things outside of iframe)
+aside.indexside { // side content (index only), same properties as wiki infobox except it doesn't change to order: 1;
   background: $colorbox2;
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
