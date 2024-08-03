@@ -1,6 +1,7 @@
 ---
 title: diatomzone
 layout: default-plain
+background: star
 ---
 
 <div class="centered">

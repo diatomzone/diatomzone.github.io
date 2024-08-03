@@ -2,7 +2,7 @@
 title: articles
 layout: collection-listing
 collection: articlesdir
-background: tilecloud
+background: tennis
 ---
 
 sitebuilding notes, image galleries, oc bonus features, and other writings!

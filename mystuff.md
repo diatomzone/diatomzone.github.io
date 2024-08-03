@@ -2,7 +2,7 @@
 title: my stuff
 layout: collection-listing
 collection: mystuffdir
-background: tilemulti
+background: foil
 ---
 
 computer stuff i've made :^)

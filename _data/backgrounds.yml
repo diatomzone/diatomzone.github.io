@@ -1,13 +1,9 @@
 # stores data for emojis, call with "site.data.backgrounds"
 # gradients count as background-image, but you can also use the shorthand background for multiple types
 
-default: "linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%)"
-
-sky: "linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%)"
+default: "url('/assets/images/backgrounds/junglesmall.jpg')" # jungle
 
 basic: "rgb(26,28,43)" # $colorbg
-turquoise: "turquoise"
-yellow: "orange" # $coloryellow
 
 # images only work if entry is surrounded by "" and url is surrounded by '', not the other way around
 tilesea: "url('/assets/images/backgrounds/tilesea.png')"
@@ -18,6 +14,23 @@ tilemulti: "url('/assets/images/backgrounds/tilemulti.png')"
 tilewave: "url('/assets/images/backgrounds/tilewave.png')"
 tilethree: "url('/assets/images/backgrounds/tilethree.png')"
 
-cursor: "url('/assets/images/cursor.png')"
-explosion: "url('/assets/images/gifs/explosion.gif')"
 zenigata: "url('/assets/images/emojis/zenigata.png')"
+
+amanogawa: "url('/assets/images/backgrounds/amanogawasmall.jpg')"
+clover: "url('/assets/images/backgrounds/cloversmall.jpg')"
+foil: "url('/assets/images/backgrounds/foilsmall.jpg')"
+gold: "url('/assets/images/backgrounds/goldsmall.jpg')"
+jungle: "url('/assets/images/backgrounds/junglesmall.jpg')"
+purple: "url('/assets/images/backgrounds/purplesmall.jpg')"
+rainbow: "url('/assets/images/backgrounds/rainbow.jpg')"
+ripple: "url('/assets/images/backgrounds/ripplesmall.jpg')"
+sea: "url('/assets/images/backgrounds/seasmall.jpg')"
+star: "url('/assets/images/backgrounds/starsmall.jpg')"
+stone: "url('/assets/images/backgrounds/stone.png')"
+tennis: "url('/assets/images/backgrounds/tennissmall.jpg')"
+wood: "url('/assets/images/backgrounds/woodsmall.jpg')"
+
+lgreyterracotta: "url('/assets/images/backgrounds/lgreyterracotta.png')"
+mossystonebrick: "url('/assets/images/backgrounds/mossystonebrick.png')"
+oxidizedchiseledcopper: "url('/assets/images/backgrounds/oxidizedchiseledcopper.png')"
+spruceplank: "url('/assets/images/backgrounds/spruceplank.png')"

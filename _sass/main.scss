@@ -9,6 +9,7 @@ html {
 body { // put overall styles here (gradients count as background-image)
   cursor: url("/assets/images/cursor.png"), default;
   // background controlled by default layout/page.background/data.backgrounds presets
+  background-size: 50px; // for images, only works when entered directly into default layout
   color: $colorwhite;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 110%; // sets base size for em to use

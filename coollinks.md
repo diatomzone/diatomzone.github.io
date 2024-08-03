@@ -1,6 +1,6 @@
 ---
 title: cool links
-background: tilethree
+background: spruceplank
 
 linklists:
   in-browser art software:

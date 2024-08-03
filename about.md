@@ -1,5 +1,6 @@
 ---
 title: about
+background: rainbow
 
 memelist:
   - filename: wayne.png
@@ -60,6 +61,12 @@ linklists:
     - name: "jekyll: loop through images in folder"
       url: https://stackoverflow.com/questions/17677094/jekyll-for-loop-over-all-images-in-a-folder
       description:
+    - name: texture town
+      url: https://textures.neocities.org/
+      description: (see coollinks) background images
+    - name: noclip
+      url: https://noclip.website/
+      description: (see coollinks) background images
 
 ---
 

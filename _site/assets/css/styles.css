@@ -5,7 +5,7 @@
 
 html { background: black; height: 100%; scroll-behavior: smooth; }
 
-body { cursor: url("/assets/images/cursor.png"), default; color: #ebe7d6; font-family: 'Spline Sans Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; margin: 0; min-height: 100%; overflow-y: scroll; overflow-wrap: anywhere; display: flex; flex-direction: row; }
+body { cursor: url("/assets/images/cursor.png"), default; background-size: 50px; color: #ebe7d6; font-family: 'Spline Sans Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; margin: 0; min-height: 100%; overflow-y: scroll; overflow-wrap: anywhere; display: flex; flex-direction: row; }
 
 div.buffer { flex-basis: 0; flex-shrink: 0; flex-grow: 1; }
 
