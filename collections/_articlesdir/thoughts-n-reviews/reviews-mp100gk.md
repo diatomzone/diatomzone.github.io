@@ -36,6 +36,8 @@ this show is unhinged {{site.data.emojis.reigen}} both the series as a whole (wh
 
 anyway, asirpa is so awesome YAY{{site.data.foot.t4}}, i love her dynamic with sugimoto. i'm also a massive fan of everyone's funky eye / eyebrow shapes :^D
 
+edit: after reading/rereading more of the manga, i'm OBSESSED with the paneling style, it's my new gold standard for fight scenes in comics! actions are concise, never taking 3 panels when 2 will do, and the poses and camera angles are strong and dynamic. the resulting fast-paced intensity is super delicious and fun to read!
+
 ---
 
 - mp100

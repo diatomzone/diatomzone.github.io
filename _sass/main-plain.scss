@@ -41,8 +41,15 @@ div.centered { // to contain images etc, in this case for index it's the main el
     margin: calc(#{$elementmargintb} / 2) 0 0 0;
   }
 }
-
-
+.imagegrow { // hover to grow, intended for use with div.centered
+  img {
+    transition: transform 0.1s;
+  }
+  img:hover {
+    transform: scale(1.5);
+    transition: transform 0.1s;
+  }
+}
 div.flex {
   display: flex;
   flex-direction: row;

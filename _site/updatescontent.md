@@ -1,4 +1,18 @@
 
+#### aug 04-05 2024
+
+- finish up article: citypop shrine
+- complete diatomzone style 2.0: yakuza font header LOL
+
+---
+
+#### aug 03 2024
+
+- update landing page
+- some article edits
+
+---
+
 #### aug 02 2024
 
 - diatomzone style 2.0: new backgrounds

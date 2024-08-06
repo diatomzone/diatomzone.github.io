@@ -6,7 +6,7 @@ title: "yakuza 0 recommendation"
 
 - YAKUZA 0 AUUGUJKDJFGUGUGFGFJ
   - quality georg: the average yakuza game's writing is quite bad, yakuza 0 is an outlier and should not be counted
-  - has my "masterpiece" seal of approval
+  - not as polished as my other fave y7, but has my "masterpiece" seal of approval nonetheless
 
 ## why start here?
 
@@ -14,6 +14,7 @@ title: "yakuza 0 recommendation"
   - no prior knowledge required
   - modern (2015)
   - one of the best entries the series has to offer
+- also, you can catch it on steam sale for $5 USD lol
 
 ## linear story in an open world
 

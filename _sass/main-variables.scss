@@ -48,3 +48,7 @@ $colortoggle: false;
   font-family: myfont;
   src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl
 }
+@font-face { // set custom font
+  font-family: edosz;
+  src: url("/assets/fonts/edosz.ttf"); // requires leading /, does not accept liquid site.baseurl
+}
