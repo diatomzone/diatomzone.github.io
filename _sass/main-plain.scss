@@ -3,7 +3,7 @@
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
   cursor: url("/assets/images/cursor.png"), default; // added because body is not full height in main_plain.scss
-  background-color: turquoise; // color behind desktop scrollbar when body uses background-color
+  background-color: $colorbg; // color behind desktop scrollbar when body uses background-color
   height: 100%; // full screen, base for other adjustments including background
   scroll-behavior: smooth; // for jumping between anchors (must be in html section)
 }

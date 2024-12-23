@@ -141,7 +141,7 @@ for a funkier pick, here's [bomber by tatsuro yamashita](https://www.youtube.com
 
 a citypop legend covering her husband tatsuro yamashita's song -- [morning glory by mariya takeuchi](https://www.youtube.com/watch?v=uGD5ByojVVM)! i prefer her version LOL, she has a really smooth voice and effortlessly glides through lower(?) ranges like these!
 
-you've probably heard her ultra popular [plastic love by mariya takeuchi](https://www.youtube.com/watch?v=T_lC2O1oIew), a "staple" of the late 2010's citypop renaissance! and for a more dramatic(?) pick showcasing her vocal quality, check out [eki by mariya takeuchi](https://www.youtube.com/watch?v=0vu7OwWsx3Y)!
+you've probably heard her ultra popular [plastic love](https://www.youtube.com/watch?v=T_lC2O1oIew), a "staple" of the late 2010's citypop renaissance! and for a more dramatic(?) pick showcasing her vocal quality, check out [eki by mariya takeuchi](https://www.youtube.com/watch?v=0vu7OwWsx3Y)!
 
 ---
 

@@ -1,4 +1,11 @@
 
+#### dec 22 2024
+
+- minor styling
+- new brain radio
+
+---
+
 #### aug 04-05 2024
 
 - finish up article: citypop shrine

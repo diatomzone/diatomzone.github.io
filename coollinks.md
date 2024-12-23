@@ -31,7 +31,7 @@ linklists:
       description: 8-bit sound effect generator
     - name: calligraphr
       url: https://www.calligraphr.com/en/
-      description: turn handwriting etc. into font -- i made my h1 font with this!
+      description: turn handwriting etc. into font -- i made my old h1 font with this!
     - name: everything ⭐
       url: https://www.voidtools.com/
       description: a file search for windows computers that actually works
@@ -81,6 +81,9 @@ linklists:
     - name: random webcomic
       url: https://randomwebcomic.com/
       description: click for a random webcomic
+    - name: diagram website
+      url: https://diagram.website/
+      description: tons of cool internet-related links!
   game making:
     - name: twine ⭐
       url: https://twinery.org/
