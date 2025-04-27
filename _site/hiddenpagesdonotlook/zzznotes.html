@@ -49,10 +49,22 @@
             <h1>zzznotes</h1>
             <p><!-- prevents liquid code from being read --></p>
 
+<p>outline vs border: border changes element size but outline doesnt?
+https://www.gameuidatabase.com/index.php</p>
+
+<h2 id="current-tasks">CURRENT TASKS</h2>
 <ul>
-  <li>is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes</li>
-  <li>ok looks like it’s because these use {% for image in site.static_files %} to return every static file in the directory, which takes a billion loops, so now i’m looking for an alternate solution</li>
-  <li>IT TURNS OUT ADDING DASHES TO LIQUID SYNTAX STRIPS WHITESPACE. DAN. no alternate directory read method needed</li>
+  <li>organize zzznotes 🌟🌟🌟
+    <ul>
+      <li>discoveries article</li>
+    </ul>
+  </li>
+  <li>fix code block styling (change to pre tag?)</li>
+  <li>flavor text item emporium (next round)</li>
+  <li>images within photogallery divs use br’s, replace them with styling (ex: halloween comic and tag hall of fame)</li>
+  <li>add lazy loading (loading=”lazy”) in for loop of specific types of image galleries</li>
+  <li>wiki: castle guard universe page first line has a top margin for some reason, remove it</li>
+  <li>upload zzznotes?</li>
 </ul>
 
 <h2 id="project-info">PROJECT INFO</h2>
@@ -480,28 +492,7 @@
       <li>conclusion: iframe sizing is not flexible so i’m going back to old html version for now</li>
     </ul>
   </li>
-  <li>CURRENT TASKS
-    <ul>
-      <li>organize zzznotes 🌟🌟🌟
-        <ul>
-          <li>discoveries article</li>
-        </ul>
-      </li>
-      <li>coollinks</li>
-      <li>wiki cleanup</li>
-      <li>redo landing page and its stylesheet more logically</li>
-      <li>fix code block styling (change to pre tag?)</li>
-      <li>flavor text item emporium (next round)</li>
-      <li>images within photogallery divs use br’s, replace them with styling (ex: halloween comic and tag hall of fame)</li>
-      <li>clean redundant div margins</li>
-      <li>noindex: robots.txt</li>
-      <li>landing page cursor goes away at bottom of page</li>
-      <li>add lazy loading (loading=”lazy”) in for loop of specific types of image galleries</li>
-    </ul>
-  </li>
 </ul>
-
-<p>[EDIT] tag for edits</p>
 
 <h2 id="sitebuilding-rules">SITEBUILDING RULES</h2>
 <ul>
@@ -626,6 +617,13 @@
     </ul>
   </li>
   <li>if an image’s filename has brackets, it won’t display properly (at least when printed with a for loop)</li>
+  <li>crazy newlines in built files
+    <ul>
+      <li>is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes</li>
+      <li>ok looks like it’s because these use {% for image in site.static_files %} to return every static file in the directory, which takes a billion loops, so now i’m looking for an alternate solution</li>
+      <li>IT TURNS OUT ADDING DASHES TO LIQUID SYNTAX STRIPS WHITESPACE. DAN. no alternate directory read method needed</li>
+    </ul>
+  </li>
 </ul>
 
 <h2 id="problems">PROBLEMS</h2>

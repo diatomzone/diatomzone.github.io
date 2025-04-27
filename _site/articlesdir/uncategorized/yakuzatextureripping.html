@@ -1,0 +1,185 @@
+<!-- default page template, includes optional side navigation -->
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>how to rip textures in yakuza 7</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/gifs/explosion.gif"> <!-- favicon -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> <!-- /_site's static site css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex"> <!-- prevent search engine indexing -->
+    <script>
+      console.log("HEWWO? COMPUTER?");
+    </script>
+  </head>
+
+  <body
+  
+    style="background:url('/assets/images/backgrounds/tennissmall.jpg');"
+  
+  > <!-- customized background -->
+    <div class="buffer"></div>
+    <div class="container"> <!-- full layout -->
+      <!-- header source code -->
+<header>
+  <a class="skip-to-content-button" href="#main">skip to content</a>
+  <a href="/home.html" class="headerfont">diatomzone</a> <!-- link to home page -->
+</header>
+
+      <!-- horizontal navigation bar source code -->
+<!-- whitespace adjusted: links have no whitespace, divider has whitespace on both sides due to newline -->
+
+<nav><a href="/home.html">home</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/about.html">about</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/articles.html">articles</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/wikipages.html">wikipages</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/mystuff.html">mystuff</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/coollinks.html">coollinks</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing --></nav>
+
+      <main id="main"> <!-- main page content (with #main anchor for navigation) -->
+        <div class="flex" style="margin:0;">
+          <div class="indexmain"> <!-- main -->
+            <h1>how to rip textures in yakuza 7</h1>
+            <!-- individual article template -->
+<p>BECAUSE I KEEP FORGETTING HOW TO DO IT!!!</p>
+
+<h2 id="materials">materials</h2>
+
+<ul>
+  <li>yakuza 7 steam download</li>
+  <li>windows pc</li>
+  <li>Kaplas80’s <a href="https://github.com/Kaplas80/ParManager">ParManager</a> to unpack the game’s PAR files</li>
+  <li>a program that can open/convert the game’s DDS images into useable PNGs, i’m using <a href="https://krita.org/en/">krita</a> (my free, open source drawing program of choice!) including…</li>
+  <li>Sepera-okeq’s <a href="https://github.com/Sepera-okeq/DDS-Evrika-Plugin">Krita DDS Evrika Plugin</a></li>
+</ul>
+
+<h2 id="step-1-open-game-directory">step 1: open game directory</h2>
+
+<p>in file explorer, go to wherever you have the game downloaded, and into its data folder. for me, it’s…</p>
+
+<p>C:\Program Files (x86)\Steam\steamapps\common\Yakuza Like a Dragon\runtime\media\data</p>
+
+<p>you’ll see a bunch of folders, PAR files, and CFG files.</p>
+
+<p>here we’ll look at “ui.yazawa.en.par”, which contains ui textures for the english game, among other things.</p>
+
+<p>(textures include restaurant foods, equipment icons, enemy and employee portraits, all kinds of buttons, and even running pixel ichiban from the business minigame LOL)</p>
+
+<h2 id="step-2-preview-par-file-contents">step 2: preview PAR file contents</h2>
+
+<p>(to download ParManager from its github page, scroll down the righthand sidebar and click “releases”, then grab the correct ZIP file for your operating system) (somehow i always forget where the releases are)</p>
+
+<p>extract the ParManager “ParTool.exe” and place it somewhere easily accessible, such as your desktop</p>
+
+<p>open command prompt</p>
+
+<ul>
+  <li>drag and drop the “ParTool.exe” icon into command prompt. this will write down its path.</li>
+  <li>after the path, type a space, then type “list” (without quotes), then type another space</li>
+  <li>drag and drop the “ui.yazawa.en.par” file into command prompt. again, this will write down its path.</li>
+</ul>
+
+<p>the line should look like this: “[partool path] list [PAR file path]”. hit enter!</p>
+
+<p>command prompt will return a (VERY LONG) list of every file inside your chosen PAR file. this is how you preview the contents before unpacking. ex: if you want 3d character models, you’d look for GMD files, i think.</p>
+
+<p>(hint: you can also add “ -r” (without quotes) to the end of your command to recursively list the contents of nested PAR files)</p>
+
+<h2 id="step-3-unpack-par-file-contents">step 3: unpack PAR file contents</h2>
+
+<p>once you’ve found the package you want, do the same command as step 2, but without “list”</p>
+
+<ul>
+  <li>drag and drop the “ParTool.exe” icon into command prompt. this will write down its path.</li>
+  <li>after the path, type a space</li>
+  <li>drag and drop the “ui.yazawa.en.par” file into command prompt. again, this will write down its path.</li>
+</ul>
+
+<p>the line should look like this: “[partool path] [PAR file path]”. hit enter!</p>
+
+<p>command prompt will unpack everything into a new folder “ui.yazawa.en.par.unpack”. it’ll show up in the directory of the PAR file you chose, so you should probably move it somewhere else in case it interferes with the game.</p>
+
+<p>(hint: you can also add “ -r” (without quotes) to the end of your command to recursively unpack the contents of nested PAR files)</p>
+
+<h2 id="step-4-preview-textures">step 4: preview textures</h2>
+
+<p>crack open “ui.yazawa.en.par.unpack”! open “en”, then open “texture”.</p>
+
+<p>it’s full of DDS images! for me, file explorer shows proper thumbnails for most all of them, so i go to view -&gt; extra large icons to get a better look as i scroll through.</p>
+
+<p>once you find a pic you wanna open/convert…</p>
+
+<h2 id="step-5-convert-texture">step 5: convert texture</h2>
+
+<p>again, i’m using krita + DDS Evrika Plugin… the plugin github page has an installation tutorial around halfway down, so just follow that one, i don’t feel like typing it sorry <img src="/assets/images/emojis/reigen.png" class="emoji" alt="reigen emoji" title="reigen emoji" /></p>
+
+<p>once you’ve opened krita with the plugin properly installed…</p>
+
+<p>in the top bar, go to tools -&gt; scripts -&gt; import DDS</p>
+
+<p>navigate to your “ui.yazawa.en.par.unpack” folder. you can also copy/paste the path from its file explorer window!</p>
+
+<p>select the image you wanna open. you can also copy/paste the filename into the box! (sadly, it seems you can only open one image at a time)</p>
+
+<p>click open, select the image format you want (i prefer PNGs), then click ok.</p>
+
+<p>the image will open, yippee!</p>
+
+<p>ctrl + shift + s to “save as”, then save it where you wanna save it!</p>
+
+<h2 id="step-6-congratulations">step 6: congratulations!</h2>
+
+<p>you can now open/edit/lovingly stare at your images!</p>
+
+<p>i was able to grab y0 and y5 textures just fine using the same method. happy browsing!!! 😎</p>
+
+<hr />
+
+<h2 id="extra-links-ive-used-for-further-reading">extra links i’ve used, for further reading</h2>
+
+<ul>
+  <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2813243580">Achiev4ble’s Small modding info-dump/guide - Yakuza Kiwami</a>: focused on yk1, but has great filetype info</li>
+  <li><a href="https://steamcommunity.com/app/638970/discussions/0/1739964766316515626/">Drogean’s PC Texture Modding Guide</a>: focused on y0, but again same principles apply</li>
+  <li><a href="https://www.vg-resource.com/thread-40768.html">SteamyJ’s PS2 Sprite/Texture Ripping for 2022</a>: if you wanna browse y1’s textures (I FORGOT HOW TO DO THIS ALSO. it’s a different method that uses an emulator)</li>
+  <li><a href="https://www.reddit.com/r/yakuzagames/comments/157ok01/need_help_getting_yakuza_0_city_textures/">some info on how y0 chunks/folders aren’t named properly LOL</a></li>
+</ul>
+
+
+          </div>
+          
+        </div>
+      </main>
+      <!-- horizontal navigation bar source code -->
+<!-- whitespace adjusted: links have no whitespace, divider has whitespace on both sides due to newline -->
+
+<nav><a href="/home.html">home</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/about.html">about</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/articles.html">articles</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/wikipages.html">wikipages</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/mystuff.html">mystuff</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+      <img src="/assets/images/gifs/explosion.gif" alt="" title="explosion gif"><!-- add image after every link except last -->
+    <a href="/coollinks.html">coollinks</a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing --></nav>
+
+      <!-- footer source code -->
+<footer>
+  <a href="/home.html"> <!-- link to home page -->
+    <img src="/assets/images/emojis/loveimages.png" alt="loveimages emoji" title="loveimages emoji">
+  </a>
+</footer>
+
+    </div>
+    <div class="buffer"></div>
+  </body>
+
+</html>

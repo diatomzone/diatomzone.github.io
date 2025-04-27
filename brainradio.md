@@ -4,6 +4,8 @@ title: brain radio archive
 
 (NEWEST)
 
+- [evening shadows](https://www.youtube.com/watch?v=qa1lh3afTVo) -- toshiki kadomatsu
+- [kid charlemagne](https://www.youtube.com/watch?v=b00h8iKaklQ) -- steely dan
 - [snowbound](https://www.youtube.com/watch?v=96GCrZec5u8) -- donald fagen
 - [only a fool would say that](https://www.youtube.com/watch?v=Hvz0TOm0zgI) -- steely dan
 - [receive you the hyperactive](https://www.youtube.com/watch?v=90zWq5r7zc8) -- like a dragon

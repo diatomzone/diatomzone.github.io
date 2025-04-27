@@ -4,11 +4,18 @@ title: zzznotes
 
 {% raw %} <!-- prevents liquid code from being read -->
 
-- is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes
-- ok looks like it's because these use {% for image in site.static_files %} to return every static file in the directory, which takes a billion loops, so now i'm looking for an alternate solution
-- IT TURNS OUT ADDING DASHES TO LIQUID SYNTAX STRIPS WHITESPACE. DAN. no alternate directory read method needed
+outline vs border: border changes element size but outline doesnt?
+https://www.gameuidatabase.com/index.php
 
-
+## CURRENT TASKS
+- organize zzznotes 🌟🌟🌟
+  - discoveries article
+- fix code block styling (change to pre tag?)
+- flavor text item emporium (next round)
+- images within photogallery divs use br's, replace them with styling (ex: halloween comic and tag hall of fame)
+- add lazy loading (loading="lazy") in for loop of specific types of image galleries
+- wiki: castle guard universe page first line has a top margin for some reason, remove it
+- upload zzznotes?
 
 ## PROJECT INFO
 - site new url
@@ -251,22 +258,6 @@ title: zzznotes
     - will only be the size of the iframe container (tried to make a height=100%; sidebar with a de-styled iframe, but it doesn't work because the flex stuff interferes i think)
   - conclusion: iframe sizing is not flexible so i'm going back to old html version for now
 
-- CURRENT TASKS
-  - organize zzznotes 🌟🌟🌟
-    - discoveries article
-  - coollinks
-  - wiki cleanup
-  - redo landing page and its stylesheet more logically
-  - fix code block styling (change to pre tag?)
-  - flavor text item emporium (next round)
-  - images within photogallery divs use br's, replace them with styling (ex: halloween comic and tag hall of fame)
-  - clean redundant div margins
-  - noindex: robots.txt
-  - landing page cursor goes away at bottom of page
-  - add lazy loading (loading="lazy") in for loop of specific types of image galleries
-
-[EDIT] tag for edits
-
 ## SITEBUILDING RULES
 - margins run from bottom to top, right to left (bottom elements use top margin, right elements use left margin), except for h1 which has a bottom margin
 - for spacing reasons:
@@ -348,6 +339,10 @@ title: zzznotes
 - to make markdown (ex: updates.md) embeddable in shortbox and also have it show up as its own page, make 1) a plain md file you can embed and 2) a frontmatter'd md file that includes the plain md file (needs front matter to be converted to html/made available as a page)
   - if you try to add front matter to the plain md file, the triple dashes will show up as hr's and mess up the page when embedded
 - if an image's filename has brackets, it won't display properly (at least when printed with a for loop)
+- crazy newlines in built files
+  - is there something wrong with the article layout? brawlsprites and spamreviews and tagshalloffame show several newlines were added to their built site file which already has hundreds of, ex: check the 12/24/23 and 3/9/24 upload changes
+  - ok looks like it's because these use {% for image in site.static_files %} to return every static file in the directory, which takes a billion loops, so now i'm looking for an alternate solution
+  - IT TURNS OUT ADDING DASHES TO LIQUID SYNTAX STRIPS WHITESPACE. DAN. no alternate directory read method needed
 
 ## PROBLEMS
 - markdown newparagraphs are working but newlines not rendering properly, added newline_to_br to content fix https://stackoverflow.com/questions/52762454/jekyll-markdown-with-line-feed-is-not-rendered-in-html

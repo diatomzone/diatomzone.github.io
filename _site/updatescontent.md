@@ -1,4 +1,12 @@
 
+#### apr 27 2025
+
+- new buttons
+- articles: top anime ops/eds 2024, how to rip textures in yakuza 7
+- new brain radio(s)
+
+---
+
 #### dec 22 2024
 
 - minor styling

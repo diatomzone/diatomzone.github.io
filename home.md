@@ -2,6 +2,14 @@
 title: home
 
 buttonlist:
+  - filename: likeadragon.png
+    description: "like a dragon button"
+  - filename: staminanx.png
+    description: "staminan x button"
+  - filename: ichibanrun.png
+    description: "ichiban running transparent"
+  - filename: ichibanrunbg.gif
+    description: "ichiban running"
   - filename: bigfontnow.png
     description: "big font now button"
   - filename: iheartostsshirt.png
