@@ -26,7 +26,7 @@ automatic link: <https://www.youtube.com/watch?v=kY27wmTZwyg>
 
 <email@example.com>
 
-![markdown image]({{ '/assets/images/pixelbanner.png' | relative_url }})
+![markdown image, this is the alt text]({{ '/assets/images/pixelbanner.png' | relative_url }} "this is the title text")
 
 sphinx of black `quartz`, judge my vow
 

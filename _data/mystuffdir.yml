@@ -1,5 +1,6 @@
 # stores categories for "mystuffdir" collection listing, call with "site.data.mystuffdir"
 # listing will follow this order
 
+- renpy-games
 - twine-games
 - uncategorized

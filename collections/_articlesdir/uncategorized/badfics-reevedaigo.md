@@ -1,0 +1,165 @@
+---
+title: "really bad fics overflow: reeve daigo fanfic"
+---
+
+(sadly, this was not truly written in one go as i got stuck around discord message 5 and had to backtrack...)
+
+(but the reason this gets its own page is cus it's way too long {{site.data.emojis.reigen}})
+
+## reeve daigo fanfiction
+
+(2099 words, still in progress)
+
+my name is reeve tuesti and i am a businessman by day, and robotic engineer by night; who lives in a country called midgar. true to its' name, my life here is "mid" indeed. i stare at the most brain-searingly boring numbers and the dullest, monotonousest words at my job day after day... it's excruciating! that is, until one fateful encounter on a seemingly-averague tuesday turned my life -- and the evil corporation i am employed at -- upside down!
+
+the morning started like any other: i clocked in,then i went to the staff meeting and scrolled social media on my laptop as my boss rufus shinra, the ceo, blabbed a lot about stocks and investors. but my ears perked up as he singled me out!
+
+"reeve! today you have a meeting with a very importatn representative!" he shot me a glare colder than my cup of breakroom coffee i just realized i accidentaly forgot in the fridge yesterday. "don't you DARE screw this up for us!!!" jthen he stomped out the door and slammed it, leaving the team in shock!
+
+"what was THAT about?" that blonde girl with the sequined gun (i forgot her name sorry) gawked.
+
+"dunno, but i better get to it." i grumbled. i swear that guy has something against me!
+
+ i gathered my files (begrudgingly) and as dictated by my schedule, set off for the fanciest meeting room on the top floor of the building, that we reserve for the most important meetings and meet-ees. in the elevator there were some weird guys in suits (notably, not the standard black suits of shinra corp employees ) standing in a posturing manner, but they hadn't hit any elevator buttons. weird.
+
+i stepped out as the 'vator (short for elevator, of course) dinged. hope those guys have fun riding back down.
+
+the high cielinged hallway with the classy frosted oblong hanging lights and polished tile floors greeted me with a glimmer, as even from here the floor-to-ceiling windows of the meeting suite itself let in plethoras of natural light.
+
+say what you will about the dubious ethics of this stupid company, at least they know how to style the place. i passed through the patterned glass room divider (the upper portion, i noticed, was in dire need of a dusting . this is because the only person tall enough to reach the top is sepiroth, who has been on paid vacation for the past 2 months.) then into the suite proper, chrome trimmed doors sliding shut whisper-silent behind me.
+
+upon arrival, three observations struck my eyes:
+
+1) my meet-ee was already here. oopsies. shinra's gonna revoke my recess privileges again...
+
+2) this guy brought "muscle". two of the shadiest looking dudes i've ever seen stood against the wall, eyeing yours truley.
+
+3) this guy, who according to the sched' (short for schedule, of course) is named "daigo" looks strangely familiar...
+
+oh. my. GOD. HE STOLE MY LOOK!
+
+my slicked back tresses! MY goatee! even my palette!(alright, i'll admit that one's a bit of a stretch; most everyone wears dark suits around here.) but upon double take, his hair isn't as cool. also his tie is kinda ugly. i breathed a sigh of relief. then saw a "clan pin" glinting on his lapel and unbreathed that sigh right back in.
+
+"you're yakuza?" i blurted. oopsies again.
+
+daigo, who had been boggling over my superior look, snapped back into the picture of professionsalism. "yes. my name is daigo, i'm the sixth chairman of the tojo clan."
+
+
+
+i settled into the modern black-leather-and-chrome office chair at the other end of the elevated horizontal platorm(table, for you normies out there). "i'm sorry to have kept you waiting, daigo. i'm reeve, of shinra corporation. how can we be of service to you?" i said in flawless customer service voice. which grated my ears like a cow's-worth of parmesean. UGH.
+
+daigo slid aside the notepad he had been scribbling on. "well, the tojo clan is currently experiencing some... financial hardships." the weariness of his side-glance spoke to a-thousand-and-one other troubles too. "i ask if you'd like to support us as an investor."
+
+yikes, i thought mentally. we'd have a better chance of returns tossing our ill-gotten gains into... well, a well. well, shinra's too rich for his own good anyways.
+
+"well, very well." i lacéd my fingers. "how much do you need?"
+
+daigo's countenance lit up like a luminous object. "just 100 billion."
+
+"dollars?!"
+
+"yen."
+
+"oh." i dunno the conversion rates off the top of my head, but it's probably fine. "well daigo, you have a deal." i stood up with a practiced smile, and walked over to him since we were sitting really far apart.
+
+daigo's smallish eyebrows wiggled conflictedly like he was trying to quash an awestruck reaction. "...you have my sincerest thanks."
+
+as he stood also and turned to shake my outstretched hand, he knocked his (lacquered fountain)pen off the table and onto the short-carpeted floor.
+
+"ah." we both said in sync. and then in unison, the two of us sprung for the pen. the chairman FLEW as if diving for a gun toppled mid-fight; i have nary a clue what warrented such unbecoming haste. as for myself, it was the time-hardened reflex of a courteous businessman; hold the door, pour their drinks, butter their egos, grovel for forgiveness even when it was THEIR fault in the first place...... UGH!!
+
+
+
+unfortunately, the ugh-levels quadrupled(or even quintipled!) when daigo and i COLLIDED midair, cracking our skulls together with an awful, earbruising KER-BLAM!!!
+
+we musta had really powerful skulls, cus the flashing glowing multicolor hued shockwave specil effect rattled the glass walls and sent every chair rolling! we tumbled over and over eachother and hit the decorative minimalist side drawer unit.
+
+"OW!!!!!!!!! UGH!" i yelled, clutching my surprisingly unbroken face. but before i could even sit up properstyle, something grabbed the back of my jacket and my feet left the ground.
+
+the stony gaze of daigo's "goon #2" pierced into my soul! i froze in fear, dangling in his grip like a scruffed kitten. i gulped. surely i was about to "have a little swim with the fishes" for "attacking" his boss! but instead...
+
+"are ya alright, rokudaime?" (author's note: that' means 6th chairman)
+
+HUH? i whipped around as best i could. an unharmed daigo regained his footing, shooing lint off his sleeve. but upon whipping back, it seems i was not mistaken after all... the goon was talking to ME!
+
+"um...uh....." i flabbergasted as the massive goon set me down gently like a fine teacup on a saucer; his face still expect-ant.
+
+daigo bent down to retrieve a sparkling gold piece off the floor -- his "clan pin"! (how shoddy the backing must be to dislodge after a single tumble; i certainely would never tolerate building with parts like that!)
+
+but as soon as the metal met his fingertips, "goon #1"(he's number 1 becasuie he was standing on the left when i entered the room) snatched it right outta his grasp!
+
+"hands off!" goon #1 snapped fiercely! "you corporate pencilpushers who've never had to take responsibility for anything in yer life have NO business touching the chairman's stuff!" then he pins the pin front to the pin back through my lapel. umm, WHAT?
+
+
+
+"goon #2" frowned deepy. "that was really uncalled for, kyoudai."
+
+"yeah, sorry 'bout that, reeve."  "goon #1" nods -- in daigo's direction! "the interior design of this place is just pissin' me off."
+
+daigo stares at my chest, newly bedazzeled , himself looking rather 'derstandably frazzled. he locks eyes with me, then in sneaks a gleam; his brain gears now hatch a most devious scheme!
+
+"forgive me, rokudaime." the true chairman bows low. he retrieves the pen at last and presses it to my palm. and shoots me the most unsubtle "PLEASE GO ALONG WITH IT!" look Ever as if i don't deal with pain-in-the-asses who communicate via microexpressions and 3-levels-abstracted corporatespeak on the daily.
+
+"that's perfectly alright, reeve." my smile oozes benevolence. goons 1 and 2 seem relieved. what's the worst that could happen? the yakuza's no joke, but if this guy's really the top dog.... hell, he probably makes as much in a day as i'd make in a lifetime!!!
+
+daigo escorts me outta the schmancypants lobby (he catches on quick!) and into his luxurious black foreign (midgar only manufactures pre-weathered pickup trucks and motor cycles) short limo. are revwar!
+
+:"goon 1" and "goon 2" hop into the front seats and drive for about 2 hours and 46 minutes and roughly 20 seconds(we got stuck beind a train crossing). snore. then we pass through a set of heavy wooden gate-doors into a gigantic, old-yet-pristine japanese-style complex!
+
+"welcome back to tojo HQ, daigo-chan!" "goon 1 " helpfully exposits.
+
+everything about the interior exudes "tradition" and "wealth" to the point of grotesqueness, really. the foyer's crystal chandelier looks like it weighs more than our car. the comically-oversized porcelain vases on every corner seem suspiciously breakable. and the red carpeting running all over the place is thick as books and smells faintly of blood and strongly of whatever perfumed cleanser'z failing to hide it.
+
+goons 1 and 2 drop me off at daigo's study like parents on a schoolday.  goon 2 raps a knuckle or three on his spontaneously-appeared clipboard. "looks like ya got an easy day today. see ya later!" the door clicks shut, and i'm alone.
+
+"i can't believe that worked," i sigh relievedly. well, what's the damage? i plop myself into the desk chair(it's soft like a cloud!) , flip open daigo's fancy lookign planner.... and can't beleve what hits my retinas.
+
+8:00 am: wake up
+
+8:30: breakfast
+
+8:47: rokudaime assassination attempt (hatsushiba clan)
+
+8:52: rokudaime assassination attempt (ishioda family)
+
+9:01 to 10:00: tojo hq weekly meeting
+
+10:02: snack time
+
+10:10: depart for shinra corp
+
+10:30: rokudaime assassination attempt (sakaki family)
+
+10:58: rokudaime assassination attempt (kijin clan)
+
+11:04: rokudaime assassination attempt (shibata family)
+
+11:30: shinra corp investment meeting
+
+11:45: depart for tojo hq
+
+2:36: rokudaime assassination attempt (ibuchi family)
+
+i'm jolted out of my speed-reed by the cheery chime of an alarm clock on the corner of the desk, and nearly leap out of my seat as the spring-loaded drawer to my right pops open like a cash register. it's empty but for a simple handgun.
+
+my eyeballs slowly, dreadfully, crawl back to the clock. of course, the LED display reads 2:35:49.
+
+---
+
+i (it's me, daigo. i'm narrating now.) watch as the chairman's car -- MY car -- peels out of the shinra building's lot ($4 with parking validation), down the street, and out of sight.
+
+i remain on the low stone steps, listening hard for the telltale screech and rev of a panicked U-turn, but it doesn't come. my loyal aides patriarch #1 and patriarch #2 don't come back.
+
+for the first time in my life, i'm free.
+
+the rush of it escapes my chest, flooding my limbs with a white-hot shower of sparks. i clench my fists to keep from shaking. i'd best get back to "my" job to avoid raising suspicion.
+
+it's a simple task to orient myself within the complex's layout, to memorize the faces of coworkers milling in and out of each department as well as their relationships with reeve, based on their greetings or lack thereof. you don't survive [REDACTED] years as chairman by being oblivious.
+
+with the information off reeve's business card i find his cubicle soon enough. it's a pitiful, poorly-lit corner of a sprawling, impressively noisy office floor. his neighbors pay me no mind as i sit and scoot his squeaky roller chair into place. there's a double monitor setup with a gaming pc uh... tower, case, whatever it's called. a cluster of pill bottles and a soldering iron and a bunch of other random tools, too. i wake the computer then hesitate with my hand over the keyboard. i don't have a password.
+
+i nearly topple backward as some THING the size of a medium-sized dog scrambles out from the footwell. in an instant it's on top of the desk, hands thrown up in cartoonish surrender -- my gun(i did a flip over the lobby metal detectors) is trained on its cute wittle nose.
+
+"YIKES! what's gotten into you, reeve?" (i can't even tell what accent he's speaking in, so just pretend there's a strong accent. sorry.) yelps the bipedal talking cat prince.... thing. then he tilts his head, fang-tipped grin glinting under the fluorescents. "or rather... daigo dojima?" i freeze.
+
+(TO BE CONTINUED)
