@@ -55,7 +55,6 @@ https://www.gameuidatabase.com/index.php</p>
 <ul>
   <li>new layout/palette</li>
   <li>add persistent music player (js?)</li>
-  <li>add indentation to article preview for readability</li>
 </ul>
 
 <h2 id="current-tasks">CURRENT TASKS</h2>
@@ -323,6 +322,50 @@ https://www.gameuidatabase.com/index.php</p>
   &lt;/ul&gt;
 &lt;/div&gt;
 </code></pre></div></div>
+
+<hr />
+
+<h2 id="javascript-notes">JAVASCRIPT NOTES</h2>
+
+<ul>
+  <li>used for dynamic changes in content, etc.</li>
+  <li>declaring variables: when to use var, let, and const
+    <ol>
+      <li>Always declare variables</li>
+      <li>Always use const if the value should not be changed</li>
+      <li>Always use const if the type should not be changed (Arrays and Objects)
+        <ul>
+          <li>constant arrays can’t be reassigned a new array, but the individual items can be changed/added/removed</li>
+          <li>const arrays have “block scope”, while var arrays do not</li>
+        </ul>
+      </li>
+      <li>Only use let if you can’t use const</li>
+      <li>Only use var if you MUST support old browsers.</li>
+    </ol>
+  </li>
+  <li>external javascript file
+    <ul>
+      <li>“import” an external file using src: <script type="text/javascript" src="/path/file.js"></script></li>
+      <li>^ NOT the same as the actual export/import function which didn’t work for me</li>
+      <li>can use multiple script tags
+        <ul>
+          <li>
+            <script src="first.js"></script>
+          </li>
+          <li>
+            <script src="second.js"></script>
+          </li>
+          <li>
+            <script>normal code</script>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>rather than using onended for controlling media, which can overwrite/be overwritten by other onended’s, add a specific event listener since you can add/remove as many as you want ex: musicPlayer.addEventListener(“ended”, function() {});</li>
+</ul>
+
+<hr />
 
 <h2 id="accessibility">ACCESSIBILITY</h2>
 <ul>

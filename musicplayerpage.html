@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <aside class="musicplayer">
+      <h1>MUSIC PLAYER</h1>
+
+      <p>NOW PLAYING:</p>
+      <p id="nowPlaying">nothing</p>
+
+      <audio controls id="musicPlayer">
+        <source src="nothing" type="audio/mpeg">
+        (audio player not supported)
+      </audio>
+
+    </aside>
+
+    <script type="text/javascript" src="/assets/js/musicplayerplaylist.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("DOMContentLoaded", function() { // once page has loaded, init player
+        // 1) playlist array has already been imported above
+        // 2) setup player
+        let trackPosition = 0;
+        const nowPlaying = document.getElementById("nowPlaying"); // gather page elements
+        const musicPlayer = document.getElementById("musicPlayer");
+        function updateTunes() {
+          nowPlaying.innerHTML = (trackPosition + 1) + ": " + playlist[trackPosition].name;
+          musicPlayer.src = playlist[trackPosition].link;
+        };
+        updateTunes();
+
+        // 3) when media ends
+        musicPlayer.addEventListener("ended", function() {
+          if (trackPosition < playlist.length - 1) { // if not last track, play next track
+            trackPosition++; // increment by 1
+          } else { // else, restart from beginning
+            trackPosition = 0;
+          };
+          updateTunes();
+          musicPlayer.play();
+        });
+      });
+    </script>
+
+  </body>
+</html>

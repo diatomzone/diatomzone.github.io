@@ -155,6 +155,30 @@ https://www.gameuidatabase.com/index.php
 </div>
 ```
 
+---
+
+## JAVASCRIPT NOTES
+
+- used for dynamic changes in content, etc.
+- declaring variables: when to use var, let, and const
+  1. Always declare variables
+  2. Always use const if the value should not be changed
+  3. Always use const if the type should not be changed (Arrays and Objects)
+    - constant arrays can't be reassigned a new array, but the individual items can be changed/added/removed
+    - const arrays have "block scope", while var arrays do not
+  4. Only use let if you can't use const
+  5. Only use var if you MUST support old browsers.
+- external javascript file
+  - "import" an external file using src: <script type="text/javascript" src="/path/file.js"></script>
+  - ^ NOT the same as the actual export/import function which didn't work for me
+  - can use multiple script tags
+    - <script src="first.js"></script>
+    - <script src="second.js"></script>
+    - <script>normal code</script>
+- rather than using onended for controlling media, which can overwrite/be overwritten by other onended's, add a specific event listener since you can add/remove as many as you want ex: musicPlayer.addEventListener("ended", function() {});
+
+---
+
 ## ACCESSIBILITY
 - `img template: <img src="{{ '/assets/images/explosion.gif' | relative_url }}" alt="explosion gif" title="explosion gif">`
 - img alt="alt text" shows image description if image is not viewable, required for image elements
