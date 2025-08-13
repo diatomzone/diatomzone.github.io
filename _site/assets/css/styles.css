@@ -57,7 +57,7 @@ div.dialoguebox div.dialogueflex { display: flex; flex-direction: row; margin: c
 
 div.dialoguebox div.dialogueflex div { margin: 0 0 0 1em; }
 
-div.dialoguebox div.dialogueflex div p { margin: 0; }
+div.dialoguebox div.dialogueflex div p { margin-top: 0; }
 
 div.dialoguebox div.dialogueflex:first-child { margin-top: 0; }
 
@@ -75,6 +75,8 @@ p { background-color: transparent; margin: calc(40px / 2) 0 0 0; }
 
 p, li { line-height: 1.4em; }
 
+.preview { margin-left: 2em; }
+
 a { background-color: transparent; cursor: url("/assets/images/cursor.png"), default; color: #7fd944; text-decoration: none; }
 
 a:link { color: #7fd944; }
@@ -85,9 +87,9 @@ a:hover { color: #ff5e7e; }
 
 a:active { color: orange; }
 
-span.spoilered { background: #555555; color: transparent; text-shadow: none; }
+.spoilered { background: #555555; color: transparent; text-shadow: none; }
 
-span.spoilered:hover { background: transparent; color: inherit; text-shadow: inherit; transition: 0.2s; }
+.spoilered:hover { background: transparent; color: inherit; text-shadow: inherit; transition: 0.2s; }
 
 img { margin: 0; vertical-align: bottom; max-width: 100%; max-height: 100%; }
 

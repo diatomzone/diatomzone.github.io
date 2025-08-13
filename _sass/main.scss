@@ -136,7 +136,7 @@ div.dialoguebox { // same padding as wikibox
     div {
       margin: 0 0 0 1em;
       p {
-        margin: 0;
+        margin-top: 0;
       }
     }
   }
@@ -191,6 +191,9 @@ p { // markdown turns lines (including images) into p
 p, li { // line height of normal text
   line-height: $lineheight;
 }
+.preview { // for indenting page text preview/dialoguebox dialogue
+  margin-left: $previewmarginleft;
+}
 a {
   @include replace-bgcolor(brown, $colortoggle);
   cursor: url("/assets/images/cursor.png"), default;
@@ -209,12 +212,12 @@ a:hover { // :hover = pseudoclass hovered
 a:active { // :active = pseudoclass being clicked
  color: $coloryellow;
 }
-span.spoilered {
+.spoilered {
   background: $colorspoiler;
   color: transparent;
   text-shadow: none;
 }
-span.spoilered:hover {
+.spoilered:hover {
   background: transparent;
   color: inherit;
   text-shadow: inherit;

@@ -25,7 +25,7 @@ layout: default
         {% if item.path contains category %}
           <li>
             <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
-            <p>{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
+            <p class="preview">{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
           </li>
         {% endif %}
       {% endfor %}
@@ -39,7 +39,7 @@ layout: default
     {% for item in site[page.collection] %} <!-- "articles" accesses _articles collection -->
       <li>
         <h4><a href="{{ item.url }}">{{ item.title }}</a></h4>
-        <p>{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
+        <p class="preview">{{ item.content | strip_html | truncate: 110 }}</p> <!-- can't get truncate_words to work for some reason -->
       </li>
     {% endfor %}
   </ul>

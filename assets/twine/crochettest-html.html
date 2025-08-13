@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- this is an HTML5 document -->
+
+<html> <!-- the root element of an HTML page -->
+
+  <head> <!-- contains meta information -->
+    <title>CROCHET TEST</title> <!-- page title displayed on browser tab -->
+      <style>
+        body {
+          background: white;
+        }
+
+        .shorthand { /* default style for shorthands */
+          /* background-color: orange; */
+          display: inline;
+        }
+
+        #toggle-longhand:checked ~ p .shorthand { /* when toggle is checked, do this to shorthands inside p's */
+          display: none;
+        }
+
+        .longhand { /* default style for longhands */
+          /* background-color: skyblue; */
+          display: none;
+        }
+
+        #toggle-longhand:checked ~ p .longhand { /* when toggle is checked, do this to longhands inside p's */
+          display: inline;
+        }
+      </style>
+  </head>
+
+  <body> <!-- contains all visible content -->
+    <h1>CROCHET TEST</h1> <!-- heading 1 -->
+
+    <input type="checkbox" id="toggle-longhand"> <!-- checkbox button -->
+    <label for="toggle-longhand">TOGGLE LONGHAND</label> <!-- checkbox label -->
+
+    <h2>INSTRUCTIONS:</h2> <!-- heading 2 -->
+
+    <p> <!-- paragraph -->
+      <input type="checkbox" id="step1"> <!-- checkbox button -->
+      <label for="step1" class="shorthand">Step 1: SC</label> <!-- checkbox label, shorthand version -->
+      <label for="step1" class="longhand">Step 1: Single Crochet</label> <!-- checkbox label, longhand version -->
+    </p>
+    <p>
+      <input type="checkbox" id="step2">
+      <label for="step2" class="shorthand">Step 2: DC</label>
+      <label for="step2" class="longhand">Step 2: Double Crochet</label>
+    </p>
+    <p>
+      <input type="checkbox" id="step3">
+      <label for="step3" class="shorthand">Step 3: SC</label>
+      <label for="step3" class="longhand">Step 3: Single Crochet</label>
+    </p>
+
+  </body>
+
+</html>

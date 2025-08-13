@@ -1,9 +1,20 @@
 
+#### aug 12 2025
+
+- indent listing page previews and dialoguebox dialogue
+- mystuff: Pluie à deux and crochet tests
+- new brain radio
+- backup before destroying everything with musicplayer testing
+
+---
+
+
 #### may 9 2025
 
 - article: reeve daigo fanfic
 - mystuff: zenigatadate
 - edit image in markdown test
+- recategorize some articles
 
 ---
 

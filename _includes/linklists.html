@@ -10,7 +10,7 @@
         {% for item in list[1] %} <!-- for each item in list -->
           <li>
             <h4><a href="{{ item.url }}">{{ item.name }}</a></h4> <!-- entry label -->
-            <p>{{ item.description }}</p> <!-- print info -->
+            <p class="preview">{{ item.description }}</p> <!-- print info -->
           </li>
         {% endfor %}
       </ul>
@@ -25,7 +25,7 @@
       {% for item in list[1] %} <!-- for each item in list -->
         <li>
           <h4><a href="{{ item.url }}">{{ item.name }}</a></h4> <!-- entry label -->
-          <p>{{ item.description }}</p> <!-- print info -->
+          <p class="preview">{{ item.description }}</p> <!-- print info -->
         </li>
       {% endfor %}
     </ul>

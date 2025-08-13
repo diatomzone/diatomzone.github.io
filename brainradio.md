@@ -4,6 +4,7 @@ title: brain radio archive
 
 (NEWEST)
 
+- [the real folk blues ft. yoko kanno, steve blum, and more](https://www.youtube.com/watch?v=8GwE0wwMmKE) -- yoko kanno et al.
 - [evening shadows](https://www.youtube.com/watch?v=qa1lh3afTVo) -- toshiki kadomatsu
 - [kid charlemagne](https://www.youtube.com/watch?v=b00h8iKaklQ) -- steely dan
 - [snowbound](https://www.youtube.com/watch?v=96GCrZec5u8) -- donald fagen
