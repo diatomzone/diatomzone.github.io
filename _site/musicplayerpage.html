@@ -13,6 +13,16 @@
         (audio player not supported)
       </audio>
 
+      <div>
+        <button id="musicButtonPlay" type="button">nothing</button>
+        <span id="musicTimeCurrent"></span>
+        <span id="musicTimeTotal">of </span>
+        <label for="musicTimeline">TIMELINE</label>
+        <input id="musicTimeline" type="range" value="0" step="1"></input>
+        <label for="musicVolume">VOLUME</label>
+        <input id="musicVolume" type="range" value="50" step="1"></input>
+      </div>
+
     </aside>
 
     <script type="text/javascript" src="/assets/js/musicplayerplaylist.js"></script>
@@ -23,11 +33,19 @@
         let trackPosition = 0;
         const nowPlaying = document.getElementById("nowPlaying"); // gather page elements
         const musicPlayer = document.getElementById("musicPlayer");
+        const musicButtonPlay = document.getElementById("musicButtonPlay");
         function updateTunes() {
           nowPlaying.innerHTML = (trackPosition + 1) + ": " + playlist[trackPosition].name;
           musicPlayer.src = playlist[trackPosition].link;
         };
         updateTunes();
+        musicButtonPlay.innerHTML = "PLAY"; // play/pause button text
+        musicPlayer.addEventListener("pause", function() {
+          musicButtonPlay.innerHTML = "PLAY";
+        });
+        musicPlayer.addEventListener("play", function() {
+          musicButtonPlay.innerHTML = "PAUSE";
+        });
 
         // 3) when media ends
         musicPlayer.addEventListener("ended", function() {
@@ -39,6 +57,17 @@
           updateTunes();
           musicPlayer.play();
         });
+
+        // 4) controls
+        musicButtonPlay.addEventListener("click", function() { // play/pause button
+          if (musicPlayer.paused) {
+            musicPlayer.play();
+          } else {
+            musicPlayer.pause();
+          };
+        });
+
+
       });
     </script>
 

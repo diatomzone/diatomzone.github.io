@@ -8,6 +8,7 @@ title: really bad fics i typed in discord in one go
       <li><a href="#overwatch-fanfiction">overwatch fanfic (1064 words)</a></li> <!-- entry label, link to anchor -->
       <li><a href="#final-fantasy-7-fanfiction">final fantasy 7 fanfic (350 words)</a></li>
       <li><a href="#doppio-diavolo-fanfiction">doppio diavolo fanfic (904 words)</a></li>
+      <li><a href="#kamurocho-court-adventure-sidestory-doppio-and-diavolo-at-the-beach">kamurochocourt sidestory (1261 words)</a></li>
   </ul>
 </div>
 
@@ -184,5 +185,91 @@ we share a laugh (mine internally, of course. i dont "laugh out loud"). all's we
 …
 
 (in reality, diavolo forgets to buy the antibiotic ointment, and since doppio cannot find his brand name first aid in the italian pharmacutical retailer nearest to his house, he gets an eyelid infection and has to go to ciocolatta's emergency room for italian antibiotics and (wound) dressing.)
+
+THE END
+
+---
+
+## kamurocho court adventure sidestory: doppio and diavolo at the beach
+
+(1261 words)
+
+doppio lastname(i forgot his last name) is walking on the beautiful coast on his impromptu vacation to japan! but not all is as tranquil as one would excpect: he is lost as all hell!!!
+
+"i just wanted to look at the cartoon character merchandise that our capo underlings keep talking about at work meetings..... and maybe even buyu them some winter holiday giftrs!" the in the midst of developing sunburn guy exposits in a self awarely self pitying way, with a frown. he kicks a pebble into the water, since he is walkkign really close to the water with his hydropermeable shoes on which is a suboptimal procedure..
+
+"sorryh , my dear dopio" the internally shrugging diavolo replies, lacking enthusiasm as usualiasm. even though it was his fault! (king crimson got planesick and accidentlay skipped the freeway exit so they somehow ended up in the beach instead of tokyo city) oopsie doo!) better bring ginger chews next time.
+
+the beleaguered dooppio has already accepted it, as he does with many things in his life. verey frustruating trying to even get outta tha airport when you don't know japanese!!! and his phone doesn't even have a translation app!!!!!!!!
+
+for the first time in like roughly 0.67 hours, another human being comes into view! doppio gasps!! maybe this guy can hlep them with directions!
+
+"i doubt this guy speaks italian either," diavolo grumbles. doppio doesn't knwo why he's so irritable when he's not even the one twisting his ankle on all these wet slippery round longtumbled rocks and stones!
+
+doppio hops onto the old wood pier (it's a structure that's wooden and kinda like a bridge that goes out into the sea, but with nothing on the other side, but you can just go to the end if you feel like it. sometimes they put seafood restaurants on the end and even sometimes carnival rides since supposedly it's a touristy kinda thing that many people find amusing to traverse) and approaches the lone fishing man.
+
+this guy has glossy black hair flowing behind him in the sea breeze, and distinctiuve flowy clothes also moving due to the air movement.
+
+"wow, a real life samurai!!!" doppio blurts before diavolo can catch his tongue. he even has a sword beside him, like those strapping, vivacious fellows in the hit  video game "like a dragon: ishin!" did! the samurai guy dozint(doens't) acknoelegdgew them in any way.
+
+diavolo facepalms. "just ask him how to get to the station."
+
+"can you tell me how to get to the station?" doppio relays in italian. he statisticly predicts there  is but a 5% chance of lannguage compatibility.
+
+but to both mafioso's suprrise, this guy turns ever so slightly to say (in italian): "take that path back to the street. the bus stop to your right will take you to the station." doppio rotates 180degrees to spot the indicted walkway(includign some stairs).
+
+diavolo gasps in relief! homesweet home, here we come!(it's a hotel , in tokyo) "thank you so much, kind stranger!!" doppio clutches his heart which slightly hurts due to the sunburn on his exposed boob window. "you're the first person we've met who speaks italian!"
+
+the samurai guy smirks slightly, though he's re-turned back forward so nobody sees it. "my training has taken me all over the world."
+
+"so cool...." doppio enthuses. maybe he plays on a soccer team? i mean football.
+
+diavolo elbows him in his mind. ack!!! "where are my manners!" doppio snaps to attention. "what can i do to  thank you, mysterioyus stranger?" he sniles sneetly(aka smiles in a particular yet uncategorized way). his trusty briefcase has uh. a pack of cigarettes? 5million in small bills. a water botle (half drinken). phone. 2 receipets(water boittle and cigarettes). any should make a pasable gift? "sorry, i just ran  outta worms, and i don't think fish want cigarettes..."
+
+"my name is goemon ishikawa the thirteenth", says goemon ishikawa the thirteenth, not laughing at that jest(?).
+
+"ok mister the thirteenth, would you like to pick something from here...?" he unlatches the briefcase and proffers it out likea(dragon)  halloween candy bowl. and has approached.
+
+the barely-having-glance-initiated goemon freezes when his stomach GROWLS loud enough to be heard over the saltful waves. and flushes with embarassment!! eek!!!
+
+"ah, " doppio and diavolo say in unison. poor guy can't very welll much fill his stomach on recepit paper........ he sheepishly recinds the 'case. snaps it shut and rehandles it in one practiced motion.
+
+"...why don't i get us something to eat insteaed?" he beams. "i could use a bite too!" (dear reader, between you and me, this is a lie he has just told, as to not make goemon feel like he's goign otu of the way for goemon's sake but rather for boht of them so he doesn't feel ashamed about it/singled out. one of the many decieteful social maneuvers up his sleeve!)
+
+doppio looks around for somethign edible. no restaurants in sight( restauratns themselves are not edible, but typically contain  things which are indeed edible) . no fish as it seems this guy hasn't yet caught anything. probably no italian frogs since they're in  japan? there's plants by the aforementioned walkway but probably dogs have peed on it so that's a no go.
+
+this beach sucks!!! he(dopio) sighs in irritation.(a common occurance) he turns around quickly to hide epitaph as he takes a lil' peek. epitaph returns one search result nearby: whcih is a vending machine at the again-aforementioned bus stop! bloody brilliant!!!!!!
+
+"sit tight, mister the thirteenth!!" doppio dashes away, thick braid bumping atop his back.
+
+.....soon enough--eureka! the vending machine is here, looking fully stocked to boot! but someone is already using it. doppio waits behind them at a respectible distance.
+
+and waits.
+
+and waits........
+
+"excuse me, are you using the machine or not?!" doppio snaps!
+
+an 80-grit abrasive scoff. "can't you see i'm busy here? wait your turn." the guy doesn't even turn around!
+
+after 207 seconds, the only buttons this asshole has pressed is all of his!!!! there's a sudden distinct slackness, a dropped tether. glad we're on the same page!
+
+king crimson bats the civilian aside like a wii tennis tutorial screen diagram animation, with the additional (addmittedly kinda disgusting) crunch of ribs into shredded lungs. a perfectly arcing, ragdolling "birdie" into the path of an oncoming suv(substantionally unsmall vehicle), and a hop/skip/jump through time leaves neither driver nor instacorpse any-the-wiser. yayy!
+
+now that that toothepaste haired loser is outta the way, doppio exhales a sigh of sweet relief and shoves some of his small bills inoto the vending machine cash slot.
+
+[ca-clunk! clunk! thunk! ca-thunk! swivel door noise. swivel noise again with additionall noises]
+
+in a mere jiffy, he's back on the pier, refreshments in hand!!
+
+....but apparently even that jiffy was not jiffy enough?! goemon ishikawa the thirteenth is nowhere to be seen!!!!!!
+
+"WH-WHAT!!" doppio cries in despiar. that guy's fishing rod lies abandoned in a big ol wet puddle. maybe he died of hunger and returned to seafoam? oops.
+
+"...you might as well eat these and recover your strenght, doppio." diavolo two-cents. "we still have a ways to go."
+
+doppio nods, though sadstyle. about his somewhatwasted efforts and newfound ally's ephemerality both. "got it, boss."
+
+together, doppio and diavolo eat the various beverages(with jelly and other objects contained within such athat they feel more substantial to ingest than plain liquids) and watch the rise and fall of the waves, legs swinging off the end of the pier.
 
 THE END

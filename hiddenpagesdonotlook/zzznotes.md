@@ -176,6 +176,7 @@ https://www.gameuidatabase.com/index.php
     - <script src="second.js"></script>
     - <script>normal code</script>
 - rather than using onended for controlling media, which can overwrite/be overwritten by other onended's, add a specific event listener since you can add/remove as many as you want ex: musicPlayer.addEventListener("ended", function() {});
+  - same with general controls like buttons, onclick can only have one effect. use myButton.addEventListener("click", function() {}); instead. 
 
 ---
 

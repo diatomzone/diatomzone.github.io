@@ -1,4 +1,11 @@
 
+#### nov 20 2025
+
+- badfic: kamurocho court adventure sidestory: doppio and diavolo at the beach
+- new brain radio
+
+---
+
 #### aug 12 2025
 
 - indent listing page previews and dialoguebox dialogue
