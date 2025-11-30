@@ -8,7 +8,7 @@ title: "really bad fics overflow: reeve daigo fanfic"
 
 ## reeve daigo fanfiction
 
-(2099 words, still in progress)
+(4476 words)
 
 my name is reeve tuesti and i am a businessman by day, and robotic engineer by night; who lives in a country called midgar. true to its' name, my life here is "mid" indeed. i stare at the most brain-searingly boring numbers and the dullest, monotonousest words at my job day after day... it's excruciating! that is, until one fateful encounter on a seemingly-averague tuesday turned my life -- and the evil corporation i am employed at -- upside down!
 
@@ -44,8 +44,6 @@ my slicked back tresses! MY goatee! even my palette!(alright, i'll admit that on
 
 daigo, who had been boggling over my superior look, snapped back into the picture of professionsalism. "yes. my name is daigo, i'm the sixth chairman of the tojo clan."
 
-
-
 i settled into the modern black-leather-and-chrome office chair at the other end of the elevated horizontal platorm(table, for you normies out there). "i'm sorry to have kept you waiting, daigo. i'm reeve, of shinra corporation. how can we be of service to you?" i said in flawless customer service voice. which grated my ears like a cow's-worth of parmesean. UGH.
 
 daigo slid aside the notepad he had been scribbling on. "well, the tojo clan is currently experiencing some... financial hardships." the weariness of his side-glance spoke to a-thousand-and-one other troubles too. "i ask if you'd like to support us as an investor."
@@ -68,8 +66,6 @@ as he stood also and turned to shake my outstretched hand, he knocked his (lacqu
 
 "ah." we both said in sync. and then in unison, the two of us sprung for the pen. the chairman FLEW as if diving for a gun toppled mid-fight; i have nary a clue what warrented such unbecoming haste. as for myself, it was the time-hardened reflex of a courteous businessman; hold the door, pour their drinks, butter their egos, grovel for forgiveness even when it was THEIR fault in the first place...... UGH!!
 
-
-
 unfortunately, the ugh-levels quadrupled(or even quintipled!) when daigo and i COLLIDED midair, cracking our skulls together with an awful, earbruising KER-BLAM!!!
 
 we musta had really powerful skulls, cus the flashing glowing multicolor hued shockwave specil effect rattled the glass walls and sent every chair rolling! we tumbled over and over eachother and hit the decorative minimalist side drawer unit.
@@ -89,8 +85,6 @@ daigo bent down to retrieve a sparkling gold piece off the floor -- his "clan pi
 but as soon as the metal met his fingertips, "goon #1"(he's number 1 becasuie he was standing on the left when i entered the room) snatched it right outta his grasp!
 
 "hands off!" goon #1 snapped fiercely! "you corporate pencilpushers who've never had to take responsibility for anything in yer life have NO business touching the chairman's stuff!" then he pins the pin front to the pin back through my lapel. umm, WHAT?
-
-
 
 "goon #2" frowned deepy. "that was really uncalled for, kyoudai."
 
@@ -162,4 +156,194 @@ i nearly topple backward as some THING the size of a medium-sized dog scrambles 
 
 "YIKES! what's gotten into you, reeve?" (i can't even tell what accent he's speaking in, so just pretend there's a strong accent. sorry.) yelps the bipedal talking cat prince.... thing. then he tilts his head, fang-tipped grin glinting under the fluorescents. "or rather... daigo dojima?" i freeze.
 
-(TO BE CONTINUED)
+"h...how did you--"
+
+"ya think i didn't see that whole debacle upstairs?" the kitty scrunches up his nose smirklike. "that reeve is hopeless i tell ya, so i'm always keepin' tabs on him." it suddently dawns on me that this thing is speaking in kansai dialect, just like my precious patriarchs...
+
+i lower my gun and flick the safety back on before stowing it away hiddenly and securely. with a satisfied sigh, the cat prince lowers his arms.
+
+"call me cait sith. pronounced ket shee!" cait sith exptends a gloved hand, tail swishing hypnotically. tentative is my mind, but the indeepgrained businessmethod of a chairman allows me to execute a dazzling handshake so timely that the "PERFECT" indicator flashes momentarily near the target zone.
+
+if he was impressed by my 'shake, he doesn't show it. instead, his expression resembles a stone over a coffin. "dojima-nyan, i need yer help."
+
+".....what is it?"
+
+"as i'm sure you've already guessed, reeve is in deep shite right about now." my heart sinks. i DID throw him under the bus, but he seemed more than happy to take my place...
+
+halfheartedly, "i can't." scooting my chair back to the desktop, "i have a job to do, so if you'll excuse me." but the computer is still locked.
+
+cait sith is the picture of impatience, crossed arms and tapping toe.
+
+i stare at the screen. wiggle the mouse around at a glossy-smooth 240 frames per second. the password cursor blinks steadily... and without remorse.
+
+the pill bottles jump n' rattle as i slam my head into the desk. what idiot can't even start a computer?!?
+
+a soft pat on the rear of my slickedback hair. "hey now," the cat thing coos, only somehwat patronizingly. "how 'bout this: ya help me save reeve, and i'll give ya his computer password!"
+
+there goes my only shot at a civilian life.
+
+"...alright."
+
+it turns out reeve doesn't even own a car, so we have to take cait sith's car, who is just this guy named mog? he looks like a large cartoon... yeti? bear? i can't really tell, but he's soft and furry, and fast enough that we overtake the carpool lane cars on the freeway. mog does turn signals with his arms like a cyclist would.
+
+we skid to a stop before tojo hq in record time, and i use my handkerchief to pinch the bug guts out of my eyelashes and goatee (since there's no windshield).
+
+mog parks/naps on the side of the road as cait sith follows me into an oft-neglected back entrance.
+
+---
+
+"...seriously boss, i can't believe that worked!" gasps an awesmacked grunt at the cellular telophone on speaker mode on the paperwork on the chairman's desk.
+
+"we got put on a seven-month waiting list for THIS?" another goon gestures as well as he can with a gun to the chairman's -- to REEVE'S -- head.
+
+"only because you imbeciles didn't install the high-speed router when i told you to! on those ticketing websites, even the slightest delay can mean the difference between victory and defeat. you should know that by now," patriarch ibuchi sneers over the phone.
+
+reeve slumps in the chairman's chair, held up only by the copious length of hempen rope that bind his arms and torso to the plush chair back. (they even cut off a piece to tie a bow around his ankles)
+
+it's alright, actually. nobody to reprimand him for dawdling on the clock, no schedule rushing him up and down between this floor and that. oops, i forgot i was the narrator again!
+
+mandatory workplace firearm training can't beat nerves, i guess. by the time i'd unfumbled the drawer gun, these guys had already swung through the windowpanes(glass everywhere. not safe for work!) screaming their heads off like crazy!!! wonder why they didn't shoot me on sight.
+
+"...with it then, you know what to do." ibuchi was still talking i guess but now he's done.
+
+an assortment of yes sir's and you got it boss's, and the two grunts start wheeling me around the desk and toward the door. when suddently...
+
+BA-BAM!!! my cheek flashes hot as the goons crumple to the carpeted floor, one's cranium bouncing off the chair armrest. ah. that's blood dripping off my beautiful beard. (not my 'globin, thankfully!)
+
+a scrunch of shoe on glass behind me alerts me to a new presence. via window, too? i squeak in shock as my chair yanks clockwise!
+
+"...daigo!!!" i gasp!! never have i been happier to see a cheap, plagarist, off-brand, bargain bin copycat!
+
+he nods, gun still smoking in hand. "reeve."
+
+an indistinct noise from the still deskbound cellular telophone. "goons? what's going on over there?" the patriarch calls out.
+
+daigo's expression does not change as he picks up the cell. "ibuchi."
+
+"rokudaime?! what's the meaning of this?"
+
+"your men failed. we'll send the invoice for cleaning and repairs within 5 business days, thank you for your continued patronage." he puts the phone back down,  but his finger freezes over the "hangup" button when the low, staticky chuckle grows into a haughty laugh!
+
+"oh, rokudaime! did you really think i could only afford to send two measly chinpira your way?" ibuchi spits. i've never seen this guy in my life but i can HEAR the flash of him pushing up his stupid megane glasses.
+
+indubitably on cue, the door to the office swings open! daigo's gun fires right by my ear (OWWWWW!!!!!!!!!!!!!) before i even realize he's moved!
+
+but the adversary, now in full view, is still standing. with daigo's bullet dangling between her fingers like a cigarett!!! she's wearing a two piece suit ( a three piece suit minus the jacket) and green sunglasses? the bullet is discarded aside.
+
+"behold, my hired assassin!" ibuchi preens, even though he's probably blindly guessing.
+
+daigo doesn't lower his gun. "where are patriarchs 1 and 2?"
+
+assassin rolls her shoulders and strolls slowly into the office. "just taking a little nap." daigo grits his teeth.
+
+my neck is getting tired from craning back and forth and everywhich way at whoever's talking. i shuffle my pen knife (white board pen that has a little knife in it) out of my sleeve and start sawing at my wrist ropes beneath view o' tha desk.
+
+JEEPERS!! assassin charges at daigo without warning, sidestepping one shot, two -- and vaults over the desk, roundhouse kicking the gun right out of daigo's hand!! his third shot flies wild, splintering the wall.
+
+the gun tumbles to the far side of the room. daigo darts away to jump for it. but assassin lands behind him, nearly knocking me to the floor, and overtakes him in an instant. i watch as if time's slowed to a crawl -- daigo's suspended mid-dive, arms outstretched, and with a single spine-shattering punch she crushes him into the floor so hard he bounces, blood exploding from his respiratory face holes.
+
+not good!!! i wince as assassin kicks daigo in the guts for good measure. then shiver at the unmistakable whisper of steel as she produces a wicked looking knife!!
+
+"STOP!!!!!!" I SHOUT VALIANTLY!!!! but in reality it's more like a piercing wail. at least that gets her attention!
+
+assassin glances up, unimpressed. she equips my fast friend's fallen firearm and fortunately forgoes finishing him off fatalstyle! by which i mean she shoots him in the calf. daigo's scream quickly dies as he becomes preoccupied with spitting out the rest of the blood in his mouth.
+
+i rattle in my ropes as she approaches step my step, gun raised. "l... leave him alone--"
+
+"don't worry," the cold barrel touches down, pressing a dent into my forehead. "you can go first. that way you won't have to cry over your men, sixth chairman."
+
+oh my god! everyone still think's i'm daigo and im gonna get killed for real!!!!!!@!!!!!
+
+my hands and torso surreptitiously freed, i lash out at the desk drawers in a one-last-stand! the big low one flies open and whacks assassin in the shin making her curse, while the somewhat smaller middle one reveals... a grenade! good enough!
+
+in the split second she's off balance, i snatch the incendiary and pull the "pin"! the little thang hisses to life!
+
+she plucks it out of my hand and chucks it out the window. it blows up an expensive looking stone lantern sculpture thing. oops!
+
+"enough games," assassin gripes unoriginally. but before she can finish me off, daigo grapples her from behind with a roar!!!
+
+"REEVE! RUN!!" daigo tries to snap her arm and she drops the gun so daigo kicks it away and it despawns because too many people have used and dropped it over a too-long period of time! he doesn't loosen his grip even when she twists and elbow-cracks him in the ribs.
+
+i topple outta the chair and hop(feet still tied) away from them in a jiffy!! no need to tell me twice!
+
+...but i can't just leave daigo! i mean, i'd love to, but--
+
+"ASSASSIN, WAIT!" a forgotten voice bursts to life on the tabletop! the cellphone, aka patriarch ibuchi! "don't kill daigo!!"
+
+everyone freezes in a snap-synchronization that would make swimmers green with envy! what's he on about?!
+
+ibuchi sounds like he's sniveling/cowering/what have you when he continues. "assassin, you're dismissed! please exit the premises without k-- a-any further bloodshed!"
+
+cautiously, daigo loosens his grip. with a "tch", assassin slicks back her hair, places a gloved hand on the shardful windowframe, and hops out n' down to the ground floor. there's a loud crash and an "ow" as she presumably lands in some kind of greenery?
+
+daigo catches his breath, looking pale. "what's the meaning of this, ibuchi?"
+
+indeciperhable rustling from the other end of the line. "i'm calling off today's assassination attmept. obviously." the sound of a squeaky hammer, and the patriarch lets out a bloodcurdling screech!
+
+"now now, no need for sass, mister patriarch!" grins a familiar voice. daigo and i gasp in unison!!
+
+"cait sith!!!"
+
+"cait sith! how.. what did you do?! are you alright?!" i snatch up the cellular telophone to cradle it in my hands.
+
+"just tracked this here lad's cell signal back to his office. piece o' cake!" i can see his adorable little pose in my mind! then his tone suddenly smooths of its playful lilt. "dojima-nyan."
+
+daigo starts. "huh?"
+
+"ya risked yer own life to save reeve. i can't thank ya enough!"
+
+"oh. it's no problem. it was my fault, anyway." daigo averts his eyes(from the phone) and un-askews his tie.
+
+"so ta close out our deal, i'll hand over reeve's computer password!"
+
+"WHAT?!" i choke! all my... stuff is on there!!!! i blast my best pleading eyes daigo's way, but he's already shaking his head.
+
+"it's alright. i think... i'm not suited for civilian life after all." his smile is small, but with the set of his face, it's unbelievably sad.
+
+i deflate, unsure for whose sake. "...if it makes you feel any better, i didn't last a single minute as a yakuza, either."
+
+daigo meets my eyes. i think we have some kind of moment of silent understanding, but all of it must be happening on his end cus i got nothing.
+
+"so this is it?" the real chairman extends a hand. "back to our usual lives?"
+
+i can't help but chew my cheek. back to shinra corp. i'll get the tongue lashing of a lifetime for missing a whole day of work...
+
+we shake on it.
+
+mog and cait sith pick me up outside the headquarters, assassin nowhere to be seen. cait sith curls up in my lap (his usual seat) and we ride home in comfortable silence. there's rush hour evening traffic (ugh!) so we listen to a podcast on my phone about how popular segways are these days. i didn't know that!
+
+home sweet home... we hop off at the shinra corp valet, i shower and brush my teeth, and brush cait sith's teeth, and we go to sleep under my desk.
+
+the next morning brings an unprecedented commotion! i wake to the office floor abuzz, and dread sets into my stomach as i receive a message from rufus shinra calling for a one-on-one meeting...
+
+the office door sliding shut behind by heels might as well be that of a mausoleum.
+
+rufus himself is seated at his desk(modern and white and chrome similar to the rest of this godforsaken building), fingers steepled steeply. he beckons me to sit across from him. i do.
+
+"reeve," he begins.
+
+"i'm sorry!" i blurt, head ducking reflexively. UGH!! but that self-satisfied spiel never happen!
+
+"for what? keeping your true business acumen a secret?" rufus flashes me a too-smooth grin. "i never would have thought you had it in you."
+
+"...sir?"
+
+"you initiated a sizeable deal with the tojo clan, then rushed over to save their ceo from an attempt on his life?" he accentuates his words with an affluent laugh. "you're name's all over midgar media -- reeve, the miracle salaryman who risked his life for the prosperity of both conglomerates!"
+
+oh god. rufus takes my silence as invitation, as always.
+
+"defending our clients... our investment... our company, with tooth and nail, flesh and blood... every member of our shinra corp 'family' should be more like you!" he clasps his hands, looking more pleased than i've ever seen him outside his fake-ass press appearances. "that's why i'm naming you employee of the month!"
+
+i wrestle my mouth into the shape of a smile. "...that's too kind of you, sir."
+
+he slides an envelope across the table. there's a check inside. "your bonus, $100 MGD (midgar dollars). you're welcome!" he gives a little wave. "and have a productive rest of your day, reeve."
+
+thankfully, my departure dialogue runs on auto and i exit without processing any more of him than i have to.
+
+purely out of habit i flick open my electronic schedule, only to find investment meetings with clients old and new popping up in real time, cramming themselves in tighter and tighter than ever before.
+
+an urgent dropdown notif: "company-wide seminar: bodyguarding and me -- in 10 minutes".
+
+......what have i done?
+
+(THE END)

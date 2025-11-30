@@ -1,4 +1,10 @@
 
+#### nov 29 2025
+
+- completed reeve daigo fanfic
+
+---
+
 #### nov 20 2025
 
 - badfic: kamurocho court adventure sidestory: doppio and diavolo at the beach
