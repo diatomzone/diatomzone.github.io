@@ -17,7 +17,7 @@ https://www.gameuidatabase.com/index.php
 - flavor text item emporium (next round)
 - images within photogallery divs use br's, replace them with styling (ex: halloween comic and tag hall of fame)
 - add lazy loading (loading="lazy") in for loop of specific types of image galleries
-- wiki: castle guard universe page first line has a top margin for some reason, remove it
+- wiki: having a video tag in the page causes the first line to have a top margin for some reason
 - upload zzznotes?
 
 ## PROJECT INFO
@@ -126,7 +126,8 @@ https://www.gameuidatabase.com/index.php
 - centering
   - margin: auto; affects container (block elements)
   - text-align: center; affects children of container (text/inline/inline-block elements)
-- links: put link inside desired element for proper styling, not the other way around. ex: <h1><a href="/home.html">enter</a></h1>
+- links: put link inside desired element for proper styling, not the other way around. ex: `<h1><a href="/home.html">enter</a></h1>`
+  - but for images, you can put the image inside the link according to w3schools, since you can't put anything in an image, ex: `<a href="default.asp"><img src="smiley.gif" alt="HTML tutorial""></a>`
 - anchor link: jump to anchor on same page
   - <a href="#anchor-name">jump to anchor</a> -> element with id="anchor-name"
   - to externally link to an anchor, add the #anchor-name directly to the end of the page's url (no /)
@@ -176,7 +177,7 @@ https://www.gameuidatabase.com/index.php
     - <script src="second.js"></script>
     - <script>normal code</script>
 - rather than using onended for controlling media, which can overwrite/be overwritten by other onended's, add a specific event listener since you can add/remove as many as you want ex: musicPlayer.addEventListener("ended", function() {});
-  - same with general controls like buttons, onclick can only have one effect. use myButton.addEventListener("click", function() {}); instead. 
+  - same with general controls like buttons, onclick can only have one effect. use myButton.addEventListener("click", function() {}); instead.
 
 ---
 

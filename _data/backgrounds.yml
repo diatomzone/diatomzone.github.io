@@ -1,7 +1,7 @@
 # stores data for emojis, call with "site.data.backgrounds"
 # gradients count as background-image, but you can also use the shorthand background for multiple types
 
-default: "url('/assets/images/backgrounds/junglesmall.jpg')" # jungle
+default: "url('/assets/images/backgrounds/dither.png')" # jungle
 
 basic: "rgb(26,28,43)" # $colorbg
 

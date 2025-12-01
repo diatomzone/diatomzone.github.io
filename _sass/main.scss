@@ -9,7 +9,7 @@ html {
 body { // put overall styles here (gradients count as background-image)
   cursor: url("/assets/images/cursor.png"), default;
   // background controlled by default layout/page.background/data.backgrounds presets
-  background-size: 50px; // for images, only works when entered directly into default layout
+  // background-size: 50px; // for images, only works when entered directly into default layout, also scaling with transform:scale makes image blurry
   color: $colorwhite;
   font-family: 'Spline Sans Mono', monospace;
   font-size: 110%; // sets base size for em to use
@@ -77,7 +77,7 @@ div.indexmain { // main content
   flex-grow: 1; // does grow
 }
 aside.indexside { // side content (index only), same properties as wiki infobox except it doesn't change to order: 1;
-  background: $colorbox2;
+  background: $colorbox1;
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center;
@@ -106,7 +106,7 @@ div.shortbox { // for update log, same padding as wikibox, include markdown="1"
   }
 }
 div.directory { // same padding as wikibox
-  background: $colorbox2;
+  background: $colorbox1;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
   border: $boxborderstyle;
@@ -121,7 +121,7 @@ div.directory { // same padding as wikibox
   }
 }
 div.dialoguebox { // same padding as wikibox
-  background: $colorbox2;
+  background: $colorbox1;
   padding: calc(#{$boxpadding} / 2);
   margin: calc(#{$elementmargintb} / 4) 0 0 0;
   border: $boxborderstyle;
@@ -137,6 +137,9 @@ div.dialoguebox { // same padding as wikibox
       margin: 0 0 0 1em;
       p {
         margin-top: 0;
+        strong {
+          color: $colorgreen;
+        }
       }
     }
   }
@@ -145,7 +148,7 @@ div.dialoguebox { // same padding as wikibox
   }
 }
 div.iframecontainer { // for normal iframes
-  background: darkslateblue; // for transparent vid element on mobile?
+  background: $colorwhite; // for plain html pages (and transparent vid element on mobile?)
   position: relative; // must be relative for iframe absolute position to work
   overflow: hidden;
   width: 100%; // full width of container, height is 0
@@ -156,31 +159,33 @@ div.iframecontainer { // for normal iframes
 // MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
-  color: $coloryellow;
-  font-family: "Supermercado One", monospace;
-  font-size: 2.4em;
+  // background: $colorgreen;
+  color: $colorgreen;
+  font-family: "Kumar One", monospace;
+  font-size: 2.6em;
   text-align: center;
   margin: 0 0 calc(#{$elementmargintb} / 1) 0;
   padding: 0;
 }
 h2 {
   @include replace-bgcolor($colorbox3, $colortoggle);
-  color: $colororange;
-  font-family: "Supermercado One", monospace;
+  // background: $colororange;
+  color: $colorgreen;
+  font-family: "Arbutus", monospace;
   font-size: 1.9em;
   margin: calc(#{$elementmargintb} / 1) 0 0 0;
 }
 h3 {
   @include replace-bgcolor($colorbox3, $colortoggle);
-  color: $colorblue;
-  font-family: "Supermercado One", monospace;
+  color: $colorgreen;
+  font-family: "Arbutus", monospace;
   font-size: 1.6em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 h4, h5, h6 {
   @include replace-bgcolor($colorbg, $colortoggle);
-  color: $colorpurple;
-  font-family: "Supermercado One", monospace;
+  color: $colorwhite;
+  font-family: "Arbutus", monospace;
   font-size: 1.4em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
@@ -197,30 +202,39 @@ p, li { // line height of normal text
 a {
   @include replace-bgcolor(brown, $colortoggle);
   cursor: url("/assets/images/cursor.png"), default;
-  color: $colorgreen;
+  color: $colororange;
   text-decoration: none;
 }
 a:link { // :link = pseudoclass unvisited
- color: $colorgreen;
+  color: $colororange;
 }
 a:visited { // :visited = pseudoclass visited
- color: $colorgreen;
+  color: $colororange;
 }
 a:hover { // :hover = pseudoclass hovered
- color: $colorred;
+  color: $colorgreen;
+
 }
 a:active { // :active = pseudoclass being clicked
- color: $coloryellow;
+  color: $colorwhite;
+
 }
 .spoilered {
   background: $colorspoiler;
   color: transparent;
   text-shadow: none;
+  ::marker {
+    color: transparent;
+  }
 }
 .spoilered:hover {
   background: transparent;
   color: inherit;
   text-shadow: inherit;
+  ::marker {
+    color: $colorgreen;
+    transition: 0.2s;
+  }
   transition: 0.2s;
 }
 img {
@@ -231,7 +245,7 @@ img {
 }
 .emoji { // for both img and span
   height: $lineheight;
-  filter: drop-shadow($textdropshadow);
+  // filter: drop-shadow($textdropshadow);
   img {
     height: $lineheight;
   }
@@ -267,7 +281,7 @@ ul { // unordered list marker styling
   ::marker { // 1st+ level ul
     content: "🟊 "; // custom bullet
     // content: "*  "; // custom bullet
-    color: $colorpurple;
+    color: $colorgreen;
   }
   ul {
     ::marker { // 2nd+ level ul
@@ -278,7 +292,7 @@ ul { // unordered list marker styling
 ol { // ordered list marker styling
   ::marker { // 1st+ level ol
      content: counter(list-item)") ";
-     color: $colorpurple;
+     color: $colorgreen;
   }
   ul {
     ::marker { // 2nd+ level ul
@@ -292,14 +306,14 @@ ol { // ordered list marker styling
   }
 }
 sup { // superscript
-  color: $coloryellow;
+  color: $colorgreen;
   vertical-align: top; // top and bottom both work by bringing it to middle, super/sub/middle/etc. cause offset
   position: relative; // allow positioning
   bottom: 0.5em; // push up from the bottom
 }
 hr { // divider
   width: 80%;
-  border: 1.5px solid $colorblue;
+  border: 1.5px solid $colorgreen;
   border-radius: 5px;
   margin: calc(#{$elementmargintb} / 1) auto;
 }
@@ -325,8 +339,8 @@ iframe { // overlaps the full area of iframe container
 }
 code { // for code, some people wrap <pre> around <code>
   // i think the "preserve formatting" and "contain and add scrollbar" are conflicting for code blocks
-  background: black;
-  color: $colorblue;
+  background: $colorwhite;
+  color: $colorbox1;
   font-family: 'Anonymous Pro', monospace;
   display: inline; // default
   white-space: break-spaces; // break lines as necessary, preserve whitespace even at end of line
@@ -348,9 +362,12 @@ header {
   .headerfont {
     color: $colorwhite;
     font-family: edosz;
-    font-size: 2.5em;
-    text-shadow: -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
-    -1px 0px 0 black, 0px -1px 0 black, 1px 0px 0 black, 0px 1px 0 black;
+    font-size: 3em;
+    text-shadow: -1px -1px 0 $colorbox1, -1px 1px 0 $colorbox1, 1px -1px 0 $colorbox1, 1px 1px 0 $colorbox1,
+    -1px 0px 0 $colorbox1, 0px -1px 0 $colorbox1, 1px 0px 0 $colorbox1, 0px 1px 0 $colorbox1;
+  }
+  img {
+    height: 1em;
   }
   .skip-to-content-button {
     background: $colorbox1;
@@ -375,32 +392,52 @@ footer {
   }
 }
 nav { // horizontal navbar
-  background: $colorbox1;
-  font-size: 1.1em;
+  @include replace-bgcolor(steelblue, $colortoggle);
   max-width: 100%;
-  margin-top: $gapheight;
-  padding: calc(#{$boxpadding} / 2);
+  // margin-top: $gapheight; // original margin
+  margin: calc(#{$gapheight} - (#{$boxpadding} / 2)) 0 calc(#{$boxpadding} / -2) 0; // counteracts button margin, top right bottom left
   text-align: center;
-  box-shadow: $layoutdropshadow;
-  border: $layoutborderstyle;
-  border-radius: $layoutborderradius;
+  button { // negates regular styling, so re-add/inherit stuff in here
+    background: transparent;
+    margin: calc(#{$boxpadding} / 2);
+    padding: 0;
+    font-size: 1.1em;
+    font-family: inherit;
+    color: inherit;
+    // border: none;
+    border: $layoutborderstyle;
+    border-radius: $layoutborderradius;
+    box-shadow: $layoutdropshadow;
+    a {
+      background: $colorbox1;
+      padding: calc(#{$boxpadding} / 2);
+      display: block;
+      vertical-align: bottom; // displays as inline-block by default which creates The Gap
+      // width: 100%;
+    }
+  }
   img {
-    height: 1em;
+    // height: 64px;
   }
   a.current { // "current" class for highlighting navigation
-      color: $colorwhite;
+    background: $colorgreen;
+    color: $colorbox1;
   }
   a:link:not(.current) { // :link = pseudoclass unvisited
-   color: $colorpurple;
+    background: $colorbox1;
+    color: $colororange;
   }
   a:visited:not(.current) { // :visited = pseudoclass visited
-   color: $colorpurple;
+    background: $colorbox1;
+    color: $colororange;
   }
   a:hover:not(.current) { // :hover = pseudoclass hovered
-   color: $coloryellow;
+    background: $colororange;
+    color: $colorbox1;
   }
   a:active:not(.current) { // :active = pseudoclass being clicked
-   color: $colorred;
+    background: $colorwhite;
+    color: $colorbox1;
   }
 }
 
@@ -417,7 +454,7 @@ nav { // horizontal navbar
   }
 }
 aside.infobox { // wiki info box
-  background: $colorbox2;
+  background: $colorbox1;
   padding: calc(#{$boxpadding} / 2);
   margin: 0 0 0 $boxpadding; // layout spacing, so keep as $boxpadding
   text-align: center; // center small image
@@ -428,7 +465,7 @@ aside.infobox { // wiki info box
   flex-grow: 0; // does not grow
   align-self: flex-start; // align to top of container (default is stretch)
   h3 { // can't do a general :first-child, it selects the entry keys etc.
-    color: $colorred;
+    color: $colorgreen;
     margin: 0;
   }
   img {
@@ -439,10 +476,11 @@ aside.infobox { // wiki info box
     margin: 0;
   }
   .category { // category label
-    background: $colorbox3;
+    border: $boxborderstyle;
     font-weight: bold;
-    color: $coloryellow;
+    color: $colorgreen;
     margin: calc(#{$elementmargintb} / 4) 0 0 0;
+    padding: calc(#{$boxpadding} / 4) 0;
   }
   .entry{ // entry contains key and value
     display: flex;
@@ -455,7 +493,7 @@ aside.infobox { // wiki info box
   }
   .key {
     @include replace-bgcolor($colorbg, $colortoggle);
-    color: $colorblue;
+    color: $colorgreen;
     font-weight: bold;
     width: 40%;
   }

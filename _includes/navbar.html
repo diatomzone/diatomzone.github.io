@@ -3,11 +3,12 @@
 
 <nav>
   {%- for item in site.data.navigation -%}
-    <a href="{{ item.link }}" {%- if page.url == item.link -%}class="current"{%- endif -%}>
-      {{- item.name -}}
-    </a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
-    {%- if forloop.last == false %}
-      <img src="{{ '/assets/images/gifs/explosion.gif' }}" alt="" title="explosion gif"><!-- add image after every link except last -->
-    {% endif -%}
+    <button type="button">
+      <a href="{{ item.link }}" {%- if page.url == item.link -%}class="current"{%- endif -%}>
+        <img src="{{ '/assets/images/navicons/' | append: item.name | append: '.png' | relative_url }}" alt="" title="{{ item.name }} icon">
+        <br>
+        {{- item.name -}}
+      </a><!-- breaking the a into 3 lines adds a space after the link name, probably due to image inline-block whitespace, but it doesn't hurt the actual navbar spacing -->
+    </button>
   {%- endfor -%}
 </nav>

@@ -1,6 +1,5 @@
 ---
 title: cool links
-background: spruceplank
 
 linklists:
   in-browser art software:

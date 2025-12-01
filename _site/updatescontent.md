@@ -1,4 +1,18 @@
 
+#### nov 30 2025
+
+- complete diatomzone style 3.0: green and orange
+  - recolor everything including cursor
+  - restyle boxes and wikiboxes
+  - new dither background
+  - revamp navbar with icons
+  - add explosions to header
+- update button gallery and friends' sites
+- add music player test to mystuff
+- update diatomzone style archive
+
+---
+
 #### nov 29 2025
 
 - completed reeve daigo fanfic

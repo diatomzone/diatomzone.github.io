@@ -1,6 +1,5 @@
 ---
 title: about
-background: rainbow
 
 memelist:
   - filename: wayne.png

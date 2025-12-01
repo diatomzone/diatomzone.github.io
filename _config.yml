@@ -40,19 +40,16 @@ defaults:
       type: "articlesdir" # optional, select filetype within the above path (pages, posts, drafts, or [collectionname])
     values: # can add your own values, ex: universe: "canyoncrossroads"
       layout: "article"
-      background: tennis
   - scope: # wikipage template
       path: ""
       type: "wikipagesdir"
     values:
       layout: "wikipage"
-      background: ripple
   - scope: # mystuff template
       path: ""
       type: "mystuffdir"
     values:
       layout: "article"
-      background: foil
 
 # excerpt separator for blog posts
 # gets rid of "excerpt separator" replacement warning for pages with raw/endraw

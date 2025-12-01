@@ -26,8 +26,14 @@ buttonlist:
     description: "i use ms paint button"
   - filename: neocities_hosted2.gif
     description: "hosted on neocities button"
-  - filename: eatingchips.gif
-    description: "cat munching chips stamp"
+  - filename: iheartpretzels.gif
+    description: "i heart pretzels blinkie"
+  - filename: iheartmspaint.gif
+    description: "i heart ms paint blinkie"
+  - filename: ilovecss.gif
+    description: "i love css blinkie"
+  - filename: websurfer.gif
+    description: "web surfer blinkie"
 ---
 
 <div class="centered">

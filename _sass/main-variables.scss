@@ -10,25 +10,27 @@ $elementmargintb: 40px; // top/bottom spacing for contained elements, ex: h1 or 
 $lineheight: 1.4em; // for normal text and emojis, 1.6 is recommended, wikibox p's are reset to "normal" (~110%-120%)
 $previewmarginleft: 2em; // for indenting page text preview/dialoguebox dialogue
 
-$colorbg: rgb(0,0,0);
-$colorbox1: rgba(0,0,0,0.8);
-$colorbox2: rgba(50,50,50,0.8);
-$colorbox3: rgba(85,85,85,0.8);
-$colorspoiler: rgb(85,85,85);
-
-$colorwhite: rgb(235,231,214);
+$colorwhite: rgb(255,242,206);
 $colorred: rgb(255,94,126);
-$colororange: coral;
+$colororange: rgb(255,120,0);
 $coloryellow: orange;
-$colorgreen: rgb(127,217,68);
-$colorblue: rgb(77, 198, 255);
+$colorgreen: rgb(154,183,0);
+$colorblue: rgb(77,198,255);
 $colorpurple: plum;
 
+$colorbg: rgb(31,11,0);
+$colorbox1: rgb(31,11,0); // black
+$colorbox2: rgba(255,242,206,0.2);
+$colorbox3: rgba(255,120,0,0.5);
+$colorspoiler: $colorgreen;
+
 $layoutborderstyle: 2px solid $colorwhite;
-$layoutborderradius: 15px;
+$layoutborderradius: 0px;
 $layoutdropshadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
-$boxborderstyle: 2px dotted $colorwhite;
-$textdropshadow: 2px 2px 0px black;
+// $boxborderstyle: none;
+$boxborderstyle: 2px solid $colorgreen;
+$textdropshadow: none;
+// $textdropshadow: 2px 2px 0px black;
 
 // SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
 // $colortoggle: true;
@@ -43,8 +45,11 @@ $colortoggle: false;
 }
 
 // FONTS /////////////////////////////////////////////////////////////////////////////
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
 @font-face { // set custom font
   font-family: myfont;
   src: url("/assets/fonts/fullfont.ttf"); // requires leading /, does not accept liquid site.baseurl
