@@ -29,7 +29,20 @@
     }
   }
   nav { // horizontal navbar
-    font-size: 1.2em;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.1em;
+    button {
+      border-radius: 100px;
+      a {
+        flex-direction: row;
+        border-radius: 100px;
+        img {
+          margin: 0 0.2em 0 0;
+          height: 1.1em;
+        }
+      }
+    }
   }
   div.buffer { // remove buffers
     display: none;

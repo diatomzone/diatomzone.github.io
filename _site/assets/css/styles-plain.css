@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumar+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arbutus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
 @font-face { font-family: myfont; src: url("/assets/fonts/fullfont.ttf"); }
 
 @font-face { font-family: edosz; src: url("/assets/fonts/edosz.ttf"); }
 
 html { cursor: url("/assets/images/cursor.png"), default; background: #1f0b00; height: 100%; scroll-behavior: smooth; }
 
-body { cursor: url("/assets/images/cursor.png"), default; color: #fff2ce; font-family: 'Spline Sans Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; min-height: 100%; overflow-y: auto; overflow-wrap: anywhere; margin: 0; display: flex; justify-content: center; align-items: center; }
+body { cursor: url("/assets/images/cursor.png"), default; color: #fff2ce; font-family: 'DM Mono', monospace; font-size: 110%; text-shadow: 2px 2px 0px black; min-height: 100%; overflow-y: auto; overflow-wrap: anywhere; margin: 0; display: flex; justify-content: center; align-items: center; }
 
-div.centered { background-color: #1f0b00; text-align: center; padding: calc(20px / 1); box-shadow: calc(20px / 3) calc(20px / 3) #fff2ce; border: 2px solid #fff2ce; border-radius: 15px; }
+div.centered { background-color: #1f0b00; text-align: center; padding: calc(20px * 2); border: 2px solid #fff2ce; border-radius: 0px; box-shadow: calc(20px / 3) calc(20px / 3) #fff2ce; }
 
 div.centered h2 { margin-top: 0; }
 
@@ -24,9 +25,9 @@ div.flex { display: flex; flex-direction: row; }
 
 div.iframecontainer { position: relative; overflow: hidden; width: 100%; padding-top: 75%; margin: calc(40px / 2) auto 0 auto; }
 
-h1 { background-color: transparent; color: orange; font-family: "Supermercado One", monospace; font-size: 2.4em; text-align: center; margin: 0 0 calc(40px / 2) 0; padding: 0; }
+h1 { background-color: transparent; color: orange; font-family: "Kumar One", monospace; font-size: 2.4em; text-align: center; margin: 0 0 calc(40px / 2) 0; padding: 0; }
 
-h2 { background-color: transparent; font-family: "Supermercado One", monospace; color: #ff7800; font-size: 1.9em; margin: calc(40px / 2) 0 0 0; }
+h2 { background-color: transparent; font-family: "Arbutus", monospace; color: #ff7800; font-size: 1.9em; margin: calc(40px / 2) 0 0 0; }
 
 p { background-color: transparent; margin: calc(40px / 2) 0 0 0; }
 

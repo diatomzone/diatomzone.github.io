@@ -1,7 +1,17 @@
 
+#### dec 01 2025
+
+- redo header as flex + add more explosions
+- redo navbar as responsive flex
+- various styling tweaks
+- new body font
+- update index style
+
+---
+
 #### nov 30 2025
 
-- complete diatomzone style 3.0: green and orange
+- diatomzone style 3.0: green and orange
   - recolor everything including cursor
   - restyle boxes and wikiboxes
   - new dither background

@@ -10,7 +10,7 @@ html {
 body { // put overall styles here
   cursor: url("/assets/images/cursor.png"), default;
   color: $colorwhite;
-  font-family: 'Spline Sans Mono', monospace;
+  font-family: 'DM Mono', monospace;
   font-size: 110%; // sets base size for em to use
   text-shadow: 2px 2px 0px black;
   min-height: 100%; // full screen creates an extra bit of scroll in iframes
@@ -25,10 +25,11 @@ body { // put overall styles here
 div.centered { // to contain images etc, in this case for index it's the main element
   background-color: $colorbox1;
   text-align: center;
-  padding: calc(#{$boxpadding} / 1);
-  box-shadow: calc(#{$gapheight} / 3) calc(#{$gapheight} / 3) $colorwhite;
-  border: 2px solid $colorwhite;
-  border-radius: 15px;  h2 {
+  padding: calc(#{$boxpadding} * 2);
+  border: $layoutborderstyle;
+  border-radius: $layoutborderradius;
+  box-shadow: $layoutdropshadow;
+  h2 {
     margin-top: 0;
   }
   img {
@@ -66,7 +67,7 @@ div.iframecontainer {
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
   color: $coloryellow;
-  font-family: "Supermercado One", monospace;
+  font-family: "Kumar One", monospace;
   font-size: 2.4em;
   text-align: center;
   margin: 0 0 calc(#{$elementmargintb} / 2) 0;
@@ -74,7 +75,7 @@ h1 {
 }
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
-  font-family: "Supermercado One", monospace;
+  font-family: "Arbutus", monospace;
   color: $colororange;
   font-size: 1.9em;
   margin: calc(#{$elementmargintb} / 2) 0 0 0;

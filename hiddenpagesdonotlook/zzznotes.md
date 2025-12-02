@@ -7,7 +7,6 @@ title: zzznotes
 outline vs border: border changes element size but outline doesnt?
 https://www.gameuidatabase.com/index.php
 
-- new layout/palette
 - add persistent music player (js?)
 
 ## CURRENT TASKS

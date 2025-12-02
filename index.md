@@ -1,7 +1,6 @@
 ---
 title: diatomzone
 layout: default-plain
-background: star
 ---
 
 <div class="centered imagegrow">
@@ -14,7 +13,5 @@ background: star
   <img src="/assets/images/brawl/food/sausages.png" alt="smash brawl sausages" title="smash brawl sausages">
   <img src="/assets/images/brawl/food/creamsoda.png" alt="smash brawl cream soda" title="smash brawl cream soda">
   <br><br>
-  <h2>
-    <a href="/home.html">enter</a>
-  </h2>
+  <h2><a href="/home.html">enter</a></h2>
 </div>
