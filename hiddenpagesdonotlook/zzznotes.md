@@ -7,9 +7,11 @@ title: zzznotes
 outline vs border: border changes element size but outline doesnt?
 https://www.gameuidatabase.com/index.php
 
-- add persistent music player (js?)
+- add persistent music player (js?) https://birdwrongs.sh/resources/audio-player/
+- use pre tag for code blocks?
 
 ## CURRENT TASKS
+- turn skip to directory into an includes
 - organize zzznotes 🌟🌟🌟
   - discoveries article
 - fix code block styling (change to pre tag?)

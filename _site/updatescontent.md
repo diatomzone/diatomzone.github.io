@@ -1,4 +1,13 @@
 
+#### mar 31 2026
+
+- mystuff: the twine tome
+- article: den-o thoughts/headcanons dump
+- article: videogames essay
+- minor styling fixes
+
+---
+
 #### dec 01 2025
 
 - redo header as flex + add more explosions

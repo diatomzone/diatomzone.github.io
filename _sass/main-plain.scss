@@ -12,7 +12,7 @@ body { // put overall styles here
   color: $colorwhite;
   font-family: 'DM Mono', monospace;
   font-size: 110%; // sets base size for em to use
-  text-shadow: 2px 2px 0px black;
+  // text-shadow: 2px 2px 0px black;
   min-height: 100%; // full screen creates an extra bit of scroll in iframes
   overflow-y: auto; // vertical scrollbar only shown when needed
   overflow-wrap: anywhere; // long words will break to next line
