@@ -8,7 +8,7 @@ free to use without credit from [the spriters resource](https://www.spriters-res
 
 <div class="centered imagegrow">
     {%- for image in site.static_files -%}
-      {%- if image.path contains 'assets/images/brawl/food' -%}
+      {%- if image.path contains 'assets/images/smash-brawl-food' -%}
         {%- if image.name != 'food.png' -%}
           <img src="{{ image.path }}" alt="{{ image.basename }}" title="{{ image.basename }}">
         {%- endif -%}

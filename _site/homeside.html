@@ -6,8 +6,9 @@
 
   <h3>button gallery</h3>
   <div class="centered imagegrow">
+    <!-- dashes within %'s remove contained whitespace -->
     {%- for button in page.buttonlist -%}
-      <img src="/assets/images/buttons/{{ button.filename }}" alt="{{ button.description }}" title="{{ button.description }}">
+      <img src="{{ '/assets/images/buttons/' | append: button.filename | relative_url }}" alt="{{ button.description }}" title="{{ button.description }}">
     {%- endfor -%}
   </div>
 
@@ -19,6 +20,9 @@
     <a href="https://decodium.neocities.org/">
       <img src="/assets/images/buttons/link_decodium.png" alt="decodium" title="decodium">
     </a>
+    <a href="https://sandysandboxt.neocities.org/">
+      <img src="/assets/images/buttons/link_sandysandboxt.png" alt="sandy sandboxt" title="sandy sandboxt">
+    </a>
   </div>
 
   <h3>audio player</h3>
@@ -29,7 +33,10 @@
 
   <h3>brain radio</h3>
   <div class="iframecontainer">
-    <iframe src="https://www.youtube.com/embed/SDrh69LED1Y" title="yakuza 7 chapters 1-5 recap" allow="fullscreen"></iframe>
+    <iframe src="https://www.youtube.com/embed/GJhT3R2QFwQ" title="talullah by jamiroquai" allow="fullscreen"></iframe>
+  </div>
+  <div class="iframecontainer">
+    <iframe src="https://www.youtube.com/embed/0ioK4R4OyeU" title="vanilla (unplugged version) by gackt" allow="fullscreen"></iframe>
   </div>
 
   <p><a href="/brainradio.html">(brain radio archive)</a></p>

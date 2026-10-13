@@ -10,6 +10,6 @@ evil: '<img src="/assets/images/emojis/evil.png" class="emoji" alt="evil emoji" 
 
 explosion: '<img src="/assets/images/gifs/explosion.gif" class="emoji" alt="explosion emoji" title="explosion emoji">'
 
-exclamation: '<img src="/assets/images/brawl/exclamation.png" class="emoji" alt=" emoji" title=" emoji">'
-burger: '<img src="/assets/images/brawl/food/hamburger.png" class="emoji" alt="burger emoji" title="burger emoji">'
-pie: '<img src="/assets/images/brawl/food/cherrypie.png" class="emoji" alt="pie emoji" title="pie emoji">'
+exclamation: '<img src="/assets/images/smash-brawl/exclamation.png" class="emoji" alt="exclamation emoji" title="exclamation emoji">'
+burger: '<img src="/assets/images/smash-brawl-food/hamburger.png" class="emoji" alt="burger emoji" title="burger emoji">'
+pie: '<img src="/assets/images/smash-brawl-food/cherrypie.png" class="emoji" alt="pie emoji" title="pie emoji">'

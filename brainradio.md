@@ -4,6 +4,8 @@ title: brain radio archive
 
 (NEWEST)
 
+- [talullah](https://www.youtube.com/watch?v=GJhT3R2QFwQ) -- jamiroquai
+- [vanilla (unplugged version)](https://www.youtube.com/watch?v=0ioK4R4OyeU) -- gackt
 - [kamen rider den-o suit actor mv](https://www.youtube.com/watch?v=rEb7plB8oAw) -- seiji takaiwa et al.
 - [yakuza 7 chapters 1-5 recap](https://www.youtube.com/watch?v=SDrh69LED1Y) -- snapcube
 - [the real folk blues ft. yoko kanno, steve blum, and more](https://www.youtube.com/watch?v=8GwE0wwMmKE) -- yoko kanno et al.

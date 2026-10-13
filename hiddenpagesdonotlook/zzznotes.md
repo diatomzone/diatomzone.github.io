@@ -4,6 +4,16 @@ title: zzznotes
 
 {% raw %} <!-- prevents liquid code from being read -->
 
+## COMMAND LINE COMMANDS
+- TEST SITE LOCALLY
+  - cd [project path]
+  - http://localhost:4000/
+  - `bundle exec jekyll serve --livereload`
+- UPLOAD TO NEOCITIES
+  - edit github site as usual
+  - build site by saving file
+  - to upload: while in _site (built site) directory, `neocities push .`
+
 outline vs border: border changes element size but outline doesnt?
 https://www.gameuidatabase.com/index.php
 
@@ -426,7 +436,7 @@ https://www.gameuidatabase.com/index.php
 - "The api key for diatomzone has been stored in [...]AppData\Local/neocities/config."
 - invalid file types: wav
 - workflow
-  - edit site in github as usual
+  - edit github site as usual
   - build site by saving file
   - to upload: while in _site (built site) directory, `neocities push .`
   - to delete: can't deleteall so just type out the names (keep assets folder though?)

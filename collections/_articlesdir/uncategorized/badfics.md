@@ -9,6 +9,7 @@ title: really bad fics i typed in discord in one go
       <li><a href="#final-fantasy-7-fanfiction">final fantasy 7 fanfic (350 words)</a></li>
       <li><a href="#doppio-diavolo-fanfiction">doppio diavolo fanfic (904 words)</a></li>
       <li><a href="#kamurocho-court-adventure-sidestory-doppio-and-diavolo-at-the-beach">kamurochocourt sidestory (1261 words)</a></li>
+      <li><a href="#the-summer-hikaru-died-fanfiction">the summer hikaru died fanfic (1110 words)</a></li>
   </ul>
 </div>
 
@@ -271,5 +272,111 @@ in a mere jiffy, he's back on the pier, refreshments in hand!!
 doppio nods, though sadstyle. about his somewhatwasted efforts and newfound ally's ephemerality both. "got it, boss."
 
 together, doppio and diavolo eat the various beverages(with jelly and other objects contained within such athat they feel more substantial to ingest than plain liquids) and watch the rise and fall of the waves, legs swinging off the end of the pier.
+
+THE END
+
+---
+
+## the summer hikaru died fanfiction
+
+(1,110 words)
+
+(the prompt was "repotting a plant incorrectly")
+
+"PEEEEB PEEB PEEEEB PEEEB"
+
+"i love that, don'tcha too?" hikaru grinned. "the bugs singing. totally reminds me of sujmmer."
+
+the other guy (i forgot his name rn) glances down adn away from the sunlight streaming past the roof eve, stringy bangs swishing like a horse's tail on a muggy day. "it is summer." he mombles morosely.
+
+hikaru streatches his arms above his head with a groan! "yoshiki! we better get to our summer homework before the day's up!"
+
+"guess so."
+
+the two best freinds make their way over to the back yard of yoshiki's house by standing and walking about 10 feet. it's pretty hot but by the gareden shed that is over there they're able to be a little bit in the marginally-cooler shade,. boy howdy, it's like texas toast out here!
+
+"our assignment is to grow a blant --= i mean plant. and take good care of it so it growsn real strong." yoshiki hellpfully exposits.
+
+(meanwhile, a montage of walks home and bike rides between fields flashes through yoshiki's mind, the bowed shapes of his neighbors hard at work in the fields interspeirsed with glipses of hikaru's laughter, his scraped hands after falling off his bike, the feeling of his arm suddenly slung over yoshiki's shoulder, yanking him close, the sticky warmth of his hand nearly umnbearable when his head's spinning and his skin's burning up under the mid august sun--)
+
+"so what'dda we gotta do today?" the present hikaru tilts his head. seems'ta be doing plenty well on its own."
+
+the plant in question, a potted plant which was in side the cool of the shed (like a wine cellar) but now brouight outside for demosntstrative purposes, is so large and sturdy the roots're nearly bursting outta it's ancient plastic pot!
+
+yoshiki nods. "we gotta re pot it." he picks up an old terracota pot filled with spider egg sacs that has been in the backyard as long as he's been alive, surely. "in a bigger pot." just in case hikaru is denser than gallium. good one, yoshiki, yoshiki self-berates as he mentally drags a palm down his face.
+
+"haha!" hikaru barks out, as if delighted by a magician's card trick. his eyes are bright and genuine. "you've always been real smart, yoshiki! i'm glad we got ta work together on this one." with a sigh, he crouches down to inspect the plant's leaves at eye level. "couldn'ta done it alone, that's for sure."
+
+yoshiki wipes his hands on the sides of his shorts, like hes' dusting off dirt he literally hasn't touched yet. "i'm not an expert or anything, but i'll show you." he mutters. they live in the countryside, so everyone's born knowing how to grow plants, duh! i guess mountain demons are excempt.
+
+well, first things's first. he knocks the plant pot on its side and gently kicks it across the dirt clearing for about 90 seconds so the soil loosens up. hikaru jeers, telling him to use his laces isntead of his toes.
+
+once the plastic vessel is in shambles, yoshiki tosses it in the compost bin to make more dirt. he scoops up the naked plant like a baguette of whihc 1 end is weighted down by a dusty, gnarled, tangled up  rootsystem.
+
+"it's so dirty!" hikaru gasps. "guess that's dirt for ya."
+
+"right. and we can't have that." yoshiki nods. the two make their way to the water spigot and rinse off all the dirt (roots) onto the dirt (ground).
+
+once the roots are clean enough to eat offa, pale, wormlike tendrils glistening wet, he combs his fingers thourh them gnetly to detangle, and once they're straightened, he grips them with both hands and wrings them out like a rag to remove excess moisture. with a sound like snapping peas.
+
+he shakes it out like a giant paintbrush for good measure, splattering both their legs.
+
+with a sun-bleached handled handspade, hikaru fills the terracotta pot with dirt from the dirt pile on the other side of the shed. "hows this?"
+
+"perfect." yoshiki unwinds a spool of steel wire, snipping off lenghts with his clippers. "hold it up, will ya?" indicating the plant.
+
+as the now-dry roots dangle downward, yoshiki binds them togehter snugly with wire every few inches from top to  bottom, forming a single thick "spear" from stem to roottip.
+
+hikaru absently swings the plant in his hand like a pendulum. "so, i get it looks real pretty, but what's all the tying for?"
+
+"stability." yoshiki makes a noncommittal gesture toward the deciduous tree on the other end of the yard. "plants're stronger the deeper their roots go. we want ours ta grow down, not out."
+
+"ah! like a nail!" cut to a quick, bloodsplattered shot of that guy hammering a stake through the vampiress's heart.
+
+"yeah."
+
+"hmmmm." hikaru's eyes trace the plant once-over with newfound appreciation. "awright, let's plant it!"
+
+they place the plant in the terracotta pot dirt and finish by scattering fresh compost over top. it takes both their strength to lug the full thing back into the shed -- the pot itslelf is a meter tall, with the aspect ratio of a glue stick. plenty of height to direct roots straight down.
+
+hikaru makes a show of dusting off his hands as they lock the door, returning their little project to darkness.
+
+...of course, as always, neither can resist peeking back into the little door window slot, the sides of their skulls nearly touching.
+
+"it's... different." yoshiki whispers. shielded from sunlight, their plant nearly glows with a healthy lustre, waxy leaves so enriched with chlorophyls they're nearly black. when it had first sprouted on yoshiki's kitchen windowsill, it was a sickly sunbleached yellow, unable to withstand the uv rays other plants seemed to flourish under.
+
+"d'ya wish we had a normal one instead?" hikaru's voice is magnified in his ears, bouncing off the sheet metal. "think we'll get points off or somethin?"
+
+"no."
+
+"to which one?"
+
+"i like it th' way it is."
+
+"y'dont think it's weird?"
+
+yoshiki minutely shakes his head, feels the prickle of his friend's hair catching his. "everyone has obstacles they've gotta deal with. some people's are just a bit bigger than others... there's nothin wrong with that."
+
+hikaru turns to face him. and stares.
+
+"what?"
+
+that mask of foe seriousness cracks wide into a smirk. "that supposed'ta be about me?"
+
+"no!"
+
+"so it's about you, then?"
+
+"ha. 's just from a game."
+
+"ooh! which one??"
+
+yoshiki's stomach drops. "i forgot."
+
+"whatever." hikaru pushes off the door and out of sight. "i'm beat, let's grab some ice cream!"
+
+yoshiki steadies his breath.
+
+it's a short walk to their konbini.
 
 THE END

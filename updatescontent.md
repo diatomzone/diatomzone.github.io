@@ -1,4 +1,21 @@
 
+#### oct 12 2026
+
+- badfic: the summer hikaru died
+- mystuff: kiss of strahd
+- article: image harvest
+- article: list dimension
+- added sidebar buttons and friend's site
+- new brain radio(s)
+
+---
+
+#### may 27 2026
+
+- new brain radio
+
+---
+
 #### mar 31 2026
 
 - mystuff: the twine tome

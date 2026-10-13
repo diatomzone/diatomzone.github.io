@@ -26,6 +26,14 @@ buttonlist:
     description: "i use ms paint button"
   - filename: neocities_hosted2.gif
     description: "hosted on neocities button"
+  - filename: denliner.gif
+    description: den-o denliner
+  - filename: taros.gif
+    description: den-o taros jumping hand in hand
+  - filename: phoenixcoffee.gif
+    description: phoenix with coffee dripping down his face stamp
+  - filename: mp100.png
+    description: mob psycho 100 stamp
   - filename: iheartpretzels.gif
     description: "i heart pretzels blinkie"
   - filename: iheartmspaint.gif
